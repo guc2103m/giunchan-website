@@ -1,6 +1,5 @@
 const make=(items:string[][])=>items.map(([label,href])=>({label,href}));
 export const nav=[
- {label:'HOME',href:'/',children:[]},
  {label:'COMPANY',href:'/company',children:make([['회사소개','/company'],['대표 인사말','/company/ceo'],['기업철학','/company/philosophy'],['연혁·인증','/company/history'],['ESG 경영','/company/esg']])},
  {label:'TECHNOLOGY',href:'/technology',children:make([['기술 종합','/technology'],['GMK® 소개','/technology/gmk'],['기술 경쟁력','/technology/competitiveness'],['R&D','/technology/research'],['논문·특허','/technology/publications'],['인체적용시험','/technology/clinical-study'],['기술 FAQ','/technology/faq']])},
  {label:'BUSINESS',href:'/business',children:make([['B2B 사업 종합','/business'],['GMK® 원료소재','/business/ingredient'],['적용 분야','/business/applications'],['제품 공동개발','/business/co-development'],['품질관리','/business/quality'],['국내외 공급·수출','/business/global']])},
