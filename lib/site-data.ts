@@ -10,7 +10,20 @@ export const nav=[
  {label:'CONTACT',href:'/contact',children:make([['유형별 문의','/contact'],['오시는 길','/contact/location']])},
 ];
 export const stats=[['9','국내특허'],['1','미국특허'],['4','SCIE급 논문'],['175','인체적용시험 대상자']];
-export const products=[{slug:'grape-jelly',name:'도두On 제품 01',image:'/assets/product-grape.webp'},{slug:'gmk',name:'도두On 제품 02',image:'/assets/product-gmk.webp'},{slug:'liquid',name:'도두On 제품 03',image:'/assets/product-liquid.webp'},{slug:'gift',name:'도두On 제품 04',image:'/assets/product-gift.webp'}];
+export const products=[
+ {slug:'grape-jelly',name:'똑똑젤리',summary:'청포도 맛 스틱형 젤리',image:'/assets/product-grape.webp'},
+ {slug:'immune-mk',name:'기운찬 이뮨·MK',summary:'비타민C·아연·셀렌·비타민D·비타민B군 건강기능식품',image:'/assets/product-gmk.webp'},
+ {slug:'giunchan-drink',name:'마시면 기운차',summary:'세 가지 버섯 배양액을 담은 음료',image:'/assets/product-liquid.webp'},
+ {slug:'premium-gift',name:'기운찬 프리미엄 선물세트',summary:'정성스럽게 구성한 기운찬 선물세트',image:'/assets/product-gift.webp'}
+];
+export const news=[
+ {date:'2025.06.30',source:'한국경제',title:'건양대·기운찬, 복합 버섯 균사체로 신경세포 보호 가능성 제시',href:'https://www.guc.co.kr/forum/view/355080'},
+ {date:'2024.08.06',source:'굿모닝충청',title:'기운찬, 인지기능 연구물질 GMK W20 인체적용시험 추진',href:'https://www.guc.co.kr/forum/view/355078'},
+ {date:'2023.09.19',source:'아시아투데이',title:'기운찬·건양대 연구팀, 복합버섯균사체 GMK 전임상 연구 발표',href:'https://www.guc.co.kr/forum/view/355077'},
+ {date:'2022.08.18',source:'메디컬투데이',title:'천연 바이오소재 GMK 복합배양 제조법 미국 특허등록 결정',href:'https://www.guc.co.kr/forum/view/355069'},
+ {date:'2022.09.22',source:'충남일보',title:'기운찬, 천안시장애인체육회 선수단에 건강식품 지원',href:'https://www.guc.co.kr/forum/view/355076'},
+ {date:'2021.03.09',source:'에이블뉴스',title:'기운찬, 장애인국가대표 선수단에 건강기능식품 후원',href:'https://www.guc.co.kr/forum/view/355065'}
+];
 export const insights=[{category:'GMK® Inside',title:'GMK®는 무엇인가요?',desc:'복합버섯균사체 GMK®의 공식 정의와 연구 범위를 소개합니다.',image:'/assets/gmk-landscape-dark.webp',href:'/insight/gmk/what-is-gmk'},{category:'Mycelia Science',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체의 개념을 기초 과학의 언어로 이해합니다.',image:'/assets/tree-mycelia.webp',href:'/insight/mycelia/mushroom-and-mycelia'},{category:'Research Note',title:'인체적용시험을 읽는 방법',desc:'연구 결과를 해석할 때 확인해야 할 기본 요소를 살펴봅니다.',image:'/assets/research-dish.webp',href:'/insight/research/reading-clinical-study'}];
 export type PageInfo={section:string;title:string;lead:string;image:string};
 const p=(section:string,title:string,lead:string,image:string):PageInfo=>({section,title,lead,image});
