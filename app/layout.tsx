@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './final-layout.css';
+import './brand-story.css';
 
 export const metadata: Metadata = {
   title: { default: '주식회사 기운찬 | 천연물 바이오소재 전문기업', template: '%s | 주식회사 기운찬' },

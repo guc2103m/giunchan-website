@@ -1,0 +1,22 @@
+/* Brand story supplied by the company. */
+.dodoon-story{background:linear-gradient(140deg,#fbf8ef,#f2f0e5 65%,#e8ebdf);padding:clamp(26px,5vw,68px);color:#193e30}
+.dodoon-eyebrow{margin:0 0 42px;font-size:14px;letter-spacing:.38em;font-weight:750;color:#35674e}
+.dodoon-wordmark{display:flex;font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(64px,10vw,130px);font-weight:700;line-height:1.2;letter-spacing:-.08em}
+.dodoon-wordmark span:nth-child(2){color:#bfa266}
+.dodoon-english{margin:8px 0 42px;letter-spacing:.45em;color:#78966c;font-weight:750;font-size:24px}
+.dodoon-story h2{font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(28px,3.6vw,46px);font-weight:650;line-height:1.55;margin:0 0 36px;word-break:keep-all}
+.dodoon-story h2 span{text-decoration:underline;text-decoration-color:#d6c395;text-underline-offset:12px;text-decoration-thickness:3px}
+.dodoon-intro{max-width:950px;font-size:clamp(17px,2vw,23px);line-height:1.95;color:#4b5d52;word-break:keep-all}
+.dodoon-intro strong{color:#2c5944}
+.dodoon-values{list-style:none;padding:40px 0 0;margin:48px 0 0;border-top:1px solid #d4dbcc}
+.dodoon-values li{display:flex;align-items:flex-start;gap:24px;margin:0 0 30px}
+.dodoon-number{flex:0 0 58px;border:1px solid #b7ceab;border-radius:15px;background:#eff4e9;text-align:center;line-height:56px;font-family:Georgia,serif;font-size:30px;color:#2f5c47}
+.dodoon-values h3{font-size:clamp(22px,2.5vw,30px);margin:0 0 6px;line-height:1.5}
+.dodoon-values p{font-size:clamp(16px,1.8vw,21px);margin:0;color:#596b60;line-height:1.8;word-break:keep-all}
+.dodoon-signoff{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-top:64px}
+.dodoon-signoff>p{font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(26px,3vw,40px);font-weight:700;margin:0;word-break:keep-all}
+.dodoon-signoff>p span{color:#bfa266}
+.dodoon-signoff>div{text-align:right;color:#77897c;font-size:16px;line-height:1.8}
+.dodoon-signoff strong{color:#2f5c47;font-size:22px}
+@media(max-width:680px){.dodoon-eyebrow{letter-spacing:.22em;margin-bottom:28px}.dodoon-english{font-size:18px;margin-bottom:34px}.dodoon-values li{gap:14px}.dodoon-number{flex-basis:44px;line-height:44px;font-size:24px;border-radius:12px}.dodoon-signoff{align-items:start;flex-direction:column;margin-top:38px}.dodoon-signoff>div{text-align:left}.dodoon-values{margin-top:32px;padding-top:30px}}
+
