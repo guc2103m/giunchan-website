@@ -53,16 +53,17 @@ function Business({path}:{path:string}){
 function ProductList(){return <><div className="product-grid">{products.map(item=><a href={'/brands/dodoon/products/'+item.slug} key={item.slug}><Photo src={item.image} alt={item.name}/><small>GIUNCHAN PRODUCT</small><h3>{item.name}</h3><p>{item.summary}</p></a>)}</div><p className="notice">판매 여부·원재료·영양정보·섭취방법·주의사항은 공식 판매처와 제품 포장의 최신 정보를 확인해 주세요.</p><Button href={shop}>공식 쇼핑몰</Button></>}
 function BrandStory(){return <><article className="dodoon-story" aria-labelledby="dodoon-title">
  <p className="dodoon-eyebrow">● BRAND STORY</p>
- <div className="dodoon-wordmark" aria-label="도두온 dodoon"><span>도</span><span>두</span><span>온</span></div><p className="dodoon-english">dodoon</p>
+ <div className="dodoon-brand-heading"><div><div className="dodoon-wordmark" aria-label="도두On"><span>도</span><span>두</span><span>On</span></div><p className="dodoon-english">dodoon</p>
  <h2 id="dodoon-title">매일의 건강을 <span>돋우다.</span><br/>기운을 다시 세우는 하루.</h2>
- <p className="dodoon-intro">가라앉은 기운을 다시 세우고, 흐릿해진 컨디션을 또렷하게 끌어올리는 일. <strong>도두온</strong>은 ‘돋우다’에서 시작된 이름입니다. 끝 글자 <strong>‘온(溫)’</strong>에는 따뜻함을 담아, 몰아치지 않고 매일 조금씩 더하는 건강을 지향합니다.</p>
+ </div><Image className="dodoon-brand-logo" src="/assets/dodoon-official-logo.jpg" alt="도두On 브랜드 로고" width={900} height={1100} unoptimized/></div>
+ <p className="dodoon-intro">가라앉은 기운을 다시 세우고, 흐릿해진 컨디션을 또렷하게 끌어올리는 일. <strong>도두On</strong>은 ‘돋우다’에서 시작된 이름입니다. ‘온’으로 읽는 <strong>‘On’</strong>에는 온(溫)의 따뜻함을 담아, 몰아치지 않고 매일 조금씩 더하는 건강을 지향합니다.</p>
  <ol className="dodoon-values">
   <li><span className="dodoon-number">01</span><div><h3>근거 있는 건강</h3><p>좋다고 알려진 것이 아니라, 왜 좋은지 설명할 수 있는 것만 담습니다.</p></div></li>
   <li><span className="dodoon-number">02</span><div><h3>매일 지킬 수 있는 건강</h3><p>부담 없이 반복할 수 있도록, 먹기 쉽고 챙기기 쉬운 형태를 고민합니다.</p></div></li>
   <li><span className="dodoon-number">03</span><div><h3>사람을 향한 건강</h3><p>성분 그 자체보다, 그것이 누군가의 하루를 어떻게 바꾸는지를 먼저 생각합니다.</p></div></li>
  </ol>
- <div className="dodoon-signoff"><p>매일, 건강을 <span>돋우다.</span></p><div>건강을 돋우는 종합 건강 브랜드<br/><strong>기운찬</strong> · 도두온</div></div>
- </article><div className="inline-actions"><Button href="/brands/dodoon/products">도두온 제품 보기</Button><a className="text-link" href={inquiryHref('제품·유통')}>제품·유통 문의 →</a></div></>}
+ <div className="dodoon-signoff"><p>매일, 건강을 <span>돋우다.</span></p><div>건강을 돋우는 종합 건강 브랜드<br/><strong>기운찬</strong> · 도두On</div></div>
+ </article><div className="inline-actions"><Button href="/brands/dodoon/products">도두On 제품 보기</Button><a className="text-link" href={inquiryHref('제품·유통')}>제품·유통 문의 →</a></div></>}
 const gmkFaq=[{q:'GMK®는 무엇인가요?',a:'기운찬이 연구·개발한 복합버섯균사체 바이오소재입니다. 연구와 원료사업의 핵심 소재를 가리키는 명칭입니다.'},{q:'GMK®와 GMK® 추출물은 같은 뜻인가요?',a:'GMK®는 소재의 명칭이며 추출물은 해당 소재에서 추출한 성분을 포함하는 연구·활용 대상을 말합니다. 연구를 읽을 때는 원료명과 시료 형태를 구분해야 합니다.'},{q:'연구 결과는 판매제품에도 그대로 적용되나요?',a:'그렇지 않습니다. 연구 시료, 사용량, 시험 대상과 판매제품의 원료 구성·섭취 조건은 다를 수 있습니다. 연구원료의 결과를 개별 완제품의 효능으로 연결하지 않습니다.'}];
 function InsightContent({mycelia=false}:{mycelia?:boolean}){return mycelia?<article className="article-detail"><h2>균사체와 자실체는 무엇이 다른가요?</h2><p>균사체는 가느다란 균사가 모여 형성한 몸체입니다. 우리가 흔히 버섯이라고 부르는 눈에 보이는 부분은 포자를 만드는 자실체를 가리키는 경우가 많습니다. 두 용어는 같은 구조를 뜻하지 않습니다.</p><h2>생활사 속 균사체</h2><p>일반적으로 포자가 적합한 환경에서 발아하면 균사가 자라 균사체를 형성합니다. 균사체는 주변 환경에서 영양분을 이용하며 성장하고, 종과 환경에 따라 자실체를 형성할 수 있습니다.</p><h2>연구 소재로 이해하기</h2><p>균사체라는 명칭만으로 성분이나 기능이 모두 같다고 볼 수 없습니다. 원료와 연구 시료의 정의, 시험 방법을 구분해 살펴야 합니다.</p><FAQ items={[{q:'균사체는 버섯의 뿌리인가요?',a:'식물의 뿌리와는 다른 균류의 구조입니다. 이해를 돕는 비유로 쓰일 수 있지만 과학적으로 같은 기관은 아닙니다.'},{q:'모든 균사체가 동일한 특성을 가지나요?',a:'아닙니다. 종류와 성장환경에 따라 달라질 수 있으며 한 연구의 결과를 모든 균사체에 일반화하면 안 됩니다.'}]}/></article>:<article className="article-detail"><h2>GMK®의 공식 정의</h2><p>GMK®는 주식회사 기운찬이 연구·개발한 복합버섯균사체 바이오소재입니다. 연구·개발과 기업의 원료 활용을 연결하는 기운찬의 핵심 소재입니다.</p><h2>소재, 추출물, 완제품을 구분합니다</h2><p>연구자료를 읽을 때에는 GMK® 소재 자체인지, 추출물인지, 소비자에게 판매되는 완제품인지 먼저 확인해야 합니다. 각각의 정의와 사용 목적이 다르므로 같은 대상으로 간주하지 않습니다.</p><div id="faq"><FAQ items={gmkFaq}/></div><p className="notice">특허·논문·인체적용시험은 TECHNOLOGY에서 확인할 수 있습니다. 비공개 기술정보는 홈페이지에서 제공하지 않습니다.</p><Button href="/technology">공식 연구성과 보기</Button></article>}
 function PageBody({path}:{path:string}){

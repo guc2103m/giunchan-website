@@ -1,4 +1,7 @@
 /* Brand story supplied by the company. */
+.dodoon-brand-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,28%);gap:32px;align-items:start}
+.dodoon-brand-logo{width:100%;height:auto;object-fit:contain;max-width:280px;justify-self:end}
+@media(max-width:1000px){.dodoon-brand-heading{grid-template-columns:1fr}.dodoon-brand-logo{justify-self:center;width:200px;margin-bottom:28px}}
 .dodoon-story{background:linear-gradient(140deg,#fbf8ef,#f2f0e5 65%,#e8ebdf);padding:clamp(26px,5vw,68px);color:#193e30}
 .dodoon-eyebrow{margin:0 0 42px;font-size:14px;letter-spacing:.38em;font-weight:750;color:#35674e}
 .dodoon-wordmark{display:flex;font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(64px,10vw,130px);font-weight:700;line-height:1.2;letter-spacing:-.08em}
@@ -19,4 +22,3 @@
 .dodoon-signoff>div{text-align:right;color:#77897c;font-size:16px;line-height:1.8}
 .dodoon-signoff strong{color:#2f5c47;font-size:22px}
 @media(max-width:680px){.dodoon-eyebrow{letter-spacing:.22em;margin-bottom:28px}.dodoon-english{font-size:18px;margin-bottom:34px}.dodoon-values li{gap:14px}.dodoon-number{flex-basis:44px;line-height:44px;font-size:24px;border-radius:12px}.dodoon-signoff{align-items:start;flex-direction:column;margin-top:38px}.dodoon-signoff>div{text-align:left}.dodoon-values{margin-top:32px;padding-top:30px}}
-
