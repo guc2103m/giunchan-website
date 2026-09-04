@@ -22,6 +22,10 @@ export const products=[
  {slug:'immune-mk',name:'기운찬 이뮨·MK',summary:'비타민C·아연·셀렌·비타민D·비타민B군 건강기능식품',image:'/assets/product-gmk.webp'},
  {slug:'giunchan-drink',name:'마시면 기운차',summary:'일상에서 간편하게 즐기는 음료',image:'/assets/product-liquid.webp'},
  {slug:'premium-gift',name:'기운찬 프리미엄 선물세트',summary:'정성스럽게 구성한 기운찬 선물세트',image:'/assets/product-gift.webp'},
+ {slug:'giuncha-extract',name:'기운차 진액',summary:'병에 담아 간편하게 이용할 수 있는 기운차 진액 제품',image:'/assets/product-giuncha-extract.png'},
+ {slug:'mushroom-tea',name:'버섯마시면기운차',summary:'차가·상황·영지버섯 발효차를 티백으로 즐기는 제품',image:'/assets/product-mushroom-tea.jpg'},
+ {slug:'mushroom-tea-gift',name:'버섯마시면기운차 선물세트',summary:'버섯차를 세 병에 나누어 담은 선물세트',image:'/assets/product-mushroom-tea-gift.jpg'},
+ {slug:'mushroom-spoon',name:'버섯한스푼 3종',summary:'밥할 때, 밥할 때 홍국, 요리할 때로 구성된 버섯한스푼 3종',image:'/assets/product-mushroom-spoon.jpg'},
 ];
 export const insights=[
  {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®의 정의와 연구원료·판매제품의 차이를 알아봅니다.',image:'/assets/gmk-landscape-dark.webp',href:'/insight/gmk/what-is-gmk'},
