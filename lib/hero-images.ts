@@ -1,7 +1,7 @@
 export const heroImages:Record<string,{desktop:string;mobile:string}>={
  'home':{desktop:'/assets/heroes/home-desktop.jpg',mobile:'/assets/heroes/home-mobile.jpg'},
  'company':{desktop:'/assets/heroes/company-desktop.jpg',mobile:'/assets/heroes/company-mobile.jpg'},
- 'technology':{desktop:'/assets/heroes/technology-desktop.jpg',mobile:'/assets/heroes/technology-mobile.jpg'},
+ 'technology':{desktop:'/assets/heroes/technology-desktop-upright.jpg',mobile:'/assets/heroes/technology-mobile.jpg'},
  'patents':{desktop:'/assets/heroes/patents-desktop.jpg',mobile:'/assets/heroes/patents-mobile.jpg'},
  'papers':{desktop:'/assets/heroes/papers-desktop.jpg',mobile:'/assets/heroes/papers-mobile.jpg'},
  'clinical':{desktop:'/assets/heroes/clinical-desktop.jpg',mobile:'/assets/heroes/clinical-mobile.jpg'},
@@ -18,4 +18,3 @@ export const heroRoutes:Record<string,string>={
  '/':'home','/company':'company','/technology':'technology','/technology/patents':'patents','/technology/publications':'papers','/technology/clinical-study':'clinical','/business':'business','/business/ingredient':'ingredient','/business/product-development':'development','/brands':'brand-story','/brands/dodoon':'brand-story','/brands/dodoon/products':'brand-products','/insight':'insight','/insight/gmk':'ingredient','/insight/mycelia':'mycelia','/newsroom':'news','/newsroom/news':'news','/newsroom/issues':'clinical',
 };
 export function getHeroImages(path:string){const key=heroRoutes[path]||(path.startsWith('/brands/')?'brand-products':path.startsWith('/insight/gmk/')?'ingredient':path.startsWith('/insight/mycelia/')?'mycelia':'home');return heroImages[key];}
-
