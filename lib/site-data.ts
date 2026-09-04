@@ -1,36 +1,68 @@
-const make=(items:string[][])=>items.map(([label,href])=>({label,href}));
+export const siteOrigin='https://giunchan-website.vercel.app';
+export const contactHref='/company#contact';
+export const companyDefinition='주식회사 기운찬은 버섯균사체 기반의 바이오소재를 연구·개발하고, 이를 원료와 제품으로 사업화하는 천연물 바이오소재 전문기업입니다.';
+const children=(items:string[][])=>items.map(([label,href])=>({label,href}));
 export const nav=[
- {label:'COMPANY',href:'/company',children:make([['회사소개','/company'],['대표 인사말','/company/ceo'],['기업철학','/company/philosophy'],['연혁·인증','/company/history'],['ESG 경영','/company/esg']])},
- {label:'TECHNOLOGY',href:'/technology',children:make([['기술 종합','/technology'],['GMK® 소개','/technology/gmk'],['기술 경쟁력','/technology/competitiveness'],['R&D','/technology/research'],['논문·특허','/technology/publications'],['인체적용시험','/technology/clinical-study'],['기술 FAQ','/technology/faq']])},
- {label:'BUSINESS',href:'/business',children:make([['B2B 사업 종합','/business'],['GMK® 원료소재','/business/ingredient'],['적용 분야','/business/applications'],['제품 공동개발','/business/co-development'],['품질관리','/business/quality'],['국내외 공급·수출','/business/global']])},
- {label:'BRANDS',href:'/brands',children:make([['브랜드 종합','/brands'],['도두On','/brands/dodoon'],['제품 목록','/brands/dodoon/products']])},
- {label:'INSIGHT',href:'/insight',children:make([['콘텐츠 허브','/insight'],['GMK® Inside','/insight/gmk'],['Mycelia Science','/insight/mycelia'],['Research Note','/insight/research'],['Business & ESG','/insight/business-esg'],['Giunchan Story','/insight/story']])},
- {label:'NEWSROOM',href:'/newsroom',children:make([['뉴스룸','/newsroom'],['보도자료','/newsroom/press'],['언론보도','/newsroom/media'],['기업소식','/newsroom/news'],['공지사항','/newsroom/notice']])},
- {label:'CONTACT',href:'/contact',children:make([['유형별 문의','/contact'],['오시는 길','/contact/location']])},
+ {label:'COMPANY',href:'/company',children:[]},
+ {label:'TECHNOLOGY',href:'/technology',children:children([['연구성과','/technology'],['특허','/technology/patents'],['연구논문','/technology/publications'],['인체적용시험','/technology/clinical-study']])},
+ {label:'BUSINESS',href:'/business',children:children([['B2B 원료사업','/business/ingredient'],['B2C 제품개발','/business/product-development']])},
+ {label:'BRANDS',href:'/brands',children:children([['도두On 브랜드 스토리','/brands/dodoon'],['도두On 제품','/brands/dodoon/products']])},
+ {label:'INSIGHT',href:'/insight',children:children([['GMK®','/insight/gmk'],['버섯균사체','/insight/mycelia']])},
+ {label:'NEWSROOM',href:'/newsroom',children:children([['기운찬 뉴스','/newsroom/news'],['산업·연구 이슈','/newsroom/issues']])},
 ];
-export const stats=[['9','국내특허'],['1','미국특허'],['4','SCIE급 논문'],['175','인체적용시험 대상자']];
+export const inquiryTypes=['GMK® 원료','B2C 제품개발','제품·유통','국내외 사업','기타'];
+export const inquiryHref=(type:string)=>'/company?inquiry='+encodeURIComponent(type)+'#contact';
+export const stats=[
+ {value:'10',label:'국내외 특허',note:'국내 9건 · 미국 1건',href:'/technology/patents'},
+ {value:'4',label:'SCIE급 논문',note:'10년 이상 축적해 온 연구',href:'/technology/publications'},
+ {value:'175',label:'인체적용시험 대상자',note:'회사 공개자료 기준 · 시험 완료',href:'/technology/clinical-study'},
+];
 export const products=[
- {slug:'grape-jelly',name:'똑똑젤리',summary:'청포도 맛 스틱형 젤리',image:'/assets/product-grape.webp'},
+ {slug:'grape-jelly',name:'똑똑젤리',summary:'스틱형 젤리 제품',image:'/assets/product-grape.webp'},
  {slug:'immune-mk',name:'기운찬 이뮨·MK',summary:'비타민C·아연·셀렌·비타민D·비타민B군 건강기능식품',image:'/assets/product-gmk.webp'},
- {slug:'giunchan-drink',name:'마시면 기운차',summary:'세 가지 버섯 배양액을 담은 음료',image:'/assets/product-liquid.webp'},
- {slug:'premium-gift',name:'기운찬 프리미엄 선물세트',summary:'정성스럽게 구성한 기운찬 선물세트',image:'/assets/product-gift.webp'}
+ {slug:'giunchan-drink',name:'마시면 기운차',summary:'일상에서 간편하게 즐기는 음료',image:'/assets/product-liquid.webp'},
+ {slug:'premium-gift',name:'기운찬 프리미엄 선물세트',summary:'정성스럽게 구성한 기운찬 선물세트',image:'/assets/product-gift.webp'},
+];
+export const insights=[
+ {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®의 정의와 연구원료·판매제품의 차이를 알아봅니다.',image:'/assets/gmk-landscape-dark.webp',href:'/insight/gmk/what-is-gmk'},
+ {category:'버섯균사체',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체와 자실체의 차이, 생활사 속 역할을 쉽고 정확하게 살펴봅니다.',image:'/assets/tree-mycelia.webp',href:'/insight/mycelia/mushroom-and-mycelia'},
 ];
 export const news=[
- {date:'2025.06.30',source:'한국경제',title:'건양대·기운찬, 복합 버섯 균사체로 신경세포 보호 가능성 제시',href:'https://www.guc.co.kr/forum/view/355080'},
- {date:'2024.08.06',source:'굿모닝충청',title:'기운찬, 인지기능 연구물질 GMK W20 인체적용시험 추진',href:'https://www.guc.co.kr/forum/view/355078'},
- {date:'2023.09.19',source:'아시아투데이',title:'기운찬·건양대 연구팀, 복합버섯균사체 GMK 전임상 연구 발표',href:'https://www.guc.co.kr/forum/view/355077'},
- {date:'2022.08.18',source:'메디컬투데이',title:'천연 바이오소재 GMK 복합배양 제조법 미국 특허등록 결정',href:'https://www.guc.co.kr/forum/view/355069'},
- {date:'2022.09.22',source:'충남일보',title:'기운찬, 천안시장애인체육회 선수단에 건강식품 지원',href:'https://www.guc.co.kr/forum/view/355076'},
- {date:'2021.03.09',source:'에이블뉴스',title:'기운찬, 장애인국가대표 선수단에 건강기능식품 후원',href:'https://www.guc.co.kr/forum/view/355065'}
+ {date:'2025.06.30',source:'한국경제',title:'건양대·기운찬, GMK 신경세포 관련 공동연구 발표',href:'https://www.guc.co.kr/forum/view/355080',summary:'건양대학교 의과대학과 기운찬의 공동연구가 Cells에 발표됐다는 소식입니다.',meaning:'기운찬의 연구소재에 대한 전임상 연구 기록입니다. 세포 연구 결과를 사람의 질병 예방·치료 효과나 판매제품의 효능으로 해석하지 않습니다.'},
+ {date:'2024.08.06',source:'굿모닝충청',title:'기운찬, GMK W20 인체적용시험 추진 소식',href:'https://www.guc.co.kr/forum/view/355078',summary:'GMK W20의 연구 진행과 인체적용시험 추진 계획을 다룬 당시 보도입니다.',meaning:'시험 추진 시점의 기록이며 현재 진행 단계와 구분해야 합니다. 최신 회사 공개자료는 175명 대상 시험 완료를 안내합니다.'},
+ {date:'2023.09.19',source:'아시아투데이',title:'기운찬·건양대 연구팀, GMK 전임상 연구 발표',href:'https://www.guc.co.kr/forum/view/355077',summary:'기운찬과 건양대학교 의과대학 연구팀의 공동연구 성과를 소개한 보도입니다.',meaning:'연구소재의 가능성을 검토한 전임상 연구입니다. 사람에게 동일한 효과가 확인됐다는 의미는 아닙니다.'},
+ {date:'2022.09.22',source:'충남일보',title:'천안시장애인체육회 선수단에 건강식품 지원',href:'https://www.guc.co.kr/forum/view/355076',summary:'기운찬이 충청남도 장애인체육대회에 출전하는 천안시 선수단을 후원했습니다.',meaning:'지역사회와 체육활동을 지원한 기운찬의 사회공헌 기록입니다.'},
+ {date:'2022.08.18',source:'메디컬투데이',title:'GMK 복합배양 원천기술 미국 특허등록 결정',href:'https://www.guc.co.kr/forum/view/355069',summary:'GMK 관련 원천기술의 미국 특허등록 결정 소식을 전한 보도입니다.',meaning:'기술의 지식재산권에 관한 기록으로 제품의 기능성 승인이나 효능 보증을 의미하지 않습니다.'},
+ {date:'2021.03.09',source:'에이블뉴스',title:'장애인국가대표 선수단에 건강기능식품 후원',href:'https://www.guc.co.kr/forum/view/355065',summary:'기운찬이 대한장애인체육회에 선수단을 위한 건강기능식품을 후원했습니다.',meaning:'건강한 일상과 스포츠를 응원하는 기업의 사회공헌 활동입니다.'},
 ];
-export const insights=[{category:'GMK® Inside',title:'GMK®는 무엇인가요?',desc:'복합버섯균사체 GMK®의 공식 정의와 연구 범위를 소개합니다.',image:'/assets/gmk-landscape-dark.webp',href:'/insight/gmk/what-is-gmk'},{category:'Mycelia Science',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체의 개념을 기초 과학의 언어로 이해합니다.',image:'/assets/tree-mycelia.webp',href:'/insight/mycelia/mushroom-and-mycelia'},{category:'Research Note',title:'인체적용시험을 읽는 방법',desc:'연구 결과를 해석할 때 확인해야 할 기본 요소를 살펴봅니다.',image:'/assets/research-dish.webp',href:'/insight/research/reading-clinical-study'}];
 export type PageInfo={section:string;title:string;lead:string;image:string};
 const p=(section:string,title:string,lead:string,image:string):PageInfo=>({section,title,lead,image});
 export const pages:Record<string,PageInfo>={
- '/company':p('COMPANY','자연의 가능성을\n사람의 삶으로 이어갑니다','기술과 사람을 연결하는 천연물 바이오소재 전문기업','/assets/lab-leaf.webp'),'/company/ceo':p('COMPANY','오래 바라본 자연의 가치를\n정직한 연구로 증명하겠습니다','주식회사 기운찬 대표 인사말','/assets/ceo.webp'),'/company/philosophy':p('COMPANY','자연을 존중하고\n과학에 책임을 더합니다','기운찬이 소재를 연구하고 사업을 이어가는 원칙','/assets/esg-sprout.webp'),'/company/history':p('COMPANY','한 걸음씩 쌓아온\n기운찬의 연구 여정','2015년 설립부터 이어진 기업의 기록','/assets/forest-mycelia.webp'),'/company/esg':p('COMPANY · ESG','더 나은 소재를 만드는 일은\n더 나은 내일을 생각하는 일입니다','환경·사람·책임을 고려하는 지속가능한 경영 방향','/assets/esg-sprout.webp'),
- '/technology':p('TECHNOLOGY','오래 바라보고,\n깊이 연구합니다','자연에서 발견한 가능성을 과학적으로 확인하고 사람의 삶에 이로운 바이오소재로 발전시킵니다.','/assets/field-research.webp'),'/technology/gmk':p('TECHNOLOGY','GMK®\n복합버섯균사체','기운찬의 복합배양·발효기술로 연구·개발한 핵심 바이오소재','/assets/gmk-landscape-dark.webp'),'/technology/competitiveness':p('TECHNOLOGY','연구에서 소재까지\n이어지는 기술 경쟁력','공개 가능한 범위에서 확인하는 기운찬의 기술 기반','/assets/biotech-graphic.webp'),'/technology/research':p('TECHNOLOGY','가능성을 확인하는\n지속적인 R&D','기초 연구에서 인체적용시험까지 이어지는 연구 체계','/assets/researcher-microscope.webp'),'/technology/publications':p('TECHNOLOGY','논문과 특허로\n축적한 연구의 기록','확인된 연구성과를 투명하게 안내합니다.','/assets/microscope.webp'),'/technology/clinical-study':p('TECHNOLOGY','사람을 향한 연구의\n근거를 확인합니다','경도인지장애자 175명 대상 인체적용시험 완료','/assets/quality-lab.webp'),'/technology/faq':p('TECHNOLOGY','GMK® 기술에 대해\n자주 묻는 질문','연구원료와 판매제품을 구분해 정확히 안내합니다.','/assets/culture-white.webp'),
- '/business':p('BUSINESS','연구된 소재를,\n함께 성장하는 사업으로','GMK® 원료소재를 중심으로 연결되는 소재·개발·공급의 가치사슬','/assets/ingredient-plates.webp'),'/business/ingredient':p('BUSINESS','GMK® 원료소재','기업의 제품 기획과 연구 목적에 맞춘 B2B 소재 협력','/assets/ingredient-forest.webp'),'/business/applications':p('BUSINESS','다양한 가능성을 여는\n적용 분야','확인된 범위 안에서 소재 적용 가능성을 함께 검토합니다.','/assets/applications.webp'),'/business/co-development':p('BUSINESS','아이디어를 제품으로\n함께 발전시킵니다','기획부터 소재 검토까지 이어지는 공동개발 협력','/assets/capsule-mushroom.webp'),'/business/quality':p('BUSINESS','신뢰를 만드는\n품질관리 원칙','정확한 정보와 책임 있는 관리 체계를 지향합니다.','/assets/quality-lab.webp'),'/business/global':p('BUSINESS','국내외 공급과\n사업 협력','원료 공급·수출 협력 가능성을 문의해 주세요.','/assets/lab-extract.webp'),
- '/brands':p('BRANDS','기운찬의 연구를\n생활 가까이','소비자 제품을 운영하는 B2C 브랜드 도두On','/assets/product-grape.webp'),'/brands/dodoon':p('BRANDS · 도두On','건강을 돋우다,\n기운을 돋우다','도두On은 주식회사 기운찬이 개발한 소비자 제품을 운영하는 B2C 제품 브랜드입니다.','/assets/product-premium.webp'),'/brands/dodoon/products':p('BRANDS · 도두On','도두On 제품','제품별 확인된 정보와 공식 구매 안내를 제공합니다.','/assets/product-pouches.webp'),
- '/insight':p('INSIGHT','자연의 깊은 지혜를,\n오늘의 과학으로','버섯균사체와 천연물 소재에 관한 연구와 정보를 기운찬의 시선으로 쉽고 정확하게 전합니다.','/assets/tree-mycelia.webp'),'/insight/gmk':p('INSIGHT · GMK® INSIDE','GMK®를 정확하게\n이해하는 출발점','정의, 연구원료와 제품의 차이, 자주 묻는 질문','/assets/gmk-landscape-dark.webp'),'/insight/mycelia':p('INSIGHT · MYCELIA SCIENCE','균사체의 세계를\n쉽고 깊게','버섯과 균사체에 관한 기초 과학','/assets/culture-white.webp'),'/insight/research':p('INSIGHT · RESEARCH NOTE','연구 결과를\n제대로 읽는 방법','논문과 인체적용시험의 의미를 차분히 해설합니다.','/assets/research-dish.webp'),'/insight/business-esg':p('INSIGHT · BUSINESS & ESG','소재 산업과\n책임 있는 성장','원료소재 산업, 공동개발, 품질관리와 ESG','/assets/esg-sprout.webp'),'/insight/story':p('INSIGHT · GIUNCHAN STORY','기운찬의 사람과\n연구 현장 이야기','창업, 기업문화, 브랜드를 기록합니다.','/assets/field-research.webp'),
- '/newsroom':p('NEWSROOM','기운찬의 오늘과\n새로운 소식을 전합니다','보도자료·언론보도·기업소식·공지사항','/assets/lab-extract.webp'),'/newsroom/press':p('NEWSROOM · PRESS RELEASE','보도자료','주식회사 기운찬이 공식 발표한 자료입니다.','/assets/lab-extract.webp'),'/newsroom/media':p('NEWSROOM · MEDIA','언론보도','외부 언론에 소개된 기운찬 관련 보도입니다.','/assets/microscope.webp'),'/newsroom/news':p('NEWSROOM · NEWS','기업소식','연구와 조직의 새로운 소식을 전합니다.','/assets/field-research.webp'),'/newsroom/notice':p('NEWSROOM · NOTICE','공지사항','이용에 필요한 안내를 확인하세요.','/assets/forest-mycelia.webp'),'/contact':p('CONTACT','기운찬과 함께할 가능성을\n이야기해 주세요','목적에 맞는 문의를 선택하면 담당 분야별 상담을 준비합니다.','/assets/quality-lab.webp'),'/contact/location':p('CONTACT','오시는 길','주식회사 기운찬은 충남 천안에 있습니다.','/assets/esg-sprout.webp')};
+ '/company':p('COMPANY','자연의 가능성을\n사람의 삶으로 이어갑니다',companyDefinition,'/assets/lab-leaf.webp'),
+ '/technology':p('TECHNOLOGY','근거를 쌓는 연구','10년 이상 축적해 온 연구와 산학 공동연구의 기록을 소개합니다.','/assets/field-research.webp'),
+ '/technology/patents':p('TECHNOLOGY · PATENTS','특허','기운찬의 바이오소재 기술을 뒷받침하는 지식재산권','/assets/microscope.webp'),
+ '/technology/publications':p('TECHNOLOGY · PUBLICATIONS','연구논문','연구 유형과 해석 범위를 구분해 공개하는 연구 기록','/assets/research-dish.webp'),
+ '/technology/clinical-study':p('TECHNOLOGY · CLINICAL STUDY','인체적용시험','사람을 대상으로 확인하는 연구 근거와 공개 범위','/assets/quality-lab.webp'),
+ '/business':p('BUSINESS','연구에서 원료사업으로','GMK® 원료 협력을 중심으로 소비자 제품개발까지 연결합니다.','/assets/ingredient-plates.webp'),
+ '/business/ingredient':p('BUSINESS · B2B','B2B 원료사업','기업의 연구, 제품기획 및 사업 목적에 맞는 GMK® 원료 협력','/assets/ingredient-forest.webp'),
+ '/business/product-development':p('BUSINESS · B2C','B2C 제품개발','연구·개발한 소재를 소비자의 일상에서 경험할 수 있도록','/assets/product-pouches.webp'),
+ '/brands':p('BRANDS','연구에서 일상으로','건강을 돋우다, 기운을 돋우다. 도두On','/assets/product-premium.webp'),
+ '/brands/dodoon':p('BRANDS · 도두On','건강을 돋우다,\n기운을 돋우다','기운찬의 연구와 소비자의 일상을 연결하는 브랜드','/assets/product-premium.webp'),
+ '/brands/dodoon/products':p('BRANDS · PRODUCTS','도두On 제품','기운찬의 제품과 공식 구매 안내를 확인하세요.','/assets/product-pouches.webp'),
+ '/insight':p('INSIGHT','GMK®와 버섯균사체를\n정확하게 이해하는 출발점','핵심 용어와 개념을 쉽고 명확하게 설명합니다.','/assets/tree-mycelia.webp'),
+ '/insight/gmk':p('INSIGHT · GMK®','GMK®','기운찬의 핵심 바이오소재와 관련 용어를 알아봅니다.','/assets/gmk-landscape-dark.webp'),
+ '/insight/mycelia':p('INSIGHT · MYCELIA','버섯균사체','균사체의 기본 개념과 자실체의 차이를 알아봅니다.','/assets/culture-white.webp'),
+ '/newsroom':p('NEWSROOM','기운찬의 소식과\n산업의 변화를 전합니다','기운찬 뉴스 / 산업·연구 이슈','/assets/lab-extract.webp'),
+ '/newsroom/news':p('NEWSROOM · COMPANY NEWS','기운찬 뉴스','연구·사업·사회공헌의 주요 기록','/assets/field-research.webp'),
+ '/newsroom/issues':p('NEWSROOM · INDUSTRY','산업·연구 이슈','버섯균사체와 천연물 바이오소재 산업의 흐름','/assets/microscope.webp'),
+};
+export const redirects:Record<string,string>={
+ '/company/ceo':'/company#ceo','/company/philosophy':'/company#about','/company/history':'/company#information','/company/esg':'/company#about',
+ '/contact':'/company#contact','/contact/location':'/company#location',
+ '/technology/gmk':'/insight/gmk','/technology/competitiveness':'/technology','/technology/research':'/technology','/technology/faq':'/insight/gmk#faq',
+ '/business/applications':'/business/ingredient','/business/quality':'/business/ingredient','/business/global':'/business/ingredient','/business/co-development':'/business/product-development',
+ '/insight/research':'/technology','/insight/business-esg':'/newsroom/issues','/insight/story':'/newsroom/news','/insight/research/reading-clinical-study':'/technology/clinical-study',
+ '/newsroom/press':'/newsroom/news','/newsroom/media':'/newsroom/news','/newsroom/notice':'/newsroom/news',
+ '/brands/dodoon/products/gmk':'/brands/dodoon/products/immune-mk','/brands/dodoon/products/liquid':'/brands/dodoon/products/giunchan-drink','/brands/dodoon/products/gift':'/brands/dodoon/products/premium-gift',
+};
 
