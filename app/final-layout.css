@@ -64,3 +64,5 @@
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:5px}
 @media(max-width:1000px){.business-overview{grid-template-columns:1fr}.business-overview aside{max-width:none}.ceo-layout{gap:32px}.location-grid{grid-template-columns:1fr}.nav-row{gap:18px}}
 @media(max-width:680px){.contact-pill{display:inline-block;padding:9px 12px}.nav-actions{gap:3px}.final-stats{grid-template-columns:1fr}.final-stats>a{border-right:0;border-bottom:1px solid var(--line)}.final-two,.business-weighted,.ceo-layout{grid-template-columns:1fr}.ceo-portrait{max-width:370px;margin:auto}.timeline li{grid-template-columns:1fr;gap:12px}.facts-table th,.facts-table td{padding:14px 12px}.facts-table th{min-width:100px}.business-weighted article{padding:24px}.home-definition{padding-bottom:24px}.final-stats strong{font-size:52px}.location-grid iframe{height:300px}.product-detail{gap:30px}.hero-copy h1{font-size:32px}}
+.section:has(> .shell > .pillar-grid) .section-title{max-width:100%}
+.section:has(> .shell > .pillar-grid) .section-title h2{word-break:keep-all;overflow-wrap:normal}
