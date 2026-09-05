@@ -43,10 +43,10 @@ export type PageInfo={section:string;title:string;lead:string;image:string};
 const p=(section:string,title:string,lead:string,image:string):PageInfo=>({section,title,lead,image});
 export const pages:Record<string,PageInfo>={
  '/company':p('COMPANY','자연의 가능성을 연구하고\n산업과 일상의 가치로 연결합니다','주식회사 기운찬은 다양한 버섯과 버섯균사체의 가능성을 연구하고, 복합배양·발효기술을 바탕으로 자연 유래 바이오소재를 개발하는 식품바이오 기업입니다.','/assets/research-mushroom-spectrum.jpg'),
- '/technology':p('TECHNOLOGY','근거를 쌓는 연구','10년 이상 축적해 온 연구와 산학 공동연구의 기록을 소개합니다.','/assets/field-research.webp'),
- '/technology/patents':p('TECHNOLOGY · PATENTS','특허','기운찬의 바이오소재 기술을 뒷받침하는 지식재산권','/assets/microscope.webp'),
- '/technology/publications':p('TECHNOLOGY · PUBLICATIONS','연구논문','연구 유형과 해석 범위를 구분해 공개하는 연구 기록','/assets/research-dish.webp'),
- '/technology/clinical-study':p('TECHNOLOGY · CLINICAL STUDY','인체적용시험','사람을 대상으로 확인하는 연구 근거와 공개 범위','/assets/quality-lab.webp'),
+ '/technology':p('TECHNOLOGY','복합버섯균사체의 가능성을\n과학적 근거로 확인합니다','기운찬은 다양한 버섯과 버섯균사체를 연구하고, 복합배양·발효기술을 기반으로 개발한 GMK®와 GMK 추출물의 특성과 활용 가능성을 단계적으로 확인해 왔습니다.','/assets/field-research.webp'),
+ '/technology/patents':p('TECHNOLOGY · PATENTS','GMK® 기술을 뒷받침하는\n지식재산권','국내 특허 9건과 미국 특허 1건으로 축적한 생산 및 활용기술을 안내합니다.','/assets/microscope.webp'),
+ '/technology/publications':p('TECHNOLOGY · PUBLICATIONS','GMK 및 GMK 추출물\n연구논문','세포·동물모델에서 수행한 SCIE급 국제학술지 논문 4편과 원문을 안내합니다.','/assets/research-dish.webp'),
+ '/technology/clinical-study':p('TECHNOLOGY · CLINICAL STUDY','GMK 추출물\n인체적용시험','GMK 추출물을 사용해 경도인지장애자 175명을 대상으로 진행한 다기관·무작위배정·이중눈가림·위약대조 인체적용시험의 설계와 공개 가능한 결과를 안내합니다.','/assets/quality-lab.webp'),
  '/business':p('BUSINESS','연구에서 원료사업으로','GMK® 원료 협력을 중심으로 소비자 제품개발까지 연결합니다.','/assets/ingredient-plates.webp'),
  '/business/ingredient':p('BUSINESS · B2B','B2B 원료사업','기업의 연구, 제품기획 및 사업 목적에 맞는 GMK® 원료 협력','/assets/ingredient-forest.webp'),
  '/business/product-development':p('BUSINESS · B2C','B2C 제품개발','연구·개발한 소재를 소비자의 일상에서 경험할 수 있도록','/assets/product-pouches.webp'),
