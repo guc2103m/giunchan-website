@@ -2,11 +2,12 @@
 import {useEffect,useMemo,useState} from 'react';
 import Image from 'next/image';
 import type {ContentEntry} from '@/lib/content-data';
+export type ContentListEntry=Pick<ContentEntry,'title'|'slug'|'contentType'|'category'|'summary'|'updatedAt'|'thumbnail'|'thumbnailAlt'|'tags'|'relatedEntities'|'relatedOrganizations'|'featured'|'readingTime'|'relatedMaterial'>;
 const normalize=(s:string)=>s.toLowerCase().replaceAll('®','').replace(/\s/g,'');
-export function ContentExplorer({entries,type,categories}:{entries:ContentEntry[];type:'insight'|'newsroom';categories:string[]}){
+export function ContentExplorer({entries,type,categories}:{entries:ContentListEntry[];type:'insight'|'newsroom';categories:string[]}){
  const [query,setQuery]=useState(''),[category,setCategory]=useState('전체'),[page,setPage]=useState(1);const perPage=type==='newsroom'?6:9;
  useEffect(()=>{const p=new URLSearchParams(location.search);queueMicrotask(()=>{setQuery(p.get('q')||'');setCategory(p.get('category')||'전체');setPage(Math.max(1,Number(p.get('page'))||1))})},[]);
- const results=useMemo(()=>entries.filter(e=>{const hay=normalize([e.title,e.originalTitle,e.summary,e.answer,e.category,...e.tags,...e.relatedEntities,...(e.relatedOrganizations||[])].join(' '));return(category==='전체'||e.category===category)&&(!query||hay.includes(normalize(query)))}),[entries,query,category]);
+ const results=useMemo(()=>entries.filter(e=>{const hay=normalize([e.title,e.summary,e.category,...e.tags,...e.relatedEntities,...(e.relatedOrganizations||[])].join(' '));return(category==='전체'||e.category===category)&&(!query||hay.includes(normalize(query)))}),[entries,query,category]);
  const pages=Math.max(1,Math.ceil(results.length/perPage));useEffect(()=>{if(page>pages)queueMicrotask(()=>setPage(pages))},[page,pages]);
  const update=(q:string,c:string,p:number)=>{const next=new URLSearchParams();if(q)next.set('q',q);if(c!=='전체')next.set('category',c);if(p>1)next.set('page',String(p));history.replaceState(null,'',`${location.pathname}${next.size?'?'+next:''}`)};
  const setQ=(v:string)=>{setQuery(v);setPage(1);update(v,category,1)},setC=(v:string)=>{setCategory(v);setPage(1);update(query,v,1)},setP=(v:number)=>{setPage(v);update(query,category,v);document.getElementById('content-results')?.scrollIntoView({behavior:'smooth'})};
