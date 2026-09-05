@@ -28,7 +28,7 @@ export const products=[
  {slug:'mushroom-spoon',name:'버섯한스푼 3종',summary:'밥할 때, 밥할 때 홍국, 요리할 때로 구성된 버섯한스푼 3종',image:'/assets/product-mushroom-spoon.jpg'},
 ];
 export const insights=[
- {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®의 정의와 연구원료·판매제품의 차이를 알아봅니다.',image:'/assets/gmk-landscape-dark.webp',href:'/insight/gmk/what-is-gmk'},
+ {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®의 정의와 연구원료·판매제품의 차이를 알아봅니다.',image:'/assets/culture-brown.webp',href:'/insight/gmk/what-is-gmk'},
  {category:'버섯균사체',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체와 자실체의 차이, 생활사 속 역할을 쉽고 정확하게 살펴봅니다.',image:'/assets/tree-mycelia.webp',href:'/insight/mycelia/mushroom-and-mycelia'},
 ];
 export const news=[
