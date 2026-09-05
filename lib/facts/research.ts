@@ -58,6 +58,15 @@ export const clinicalStudyPublic = {
   caution:
     '현재 식품의약품안전처의 심사 절차가 진행 중이며, 개별인정형 원료로 인정이 완료된 상태는 아닙니다.',
   shortStatus: '식약처 개별인정형 원료 인정 절차 진행 중',
+  material: 'GMK® 추출물',
+  sites: ['고려대학교 구로병원', '김천의료원'],
+  population: '주관적 인지저하를 호소하는 만 55세 이상 성인',
+  duration: '16주',
+  design: '무작위배정·이중눈가림·위약대조 인체적용시험',
+  primaryOutcome: '한국어판 간이정신상태검사(K-MMSE) 총점',
+  publicResult: '2026년 8월 언론보도에 따르면, 16주 시점의 한국어판 간이정신상태검사(K-MMSE) 총점에서 GMK® 추출물 섭취군과 위약군 사이에 통계적으로 유의한 차이가 나타났습니다(p<0.05). 시험 기간 중 중대한 이상반응은 보고되지 않았습니다.',
+  reviewNotice: '현재 식품의약품안전처에 건강기능식품 개별인정형 원료 인정을 신청해 심사 절차를 진행하고 있습니다. 아직 기능성 인정이 완료된 상태는 아니며, 해당 연구결과가 개별 판매제품의 효능을 의미하지는 않습니다.',
+  sources: [{label:'중앙일보 · 2026.08.26',url:'https://www.joongang.co.kr/article/25456430'},{label:'뉴스파고 · 2026.08.27',url:'https://www.newspago.com/newnews/print.php?uid=121969'}],
   verificationStatus: 'confirmed',
   disclosureStatus: 'public',
 } as const satisfies GovernedFact & {
@@ -66,6 +75,7 @@ export const clinicalStudyPublic = {
   regulatoryStatus: string;
   caution: string;
   shortStatus: string;
+  material: string; sites: readonly string[]; population: string; duration: string; design: string; primaryOutcome: string; publicResult: string; reviewNotice: string; sources: readonly {label:string;url:string}[];
 };
 
 export const researchDisclaimer =
@@ -126,14 +136,28 @@ export const publications = [
 
 export const publicPublications = publications.filter(isPublicFact);
 
+export type PatentRecord=GovernedFact&{country:string;number:string;registeredAt:string;owner:string;status:string;title:string;url:string};
+export const patentRecords:PatentRecord[]=[
+ {country:'대한민국',number:'10-1652035',registeredAt:'2016-08-23',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR101652035B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-1923408',registeredAt:'2018-11-23',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR101923408B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2251825',registeredAt:'2021-05-07',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102251825B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2271933',registeredAt:'2021-06-28',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102271933B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2496029',registeredAt:'2023-02-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR102496029B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2496034',registeredAt:'2023-02-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR102496034B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2557645',registeredAt:'2023-07-17',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102557645B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2575704',registeredAt:'2023-09-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102575704B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2844900',registeredAt:'2025-08-06',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102844900B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'미국',number:'US 11,503,847 B2',registeredAt:'2022-11-22',owner:'GIUNCHAN CO., LTD.',status:'등록 완료',title:'복합버섯균사체 공동배양 방법',url:'https://patents.google.com/patent/US11503847B2/en',verificationStatus:'confirmed',disclosureStatus:'public'},
+];
+export const publicPatentRecords=patentRecords.filter(isPublicFact);
 export const patentPortfolio = {
-  sourceAsOf: '2025-12-31',
-  totalRecords: 18,
-  domesticApplications: 2,
+  sourceAsOf: '2026-07-31',
+  totalRecords: publicPatentRecords.length,
+  domesticApplications: 0,
   domesticRegistrations: 9,
-  overseasApplications: 6,
+  overseasApplications: 0,
   overseasRegistrations: 1,
-  registeredTotal: 10,
+  registeredTotal: publicPatentRecords.length,
   summary: 'GMK® 복합배양 및 활용과 관련된 특허기술',
   verificationStatus: 'confirmed',
   disclosureStatus: 'public',
