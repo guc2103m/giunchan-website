@@ -5,12 +5,12 @@ const children=(items:string[][])=>items.map(([label,href])=>({label,href}));
 export const nav=[
  {label:'COMPANY',href:'/company',children:[]},
  {label:'TECHNOLOGY',href:'/technology',children:children([['연구성과','/technology'],['특허','/technology/patents'],['연구논문','/technology/publications'],['인체적용시험','/technology/clinical-study']])},
- {label:'BUSINESS',href:'/business',children:children([['B2B 원료사업','/business/ingredient'],['B2C 제품개발','/business/product-development']])},
+ {label:'BUSINESS',href:'/business',children:children([['GMK® 원료사업','/business/ingredient'],['제품개발 및 공동개발','/business/product-development']])},
  {label:'BRANDS',href:'/brands',children:children([['도두On 브랜드 스토리','/brands/dodoon'],['도두On 제품','/brands/dodoon/products']])},
  {label:'INSIGHT',href:'/insight',children:children([['GMK®','/insight/gmk'],['버섯균사체','/insight/mycelia']])},
  {label:'NEWSROOM',href:'/newsroom',children:children([['기운찬 뉴스','/newsroom/news'],['산업·연구 이슈','/newsroom/issues']])},
 ];
-export const inquiryTypes=['GMK® 원료','B2C 제품개발','제품·유통','국내외 사업','기타'];
+export const inquiryTypes=['GMK® 원료 공급','GMK 추출액','GMK 추출물','원료 샘플','NDA 및 기술자료','제품개발','OEM·ODM 협력','완제품 납품','해외 원료공급','완제품 수출','해외 유통협력','공동연구','기타'];
 export const inquiryHref=(type:string)=>'/company?inquiry='+encodeURIComponent(type)+'#contact';
 export const stats=[
  {value:'10',label:'국내외 특허',note:'국내 9건 · 미국 1건',href:'/technology/patents'},
@@ -18,14 +18,14 @@ export const stats=[
  {value:'175',label:'인체적용시험 대상자',note:'회사 공개자료 기준 · 시험 완료',href:'/technology/clinical-study'},
 ];
 export const products=[
- {slug:'grape-jelly',name:'똑똑젤리',summary:'스틱형 젤리 제품',image:'/assets/product-grape.webp'},
- {slug:'immune-mk',name:'기운찬 이뮨·MK',summary:'비타민C·아연·셀렌·비타민D·비타민B군 건강기능식품',image:'/assets/product-gmk.webp'},
- {slug:'giunchan-drink',name:'마시면 기운차',summary:'일상에서 간편하게 즐기는 음료',image:'/assets/product-liquid.webp'},
- {slug:'premium-gift',name:'기운찬 프리미엄 선물세트',summary:'정성스럽게 구성한 기운찬 선물세트',image:'/assets/product-gift.webp'},
- {slug:'giuncha-extract',name:'기운차 진액',summary:'병에 담아 간편하게 이용할 수 있는 기운차 진액 제품',image:'/assets/product-giuncha-extract.png'},
- {slug:'mushroom-tea',name:'버섯마시면기운차',summary:'차가·상황·영지버섯 발효차를 티백으로 즐기는 제품',image:'/assets/product-mushroom-tea.jpg'},
- {slug:'mushroom-tea-gift',name:'버섯마시면기운차 선물세트',summary:'버섯차를 세 병에 나누어 담은 선물세트',image:'/assets/product-mushroom-tea-gift.jpg'},
- {slug:'mushroom-spoon',name:'버섯한스푼 3종',summary:'밥할 때, 밥할 때 홍국, 요리할 때로 구성된 버섯한스푼 3종',image:'/assets/product-mushroom-spoon.jpg'},
+ {slug:'grape-jelly',name:'똑똑젤리',type:'젤리',summary:'휴대하기 쉬운 스틱형 젤리 제품',image:'/assets/product-grape.webp'},
+ {slug:'immune-mk',name:'기운찬 이뮨·MK',type:'건강기능식품',summary:'비타민C·아연·셀렌·비타민D·비타민B군을 담은 제품',image:'/assets/product-gmk.webp'},
+ {slug:'giunchan-drink',name:'마시면 기운차',type:'음료',summary:'병 포장으로 일상에서 간편하게 즐기는 음료',image:'/assets/product-liquid.webp'},
+ {slug:'premium-gift',name:'기운찬 프리미엄 선물세트',type:'선물세트',summary:'선물하기 좋도록 정성스럽게 구성한 제품',image:'/assets/product-gift.webp'},
+ {slug:'giuncha-extract',name:'기운차 진액',type:'액상차',summary:'병에 담아 간편하게 이용할 수 있는 진액 제품',image:'/assets/product-giuncha-extract.png'},
+ {slug:'mushroom-tea',name:'버섯마시면기운차',type:'침출차',summary:'발효차를 티백으로 간편하게 우려 마시는 제품',image:'/assets/product-mushroom-tea.jpg'},
+ {slug:'mushroom-tea-gift',name:'버섯마시면기운차 선물세트',type:'선물세트',summary:'버섯차를 세 병에 나누어 담은 선물세트',image:'/assets/product-mushroom-tea-gift.jpg'},
+ {slug:'mushroom-spoon',name:'버섯한스푼 3종',type:'기타가공품',summary:'밥과 요리에 더해 사용할 수 있는 세 가지 분말 제품',image:'/assets/product-mushroom-spoon.jpg',production:'자체 생산'},
 ];
 export const insights=[
  {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®와 완제품의 차이를 간결하게 설명합니다.',date:'2026-09-05',linkLabel:'GMK® 설명 읽기',image:'/assets/culture-brown.webp',href:'/insight/gmk/what-is-gmk'},
@@ -47,9 +47,9 @@ export const pages:Record<string,PageInfo>={
  '/technology/patents':p('TECHNOLOGY · PATENTS','GMK® 기술을 뒷받침하는\n지식재산권','국내 특허 9건과 미국 특허 1건으로 축적한 생산 및 활용기술을 안내합니다.','/assets/microscope.webp'),
  '/technology/publications':p('TECHNOLOGY · PUBLICATIONS','GMK 및 GMK 추출물\n연구논문','세포·동물모델에서 수행한 SCIE급 국제학술지 논문 4편과 원문을 안내합니다.','/assets/research-dish.webp'),
  '/technology/clinical-study':p('TECHNOLOGY · CLINICAL STUDY','GMK 추출물\n인체적용시험','GMK 추출물을 사용해 경도인지장애자 175명을 대상으로 진행한 다기관·무작위배정·이중눈가림·위약대조 인체적용시험의 설계와 공개 가능한 결과를 안내합니다.','/assets/quality-lab.webp'),
- '/business':p('BUSINESS','연구에서 원료사업으로','GMK® 원료 협력을 중심으로 소비자 제품개발까지 연결합니다.','/assets/ingredient-plates.webp'),
- '/business/ingredient':p('BUSINESS · B2B','B2B 원료사업','기업의 연구, 제품기획 및 사업 목적에 맞는 GMK® 원료 협력','/assets/ingredient-forest.webp'),
- '/business/product-development':p('BUSINESS · B2C','B2C 제품개발','연구·개발한 소재를 소비자의 일상에서 경험할 수 있도록','/assets/product-pouches.webp'),
+ '/business':p('BUSINESS','연구한 소재를 기업의 제품과\n소비자의 일상으로 연결합니다','기운찬은 GMK®를 비롯한 복합버섯균사체 소재를 연구하고, 기업용 원료 공급부터 식품·음료 적용, 공동 제품개발, 생산 연계와 완제품 납품까지 지원합니다.','/assets/ingredient-plates.webp'),
+ '/business/ingredient':p('B2B INGREDIENT','기업의 제품 목적에 맞는\nGMK® 원료 협력','기운찬은 GMK®, GMK 추출액과 GMK 추출물을 기업의 제품기획, 식품·음료 적용 및 연구 목적에 맞게 공급하고 협력합니다.','/assets/ingredient-forest.webp'),
+ '/business/product-development':p('PRODUCT DEVELOPMENT','연구 소재의 특성을 이해하는\n제품개발','기운찬은 원료의 맛·향·색과 가공 특성, 소비자의 섭취 편의성을 함께 고려해 식품과 음료를 기획하고 개발합니다.','/assets/product-pouches.webp'),
  '/brands':p('BRANDS','매일의 건강을 돋우다.\n기운을 다시 세우는 하루.','건강을 돋우는 종합 건강 브랜드, 도두On','/assets/product-premium.webp'),
  '/brands/dodoon':p('BRANDS · 도두On','매일의 건강을 돋우다.\n기운을 다시 세우는 하루.','‘돋우다’에서 시작된 이름, 따뜻함을 담은 도두On','/assets/product-premium.webp'),
  '/brands/dodoon/products':p('BRANDS · PRODUCTS','도두On 제품','기운찬의 제품과 공식 구매 안내를 확인하세요.','/assets/product-pouches.webp'),
