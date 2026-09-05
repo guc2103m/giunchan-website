@@ -6,7 +6,7 @@ export const companyDefinition='주식회사 기운찬은 버섯균사체 기반
 const children=(items:string[][])=>items.map(([label,href])=>({label,href}));
 export const nav=[
  {label:'COMPANY',href:'/company',children:[]},
- {label:'TECHNOLOGY',href:'/technology',children:children([['연구성과','/technology'],['특허','/technology/patents'],['연구논문','/technology/publications'],['인체적용시험','/technology/clinical-study']])},
+ {label:'TECHNOLOGY',href:'/technology',children:children([['연구성과','/technology'],['IP 현황','/technology/patents'],['연구논문','/technology/publications'],['인체적용시험','/technology/clinical-study']])},
  {label:'BUSINESS',href:'/business',children:children([['GMK® 원료사업','/business/ingredient'],['제품개발 및 공동개발','/business/product-development']])},
  {label:'BRANDS',href:'/brands',children:[]},
  {label:'INSIGHT',href:'/insight',children:[]},
@@ -37,7 +37,7 @@ const p=(section:string,title:string,lead:string,image:string):PageInfo=>({secti
 export const pages:Record<string,PageInfo>={
  '/company':p('COMPANY','자연의 가능성을 연구하고\n산업과 일상의 가치로 연결합니다',companyDefinition,'/assets/research-mushroom-spectrum.jpg'),
  '/technology':p('TECHNOLOGY','복합버섯균사체의 가능성을\n과학적 근거로 확인합니다','기운찬의 GMK® 연구체계와 공개된 특허·전임상 논문·인체적용시험 진행 현황을 안내합니다.','/assets/field-research.webp'),
- '/technology/patents':p('TECHNOLOGY · PATENTS','GMK® 기술을 뒷받침하는\n지식재산권','공식 자료를 기준으로 GMK® 복합배양 및 활용과 관련된 특허 권리 현황을 안내합니다.','/assets/microscope.webp'),
+ '/technology/patents':p('TECHNOLOGY · IP','기운찬의\nIP 현황','국내외 특허·상표·디자인 등록 현황과 공개 가능한 등록특허 정보를 안내합니다.','/assets/microscope.webp'),
  '/technology/publications':p('TECHNOLOGY · PUBLICATIONS','복합버섯균사체 및 관련 추출물\n연구논문','세포·동물 전임상 연구로 발표된 국제학술지 논문 4편의 서지정보와 DOI 원문을 안내합니다.','/assets/research-dish.webp'),
  '/technology/clinical-study':p('TECHNOLOGY · CLINICAL STUDY','GMK® 관련 원료\n인체적용시험','인체적용시험 완료와 식약처 개별인정형 원료 인정 절차의 현재 공개 상태를 안내합니다.','/assets/quality-lab.webp'),
  '/business':p('BUSINESS','연구한 소재를 기업의 제품과\n소비자의 일상으로 연결합니다','기운찬은 GMK®를 비롯한 복합버섯균사체 소재를 연구하고, 기업용 원료 공급부터 식품·음료 적용, 공동 제품개발, 생산 연계와 완제품 납품까지 지원합니다.','/assets/ingredient-plates.webp'),

@@ -150,6 +150,13 @@ export const patentRecords:PatentRecord[]=[
  {country:'미국',number:'US 11,503,847 B2',registeredAt:'2022-11-22',owner:'GIUNCHAN CO., LTD.',status:'등록 완료',title:'복합버섯균사체 공동배양 방법',url:'https://patents.google.com/patent/US11503847B2/en',verificationStatus:'confirmed',disclosureStatus:'public'},
 ];
 export const publicPatentRecords=patentRecords.filter(isPublicFact);
+export const ipRegistrationSummary = [
+  { category: '특허', country: '대한민국', count: 9, status: '등록' },
+  { category: '특허', country: '미국', count: 1, status: '등록' },
+  { category: '상표', country: '대한민국', count: 6, status: '등록' },
+  { category: '상표', country: '중국', count: 1, status: '등록' },
+  { category: '디자인', country: '대한민국', count: 1, status: '등록' },
+] as const;
 export const patentPortfolio = {
   sourceAsOf: '2026-07-31',
   totalRecords: publicPatentRecords.length,

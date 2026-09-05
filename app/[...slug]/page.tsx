@@ -29,7 +29,7 @@ export async function generateMetadata({params}:{params:Promise<{slug:string[]}>
   if(businessMeta[path]){const meta=businessMeta[path];const url=siteOrigin+path;return {...meta,alternates:{canonical:url},openGraph:{...meta,url,type:'website'},twitter:{card:'summary_large_image',...meta}};}
   const technologyMeta:Record<string,{title:string;description:string}>={
     '/technology':{title:'기술·연구개발 | 기운찬 GMK®·GMK 추출물 연구',description:'기운찬은 다양한 버섯과 버섯균사체를 연구하고 정부 R&D와 산학협력을 통해 GMK® 및 GMK 추출물의 특허·전임상 연구·국제학술지 논문·인체적용시험 근거를 축적합니다.'},
-    '/technology/patents':{title:'특허 | 기운찬 GMK® 국내외 지식재산권',description:'기운찬의 GMK® 생산 및 활용기술 관련 국내 특허 9건과 미국 특허 1건의 공식 명칭, 등록정보와 기술분야를 안내합니다.'},
+    '/technology/patents':{title:'IP 현황 | 기운찬 지식재산권',description:'기운찬의 국내외 특허·상표·디자인 등록 현황과 공개 가능한 등록특허 정보를 안내합니다.'},
     '/technology/publications':{title:'연구논문 | 기운찬 GMK·GMK 추출물 SCIE 논문',description:'GMK 및 GMK 추출물을 활용한 세포·동물모델 연구와 SCIE급 국제학술지 논문 4편의 서지정보, DOI와 연구 해석 범위를 안내합니다.'},
     '/technology/clinical-study':{title:'GMK® 관련 원료 인체적용시험 | 기운찬',description:'GMK® 관련 원료의 인체적용시험 완료와 식품의약품안전처 개별인정형 원료 인정 절차의 현재 공개 상태를 안내합니다.'}
   };
