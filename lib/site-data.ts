@@ -1,4 +1,6 @@
-export const siteOrigin='https://www.guc.co.kr';
+import {publicProductFacts} from './facts/products';
+export const siteOrigin=(process.env.NEXT_PUBLIC_SITE_URL||'https://www.guc.co.kr').replace(/\/$/,'');
+export const allowIndexing=process.env.NEXT_PUBLIC_INDEX_SITE==='true';
 export const contactHref='/company#contact';
 export const companyDefinition='주식회사 기운찬은 버섯균사체 기반의 바이오소재를 연구·개발하고, 이를 원료와 제품으로 사업화하는 천연물 바이오소재 전문기업입니다.';
 const children=(items:string[][])=>items.map(([label,href])=>({label,href}));
@@ -17,16 +19,7 @@ export const stats=[
  {value:'4',label:'SCIE급 논문',note:'10년 이상 축적해 온 연구',href:'/technology/publications'},
  {value:'완료',label:'인체적용시험',note:'세부 결과 비공개',href:'/technology/clinical-study'},
 ];
-export const products=[
- {slug:'grape-jelly',name:'똑똑젤리',type:'젤리',summary:'휴대하기 쉬운 스틱형 젤리 제품',image:'/assets/product-grape.webp'},
- {slug:'immune-mk',name:'기운찬이뮨MK',type:'건강기능식품',summary:'비타민과 미네랄을 캡슐 형태로 섭취하는 제품',image:'/assets/product-gmk.webp'},
- {slug:'giunchan-drink',name:'마시면기운차',type:'액상차',summary:'병 포장으로 일상에서 간편하게 이용하는 액상차',image:'/assets/product-liquid.webp'},
- {slug:'premium-gift',name:'기운찬',type:'기타가공품',summary:'1회분씩 간편하게 이용할 수 있는 분말 제품',image:'/assets/product-gift.webp'},
- {slug:'giuncha-extract',name:'기운차 진액',type:'액상차',summary:'병에 담아 간편하게 이용할 수 있는 진액 제품',image:'/assets/product-giuncha-extract.png'},
- {slug:'mushroom-tea',name:'버섯마시면기운차 15포',type:'침출차',summary:'15개의 티백으로 구성한 침출차',image:'/assets/product-mushroom-tea.jpg'},
- {slug:'mushroom-tea-gift',name:'버섯마시면기운차 30포',type:'침출차',summary:'30개의 티백을 병 포장으로 구성한 침출차',image:'/assets/product-mushroom-tea-gift.jpg'},
- {slug:'mushroom-spoon',name:'버섯한스푼 3종',type:'기타가공품',summary:'밥과 요리에 더해 사용할 수 있는 세 가지 분말 제품',image:'/assets/product-mushroom-spoon.jpg',production:'자체 생산'},
-];
+export const products=publicProductFacts.map(item=>({slug:item.slug,name:item.name,type:item.foodType,summary:item.summary,image:item.image,production:item.manufacturer==='㈜기운찬'?'자체 생산':undefined}));
 export const insights=[
  {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®와 완제품의 차이를 간결하게 설명합니다.',date:'2026-09-05',linkLabel:'GMK® 설명 읽기',image:'/assets/culture-brown.webp',href:'/insight/what-is-gmk'},
  {category:'버섯균사체',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체와 자실체의 차이, 생활사 속 역할을 쉽고 정확하게 살펴봅니다.',date:'2026-09-05',linkLabel:'버섯균사체 설명 읽기',image:'/assets/tree-mycelia.webp',href:'/insight/mushroom-and-mycelia'},
@@ -67,6 +60,6 @@ export const redirects:Record<string,string>={
  '/business/applications':'/business/ingredient','/business/quality':'/business/ingredient','/business/global':'/business/ingredient','/business/co-development':'/business/product-development',
  '/insight/research':'/technology','/insight/business-esg':'/newsroom/issues','/insight/story':'/newsroom/news','/insight/research/reading-clinical-study':'/technology/clinical-study',
  '/newsroom/press':'/newsroom/news','/newsroom/media':'/newsroom/news','/newsroom/notice':'/newsroom/news',
- '/brands/dodoon/products/gmk':'/brands/dodoon/products/immune-mk','/brands/dodoon/products/liquid':'/brands/dodoon/products/giunchan-drink','/brands/dodoon/products/gift':'/brands/dodoon/products/premium-gift',
+ '/brands/dodoon/products/gmk':'/brands/dodoon/products/immune-mk','/brands/dodoon/products/liquid':'/brands/dodoon/products/giunchan-drink','/brands/dodoon/products/gift':'/brands/dodoon/products/premium-gift','/brands/dodoon/products/grape-jelly':'/brands/dodoon/products/smart-jelly',
 };
 

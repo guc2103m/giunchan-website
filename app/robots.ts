@@ -1,3 +1,4 @@
 import type { MetadataRoute } from 'next';
-export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',allow:'/'},sitemap:'https://www.guc.co.kr/sitemap.xml'}}
+import {allowIndexing,siteOrigin} from '@/lib/site-data';
+export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',...(allowIndexing?{allow:'/'}:{disallow:'/'})},sitemap:siteOrigin+'/sitemap.xml'}}
 

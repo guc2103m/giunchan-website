@@ -3,6 +3,7 @@ import { pages, products, insights, siteOrigin } from '@/lib/site-data';
 import type { Metadata } from 'next';
 import { permanentRedirect } from 'next/navigation';
 import { findContent, publishedInsights, publishedNews } from '@/lib/content-data';
+import { publicProductFacts } from '@/lib/facts/products';
 
 export async function generateMetadata({params}:{params:Promise<{slug:string[]}>}):Promise<Metadata>{
   const {slug}=await params; const path='/'+slug.join('/');
@@ -60,11 +61,10 @@ export default async function CatchAllPage({
   if(path==='/insight/mycelia'||path==='/insight/mycelia/mushroom-and-mycelia')permanentRedirect('/insight/mushroom-and-mycelia');
   if(path==='/newsroom/news'||path==='/newsroom/issues'||path==='/newsroom/press'||path==='/newsroom/media'||path==='/newsroom/notice')permanentRedirect('/newsroom');
   if(path==='/brands/dodoon')permanentRedirect('/brands');
-  if(path==='/brands/dodoon/products')permanentRedirect('/brands#products');
   if(path.startsWith('/brands/dodoon/products/')){
     const oldSlug=path.split('/').at(-1)||'';
-    const mapped:Record<string,string>={gmk:'immune-mk',liquid:'giunchan-drink',gift:'premium-gift','giunchan-bon':'premium-gift'};
-    permanentRedirect('/brands#'+(mapped[oldSlug]||oldSlug));
+    const mapped:Record<string,string>={gmk:'immune-mk',liquid:'giunchan-drink',gift:'premium-gift','giunchan-bon':'premium-gift','grape-jelly':'smart-jelly'};
+    if(mapped[oldSlug])permanentRedirect('/brands/dodoon/products/'+mapped[oldSlug]);
   }
   const companyJsonLd=path==='/company'?{
     '@context':'https://schema.org','@graph':[
@@ -101,6 +101,11 @@ export default async function CatchAllPage({
     {'@type':'ItemList',numberOfItems:brandProductNames.length,itemListElement:brandProductNames.map((name,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'Product',name,brand:{'@id':siteOrigin+'/brands#brand'},url:siteOrigin+'/brands#'+brandProductSlugs[i]}}))},
     {'@type':'FAQPage',mainEntity:brandFaqs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))}
   ]}:null;
+  const productFact=publicProductFacts.find(x=>path==='/brands/dodoon/products/'+x.slug);
+  const productJsonLd=productFact?{'@context':'https://schema.org','@graph':[
+    {'@type':'Product','@id':siteOrigin+path+'#product',name:productFact.name,description:productFact.summary,image:siteOrigin+productFact.image,category:productFact.foodType,brand:{'@type':'Brand',name:'도두On'},manufacturer:{'@type':'Organization',name:productFact.manufacturer||'주식회사 기운찬'},url:siteOrigin+path},
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'HOME',item:siteOrigin+'/'},{'@type':'ListItem',position:2,name:'BRANDS',item:siteOrigin+'/brands'},{'@type':'ListItem',position:3,name:'도두On 제품',item:siteOrigin+'/brands/dodoon/products'},{'@type':'ListItem',position:4,name:productFact.name,item:siteOrigin+path}]}
+  ]}:null;
   const contentEntry=findContent(path);const contentList=path==='/insight'?publishedInsights:path==='/newsroom'?publishedNews:null;
   const contentJsonLd=contentEntry?{'@context':'https://schema.org','@graph':[
     {'@type':contentEntry.contentType==='insight'?'Article':'NewsArticle','@id':siteOrigin+path+'#article',headline:contentEntry.title,description:contentEntry.summary,image:siteOrigin+contentEntry.thumbnail,datePublished:contentEntry.publishedAt,dateModified:contentEntry.updatedAt,author:{'@id':siteOrigin+'/#organization'},publisher:{'@id':siteOrigin+'/#organization'},mainEntityOfPage:{'@id':siteOrigin+path+'#webpage'},inLanguage:'ko-KR',...(contentEntry.sourceLinks.length?{isBasedOn:contentEntry.sourceLinks.map(x=>x.url)}:{})},
@@ -110,5 +115,5 @@ export default async function CatchAllPage({
     {'@type':'ItemList',numberOfItems:contentList.length,itemListElement:contentList.map((x,i)=>({'@type':'ListItem',position:i+1,url:`${siteOrigin}/${x.contentType}/${x.slug}`,name:x.title}))},
     {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'HOME',item:siteOrigin+'/'},{'@type':'ListItem',position:2,name:path==='/insight'?'INSIGHT':'NEWSROOM',item:siteOrigin+path}]}
   ]}:null;
-  return <>{companyJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(companyJsonLd)}}/>}{techJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(techJsonLd)}}/>}{businessJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessJsonLd)}}/>}{brandsJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(brandsJsonLd)}}/>}{contentJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(contentJsonLd)}}/>}<SitePage path={path} /></>;
+  return <>{companyJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(companyJsonLd)}}/>}{techJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(techJsonLd)}}/>}{businessJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessJsonLd)}}/>}{brandsJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(brandsJsonLd)}}/>}{productJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(productJsonLd)}}/>}{contentJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(contentJsonLd)}}/>}<SitePage path={path} /></>;
 }
