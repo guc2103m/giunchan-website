@@ -42,7 +42,7 @@ export const news=[
 export type PageInfo={section:string;title:string;lead:string;image:string};
 const p=(section:string,title:string,lead:string,image:string):PageInfo=>({section,title,lead,image});
 export const pages:Record<string,PageInfo>={
- '/company':p('COMPANY','자연의 가능성을\n사람의 삶으로 이어갑니다',companyDefinition,'/assets/lab-leaf.webp'),
+ '/company':p('COMPANY','자연의 가능성을 연구하고\n산업과 일상의 가치로 연결합니다','주식회사 기운찬은 다양한 버섯과 버섯균사체의 가능성을 연구하고, 복합배양·발효기술을 바탕으로 자연 유래 바이오소재를 개발하는 식품바이오 기업입니다.','/assets/research-mushroom-spectrum.jpg'),
  '/technology':p('TECHNOLOGY','근거를 쌓는 연구','10년 이상 축적해 온 연구와 산학 공동연구의 기록을 소개합니다.','/assets/field-research.webp'),
  '/technology/patents':p('TECHNOLOGY · PATENTS','특허','기운찬의 바이오소재 기술을 뒷받침하는 지식재산권','/assets/microscope.webp'),
  '/technology/publications':p('TECHNOLOGY · PUBLICATIONS','연구논문','연구 유형과 해석 범위를 구분해 공개하는 연구 기록','/assets/research-dish.webp'),
