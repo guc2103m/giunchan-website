@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { pages, products, insights, siteOrigin } from '@/lib/site-data';
-export default function sitemap():MetadataRoute.Sitemap{const paths=['/',...Object.keys(pages),...products.map(x=>`/brands/dodoon/products/${x.slug}`),...insights.map(x=>x.href)];return [...new Set(paths)].map(url=>({url:`${siteOrigin}${url}`,lastModified:new Date('2026-09-04'),changeFrequency:url==='/'?'weekly':'monthly',priority:url==='/'?1:.7}))}
+import { pages, siteOrigin } from '@/lib/site-data';
+import {allPublished} from '@/lib/content-data';
+export default function sitemap():MetadataRoute.Sitemap{const oldContent=new Set(['/insight/gmk','/insight/mycelia','/newsroom/news','/newsroom/issues','/brands/dodoon','/brands/dodoon/products']);const paths=['/',...Object.keys(pages).filter(x=>!oldContent.has(x)),...allPublished.map(x=>`/${x.contentType}/${x.slug}`),'/insight/rss.xml','/newsroom/rss.xml'];return [...new Set(paths)].map(url=>({url:`${siteOrigin}${url}`,lastModified:new Date(allPublished.find(x=>`/${x.contentType}/${x.slug}`===url)?.updatedAt||'2026-09-05'),changeFrequency:url==='/'?'weekly':'monthly',priority:url==='/'?1:.7}))}
 

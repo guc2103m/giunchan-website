@@ -7,8 +7,8 @@ export const nav=[
  {label:'TECHNOLOGY',href:'/technology',children:children([['연구성과','/technology'],['특허','/technology/patents'],['연구논문','/technology/publications'],['인체적용시험','/technology/clinical-study']])},
  {label:'BUSINESS',href:'/business',children:children([['GMK® 원료사업','/business/ingredient'],['제품개발 및 공동개발','/business/product-development']])},
  {label:'BRANDS',href:'/brands',children:[]},
- {label:'INSIGHT',href:'/insight',children:children([['GMK®','/insight/gmk'],['버섯균사체','/insight/mycelia']])},
- {label:'NEWSROOM',href:'/newsroom',children:children([['기운찬 뉴스','/newsroom/news'],['산업·연구 이슈','/newsroom/issues']])},
+ {label:'INSIGHT',href:'/insight',children:[]},
+ {label:'NEWSROOM',href:'/newsroom',children:[]},
 ];
 export const inquiryTypes=['GMK® 원료 공급','GMK 추출액','GMK 추출물','원료 샘플','NDA 및 기술자료','제품개발','OEM·ODM 협력','완제품 납품','해외 원료공급','완제품 수출','해외 유통협력','공동연구','기타'];
 export const inquiryHref=(type:string)=>'/company?inquiry='+encodeURIComponent(type)+'#contact';
@@ -28,8 +28,8 @@ export const products=[
  {slug:'mushroom-spoon',name:'버섯한스푼 3종',type:'기타가공품',summary:'밥과 요리에 더해 사용할 수 있는 세 가지 분말 제품',image:'/assets/product-mushroom-spoon.jpg',production:'자체 생산'},
 ];
 export const insights=[
- {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®와 완제품의 차이를 간결하게 설명합니다.',date:'2026-09-05',linkLabel:'GMK® 설명 읽기',image:'/assets/culture-brown.webp',href:'/insight/gmk/what-is-gmk'},
- {category:'버섯균사체',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체와 자실체의 차이, 생활사 속 역할을 쉽고 정확하게 살펴봅니다.',date:'2026-09-05',linkLabel:'버섯균사체 설명 읽기',image:'/assets/tree-mycelia.webp',href:'/insight/mycelia/mushroom-and-mycelia'},
+ {category:'GMK®',title:'GMK®는 무엇인가요?',desc:'기운찬의 핵심 바이오소재 GMK®와 완제품의 차이를 간결하게 설명합니다.',date:'2026-09-05',linkLabel:'GMK® 설명 읽기',image:'/assets/culture-brown.webp',href:'/insight/what-is-gmk'},
+ {category:'버섯균사체',title:'버섯과 균사체는 어떻게 다를까요?',desc:'균사체와 자실체의 차이, 생활사 속 역할을 쉽고 정확하게 살펴봅니다.',date:'2026-09-05',linkLabel:'버섯균사체 설명 읽기',image:'/assets/tree-mycelia.webp',href:'/insight/mushroom-and-mycelia'},
 ];
 export const news=[
  {date:'2025.06.30',source:'한국경제',title:'건양대·기운찬, GMK 신경세포 관련 공동연구 발표',href:'https://www.guc.co.kr/forum/view/355080',summary:'건양대학교 의과대학과 기운찬의 공동연구가 Cells에 발표됐다는 소식입니다.',meaning:'기운찬의 연구소재에 대한 전임상 연구 기록입니다. 세포 연구 결과를 사람의 질병 예방·치료 효과나 판매제품의 효능으로 해석하지 않습니다.'},

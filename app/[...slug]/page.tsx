@@ -2,9 +2,18 @@ import { SitePage } from '@/components/site-page';
 import { pages, products, insights, siteOrigin } from '@/lib/site-data';
 import type { Metadata } from 'next';
 import { permanentRedirect } from 'next/navigation';
+import { findContent, publishedInsights, publishedNews } from '@/lib/content-data';
 
 export async function generateMetadata({params}:{params:Promise<{slug:string[]}>}):Promise<Metadata>{
   const {slug}=await params; const path='/'+slug.join('/');
+  const content=findContent(path);
+  if(path==='/insight'||path==='/newsroom'||content){
+    const isInsight=path.startsWith('/insight');
+    const title=content?content.title:(isInsight?'인사이트 | 기운찬 GMK®·버섯균사체 지식 아카이브':'뉴스룸 | 기운찬 연구·특허·제품·사업 소식');
+    const description=content?content.summary:(isInsight?'GMK®, 버섯균사체, 원료 형태, 복합배양과 연구방법을 질문 중심으로 쉽고 정확하게 설명하는 기운찬 인사이트입니다.':'주식회사 기운찬의 연구성과, 특허, 제품과 브랜드, 사업협력 및 사회공헌 소식을 공식 기록으로 전합니다.');
+    const url=siteOrigin+path;const image=siteOrigin+(content?.thumbnail||(isInsight?'/assets/heroes/insight-desktop.jpg':'/assets/heroes/news-desktop.jpg'));
+    return {title,description,alternates:{canonical:url},openGraph:{title,description,url,type:content?'article':'website',images:[{url:image,alt:content?.thumbnailAlt||title}],...(content?{publishedTime:content.publishedAt,modifiedTime:content.updatedAt}: {})},twitter:{card:'summary_large_image',title,description,images:[image]}};
+  }
   if(path==='/brands'){
     const title='도두On 브랜드·제품 | 기운찬 GMK® 소비자 제품';
     const description='도두On은 기운찬이 연구·개발한 GMK® 원료를 활용한 소비자 브랜드입니다. 기운찬 本, 마시면 기운차, 똑똑젤리, 버섯한스푼 등 전체 제품과 공식 구매정보를 확인하세요.';
@@ -46,6 +55,9 @@ export default async function CatchAllPage({
 }) {
   const { slug } = await params;
   const path=`/${slug.join('/')}`;
+  if(path==='/insight/gmk'||path==='/insight/gmk/what-is-gmk')permanentRedirect('/insight/what-is-gmk');
+  if(path==='/insight/mycelia'||path==='/insight/mycelia/mushroom-and-mycelia')permanentRedirect('/insight/mushroom-and-mycelia');
+  if(path==='/newsroom/news'||path==='/newsroom/issues'||path==='/newsroom/press'||path==='/newsroom/media'||path==='/newsroom/notice')permanentRedirect('/newsroom');
   if(path==='/brands/dodoon')permanentRedirect('/brands');
   if(path==='/brands/dodoon/products')permanentRedirect('/brands#products');
   if(path.startsWith('/brands/dodoon/products/')){
@@ -88,5 +100,14 @@ export default async function CatchAllPage({
     {'@type':'ItemList',numberOfItems:brandProductNames.length,itemListElement:brandProductNames.map((name,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'Product',name,brand:{'@id':siteOrigin+'/brands#brand'},url:siteOrigin+'/brands#'+brandProductSlugs[i]}}))},
     {'@type':'FAQPage',mainEntity:brandFaqs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))}
   ]}:null;
-  return <>{companyJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(companyJsonLd)}}/>}{techJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(techJsonLd)}}/>}{businessJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessJsonLd)}}/>}{brandsJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(brandsJsonLd)}}/>}<SitePage path={path} /></>;
+  const contentEntry=findContent(path);const contentList=path==='/insight'?publishedInsights:path==='/newsroom'?publishedNews:null;
+  const contentJsonLd=contentEntry?{'@context':'https://schema.org','@graph':[
+    {'@type':contentEntry.contentType==='insight'?'Article':'NewsArticle','@id':siteOrigin+path+'#article',headline:contentEntry.title,description:contentEntry.summary,image:siteOrigin+contentEntry.thumbnail,datePublished:contentEntry.publishedAt,dateModified:contentEntry.updatedAt,author:{'@id':siteOrigin+'/#organization'},publisher:{'@id':siteOrigin+'/#organization'},mainEntityOfPage:{'@id':siteOrigin+path+'#webpage'},inLanguage:'ko-KR',...(contentEntry.sourceLinks.length?{isBasedOn:contentEntry.sourceLinks.map(x=>x.url)}:{})},
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'HOME',item:siteOrigin+'/'},{'@type':'ListItem',position:2,name:contentEntry.contentType==='insight'?'INSIGHT':'NEWSROOM',item:siteOrigin+'/'+contentEntry.contentType},{'@type':'ListItem',position:3,name:contentEntry.title,item:siteOrigin+path}]}
+  ]}:contentList?{'@context':'https://schema.org','@graph':[
+    {'@type':'CollectionPage','@id':siteOrigin+path+'#webpage',url:siteOrigin+path,name:path==='/insight'?'기운찬 인사이트':'기운찬 뉴스룸',isPartOf:{'@id':siteOrigin+'/#website'},inLanguage:'ko-KR'},
+    {'@type':'ItemList',numberOfItems:contentList.length,itemListElement:contentList.map((x,i)=>({'@type':'ListItem',position:i+1,url:`${siteOrigin}/${x.contentType}/${x.slug}`,name:x.title}))},
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'HOME',item:siteOrigin+'/'},{'@type':'ListItem',position:2,name:path==='/insight'?'INSIGHT':'NEWSROOM',item:siteOrigin+path}]}
+  ]}:null;
+  return <>{companyJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(companyJsonLd)}}/>}{techJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(techJsonLd)}}/>}{businessJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessJsonLd)}}/>}{brandsJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(brandsJsonLd)}}/>}{contentJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(contentJsonLd)}}/>}<SitePage path={path} /></>;
 }

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { Header, FAQ, ContactForm } from './site-client';
 import { BrandsPage } from './brands-page';
+import { ContentPage } from './content-pages';
 import { companyDefinition, contactHref, inquiryHref, insights, news, pages, products, type PageInfo } from '@/lib/site-data';
 
 const shop='https://smartstore.naver.com/gucmall';
@@ -32,7 +33,7 @@ function Home(){const featuredProduct=products[2];const metrics=[{value:'2015',l
  <section className="section product-spotlight"><div className="wide-shell"><SectionHeader eyebrow="DODOON · DAILY WELLNESS" title="과학에서 시작해, 따뜻한 일상으로" copy="도두On은 주식회사 기운찬이 연구한 소재와 식품개발 경험을 소비자의 건강한 일상으로 연결하는 종합 건강 브랜드입니다."/><ProductCard item={featuredProduct} feature/></div></section>
  <section className="section editorial-section"><div className="shell"><SectionHeader eyebrow="LATEST INSIGHT" title="GMK®와 버섯균사체를 이해하다" align="split"/><div className="editorial-grid">{insights.map((item,i)=><ArticleCard item={item} feature={i===0} key={item.href}/>)}</div></div></section>
  <section className="section home-faq"><div className="shell"><SectionHeader eyebrow="PRACTICAL GUIDE" title="자주 묻는 질문"/><FAQ items={[{q:'GMK®는 완제품인가요?',a:'GMK®는 소비자에게 직접 판매되는 완제품명이 아니라 기운찬의 연구와 기업용 원료사업에 활용되는 바이오소재 브랜드입니다. GMK 관련 소재가 적용된 소비자 제품은 별도의 브랜드와 제품명으로 판매됩니다.'},{q:'GMK®에는 어떤 연구 근거가 있나요?',a:'GMK®의 생산방법과 활용기술에 관한 국내외 특허, SCIE급 국제학술지 논문, 전임상 연구와 175명 대상 인체적용시험 자료가 있습니다. 세부 내용은 연구개발 페이지에서 확인할 수 있습니다.',href:'/technology',link:'연구개발 확인하기'},{q:'기업이 GMK® 원료를 공급받을 수 있나요?',a:'적용 목적, 제품 유형, 필요 규격과 수량을 확인한 후 원료 공급, 샘플 검토, 기술자료 제공과 공동개발 가능성을 협의할 수 있습니다.',href:'/business/ingredient',link:'원료 공급 알아보기'},{q:'기운찬의 소비자 제품은 어디에서 확인할 수 있나요?',a:'도두On 제품 페이지와 기운찬 공식 쇼핑몰에서 제품별 특징과 구매 정보를 확인할 수 있습니다.',href:'/brands/dodoon/products',link:'도두On 제품 확인하기'}]}/></div></section>
- <section className="section newsroom-home"><div className="shell"><SectionHeader eyebrow="LATEST NEWSROOM" title="기운찬의 새로운 소식" align="split"/><div className="news-editorial">{news.slice(0,3).map((item,i)=><article className={i===0?'is-feature':''} key={item.href}><span>{item.source} · {item.date}</span><h3>{item.title}</h3><p>{item.summary}</p><a href={item.href} target="_blank" rel="noreferrer">원문 보기 <ArrowRight size={16}/></a></article>)}</div><div className="section-link"><Button href="/newsroom/news">기운찬 뉴스 더 보기</Button></div></div></section>
+ <section className="section newsroom-home"><div className="shell"><SectionHeader eyebrow="LATEST NEWSROOM" title="기운찬의 새로운 소식" align="split"/><div className="news-editorial">{news.slice(0,3).map((item,i)=><article className={i===0?'is-feature':''} key={item.href}><span>{item.source} · {item.date}</span><h3>{item.title}</h3><p>{item.summary}</p><a href={['/newsroom/gmk-cell-study-2025','/newsroom/gmk-human-application-plan','/newsroom/gmk-preclinical-neuro-study'][i]}>소식 보기 <ArrowRight size={16}/></a></article>)}</div><div className="section-link"><Button href="/newsroom">뉴스룸 더 보기</Button></div></div></section>
  <InquiryCta/>
  </main></Layout>}
 function CompanyLegacy(){return <>
@@ -152,6 +153,7 @@ function PageBody({path}:{path:string}){
 export function SitePage({path}:{path:string}){
  if(path==='/')return <Home/>;
  if(path==='/brands')return <Layout><BrandsPage/></Layout>;
+ if(path==='/insight'||path==='/newsroom'||path.startsWith('/insight/')||path.startsWith('/newsroom/'))return <Layout><ContentPage path={path}/></Layout>;
  const product=products.find(x=>path==='/brands/dodoon/products/'+x.slug);
  const insight=insights.find(x=>x.href===path);
  const info=pages[path]||(product?{section:'BRANDS · PRODUCTS',title:product.name,lead:product.summary,image:product.image}:insight?{section:'INSIGHT · '+insight.category,title:insight.title,lead:insight.desc,image:insight.image}:null);
