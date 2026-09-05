@@ -8,9 +8,14 @@ import './design-system.css';
 export const metadata: Metadata = {
   title: { default: '주식회사 기운찬 | 천연물 바이오소재 전문기업', template: '%s | 주식회사 기운찬' },
   description: '버섯균사체 복합배양·발효기술로 핵심 바이오소재 GMK®를 연구·개발하는 천연물 바이오소재 전문기업입니다.',
-  metadataBase: new URL('https://giunchan-website.vercel.app'),
+  metadataBase: new URL('https://www.guc.co.kr'),
   openGraph: { title: '주식회사 기운찬', description: '자연의 가능성을 과학으로 증명하는 천연물 바이오소재 전문기업', type: 'website' },
 };
+
+const organization={
+ '@context':'https://schema.org','@type':'Organization','@id':'https://www.guc.co.kr/#organization',name:'주식회사 기운찬',alternateName:'Giunchan Co., Ltd.',legalName:'주식회사 기운찬',url:'https://www.guc.co.kr/',logo:'https://www.guc.co.kr/assets/giunchan-logo-trimmed.png',description:'주식회사 기운찬은 다양한 버섯 균사체를 곡물 배지에서 복합배양·발효해 핵심 바이오소재 GMK®를 연구·개발하고 원료와 제품으로 사업화하는 천연물 바이오소재 전문기업입니다.',foundingDate:'2015-10-12',telephone:'+82-41-579-2203',email:'guc2203@guc.co.kr',address:{'@type':'PostalAddress',addressCountry:'KR',addressRegion:'충청남도',addressLocality:'천안시',streetAddress:'동남구 충절로 252, 2F'},contactPoint:{'@type':'ContactPoint',telephone:'+82-41-579-2203',email:'guc2203@guc.co.kr',contactType:'business inquiries',areaServed:'KR',availableLanguage:['ko']}
+};
+const website={'@context':'https://schema.org','@type':'WebSite','@id':'https://www.guc.co.kr/#website',url:'https://www.guc.co.kr/',name:'주식회사 기운찬',publisher:{'@id':'https://www.guc.co.kr/#organization'},inLanguage:'ko-KR'};
 
 export default function RootLayout({
   children,
@@ -19,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context':'https://schema.org','@type':'Organization',name:'주식회사 기운찬',alternateName:'Giunchan Co., Ltd.',foundingDate:'2015',address:{'@type':'PostalAddress',addressRegion:'충청남도',addressLocality:'천안시',addressCountry:'KR'} }) }} /></body>
+      <body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([organization,website]) }} /></body>
     </html>
   );
 }
