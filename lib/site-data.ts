@@ -6,7 +6,7 @@ export const nav=[
  {label:'COMPANY',href:'/company',children:[]},
  {label:'TECHNOLOGY',href:'/technology',children:children([['연구성과','/technology'],['특허','/technology/patents'],['연구논문','/technology/publications'],['인체적용시험','/technology/clinical-study']])},
  {label:'BUSINESS',href:'/business',children:children([['GMK® 원료사업','/business/ingredient'],['제품개발 및 공동개발','/business/product-development']])},
- {label:'BRANDS',href:'/brands',children:children([['도두On 브랜드 스토리','/brands/dodoon'],['도두On 제품','/brands/dodoon/products']])},
+ {label:'BRANDS',href:'/brands',children:[]},
  {label:'INSIGHT',href:'/insight',children:children([['GMK®','/insight/gmk'],['버섯균사체','/insight/mycelia']])},
  {label:'NEWSROOM',href:'/newsroom',children:children([['기운찬 뉴스','/newsroom/news'],['산업·연구 이슈','/newsroom/issues']])},
 ];
@@ -50,7 +50,7 @@ export const pages:Record<string,PageInfo>={
  '/business':p('BUSINESS','연구한 소재를 기업의 제품과\n소비자의 일상으로 연결합니다','기운찬은 GMK®를 비롯한 복합버섯균사체 소재를 연구하고, 기업용 원료 공급부터 식품·음료 적용, 공동 제품개발, 생산 연계와 완제품 납품까지 지원합니다.','/assets/ingredient-plates.webp'),
  '/business/ingredient':p('B2B INGREDIENT','기업의 제품 목적에 맞는\nGMK® 원료 협력','기운찬은 GMK®, GMK 추출액과 GMK 추출물을 기업의 제품기획, 식품·음료 적용 및 연구 목적에 맞게 공급하고 협력합니다.','/assets/ingredient-forest.webp'),
  '/business/product-development':p('PRODUCT DEVELOPMENT','연구 소재의 특성을 이해하는\n제품개발','기운찬은 원료의 맛·향·색과 가공 특성, 소비자의 섭취 편의성을 함께 고려해 식품과 음료를 기획하고 개발합니다.','/assets/product-pouches.webp'),
- '/brands':p('BRANDS','매일의 건강을 돋우다.\n기운을 다시 세우는 하루.','건강을 돋우는 종합 건강 브랜드, 도두On','/assets/product-premium.webp'),
+ '/brands':p('DODOON BRAND','매일, 건강을 돋우다','도두On은 기운찬이 연구·개발한 GMK® 원료를 일상의 제품으로 연결하는 소비자 브랜드입니다.','/assets/product-premium.webp'),
  '/brands/dodoon':p('BRANDS · 도두On','매일의 건강을 돋우다.\n기운을 다시 세우는 하루.','‘돋우다’에서 시작된 이름, 따뜻함을 담은 도두On','/assets/product-premium.webp'),
  '/brands/dodoon/products':p('BRANDS · PRODUCTS','도두On 제품','기운찬의 제품과 공식 구매 안내를 확인하세요.','/assets/product-pouches.webp'),
  '/insight':p('INSIGHT','GMK®와 버섯균사체를\n정확하게 이해하는 출발점','핵심 용어와 개념을 쉽고 명확하게 설명합니다.','/assets/tree-mycelia.webp'),

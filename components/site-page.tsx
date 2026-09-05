@@ -3,6 +3,7 @@ import { getHeroImages } from '@/lib/hero-images';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { Header, FAQ, ContactForm } from './site-client';
+import { BrandsPage } from './brands-page';
 import { companyDefinition, contactHref, inquiryHref, insights, news, pages, products, type PageInfo } from '@/lib/site-data';
 
 const shop='https://smartstore.naver.com/gucmall';
@@ -150,6 +151,7 @@ function PageBody({path}:{path:string}){
 }
 export function SitePage({path}:{path:string}){
  if(path==='/')return <Home/>;
+ if(path==='/brands')return <Layout><BrandsPage/></Layout>;
  const product=products.find(x=>path==='/brands/dodoon/products/'+x.slug);
  const insight=insights.find(x=>x.href===path);
  const info=pages[path]||(product?{section:'BRANDS · PRODUCTS',title:product.name,lead:product.summary,image:product.image}:insight?{section:'INSIGHT · '+insight.category,title:insight.title,lead:insight.desc,image:insight.image}:null);

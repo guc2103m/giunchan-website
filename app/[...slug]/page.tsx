@@ -1,9 +1,16 @@
 import { SitePage } from '@/components/site-page';
 import { pages, products, insights, siteOrigin } from '@/lib/site-data';
 import type { Metadata } from 'next';
+import { permanentRedirect } from 'next/navigation';
 
 export async function generateMetadata({params}:{params:Promise<{slug:string[]}>}):Promise<Metadata>{
   const {slug}=await params; const path='/'+slug.join('/');
+  if(path==='/brands'){
+    const title='도두On 브랜드·제품 | 기운찬 GMK® 소비자 제품';
+    const description='도두On은 기운찬이 연구·개발한 GMK® 원료를 활용한 소비자 브랜드입니다. 기운찬 本, 마시면 기운차, 똑똑젤리, 버섯한스푼 등 전체 제품과 공식 구매정보를 확인하세요.';
+    const url=siteOrigin+'/brands';const image=siteOrigin+'/assets/product-premium.webp';
+    return {title,description,alternates:{canonical:url},openGraph:{title,description,url,type:'website',images:[{url:image,alt:'도두On 브랜드 제품'}]},twitter:{card:'summary_large_image',title,description,images:[image]}};
+  }
   const businessMeta:Record<string,{title:string;description:string}>= {
     '/business':{title:'사업영역 | 기운찬 GMK® 원료공급·제품개발',description:'기운찬의 GMK® 원료 공급, 식품·음료 제품개발, 자체·OEM·ODM 협력 생산, 완제품 납품과 해외사업 협력을 소개합니다.'},
     '/business/ingredient':{title:'GMK® 원료사업 | 기업용 복합버섯균사체 원료',description:'기업용 GMK®, GMK 추출액과 GMK 추출물의 차이, 적용 분야, 공급조건, 샘플 및 기술자료 문의 방법을 안내합니다.'},
@@ -39,6 +46,13 @@ export default async function CatchAllPage({
 }) {
   const { slug } = await params;
   const path=`/${slug.join('/')}`;
+  if(path==='/brands/dodoon')permanentRedirect('/brands');
+  if(path==='/brands/dodoon/products')permanentRedirect('/brands#products');
+  if(path.startsWith('/brands/dodoon/products/')){
+    const oldSlug=path.split('/').at(-1)||'';
+    const mapped:Record<string,string>={gmk:'immune-mk',liquid:'giunchan-drink',gift:'giunchan-bon','premium-gift':'giunchan-bon'};
+    permanentRedirect('/brands#'+(mapped[oldSlug]||oldSlug));
+  }
   const companyJsonLd=path==='/company'?{
     '@context':'https://schema.org','@graph':[
       {'@type':'AboutPage','@id':'https://www.guc.co.kr/company#webpage',url:'https://www.guc.co.kr/company',name:'회사소개 | 주식회사 기운찬',description:'주식회사 기운찬은 2015년 충남 천안에서 설립된 천연물 바이오소재 전문기업입니다.',mainEntity:{'@id':'https://www.guc.co.kr/#organization'},isPartOf:{'@id':'https://www.guc.co.kr/#website'},inLanguage:'ko-KR'},
@@ -64,5 +78,15 @@ export default async function CatchAllPage({
     {'@type':'ItemList',itemListElement:serviceNames.map((name,position)=>({'@type':'ListItem',position:position+1,item:{'@type':'Service',name,provider:{'@id':siteOrigin+'/#organization'},areaServed:'KR'}}))},
     {'@type':'FAQPage',mainEntity:businessFaqs[path].map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))}
   ]}:null;
-  return <>{companyJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(companyJsonLd)}}/>}{techJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(techJsonLd)}}/>}{businessJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessJsonLd)}}/>}<SitePage path={path} /></>;
+  const brandProductNames=['기운찬 本','똑똑젤리','기운찬 이뮨·MK','마시면 기운차','기운차 진액','버섯마시면기운차','버섯마시면기운차 선물세트','버섯한스푼 3종'];
+  const brandProductSlugs=['giunchan-bon','grape-jelly','immune-mk','giunchan-drink','giuncha-extract','mushroom-tea','mushroom-tea-gift','mushroom-spoon'];
+  const brandFaqs=[['도두On은 어떤 브랜드인가요?','도두On은 주식회사 기운찬이 운영하는 소비자 브랜드입니다. 기운찬이 연구·개발한 GMK® 원료를 일상의 제품으로 연결합니다.'],['GMK®는 제품 이름인가요?','GMK®는 완제품명이 아니라 기운찬이 개발한 복합버섯균사체 원료 브랜드입니다.'],['제품 포장에 도두On 로고가 없는 제품도 있나요?','일부 기존 제품은 도두On 브랜드 체계가 정립되기 전에 개발돼 현재 패키지에 도두On 로고가 표시되지 않을 수 있습니다.']];
+  const brandsJsonLd=path==='/brands'?{'@context':'https://schema.org','@graph':[
+    {'@type':'WebPage','@id':siteOrigin+'/brands#webpage',url:siteOrigin+'/brands',name:'도두On 브랜드·제품',description:'기운찬이 연구·개발한 GMK® 원료를 활용한 도두On 소비자 브랜드와 전체 제품 안내',inLanguage:'ko-KR',about:{'@id':siteOrigin+'/brands#brand'}},
+    {'@type':'Brand','@id':siteOrigin+'/brands#brand',name:'도두On',alternateName:'dodoon',description:'주식회사 기운찬이 운영하는 GMK® 원료 기반 소비자 브랜드',logo:siteOrigin+'/assets/dodoon-official-logo.jpg'},
+    {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'HOME',item:siteOrigin+'/'},{'@type':'ListItem',position:2,name:'BRANDS',item:siteOrigin+'/brands'}]},
+    {'@type':'ItemList',numberOfItems:brandProductNames.length,itemListElement:brandProductNames.map((name,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'Product',name,brand:{'@id':siteOrigin+'/brands#brand'},url:siteOrigin+'/brands#'+brandProductSlugs[i]}}))},
+    {'@type':'FAQPage',mainEntity:brandFaqs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))}
+  ]}:null;
+  return <>{companyJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(companyJsonLd)}}/>}{techJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(techJsonLd)}}/>}{businessJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessJsonLd)}}/>}{brandsJsonLd&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(brandsJsonLd)}}/>}<SitePage path={path} /></>;
 }
