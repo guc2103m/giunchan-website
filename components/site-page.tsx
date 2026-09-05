@@ -3,7 +3,7 @@ import { getHeroImages } from '@/lib/hero-images';
 import { notFound } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
 import { Header, FAQ, ContactForm } from './site-client';
-import { companyDefinition, contactHref, inquiryHref, insights, news, pages, products, stats, type PageInfo } from '@/lib/site-data';
+import { companyDefinition, contactHref, inquiryHref, insights, news, pages, products, type PageInfo } from '@/lib/site-data';
 
 const shop='https://smartstore.naver.com/gucmall';
 const researchNotice='연구원료와 판매제품은 구분됩니다. 연구 결과는 개별 판매제품의 효능 또는 질병의 진단·예방·치료를 의미하지 않습니다.';
@@ -19,7 +19,7 @@ function ArticleCard({item,feature=false}:{item:(typeof insights)[number];featur
 function Footer(){return <footer><div className="shell footer-grid"><div><Photo src="/assets/giunchan-logo.png" alt="주식회사 기운찬"/><p>주식회사 기운찬<br/>Giunchan Co., Ltd.</p></div><div><b>CONTACT</b><p>충남 천안시 동남구 충절로 252, 2F<br/>T 041-579-2203 · F 041-585-2203</p><a href="mailto:guc2203@guc.co.kr">guc2203@guc.co.kr</a></div><div><b>COMPANY</b><a href="/company#information">회사 기본정보</a><a href="/company#location">오시는 길</a><a href="/privacy">개인정보 안내</a></div><div><Button href={contactHref}>문의하기</Button><a href={shop} target="_blank" rel="noreferrer">공식 쇼핑몰 ↗</a></div></div><div className="shell copyright">© 2026 Giunchan Co., Ltd. All rights reserved.</div></footer>}
 function Layout({children}:{children:React.ReactNode}){return <><Header/>{children}<Footer/></>}
 function Hero({section,title,lead,image:_image,home=false,path='/'}:PageInfo&{home?:boolean;path?:string}){const hero=getHeroImages(path);return <section className={'hero '+(home?'home-hero':'')}><picture className="responsive-hero"><source media="(max-width: 680px)" srcSet={hero.mobile}/><Image src={hero.desktop} alt="" width={1920} height={home?900:620} priority unoptimized/></picture><div className="hero-shade"/><div className="shell hero-copy"><small>{section}</small><h1>{title.split('\n').map(line=><span key={line}>{line}</span>)}</h1><p>{lead}</p>{home&&<div className="hero-actions"><a className="button light" href="/company">기운찬 알아보기 <ArrowRight size={16}/></a><a className="button ghost" href={inquiryHref('GMK® 원료')}>GMK® 원료사업 문의</a></div>}</div></section>}
-function InsightCards(){return <div className="card-grid final-two">{insights.map(item=><a className="article-card" href={item.href} key={item.href}><Photo src={item.image} alt=""/><small>{item.category}</small><h3>{item.title}</h3><p>{item.desc}</p></a>)}</div>}
+function InsightCards(){return <div className="editorial-grid">{insights.map((item,i)=><ArticleCard item={item} feature={i===0} key={item.href}/>)}</div>}
 function NewsList({compact=false}:{compact?:boolean}){return <div className="news-list">{news.slice(0,compact?3:news.length).map(item=><article key={item.href}><span>{item.source} · {item.date}</span><h2>{item.title}</h2><p>{item.summary}</p>{!compact&&<p><b>기운찬과의 관련성 · 해석</b><br/>{item.meaning}</p>}<a className="text-link" href={item.href} target="_blank" rel="noreferrer">기존 홈페이지에 게재된 원문 출처 ↗</a></article>)}</div>}
 function InquiryCta(){return <section className="section contact-band compact-cta"><div className="shell"><small>BUSINESS INQUIRY</small><h2>함께할 가능성을 이야기해 주세요.</h2><p>GMK® 원료 공급, 제품개발, 국내외 사업 협력을 위한 문의를 기다립니다.</p><a className="button orange" href={contactHref}>사업 문의하기 <ArrowRight size={16}/></a></div></section>}
 function Home(){const featuredProduct=products[2];return <Layout><main className="home-page">
@@ -54,7 +54,7 @@ function Business({path}:{path:string}){
  const consumer=<><Title eyebrow="B2C PRODUCT DEVELOPMENT" title="연구한 소재를 일상의 제품으로" copy="단순한 판매를 넘어 소재 특성과 소비자 요구를 고려한 식품·음료·건강 관련 제품을 기획하고 개발합니다."/><ul className="service-list">{['소비자 요구를 고려한 제품기획','원료 특성에 맞는 제형 검토','자체 브랜드 제품개발','파트너사와의 공동 제품개발'].map(x=><li key={x}>{x}</li>)}</ul><div className="inline-actions"><Button href={inquiryHref('B2C 제품개발')}>제품개발 문의</Button><a className="text-link" href="/brands/dodoon">도두On 브랜드 보기 →</a></div></>;
  return path==='/business'?<div className="business-overview"><div>{b2b}</div><aside><Title eyebrow="B2C DEVELOPMENT" title="소비자의 일상으로"/><p>연구한 소재를 식품·음료·건강 관련 제품으로 기획하고 개발합니다. 자체 브랜드와 파트너 협력을 통해 소비자와 만납니다.</p><Button href="/business/product-development">B2C 제품개발</Button></aside></div>:b2c?consumer:b2b;
 }
-function ProductList(){return <><div className="product-grid">{products.map(item=><a href={'/brands/dodoon/products/'+item.slug} key={item.slug}><Photo src={item.image} alt={item.name}/><small>GIUNCHAN PRODUCT</small><h3>{item.name}</h3><p>{item.summary}</p></a>)}</div><p className="notice">판매 여부·원재료·영양정보·섭취방법·주의사항은 공식 판매처와 제품 포장의 최신 정보를 확인해 주세요.</p><Button href={shop}>공식 쇼핑몰</Button></>}
+function ProductList(){return <><div className="product-grid">{products.map(item=><ProductCard item={item} key={item.slug}/>)}</div><p className="notice">판매 여부·원재료·영양정보·섭취방법·주의사항은 공식 판매처와 제품 포장의 최신 정보를 확인해 주세요.</p><Button href={shop}>공식 쇼핑몰</Button></>}
 function BrandStory(){return <><article className="dodoon-story" aria-labelledby="dodoon-title">
  <p className="dodoon-eyebrow">● BRAND STORY</p>
  <div className="dodoon-brand-heading"><div><div className="dodoon-wordmark" aria-label="도두On"><span>도</span><span>두</span><span>On</span></div><p className="dodoon-english">dodoon</p>
@@ -90,6 +90,7 @@ export function SitePage({path}:{path:string}){
  const insight=insights.find(x=>x.href===path);
  const info=pages[path]||(product?{section:'BRANDS · PRODUCTS',title:product.name,lead:product.summary,image:product.image}:insight?{section:'INSIGHT · '+insight.category,title:insight.title,lead:insight.desc,image:insight.image}:null);
  if(!info){if(path==='/privacy'||path==='/terms')return <Layout><main className="section"><div className="shell"><Title eyebrow="INFORMATION" title="홈페이지 이용 및 개인정보 안내"/><p>현재 문의 폼은 시연용이며 작성 내용이 서버에 저장되거나 전송되지 않습니다. 실제 문의는 이메일 또는 전화로 연락해 주세요.</p><p>실제 온라인 접수 기능을 도입할 때 수집 항목·목적·보유기간·담당자 등 정식 처리방침을 별도로 안내합니다.</p><Button href={contactHref}>문의 안내</Button></div></main></Layout>;notFound();}
- return <Layout><main><Hero {...info} path={path}/><nav className="breadcrumb shell" aria-label="현재 위치"><a href="/">HOME</a><span>/</span><span>{info.section}</span></nav>{path==='/company'?<Company/>:<section className="section"><div className="shell"><PageBody path={path}/></div></section>}</main></Layout>
+ const domain=path.split('/')[1]||'company';
+ return <Layout><main className={'subpage page-'+domain}><Hero {...info} path={path}/><nav className="breadcrumb shell" aria-label="현재 위치"><a href="/">HOME</a><span>/</span><span>{info.section}</span></nav>{path==='/company'?<Company/>:<section className="section subpage-content"><div className="shell"><PageBody path={path}/></div></section>}</main></Layout>
 }
 
