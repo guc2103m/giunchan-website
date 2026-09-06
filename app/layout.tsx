@@ -6,6 +6,7 @@ import './hero-images.css';
 import './design-system.css';
 import './content-system.css';
 import './natural-science.css';
+import './company-page.css';
 import {allowIndexing,siteOrigin} from '@/lib/site-data';
 
 export const metadata: Metadata = {
