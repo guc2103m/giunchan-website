@@ -138,16 +138,16 @@ export const publicPublications = publications.filter(isPublicFact);
 
 export type PatentRecord=GovernedFact&{country:string;number:string;registeredAt:string;owner:string;status:string;title:string;url:string};
 export const patentRecords:PatentRecord[]=[
- {country:'대한민국',number:'10-1652035',registeredAt:'2016-08-23',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR101652035B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-1923408',registeredAt:'2018-11-23',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR101923408B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2251825',registeredAt:'2021-05-07',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102251825B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2271933',registeredAt:'2021-06-28',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102271933B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2496029',registeredAt:'2023-02-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR102496029B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2496034',registeredAt:'2023-02-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 관련 등록특허',url:'https://patents.google.com/patent/KR102496034B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2557645',registeredAt:'2023-07-17',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102557645B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2575704',registeredAt:'2023-09-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102575704B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'대한민국',number:'10-2844900',registeredAt:'2025-08-06',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 활용 관련 등록특허',url:'https://patents.google.com/patent/KR102844900B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
- {country:'미국',number:'US 11,503,847 B2',registeredAt:'2022-11-22',owner:'GIUNCHAN CO., LTD.',status:'등록 완료',title:'복합버섯균사체 공동배양 방법',url:'https://patents.google.com/patent/US11503847B2/en',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-1652035',registeredAt:'2016-08-23',owner:'주식회사 기운찬',status:'등록 완료',title:'차가버섯, 상황버섯 및 꽃송이버섯의 복합버섯 균사체의 생산방법',url:'https://patents.google.com/patent/KR101652035B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-1923408',registeredAt:'2018-11-23',owner:'주식회사 기운찬',status:'등록 완료',title:'차가버섯, 영지버섯 및 상황버섯 균사체의 복합배양방법',url:'https://patents.google.com/patent/KR101923408B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2251825',registeredAt:'2021-05-07',owner:'주식회사 기운찬',status:'등록 완료',title:'간기능 개선활성을 갖는 버섯 복합균사체 조성물 및 이의 제조방법',url:'https://patents.google.com/patent/KR102251825B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2271933',registeredAt:'2021-06-28',owner:'주식회사 기운찬',status:'등록 완료',title:'버섯복합배양균사체를 함유하는 혈당조절용 조성물의 제조방법',url:'https://patents.google.com/patent/KR102271933B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2496029',registeredAt:'2023-02-01',owner:'주식회사 기운찬',status:'등록 완료',title:'신규 영지버섯 GUC211 및 이를 함유하는 항당뇨용 조성물',url:'https://patents.google.com/patent/KR102496029B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2496034',registeredAt:'2023-02-01',owner:'주식회사 기운찬',status:'등록 완료',title:'신규 차가버섯 GUC111 및 이를 함유하는 항당뇨용 조성물',url:'https://patents.google.com/patent/KR102496034B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2557645',registeredAt:'2023-07-17',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체를 함유하는 인지기능 또는 기억력 개선용 조성물',url:'https://patents.google.com/patent/KR102557645B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2575704',registeredAt:'2023-09-01',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체를 함유하는 알츠하이머 개선용 조성물',url:'https://patents.google.com/patent/KR102575704B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'대한민국',number:'10-2844900',registeredAt:'2025-08-06',owner:'주식회사 기운찬',status:'등록 완료',title:'복합버섯균사체 효소처리물을 함유하는 인지기능 개선용 음료 및 이의 제조방법',url:'https://patents.google.com/patent/KR102844900B1/ko',verificationStatus:'confirmed',disclosureStatus:'public'},
+ {country:'미국',number:'US 11,503,847 B2',registeredAt:'2022-11-22',owner:'GIUNCHAN CO., LTD.',status:'등록 완료',title:'Method for Co-Culturing Inonotus obliquus, Ganoderma lucidum, and Phellinus linteus Mycelia',url:'https://patents.google.com/patent/US11503847B2/en',verificationStatus:'confirmed',disclosureStatus:'public'},
 ];
 export const publicPatentRecords=patentRecords.filter(isPublicFact);
 export const ipRegistrationSummary = [
