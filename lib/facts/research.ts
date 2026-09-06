@@ -52,7 +52,7 @@ export const publicIngredientForms = ingredientForms.filter(isPublicFact);
 export const clinicalStudyPublic = {
   title: 'GMK® 관련 원료 인체적용시험',
   summary:
-    '기운찬은 GMK® 관련 원료에 대한 인체적용시험을 완료했으며, 그 결과를 바탕으로 식품의약품안전처 개별인정형 원료 인정 절차를 진행하고 있습니다.',
+    '기운찬은 GMK® 추출물로 인지기능 개선에 대한 인체적용시험을 완료했으며, 그 결과를 바탕으로 식품의약품안전처 개별인정형 원료 인정 절차를 진행하고 있습니다.',
   regulatoryStatus:
     '주식회사 기운찬은 GMK® 관련 원료의 인지기능 분야 건강기능식품 개별인정형 원료 인정을 신청해 관련 절차를 진행하고 있습니다.',
   caution:
