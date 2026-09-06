@@ -1,7 +1,7 @@
 export const heroImages:Record<string,{desktop:string;mobile:string}>={
  'home':{desktop:'/assets/heroes/home-desktop.jpg',mobile:'/assets/heroes/home-mobile.jpg'},
  'company':{desktop:'/assets/research-mushroom-spectrum.jpg',mobile:'/assets/research-mushroom-spectrum.jpg'},
- 'technology':{desktop:'/assets/heroes/technology-desktop-upright.jpg',mobile:'/assets/heroes/technology-mobile.jpg'},
+ 'technology':{desktop:'/assets/mushroom-mycelia-research.jpg',mobile:'/assets/mushroom-mycelia-research.jpg'},
  'patents':{desktop:'/assets/heroes/patents-desktop.jpg',mobile:'/assets/heroes/patents-mobile.jpg'},
  'papers':{desktop:'/assets/heroes/papers-desktop.jpg',mobile:'/assets/heroes/papers-mobile.jpg'},
  'clinical':{desktop:'/assets/heroes/clinical-desktop.jpg',mobile:'/assets/heroes/clinical-mobile.jpg'},
