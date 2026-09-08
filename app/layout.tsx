@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: { default: '주식회사 기운찬 | 천연물 바이오소재 전문기업', template: '%s | 주식회사 기운찬' },
   description: '버섯균사체 복합배양·발효기술로 핵심 바이오소재 GMK®를 연구·개발하는 천연물 바이오소재 전문기업입니다.',
   metadataBase: new URL(siteOrigin),
-  robots: { index: allowIndexing, follow: allowIndexing, googleBot:{index:allowIndexing,follow:allowIndexing} },
+  robots: { index: true, follow: true, googleBot:{index:allowIndexing,follow:allowIndexing} },
   openGraph: { title: '주식회사 기운찬', description: '자연의 가능성을 과학으로 증명하는 천연물 바이오소재 전문기업', type: 'website' },
 };
 
