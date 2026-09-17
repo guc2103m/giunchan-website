@@ -1,0 +1,230 @@
+[
+  {
+    "images": [],
+    "overflow": false,
+    "url": "/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -1178,
+    "url": "/company/sustainability/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -1549,
+    "url": "/rnd/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -1217,
+    "url": "/business/development/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -222,
+    "url": "/insights/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -2091,
+    "url": "/ir/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -1174,
+    "url": "/business/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -1955,
+    "url": "/company/history/",
+    "width": 1440
+  },
+  {
+    "heroHeight": 464.96875,
+    "images": [],
+    "left": 112.5,
+    "overflow": false,
+    "top": -2081,
+    "url": "/rnd/gmk/",
+    "width": 1440
+  },
+  {
+    "images": [],
+    "overflow": false,
+    "url": "/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/company/sustainability/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/rnd/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/business/development/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/insights/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/ir/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/business/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/company/history/",
+    "width": 390
+  },
+  {
+    "heroHeight": 380,
+    "images": [],
+    "left": 20,
+    "overflow": false,
+    "url": "/rnd/gmk/",
+    "width": 390
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/company/sustainability/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/rnd/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/business/development/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/insights/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/ir/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/business/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/company/history/",
+    "width": 834
+  },
+  {
+    "contentFits": true,
+    "headerBottom": 68,
+    "heroHeight": 400,
+    "left": 32,
+    "overflow": false,
+    "top": 68,
+    "url": "/rnd/gmk/",
+    "width": 834
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "tabletRoutes": 31,
+  "effectiveZoomRoutes": 5,
+  "zoomMethod": "720 CSS px at DPR 2, equivalent layout viewport of 1440px at 200%; not a browser zoom interaction test",
+  "failures": [],
+  "errors": []
+}

@@ -1,0 +1,37 @@
+{
+  "textAndLinksPreserved": true,
+  "brandUnchanged": true,
+  "originalImageBytesPreserved": true,
+  "changedPages": [
+    "dist\\index.html",
+    "dist\\business\\index.html",
+    "dist\\company\\index.html",
+    "dist\\insights\\index.html",
+    "dist\\ir\\index.html",
+    "dist\\rnd\\index.html",
+    "dist\\business\\development\\index.html",
+    "dist\\business\\ingredients\\index.html",
+    "dist\\business\\ingredients\\extract\\index.html",
+    "dist\\business\\ingredients\\gmk\\index.html",
+    "dist\\business\\ingredients\\liquid\\index.html",
+    "dist\\company\\history\\index.html",
+    "dist\\company\\location\\index.html",
+    "dist\\company\\sustainability\\index.html",
+    "dist\\insights\\human-study-and-approval\\index.html",
+    "dist\\insights\\what-is-gmk\\index.html",
+    "dist\\rnd\\evidence\\index.html",
+    "dist\\rnd\\gmk\\index.html",
+    "dist\\rnd\\patents\\index.html",
+    "dist\\rnd\\quality\\index.html"
+  ],
+  "imageChangedPages": [
+    "dist\\index.html",
+    "dist\\business\\index.html",
+    "dist\\insights\\index.html",
+    "dist\\rnd\\index.html",
+    "dist\\business\\development\\index.html",
+    "dist\\company\\history\\index.html",
+    "dist\\company\\sustainability\\index.html",
+    "dist\\rnd\\gmk\\index.html"
+  ]
+}

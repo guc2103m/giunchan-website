@@ -1,0 +1,65 @@
+[
+  {
+    "name": "mixed-culture-technology",
+    "original": [
+      1774,
+      887
+    ],
+    "bounds": {
+      "left": 484,
+      "top": 169,
+      "inkWidth": 811,
+      "inkHeight": 530
+    },
+    "padding": [
+      57,
+      38
+    ],
+    "output": [
+      925,
+      606
+    ]
+  },
+  {
+    "name": "material-research",
+    "original": [
+      1774,
+      887
+    ],
+    "bounds": {
+      "left": 505,
+      "top": 172,
+      "inkWidth": 766,
+      "inkHeight": 591
+    },
+    "padding": [
+      54,
+      42
+    ],
+    "output": [
+      874,
+      675
+    ]
+  },
+  {
+    "name": "commercialization-partnership",
+    "original": [
+      2172,
+      724
+    ],
+    "bounds": {
+      "left": 381,
+      "top": 197,
+      "inkWidth": 1410,
+      "inkHeight": 305
+    },
+    "padding": [
+      99,
+      22
+    ],
+    "output": [
+      1608,
+      349
+    ]
+  }
+]

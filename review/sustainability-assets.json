@@ -1,0 +1,62 @@
+[
+  {
+    "name": "resource-cycle",
+    "original": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      233,
+      271,
+      1020,
+      1003
+    ],
+    "canvas": 900,
+    "transparentCorner": true
+  },
+  {
+    "name": "controlled-culture",
+    "original": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      236,
+      287,
+      1020,
+      999
+    ],
+    "canvas": 895,
+    "transparentCorner": true
+  },
+  {
+    "name": "grain-culture",
+    "original": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      225,
+      145,
+      1039,
+      1117
+    ],
+    "canvas": 1111,
+    "transparentCorner": true
+  },
+  {
+    "name": "natural-material",
+    "original": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      240,
+      252,
+      1025,
+      1031
+    ],
+    "canvas": 898,
+    "transparentCorner": true
+  }
+]

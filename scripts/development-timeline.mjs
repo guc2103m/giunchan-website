@@ -1,0 +1,3 @@
+const e=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const images=["process-01-planning","process-02-formulation","process-03-sensory-test","process-04-quality-review","process-05-manufacturing","process-06-delivery"];
+export function developmentTimeline(ts){return '<ol class="product-timeline">'+ts.map((t,i)=>{const [title,...body]=t.split(' — ');return '<li><div class="product-step-art"><img class="process-art-'+(i+1)+'" src="/assets/'+images[i]+'-display.png" width="108" height="108" alt="" aria-hidden="true" loading="lazy"></div><div class="product-step-copy"><span class="product-step-number">STEP 0'+(i+1)+'</span><h3>'+e(title)+'</h3><p>'+e(body.join(' — '))+'</p></div></li>'}).join('')+'</ol>'}

@@ -1,0 +1,843 @@
+[
+  {
+    "id": "H01",
+    "title": "첫 화면",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H02",
+    "title": "숫자로 보는 연구의 축적",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H03",
+    "title": "GMK® 소개",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H04",
+    "title": "연구의 현재",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H05",
+    "title": "사업으로 이어지는 소재",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H06",
+    "title": "투자자를 위한 이야기",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H07",
+    "title": "지속가능한 실천",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H08",
+    "title": "인사이트·뉴스",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "H09",
+    "title": "마지막 문의",
+    "urls": [
+      "/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C01",
+    "title": "첫 화면",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C02",
+    "title": "기업 이야기",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C03",
+    "title": "우리가 집중하는 일",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C04",
+    "title": "대표 메시지",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C05",
+    "title": "비전과 실행",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C06",
+    "title": "사람과 연구 환경",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "C07",
+    "title": "기업 기본정보",
+    "urls": [
+      "/company/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CH01",
+    "title": "첫 화면",
+    "urls": [
+      "/company/history/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CH02",
+    "title": "연구와 사업의 발자취",
+    "urls": [
+      "/company/history/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CS01",
+    "title": "첫 화면",
+    "urls": [
+      "/company/sustainability/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CS02",
+    "title": "자연의 가능성을 연구합니다",
+    "urls": [
+      "/company/sustainability/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CS03",
+    "title": "지역농산물을 영양원으로",
+    "urls": [
+      "/company/sustainability/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CS04",
+    "title": "배양 환경을 세심하게 관리합니다",
+    "urls": [
+      "/company/sustainability/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CS05",
+    "title": "마무리",
+    "urls": [
+      "/company/sustainability/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CL01",
+    "title": "방문과 문의",
+    "urls": [
+      "/company/history/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "R01",
+    "title": "첫 화면",
+    "urls": [
+      "/rnd/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "R02",
+    "title": "연구의 세 가지 축",
+    "urls": [
+      "/rnd/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "R03",
+    "title": "인지기능 관련 연구의 현재",
+    "urls": [
+      "/rnd/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "R04",
+    "title": "연구자료로 확인하세요",
+    "urls": [
+      "/rnd/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RG01",
+    "title": "정의",
+    "urls": [
+      "/rnd/gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RG02",
+    "title": "복합배양의 의미",
+    "urls": [
+      "/rnd/gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RG03",
+    "title": "기술에서 소재로",
+    "urls": [
+      "/rnd/gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RG04",
+    "title": "원료로 활용하는 GMK®",
+    "urls": [
+      "/rnd/gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RG05",
+    "title": "자주 묻는 질문",
+    "urls": [
+      "/rnd/gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RE01",
+    "title": "첫 화면",
+    "urls": [
+      "/rnd/evidence/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RE02",
+    "title": "전임상·학술 연구",
+    "urls": [
+      "/rnd/evidence/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RE03",
+    "title": "안전성 관련 시험",
+    "urls": [
+      "/rnd/evidence/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RE04",
+    "title": "인체적용시험 요약",
+    "urls": [
+      "/rnd/evidence/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RP01",
+    "title": "첫 화면",
+    "urls": [
+      "/rnd/patents/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RP02",
+    "title": "기술 분야별 보기",
+    "urls": [
+      "/rnd/patents/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RQ01",
+    "title": "첫 화면",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RQ02",
+    "title": "공급 전 함께 확인할 내용",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "RQ03",
+    "title": "시설과 인증",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "B01",
+    "title": "첫 화면",
+    "urls": [
+      "/business/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "B02",
+    "title": "원료 공급",
+    "urls": [
+      "/business/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "B03",
+    "title": "제품화 지원",
+    "urls": [
+      "/business/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "B04",
+    "title": "소비자 제품",
+    "urls": [
+      "/business/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "B05",
+    "title": "해외 협력",
+    "urls": [
+      "/business/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BI01",
+    "title": "원료 목록 첫 화면",
+    "urls": [
+      "/business/ingredients/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BI02",
+    "title": "GMK® 분말 상세",
+    "urls": [
+      "/business/ingredients/gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BI03",
+    "title": "GMK®추출물 상세",
+    "urls": [
+      "/business/ingredients/extract/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BI04",
+    "title": "GMK®추출액 상세",
+    "urls": [
+      "/business/ingredients/liquid/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BI05",
+    "title": "공통 자료·상담 안내",
+    "urls": [
+      "/business/ingredients/",
+      "/business/ingredients/gmk/",
+      "/business/ingredients/extract/",
+      "/business/ingredients/liquid/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BD01",
+    "title": "첫 화면",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BD02",
+    "title": "함께하는 과정",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BD03",
+    "title": "역할을 분명히 하는 협력",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BD04",
+    "title": "상담 전 알려주세요",
+    "urls": [
+      "/business/development/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB01",
+    "title": "첫 화면",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB02",
+    "title": "브랜드 스토리",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB03",
+    "title": "기운찬이 주목한 것은",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB04",
+    "title": "연구가 소재가 되다",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB05",
+    "title": "연구에서 일상으로",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB06",
+    "title": "브랜드에 담은 의미",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB07",
+    "title": "구매 안내",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "BB08",
+    "title": "마무리",
+    "urls": [
+      "/business/brands/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "P01",
+    "title": "마시면 기운차",
+    "urls": [
+      "/products/masimyeon-giuncha/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P02",
+    "title": "버섯마시면 기운차",
+    "urls": [
+      "/products/mushroom-giuncha/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P03",
+    "title": "기운차 진액",
+    "urls": [
+      "/products/giuncha-concentrate/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P04",
+    "title": "똑똑젤리",
+    "urls": [
+      "/products/ttokttok-jelly/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P05",
+    "title": "버섯한스푼",
+    "urls": [
+      "/products/mushroom-spoon/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P06",
+    "title": "기운찬 이뮨MK",
+    "urls": [
+      "/products/immun-mk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P07",
+    "title": "기운찬 本",
+    "urls": [
+      "/products/giunchan-bon/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P08",
+    "title": "코그니칸",
+    "urls": [
+      "/products/cognican/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "현행 라벨·공식 상품 URL 공개 검수 필요"
+  },
+  {
+    "id": "P09",
+    "title": "모든 제품의 공통 정보 영역",
+    "urls": [
+      "/business/brands/",
+      "/products/masimyeon-giuncha/",
+      "/products/mushroom-giuncha/",
+      "/products/giuncha-concentrate/",
+      "/products/ttokttok-jelly/",
+      "/products/mushroom-spoon/",
+      "/products/immun-mk/",
+      "/products/giunchan-bon/",
+      "/products/cognican/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "표시정보 항목 배치; 상세값·구매 FAQ 보류"
+  },
+  {
+    "id": "I01",
+    "title": "첫 화면",
+    "urls": [
+      "/ir/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "I02",
+    "title": "기운찬의 네 가지 기반",
+    "urls": [
+      "/ir/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "I03",
+    "title": "수익모델",
+    "urls": [
+      "/ir/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "I04",
+    "title": "다음 성장 과제",
+    "urls": [
+      "/ir/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "I05",
+    "title": "현재와 계획을 구분합니다",
+    "urls": [
+      "/ir/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "I06",
+    "title": "자료와 문의",
+    "urls": [
+      "/ir/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "N01",
+    "title": "목록 첫 화면",
+    "urls": [
+      "/insights/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "N02",
+    "title": "인사이트 원고 GMK®란 무엇인가요",
+    "urls": [
+      "/insights/what-is-gmk/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "N03",
+    "title": "인사이트 원고 — 인체적용시험과 원료 인정은 어떻게 다른가요?",
+    "urls": [
+      "/insights/human-study-and-approval/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "사용자 제공 개별인정형 원료 블로그 원고(2026-09-10)로 교체"
+  },
+  {
+    "id": "N04",
+    "title": "실제 뉴스·보도 상세 형식",
+    "urls": [],
+    "status": "실제 기사 자료 대기",
+    "note": "기사 원문·발행정보 미확정; 가짜 기사 생성 안 함"
+  },
+  {
+    "id": "CT01",
+    "title": "첫 화면",
+    "urls": [
+      "/contact/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CT02",
+    "title": "문의 유형",
+    "urls": [
+      "/contact/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CT03",
+    "title": "입력 안내",
+    "urls": [
+      "/contact/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "CT04",
+    "title": "결과 안내",
+    "urls": [
+      "/contact/"
+    ],
+    "status": "로컬 초안 구현",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E01",
+    "title": "이번 보완의 적용 기준",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E02",
+    "title": "명칭과 관계",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E03",
+    "title": "페이지별 검색 제목과 설명",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E04",
+    "title": "화면과 검색 접근성",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E05",
+    "title": "공개 근거와 미확정 항목",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E06",
+    "title": "오픈 후 확인할 성과",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  },
+  {
+    "id": "E07",
+    "title": "자료의 근거",
+    "urls": [],
+    "status": "제작 규칙 검토",
+    "note": "전체 공개 검수 전"
+  }
+]

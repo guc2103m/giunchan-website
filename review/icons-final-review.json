@@ -1,0 +1,206 @@
+{
+  "reports": [
+    {
+      "width": 1440,
+      "report": [
+        {
+          "frame": [
+            334,
+            200.390625
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            925,
+            606
+          ],
+          "rendered": [
+            172,
+            112.671875
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/mixed-culture-technology-balanced.webp"
+        },
+        {
+          "frame": [
+            334,
+            200.390625
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            874,
+            675
+          ],
+          "rendered": [
+            139.703125,
+            107.890625
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/material-research-balanced.webp"
+        },
+        {
+          "frame": [
+            334,
+            200.390625
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            1608,
+            349
+          ],
+          "rendered": [
+            313.890625,
+            68.125
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/commercialization-partnership-balanced.webp"
+        }
+      ],
+      "visibleWidths": [
+        150.80216216216218,
+        122.44003861556064,
+        275.2399137126866
+      ]
+    },
+    {
+      "width": 390,
+      "report": [
+        {
+          "frame": [
+            300,
+            180
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            925,
+            606
+          ],
+          "rendered": [
+            154.5,
+            101.203125
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/mixed-culture-technology-balanced.webp"
+        },
+        {
+          "frame": [
+            300,
+            180
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            874,
+            675
+          ],
+          "rendered": [
+            125.484375,
+            96.90625
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/material-research-balanced.webp"
+        },
+        {
+          "frame": [
+            300,
+            180
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            1608,
+            349
+          ],
+          "rendered": [
+            281.9375,
+            61.1875
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/commercialization-partnership-balanced.webp"
+        }
+      ],
+      "visibleWidths": [
+        135.45891891891893,
+        109.97829662471395,
+        247.22131529850748
+      ]
+    },
+    {
+      "width": 320,
+      "report": [
+        {
+          "frame": [
+            230,
+            138
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            925,
+            606
+          ],
+          "rendered": [
+            118.4375,
+            77.578125
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/mixed-culture-technology-balanced.webp"
+        },
+        {
+          "frame": [
+            230,
+            138
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            874,
+            675
+          ],
+          "rendered": [
+            96.203125,
+            74.296875
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/material-research-balanced.webp"
+        },
+        {
+          "frame": [
+            230,
+            138
+          ],
+          "background": "rgb(237, 242, 233)",
+          "natural": [
+            1608,
+            349
+          ],
+          "rendered": [
+            207.46875,
+            45.015625
+          ],
+          "fit": "contain",
+          "filter": "none",
+          "shadow": "none",
+          "source": "/assets/commercialization-partnership-balanced.webp"
+        }
+      ],
+      "visibleWidths": [
+        103.84087837837838,
+        84.31532465675056,
+        181.92222481343285
+      ]
+    }
+  ],
+  "errors": []
+}

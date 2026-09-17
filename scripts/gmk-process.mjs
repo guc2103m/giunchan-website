@@ -1,0 +1,5 @@
+const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+export function gmkProcess(paragraphs){
+ const stages=[['gmk-grain-preparation','동시접종','다양한 버섯균사체와 곡물배지'],['gmk-mixed-culture','복합배양','단순 혼합과 차별화된 특허기술'],['gmk-material','GMK®','천연물 바이오소재'],['gmk-product-application','원료·제품 활용','산업과 일상으로']];
+ return '<div class="diagram-heading"><h3>'+escape(paragraphs[0])+'</h3></div><ol class="gmk-stages">'+stages.map(([asset,title,desc],i)=>'<li class="gmk-stage"><span class="gmk-number">0'+(i+1)+'</span><div class="gmk-art"><img class="gmk-art-'+(i+1)+'" src="/assets/'+asset+'-display.png" width="136" height="136" alt="" aria-hidden="true" loading="lazy"></div><h3>'+title+'</h3><p>'+desc+'</p>'+(i<3?'<span class="gmk-arrow" aria-hidden="true">→</span>':'')+'</li>').join('')+'</ol><ol class="gmk-timeline">'+paragraphs.slice(1,4).map((p,i)=>{const [title,desc]=p.split(' — ');return '<li><div class="gmk-node">STEP 0'+(i+1)+'</div><h3>'+escape(title)+'</h3><p>'+escape(desc).replaceAll('\n','<br> ')+'</p></li>'}).join('')+'</ol>';
+}

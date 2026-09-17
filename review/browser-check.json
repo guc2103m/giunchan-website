@@ -1,0 +1,752 @@
+{
+  "checks": 93,
+  "failures": [],
+  "consoleErrors": [],
+  "interactions": "menu, Escape, material preselect, consumer optional, input validation, no false send, search, filter, reload, back, 404 passed",
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/company/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/company/history/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/company/sustainability/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/company/location/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/rnd/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/rnd/gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/rnd/evidence/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/rnd/patents/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/rnd/quality/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/ingredients/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/ingredients/gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/ingredients/extract/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/ingredients/liquid/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/development/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/ir/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/insights/what-is-gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/insights/human-study-and-approval/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/business/brands/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/masimyeon-giuncha/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/mushroom-giuncha/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/giuncha-concentrate/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/ttokttok-jelly/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/mushroom-spoon/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/immun-mk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/giunchan-bon/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/products/cognican/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/insights/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 1440,
+      "route": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/company/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/company/history/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/company/sustainability/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/company/location/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/rnd/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/rnd/gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/rnd/evidence/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/rnd/patents/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/rnd/quality/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/ingredients/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/ingredients/gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/ingredients/extract/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/ingredients/liquid/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/development/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/ir/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/insights/what-is-gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/insights/human-study-and-approval/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/business/brands/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/masimyeon-giuncha/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/mushroom-giuncha/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/giuncha-concentrate/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/ttokttok-jelly/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/mushroom-spoon/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/immun-mk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/giunchan-bon/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/products/cognican/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/insights/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "route": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/company/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/company/history/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/company/sustainability/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/company/location/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/rnd/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/rnd/gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/rnd/evidence/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/rnd/patents/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/rnd/quality/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/ingredients/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/ingredients/gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/ingredients/extract/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/ingredients/liquid/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/development/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/ir/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/insights/what-is-gmk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/insights/human-study-and-approval/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/business/brands/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/masimyeon-giuncha/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/mushroom-giuncha/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/giuncha-concentrate/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/ttokttok-jelly/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/mushroom-spoon/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/immun-mk/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/giunchan-bon/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/products/cognican/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/insights/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "width": 360,
+      "route": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    }
+  ]
+}

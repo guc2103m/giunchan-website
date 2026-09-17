@@ -1,0 +1,56 @@
+{
+  "gmk-material-technology-hero.png": {
+    "width": 2172,
+    "height": 724,
+    "alt": "GMK® 버섯균사체 소재와 기술",
+    "original": "GMK소재와기술.png"
+  },
+  "cultivation-material-potential.jpg": {
+    "width": 1400,
+    "height": 800,
+    "alt": "배양을 통해 확장된 버섯균사체 소재",
+    "original": "배양소재의 가능성.jpg"
+  },
+  "people-research-environment.jpg": {
+    "width": 1400,
+    "height": 800,
+    "alt": "연구환경에서 소재를 관찰하는 기운찬의 연구 과정",
+    "original": "사람과연구환경.jpg"
+  },
+  "business-overview-hero.jpg": {
+    "width": 1920,
+    "height": 620,
+    "alt": "기운찬의 원료 연구와 제품화 사업",
+    "original": "사업개요히어로.jpg"
+  },
+  "research-evidence-hero.png": {
+    "width": 2206,
+    "height": 713,
+    "alt": "기운찬 GMK® 연구근거와 연구개발 과정",
+    "original": "연구근거.png"
+  },
+  "ingredient-supply-hero.png": {
+    "width": 2172,
+    "height": 724,
+    "alt": "기운찬의 버섯균사체 원료 공급",
+    "original": "원료공급.png"
+  },
+  "company-story-nature.png": {
+    "width": 1660,
+    "height": 948,
+    "alt": "자연에서 시작되는 버섯균사체 소재의 가능성",
+    "original": "자연에서 시작된 소재의 가능성.png"
+  },
+  "product-development-support.png": {
+    "width": 1660,
+    "height": 948,
+    "alt": "아이디어를 시제품으로 구현하는 제품화 지원 과정",
+    "original": "제품화 지원.png"
+  },
+  "patents-hero.png": {
+    "width": 2206,
+    "height": 713,
+    "alt": "기운찬의 연구성과와 특허",
+    "original": "특허.png"
+  }
+}

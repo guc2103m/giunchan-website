@@ -1,0 +1,15 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+p=root/'scripts/build.mjs';s=p.read_text(encoding='utf-8')
+s="import {qualitySupport} from './quality-support.mjs';\n"+s
+s=s.replace(",['품질·생산','/rnd/quality/']",'').replace("['/rnd/quality/','품질·생산','QUALITY & PRODUCTION',range('RQ',3)],",'')
+s=s.replace("html+=`<div class=\"actions\">${contentButtons(id)}</div></section>`;return html;", "html+=`<div class=\"actions\">${contentButtons(id)}</div></section>`;if(id==='BD02'){for(const q of range('RQ',3))track(q,url);html+=qualitySupport();}return html;")
+s=s.replace("const routeUrls=['/'", "write('/rnd/quality/','제품화 지원으로 이동','<meta http-equiv=\"refresh\" content=\"0;url=/business/development/\"><section class=\"section container\"><h1>제품화 지원으로 이동합니다</h1><a href=\"/business/development/\">제품화 지원 보기 →</a></section>');\nconst routeUrls=['/'")
+p.write_text(s,encoding='utf-8')
+p=root/'scripts/visuals.mjs';s=p.read_text(encoding='utf-8').replace("RQ02:['network','document','box'],",'').replace("'RQ02',",'')
+s='\n'.join(line for line in s.split('\n') if "if(id==='RQ03')" not in line)
+s=s.replace("const urls=['gmk','evidence','patents','quality'];return `<a href=\"/rnd/${urls[i]}/\">", "const urls=['/rnd/gmk/','/rnd/evidence/','/rnd/patents/','/business/development/#quality-production'];return `<a href=\"${urls[i]}\">")
+p.write_text(s,encoding='utf-8')
+p=root/'scripts/serve.mjs';s=p.read_text(encoding='utf-8');s=s.replace(" let file=path.resolve", " if(url==='/rnd/quality/'||url==='/rnd/quality'){res.writeHead(308,{'Location':'/business/development/'});return res.end();}\n let file=path.resolve");p.write_text(s,encoding='utf-8')
+with (root/'dist/visual.css').open('a',encoding='utf-8') as f:
+ f.write('''\n.quality-support{scroll-margin-top:110px}.quality-support-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:32px}.quality-support-cards>article{border:1px solid var(--line);padding:30px;min-width:0;display:flex;flex-direction:column}.quality-number{color:#6a8876;letter-spacing:.16em;font-size:12px;margin-bottom:22px}.quality-support-cards .line-icon{width:56px;height:56px;margin-bottom:22px}.quality-support-cards h3{font-size:23px;margin:0 0 16px}.quality-support-cards p{margin:0}.quality-support-notice{background:var(--soft);padding:32px;display:flex;align-items:center;gap:32px;margin-top:28px}.quality-support-notice>div{flex:1;min-width:0}.quality-support-notice h3{margin:0 0 12px}.quality-support-notice p{margin:8px 0}.quality-support-notice .quality-support-note{font-size:14px;color:#617468}.quality-support-notice .button{flex-shrink:0}@media(min-width:701px) and (max-width:1000px){.quality-support-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.quality-support-notice{align-items:flex-start;flex-direction:column}}@media(max-width:700px){.quality-support-cards{grid-template-columns:1fr}.quality-support-cards>article{padding:26px}.quality-support-notice{padding:26px;flex-direction:column;align-items:flex-start}.quality-support-notice .button{max-width:100%;gap:14px}}\n''')

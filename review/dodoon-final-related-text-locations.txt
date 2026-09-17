@@ -1,0 +1,13 @@
+G:\ChatGPT\홈페이지개편\site\README.md
+G:\ChatGPT\홈페이지개편\site\dist\rnd\index.html
+G:\ChatGPT\홈페이지개편\site\scripts\brand-story-v2.mjs
+G:\ChatGPT\홈페이지개편\site\scripts\brand-story.mjs
+G:\ChatGPT\홈페이지개편\site\review\brand-story-before.mjs
+G:\ChatGPT\홈페이지개편\site\review\brand-story-redesign.md
+G:\ChatGPT\홈페이지개편\site\content\scenario.json
+G:\ChatGPT\홈페이지개편\site\review\content-coverage.json
+G:\ChatGPT\홈페이지개편\site\review\dodoon-mockup-report-20260916.md
+G:\ChatGPT\홈페이지개편\site\review\before-final-copy-20260916\dodoon-editorial.mjs
+G:\ChatGPT\홈페이지개편\site\review\before-final-copy-20260916\index.html
+G:\ChatGPT\홈페이지개편\site\review\before-mockup-20260916\dodoon-editorial.mjs
+G:\ChatGPT\홈페이지개편\site\review\before-mockup-20260916\index.html

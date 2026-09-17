@@ -1,0 +1,25 @@
+{
+  "desktop": {
+    "h1Count": 1,
+    "meaningColumns": "426.656px 426.672px 426.656px",
+    "overflow": false,
+    "researchColumns": "306.5px 306.5px 306.5px 306.5px",
+    "sections": 7,
+    "videoCount": 0,
+    "width": 1440
+  },
+  "mobile": {
+    "brokenImages": 5,
+    "h1Count": 1,
+    "meaningColumns": "346px",
+    "overflow": false,
+    "researchColumns": "166px 166px",
+    "sections": 7,
+    "videoCount": 0,
+    "width": 390
+  },
+  "productCTA": "/products/",
+  "productCount": 8,
+  "mobileMenu": true,
+  "consoleErrors": []
+}

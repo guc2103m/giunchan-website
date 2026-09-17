@@ -1,0 +1,224 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "sections": 8,
+    "oldComponents": 0,
+    "h1": 1,
+    "headlineSize": "72px",
+    "metrics": [
+      {
+        "class": "dodoonHero",
+        "height": 916,
+        "padding": "100px 79.92px",
+        "title": "72px",
+        "body": "20px"
+      },
+      {
+        "class": "myceliumBeginning",
+        "height": 1120,
+        "padding": "170px 0px 190px",
+        "title": "48.96px",
+        "body": "20px"
+      },
+      {
+        "class": "myceliumScene",
+        "height": 820,
+        "padding": "170px 80px",
+        "title": "57.6px",
+        "body": "20px"
+      },
+      {
+        "class": "giunchanPerspective",
+        "height": 1368,
+        "padding": "180px 80px 150px",
+        "title": "46.8px",
+        "body": "20px"
+      },
+      {
+        "class": "gmkScene",
+        "height": 1284,
+        "padding": "160px 79.92px 180px",
+        "title": "51.84px",
+        "body": "20px"
+      },
+      {
+        "class": "dailyTransition",
+        "height": 796,
+        "padding": "180px 24px",
+        "title": "57.6px",
+        "body": "51.84px"
+      },
+      {
+        "class": "brandMeaning",
+        "height": 1462,
+        "padding": "160px 24px 180px",
+        "title": "100px",
+        "body": "20px"
+      },
+      {
+        "class": "brandFinale",
+        "height": 835,
+        "padding": "0px",
+        "title": "53.28px",
+        "body": "32px"
+      }
+    ],
+    "sources": [
+      "/assets/dodoon-hyphae.webp",
+      "/assets/petri.webp",
+      "/assets/mycelium.webp",
+      "/assets/gmk-material.webp",
+      "/assets/dodoon.webp",
+      "/assets/gift.webp"
+    ]
+  },
+  {
+    "width": 820,
+    "overflow": false,
+    "sections": 8,
+    "oldComponents": 0,
+    "h1": 1,
+    "headlineSize": "48px",
+    "metrics": [
+      {
+        "class": "dodoonHero",
+        "height": 916,
+        "padding": "100px 45.51px",
+        "title": "48px",
+        "body": "20px"
+      },
+      {
+        "class": "myceliumBeginning",
+        "height": 1122,
+        "padding": "170px 0px 190px",
+        "title": "38px",
+        "body": "20px"
+      },
+      {
+        "class": "myceliumScene",
+        "height": 820,
+        "padding": "170px 45.51px",
+        "title": "38px",
+        "body": "20px"
+      },
+      {
+        "class": "giunchanPerspective",
+        "height": 1254,
+        "padding": "180px 45.51px 150px",
+        "title": "38px",
+        "body": "20px"
+      },
+      {
+        "class": "gmkScene",
+        "height": 1036,
+        "padding": "160px 45.51px 180px",
+        "title": "38px",
+        "body": "20px"
+      },
+      {
+        "class": "dailyTransition",
+        "height": 704,
+        "padding": "180px 24px",
+        "title": "38px",
+        "body": "32px"
+      },
+      {
+        "class": "brandMeaning",
+        "height": 1462,
+        "padding": "160px 24px 180px",
+        "title": "100px",
+        "body": "20px"
+      },
+      {
+        "class": "brandFinale",
+        "height": 680,
+        "padding": "0px",
+        "title": "38px",
+        "body": "32px"
+      }
+    ],
+    "sources": [
+      "/assets/dodoon-hyphae.webp",
+      "/assets/petri.webp",
+      "/assets/mycelium.webp",
+      "/assets/gmk-material.webp",
+      "/assets/dodoon.webp",
+      "/assets/gift.webp"
+    ]
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "sections": 8,
+    "oldComponents": 0,
+    "h1": 1,
+    "headlineSize": "40px",
+    "metrics": [
+      {
+        "class": "dodoonHero",
+        "height": 800,
+        "padding": "70px 22px",
+        "title": "40px",
+        "body": "17px"
+      },
+      {
+        "class": "myceliumBeginning",
+        "height": 967,
+        "padding": "90px 0px",
+        "title": "32px",
+        "body": "17px"
+      },
+      {
+        "class": "myceliumScene",
+        "height": 720,
+        "padding": "100px 22px",
+        "title": "34px",
+        "body": "17px"
+      },
+      {
+        "class": "giunchanPerspective",
+        "height": 1317,
+        "padding": "100px 22px",
+        "title": "32px",
+        "body": "17px"
+      },
+      {
+        "class": "gmkScene",
+        "height": 704,
+        "padding": "100px 22px",
+        "title": "32px",
+        "body": "17px"
+      },
+      {
+        "class": "dailyTransition",
+        "height": 646,
+        "padding": "100px 22px",
+        "title": "34px",
+        "body": "32px"
+      },
+      {
+        "class": "brandMeaning",
+        "height": 1250,
+        "padding": "100px 22px",
+        "title": "76px",
+        "body": "17px"
+      },
+      {
+        "class": "brandFinale",
+        "height": 881,
+        "padding": "0px 0px 90px",
+        "title": "36px",
+        "body": "17px"
+      }
+    ],
+    "sources": [
+      "/assets/dodoon-hyphae.webp",
+      "/assets/petri.webp",
+      "/assets/mycelium.webp",
+      "/assets/gmk-material.webp",
+      "/assets/dodoon.webp",
+      "/assets/gift.webp"
+    ]
+  }
+]

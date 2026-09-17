@@ -1,0 +1,204 @@
+[
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 464.96875,
+    "left": 112.5,
+    "overflow": false,
+    "url": "/company/",
+    "width": 1440
+  },
+  {
+    "broken": [
+      "/assets/co-cultivation-original.gif"
+    ],
+    "columns": null,
+    "contentFits": true,
+    "hero": 464.96875,
+    "left": 112.5,
+    "overflow": false,
+    "url": "/rnd/gmk/",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 464.96875,
+    "left": 112.5,
+    "overflow": false,
+    "url": "/rnd/evidence/",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "columns": "384px 384px 384px",
+    "contentFits": true,
+    "hero": 464.96875,
+    "left": 112.5,
+    "overflow": false,
+    "url": "/rnd/patents/",
+    "width": 1440
+  },
+  {
+    "broken": [
+      "/assets/new-market.jpg"
+    ],
+    "columns": null,
+    "contentFits": true,
+    "hero": 464.96875,
+    "left": 112.5,
+    "overflow": false,
+    "url": "/business/",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 464.96875,
+    "left": 112.5,
+    "overflow": false,
+    "url": "/business/ingredients/",
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 400,
+    "left": 32,
+    "overflow": false,
+    "url": "/company/",
+    "width": 834
+  },
+  {
+    "broken": [
+      "/assets/co-cultivation-original.gif"
+    ],
+    "columns": null,
+    "contentFits": true,
+    "hero": 400,
+    "left": 32,
+    "overflow": false,
+    "url": "/rnd/gmk/",
+    "width": 834
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 400,
+    "left": 32,
+    "overflow": false,
+    "url": "/rnd/evidence/",
+    "width": 834
+  },
+  {
+    "broken": [
+      "/assets/patent-kr-10-2557645.jpg",
+      "/assets/patent-kr-10-2575704.jpg",
+      "/assets/patent-kr-10-2844900.jpg",
+      "/assets/patent-us-11503847.jpg"
+    ],
+    "columns": "365.5px 365.5px",
+    "contentFits": true,
+    "hero": 400,
+    "left": 32,
+    "overflow": false,
+    "url": "/rnd/patents/",
+    "width": 834
+  },
+  {
+    "broken": [
+      "/assets/new-market.jpg"
+    ],
+    "columns": null,
+    "contentFits": true,
+    "hero": 400,
+    "left": 32,
+    "overflow": false,
+    "url": "/business/",
+    "width": 834
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 400,
+    "left": 32,
+    "overflow": false,
+    "url": "/business/ingredients/",
+    "width": 834
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 380,
+    "left": 20,
+    "overflow": false,
+    "url": "/company/",
+    "width": 390
+  },
+  {
+    "broken": [
+      "/assets/ingredient-forms-uses.jpg"
+    ],
+    "columns": null,
+    "contentFits": true,
+    "hero": 380,
+    "left": 20,
+    "overflow": false,
+    "url": "/rnd/gmk/",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 380,
+    "left": 20,
+    "overflow": false,
+    "url": "/rnd/evidence/",
+    "width": 390
+  },
+  {
+    "broken": [
+      "/assets/patent-kr-10-2496029.jpg",
+      "/assets/patent-kr-10-2496034.jpg",
+      "/assets/patent-kr-10-2557645.jpg",
+      "/assets/patent-kr-10-2575704.jpg",
+      "/assets/patent-kr-10-2844900.jpg",
+      "/assets/patent-us-11503847.jpg"
+    ],
+    "columns": "335px",
+    "contentFits": true,
+    "hero": 380,
+    "left": 20,
+    "overflow": false,
+    "url": "/rnd/patents/",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 380,
+    "left": 20,
+    "overflow": false,
+    "url": "/business/",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "columns": null,
+    "contentFits": true,
+    "hero": 380,
+    "left": 20,
+    "overflow": false,
+    "url": "/business/ingredients/",
+    "width": 390
+  }
+]

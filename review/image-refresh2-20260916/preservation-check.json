@@ -1,0 +1,15 @@
+{
+  "existingTextAndLinksPreserved": true,
+  "allExistingAssetsUnchanged": true,
+  "brandUnchanged": true,
+  "nineteenNewImagesMatchOriginalBytes": true,
+  "imageChangedPages": [
+    "dist\\business\\index.html",
+    "dist\\company\\index.html",
+    "dist\\business\\ingredients\\index.html",
+    "dist\\rnd\\evidence\\index.html",
+    "dist\\rnd\\gmk\\index.html",
+    "dist\\rnd\\patents\\index.html"
+  ],
+  "certificateCount": 10
+}

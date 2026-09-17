@@ -1,0 +1,23 @@
+[
+  {
+    "name": "research-functional-evaluation",
+    "width": 838,
+    "height": 660,
+    "canvas": 956,
+    "transparent": true
+  },
+  {
+    "name": "research-safety-evaluation",
+    "width": 584,
+    "height": 780,
+    "canvas": 890,
+    "transparent": true
+  },
+  {
+    "name": "research-human-trial",
+    "width": 816,
+    "height": 723,
+    "canvas": 932,
+    "transparent": true
+  }
+]

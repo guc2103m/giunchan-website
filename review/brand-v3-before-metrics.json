@@ -1,0 +1,53 @@
+{
+  "styles": [
+    "/style.css",
+    "/visual.css?v=2",
+    "/brand-story-v2.css"
+  ],
+  "header": 83,
+  "content": 1200,
+  "sections": [
+    {
+      "id": "BB01",
+      "height": 880,
+      "padding": "80px 0px",
+      "font": "66px",
+      "body": "22px"
+    },
+    {
+      "id": "BB02",
+      "height": 922,
+      "padding": "150px 0px",
+      "font": "46px",
+      "body": "19px"
+    },
+    {
+      "id": "BB03",
+      "height": 680,
+      "padding": "150px 0px",
+      "font": "52px",
+      "body": "19px"
+    },
+    {
+      "id": "BB04",
+      "height": 1815,
+      "padding": "150px 0px 130px",
+      "font": "46px",
+      "body": "19px"
+    },
+    {
+      "id": "BB05",
+      "height": 959,
+      "padding": "110px 0px 140px",
+      "font": "46px",
+      "body": "19px"
+    },
+    {
+      "id": "BB06",
+      "height": 1367,
+      "padding": "100px 0px 130px",
+      "font": "90px",
+      "body": "17px"
+    }
+  ]
+}

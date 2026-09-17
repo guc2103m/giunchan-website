@@ -1,0 +1,30 @@
+[
+  {
+    "name": "rnd-gmk-technology",
+    "width": 763,
+    "height": 763,
+    "canvas": 871,
+    "transparent": true
+  },
+  {
+    "name": "rnd-research-evidence",
+    "width": 880,
+    "height": 665,
+    "canvas": 1004,
+    "transparent": true
+  },
+  {
+    "name": "rnd-patent",
+    "width": 633,
+    "height": 755,
+    "canvas": 861,
+    "transparent": true
+  },
+  {
+    "name": "rnd-quality-production",
+    "width": 908,
+    "height": 600,
+    "canvas": 1036,
+    "transparent": true
+  }
+]

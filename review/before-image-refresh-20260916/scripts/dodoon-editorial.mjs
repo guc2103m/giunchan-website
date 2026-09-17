@@ -1,0 +1,34 @@
+const picture=(name,alt,priority=false)=>`<img src="/assets/${name}" alt="${alt}" ${priority?'fetchpriority="high"':'loading="lazy"'} decoding="async">`;
+
+export function brandStory(){return `<div class="dodoonPage">
+<section class="ddHero" id="BB01" aria-labelledby="dd-title">
+  ${picture('dodoon-hero-20260916.png','이끼 낀 고목의 균사와 작은 버섯을 표현한 숲 이미지',true)}
+  <div class="ddWrap ddHeroInner"><div class="ddHeroCopy"><p class="ddLabel">BRAND STORY</p><h1 id="dd-title">보이지 않는 곳에서<br>시작되는 생명력, <span class="ddNoWrap">도두On</span></h1><p>숲속의 죽은 나무와 축축하게 쌓인 낙엽 사이.<br>버섯의 삶은 눈에 잘 보이지 않는 아주 가느다란 실에서 시작됩니다.</p></div><p class="ddHeroAside">작지만<br>위대한<br>연결의 시작</p></div>
+</section>
+<section class="ddSplit ddBeginning" id="BB02" aria-labelledby="dd-beginning-title"><div class="ddWrap ddSplitGrid">
+  <figure>${picture('dodoon-macro-20260916.png','나무 조직과 흙 사이로 퍼지는 가느다란 흰 균사의 설명용 이미지')}<figcaption>FUNGAL HYPHAE<br>균사</figcaption></figure>
+  <div class="ddSplitCopy"><h2 id="dd-beginning-title">아주 작은 균사에서<br>시작됩니다</h2><span class="ddRule" aria-hidden="true"></span><p>이 작은 실을 ‘균사’라고 합니다. 균사는 죽은 나무와 낙엽의 유기물을 분해해 영양분을 얻으며 자랍니다.</p><p>수많은 균사가 서로 이어지고 단단하게 엮이면서 더 크고 강한 생명체인 ‘균사체’로 확장됩니다.</p></div>
+</div></section>
+<section class="ddConnection" id="BB03" aria-labelledby="dd-connection-title">
+  ${picture('mycelium.webp','고목 위로 연결된 균사와 버섯 자실체 이미지')}
+  <div class="ddWrap ddConnectionInner"><div><h2 id="dd-connection-title">연결되고, 확장되고,<br>마침내 모습을 드러내다</h2><p>균사체가 충분히 성장하고 온도와 습도 등 알맞은 환경을 만나면, 비로소 땅과 나무 밖으로 모습을 드러냅니다.</p><p>우리가 흔히 버섯이라고 부르는 ‘자실체’가 만들어지는 순간입니다.</p></div><ol class="ddSteps"><li>균사의 연결</li><li>균사체로 확장</li><li>자실체의 형성</li></ol></div>
+</section>
+<section class="ddSplit ddValue" id="ddValue" aria-labelledby="dd-value-title"><div class="ddWrap ddSplitGrid">
+  <figure>${picture('dodoon-mushroom-20260916.png','햇살이 드는 숲속 나무에서 돋아난 버섯의 설명용 이미지')}<figcaption>보이지 않는<br>연결이 만드는<br>더 큰 가치</figcaption></figure>
+  <div class="ddSplitCopy"><h2 id="dd-value-title">기운찬이 발견한<br>보이지 않는 가치</h2><span class="ddRule" aria-hidden="true"></span><p>버섯은 오랜 시간 식품과 천연물 연구의 소재로 주목받아 왔습니다.</p><p>그러나 기운찬이 바라본 것은 겉으로 드러난 버섯만이 아니었습니다. 보이지 않는 곳에서 생명력을 축적하고 새로운 생명으로 확장되는 ‘버섯균사체의 삶’에 주목했습니다.</p></div>
+</div></section>
+<section class="ddResearch" id="BB04" aria-labelledby="dd-research-title"><div class="ddWrap">
+  <p class="ddLabel">RESEARCH</p><h2 id="dd-research-title">복합버섯균사체 소재 <span class="ddNoWrap">GMK<sup>®</sup></span></h2>
+  <div class="ddResearchHeading"><div class="ddResearchIntro"><p class="ddResearchLead">서로 다른 버섯의 균사체들이 만나<br>더 넓은 가능성을 생각합니다.</p><p>자연의 지혜를 과학으로 이어,<br>오늘도 새로운 가치를 연구합니다.</p></div><p class="ddResearchClosing">자연이 품은 강인함, 오랜 시간의 지혜,<br>자연이 전하는 다양성에서<br>자연을 잇는 새로운 가능성으로!</p></div>
+  <figure class="ddResearchImage"><img src="/assets/dodoon-gmk-official-20260916.png" alt="연구실 배양접시에 놓인 다양한 버섯 소재와 중앙의 흰색 버섯균사체" width="2171" height="724" loading="lazy" decoding="async"></figure>
+</div></section>
+<section class="ddMeaning" id="BB06" aria-labelledby="dd-meaning-title"><div class="ddWrap">
+  <p class="ddLabel">BRAND NAME</p><h2 id="dd-meaning-title"><span class="ddNoWrap">도두On</span>, 이름에 담은 의미</h2>
+  <dl><div><dt>도두</dt><dd>건강을 돋우고 기운을 돋우다</dd></div><div><dt>On</dt><dd>일상의 건강 스위치를 켜다</dd></div><div><dt>溫</dt><dd>따뜻함의 의미를 품다</dd></div></dl>
+  <svg class="ddMushroomLine" viewBox="0 0 280 340" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="1.1"><path d="M35 150C30 52 211 6 261 133C189 153 110 157 35 150ZM39 150Q137 100 261 133M146 134Q132 232 161 310L194 307Q166 225 173 134M149 170L62 142M149 174L91 135M149 171L120 133M175 166L214 132M176 168L241 133M111 267C95 210 23 201 6 256Q58 274 111 267ZM53 264L42 324L61 325L69 267M208 249C191 199 257 185 280 231L208 249ZM244 239L254 299L270 299L258 236M84 315Q152 292 221 317"/></g></svg>
+</div></section>
+<section class="ddFinale" id="BB08" aria-labelledby="dd-finale-title"><div class="ddFinaleGrid">
+  <figure>${picture('gift.webp','도두On 버섯마시면 기운차 선물세트 원본 제품 사진')}</figure><div class="ddFinaleCopy"><h2 id="dd-finale-title">건강을 돋우다.<br>기운을 돋우다.<br>일상의 건강을 켜다.</h2><p class="ddFinaleBrand ddNoWrap">도두On</p><a id="products" href="/products/"><span><span class="ddNoWrap">도두On</span> 제품 만나보기</span> <span aria-hidden="true">→</span></a></div>
+</div></section>
+</div>`;}
+
