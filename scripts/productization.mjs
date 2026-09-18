@@ -1,6 +1,6 @@
 // Only used on /business/development/. Image classifications come from verified product data.
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
-const forms = new Set(['분말스틱', '액상차', '침출차', '분말', '젤리', '캡슐', '진액', '기타 고형제품', '제형 확인 중']);
+const forms = new Set(['분말스틱', '액상차', '침출차', '분말', '젤리', '캡슐', '진액', '기타 고형제품', '제형 확인 중', '코인육수 태블릿', '누룽지', '액상스틱', '버섯쌀', '씹어먹는 태블릿', '젤리스틱', '액상차(숙취제거음료)', '액상차(미네랄음료)']);
 
 export function productizationPortfolio(products) {
   if (!products.length) throw new Error('Verified productization images are required.');
@@ -12,7 +12,7 @@ export function productizationPortfolio(products) {
     <h2 id="gmk-productization-heading">GMK® 제품화</h2>
     <p>기운찬은 GMK®를 다양한 식품 형태에 적용하며 제품화 가능성을 넓혀 왔습니다.</p>
     <p>제품의 목적과 섭취 방식에 따라 분말, 액상차, 침출차, 젤리, 캡슐 등 다양한 형태로 제품화할 수 있습니다.</p>
-    <div class="gmk-case-grid" id="gmk-case-grid">${products.map((product, i) => `<figure class="gmk-case"${i >= 12 ? ' hidden data-additional-case' : ''}><div class="gmk-case-frame"><img src="${esc(product.src)}" alt="${product.form === '제형 확인 중' ? '제형 확인 중인 제품화 사례' : esc(product.form) + ' 제형 제품화 사례'}" width="${product.width}" height="${product.height}" loading="lazy" decoding="async"></div><figcaption>${esc(product.form)}</figcaption></figure>`).join('')}</div>
+    <div class="gmk-case-grid" id="gmk-case-grid">${products.map((product, i) => `<figure class="gmk-case"${i >= 12 ? ' hidden data-additional-case' : ''}><div class="gmk-case-frame"><img src="${esc(product.src)}" alt="${product.form === '제형 확인 중' ? '제형 확인 중인 제품화 사례' : esc(product.form) + ' 제형 제품화 사례'}" width="${product.width}" height="${product.height}" loading="lazy" decoding="async"></div><figcaption>${esc(product.form).replace('(', '<wbr>(')}</figcaption></figure>`).join('')}</div>
     ${products.length > 12 ? '<div class="actions"><button class="button outline" id="gmk-case-toggle" type="button" aria-expanded="false" aria-controls="gmk-case-grid">제품화 사례 더보기</button></div>' : ''}
     <p class="gmk-case-note">제품 이미지는 GMK® 제품화 사례를 보여주기 위한 자료이며, 현재 판매 여부를 의미하지 않습니다.</p>
   </section>`;
