@@ -166,5 +166,53 @@
     "height": 794,
     "evidence": "사진 똑똑젤리 및 기존 소포장 젤리 설명",
     "sha256": "963e06299885be19b1a81875f759d279f9f4d0b517646c5f778b2d51863ea75f"
+  },
+  {
+    "src": "/assets/gmk-products/1.jpg",
+    "form": "제형 확인 중",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사용자 요청으로 보류 이미지를 우선 공개. 제형은 후속 확인 예정.",
+    "sha256": "964a079284f6042993bee994ff3cd3c6d12613c152d6f2742a9087d829651dc2"
+  },
+  {
+    "src": "/assets/gmk-products/6.jpg",
+    "form": "제형 확인 중",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사용자 요청으로 보류 이미지를 우선 공개. 제형은 후속 확인 예정.",
+    "sha256": "5ebb5ee820ba368ad6c6caf38145c88d253c2825ab3b92a172df01b01d63c171"
+  },
+  {
+    "src": "/assets/gmk-products/9.jpg",
+    "form": "제형 확인 중",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사용자 요청으로 보류 이미지를 우선 공개. 제형은 후속 확인 예정.",
+    "sha256": "30c4303b40e9a3855e9b4d6015cfae1af2f2f62fa2cc704f4bcfdf34e4203271"
+  },
+  {
+    "src": "/assets/gmk-products/11.jpg",
+    "form": "제형 확인 중",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사용자 요청으로 보류 이미지를 우선 공개. 제형은 후속 확인 예정.",
+    "sha256": "0738ccf55d1e54fb905da1d45f194bbefb1cbf92d2fd815545206100af8d2ab7"
+  },
+  {
+    "src": "/assets/gmk-products/18.jpg",
+    "form": "제형 확인 중",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사용자 요청으로 보류 이미지를 우선 공개. 제형은 후속 확인 예정.",
+    "sha256": "f86b6e888521837bbb43366a19132a16af3353f85fab7c4c4c2570c09377a8c2"
+  },
+  {
+    "src": "/assets/gmk-products/19.jpg",
+    "form": "제형 확인 중",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사용자 요청으로 보류 이미지를 우선 공개. 제형은 후속 확인 예정.",
+    "sha256": "a2d53a3a99f447106e69733e78fa688b1ceb59d2cebf222256a7013a7025c398"
   }
 ]
