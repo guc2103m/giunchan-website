@@ -3,7 +3,7 @@ import {icon} from './visuals.mjs';
 const stages = [
   {en:'In Vitro',ko:'세포시험',sub:'CELL-BASED STUDY',icon:'culture',items:['ROS 활성산소 억제','Aβ 응집 차단','신경세포 생존 증가']},
   {en:'In Vivo',ko:'동물시험',sub:'ANIMAL STUDY',icon:'flask',items:['Y-maze 공간기억 증가','GFAP/Iba-1 억제','타우 독성 완화']},
-  {en:'Human',ko:'인체적용시험',sub:'HUMAN STUDY',icon:'partners',items:['175명 대상','16주 무작위배정 대조시험','인지기능 관련 지표 평가','인체적용시험 완료']},
+  {en:'Human',ko:'인체적용시험',sub:'HUMAN STUDY',icon:'partners',items:['55세~85세 MCI(경도인지장애)를 호소하는 성인 남녀','고대구로병원, 김천의료원','16주 무작위배정 대조 실험','인지기능관련 지표 평가']},
   {en:'MFDS Recognition Process',ko:'개별인정형 원료 인정 절차',sub:'REGULATORY PROCESS',icon:'document',items:['인체적용시험 완료','관련 연구자료 정리','인정 절차 진행']}
 ];
 const arrow = '<svg class="focus-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h17m-6-6 6 6-6 6"/></svg>';
