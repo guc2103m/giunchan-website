@@ -1,0 +1,170 @@
+[
+  {
+    "src": "/assets/gmk-products/20.jpg",
+    "form": "분말스틱",
+    "width": 1300,
+    "height": 794,
+    "evidence": "lib/facts/products.ts premium-gift: 분말 제품, 2g x 60포; 사진 스틱 구성",
+    "sha256": "4c1e5c0c4c5fbcbe84a7be64022baecf24c3fd6441c1f31d78d6184c13971752"
+  },
+  {
+    "src": "/assets/gmk-products/7.jpg",
+    "form": "분말스틱",
+    "width": 1300,
+    "height": 794,
+    "evidence": "기존 코드 스틱형 분말 제품",
+    "sha256": "a60c68cec2431bca4398c8a2dbbdc613ea66976189edc12e85ff6c4362c19fba"
+  },
+  {
+    "src": "/assets/gmk-products/23.jpg",
+    "form": "액상차",
+    "width": 1300,
+    "height": 794,
+    "evidence": "현행 scenario P01 액상차 및 동일 제품 사진",
+    "sha256": "8b947cc5f6b4cef8506e01769a9fb17717edcd8c988b3d0cf02d904bf44e58c0"
+  },
+  {
+    "src": "/assets/gmk-products/24.jpg",
+    "form": "침출차",
+    "width": 1300,
+    "height": 794,
+    "evidence": "현행 scenario P02 침출차 및 티백 사진",
+    "sha256": "9063e141d8245593ad3112dba2d40f6e35309dba99ca08c5252434e7423fccb8"
+  },
+  {
+    "src": "/assets/gmk-products/22.jpg",
+    "form": "분말",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진의 분말 및 현행 scenario P05 설명",
+    "sha256": "ea75c8a938013dcf6da8141f2e9cadeb57ae60b5d6795710e027d973631ab66e"
+  },
+  {
+    "src": "/assets/gmk-products/25.jpg",
+    "form": "젤리",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 젤리 표시 및 기존 코드 설명",
+    "sha256": "15064c173ed31ce790070fb7ead304d8dfbb9145c3de4c24c3d7b0a7fbd5acce"
+  },
+  {
+    "src": "/assets/gmk-products/21.jpg",
+    "form": "캡슐",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 캡슐 및 120캡슐 표시",
+    "sha256": "d1986549655a711376fb91adfa50f7c1670e27c4ff5be6ee03ddadae1fddca72"
+  },
+  {
+    "src": "/assets/gmk-products/26.jpg",
+    "form": "진액",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 진액 명칭 및 기존 코드 병 포장 진액 설명",
+    "sha256": "e21dcf994623db1f3b2b66b188f5385c558b19ce8472579b0bed8bdb1a8cba66"
+  },
+  {
+    "src": "/assets/gmk-products/3.jpg",
+    "form": "분말",
+    "width": 1300,
+    "height": 794,
+    "evidence": "기존 코드 용기형 분말 및 사진의 선식 분말 확인",
+    "sha256": "da2c5fa6f5d5c1e954a02e44f36b25a14bcc1cdb9451dea0130bafdb5061462f"
+  },
+  {
+    "src": "/assets/gmk-products/8.jpg",
+    "form": "젤리",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 젤리스틱 표기",
+    "sha256": "37a66cdc9bea2b06ae01a3164c1f1ba54e200abfacf56ddc8cb5c6f95b86797c"
+  },
+  {
+    "src": "/assets/gmk-products/2.jpg",
+    "form": "기타 고형제품",
+    "width": 1300,
+    "height": 794,
+    "evidence": "패키지 4g x 60정 표기: 분말이 아닌 고형 정제",
+    "sha256": "e00884b817589708495a18b6a8b4a48a811fffce9b89a7610c21debdb35c8562"
+  },
+  {
+    "src": "/assets/gmk-products/27.jpg",
+    "form": "침출차",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 외부 상자 침출차 및 티백 구성; lib/facts/products.ts mushroom-tea-gift",
+    "sha256": "afb3d396c9ed57dfd029af5f91b60c8ffa2d2e7f8a52682d181da88b35dab502"
+  },
+  {
+    "src": "/assets/gmk-products/4.jpg",
+    "form": "기타 고형제품",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진의 고형 정제와 5g x 50정 표기: 과립 아님",
+    "sha256": "9ed5af745df43a9fd1354ee53c1a310b48325dae389cbb9cad7bb74a6bfd4039"
+  },
+  {
+    "src": "/assets/gmk-products/5.jpg",
+    "form": "기타 고형제품",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진의 현미 알곡 및 기존 곡물 제품 설명",
+    "sha256": "e581f3cf4b194e66ff791b2f6a29dfe544a4dfdc3aa33af05519f82dd0cf9b0f"
+  },
+  {
+    "src": "/assets/gmk-products/10.jpg",
+    "form": "기타 고형제품",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 1600mg x 30정 표기: 캡슐 아님",
+    "sha256": "04799983c02887d7f9003a4c29295794678649596cbc1605f3e824b4db3cd3d9"
+  },
+  {
+    "src": "/assets/gmk-products/12.jpg",
+    "form": "기타 고형제품",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 알곡 및 곡류가공품 표시",
+    "sha256": "27b10d5fcd558adcf125c351dbbc7c1982009bb0d9b61d64fb9f78cbe94a86d0"
+  },
+  {
+    "src": "/assets/gmk-products/13.jpg",
+    "form": "분말",
+    "width": 1300,
+    "height": 794,
+    "evidence": "기존 코드 분말 제품 및 분말 스푼 사진",
+    "sha256": "bb4811982b3e1ce649cb172d229ada2c61cf6eabcb3db5c2a13cd8ae1a694876"
+  },
+  {
+    "src": "/assets/gmk-products/14.jpg",
+    "form": "기타 고형제품",
+    "width": 1300,
+    "height": 794,
+    "evidence": "누룽지 고형 조각 사진 및 기존 고형 제품 설명",
+    "sha256": "f028792e26af1a77ce7263762b22a196e817d6be743a1d7bd0b0c6bf89754663"
+  },
+  {
+    "src": "/assets/gmk-products/15.jpg",
+    "form": "캡슐",
+    "width": 1300,
+    "height": 794,
+    "evidence": "기존 코드 용기형 캡슐 제품",
+    "sha256": "cab992c0825ef67739cbf9003af86ff73bae36f647077722630e160aba5d8974"
+  },
+  {
+    "src": "/assets/gmk-products/16.jpg",
+    "form": "침출차",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 라벨 식품유형 침출차 및 티백 규격 명시",
+    "sha256": "9e24a1595eccd5aca6f5d651f1304b616307ed4226af81611e941bcee83b0f88"
+  },
+  {
+    "src": "/assets/gmk-products/17.jpg",
+    "form": "젤리",
+    "width": 1300,
+    "height": 794,
+    "evidence": "사진 똑똑젤리 및 기존 소포장 젤리 설명",
+    "sha256": "963e06299885be19b1a81875f759d279f9f4d0b517646c5f778b2d51863ea75f"
+  }
+]

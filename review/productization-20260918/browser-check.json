@@ -1,0 +1,740 @@
+[
+  {
+    "cards": [
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "액상차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "캡슐",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "진액",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "기타 고형제품",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 211.5,
+        "frameWidth": 282,
+        "height": 265.890625,
+        "width": 282
+      }
+    ],
+    "columns": "282px 282px 282px 282px",
+    "order": [
+      "BD02",
+      "quality-production",
+      "BD03",
+      "gmk-productization",
+      "BD04",
+      "development-faq"
+    ],
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "cards": [
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "액상차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "캡슐",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "진액",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "기타 고형제품",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 224.25,
+        "frameWidth": 299,
+        "height": 278.640625,
+        "width": 299
+      }
+    ],
+    "columns": "299px 299px 299px",
+    "order": [
+      "BD02",
+      "quality-production",
+      "BD03",
+      "gmk-productization",
+      "BD04",
+      "development-faq"
+    ],
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "cards": [
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "액상차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "캡슐",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "진액",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "기타 고형제품",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 173.25,
+        "frameWidth": 231,
+        "height": 227.640625,
+        "width": 231
+      }
+    ],
+    "columns": "231px 231px 231px",
+    "order": [
+      "BD02",
+      "quality-production",
+      "BD03",
+      "gmk-productization",
+      "BD04",
+      "development-faq"
+    ],
+    "overflow": false,
+    "width": 820
+  },
+  {
+    "cards": [
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.234375,
+        "frameWidth": 213.65625,
+        "height": 214.640625,
+        "width": 213.65625
+      },
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "액상차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.234375,
+        "frameWidth": 213.65625,
+        "height": 214.640625,
+        "width": 213.65625
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "캡슐",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.234375,
+        "frameWidth": 213.65625,
+        "height": 214.640625,
+        "width": 213.65625
+      },
+      {
+        "caption": "진액",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.234375,
+        "frameWidth": 213.65625,
+        "height": 214.640625,
+        "width": 213.65625
+      },
+      {
+        "caption": "기타 고형제품",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 160.25,
+        "frameWidth": 213.671875,
+        "height": 214.640625,
+        "width": 213.671875
+      }
+    ],
+    "columns": "213.656px 213.672px 213.672px",
+    "order": [
+      "BD02",
+      "quality-production",
+      "BD03",
+      "gmk-productization",
+      "BD04",
+      "development-faq"
+    ],
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "cards": [
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "액상차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "캡슐",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "진액",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "기타 고형제품",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 121.125,
+        "frameWidth": 161.5,
+        "height": 168.21875,
+        "width": 161.5
+      }
+    ],
+    "columns": "161.5px 161.5px",
+    "order": [
+      "BD02",
+      "quality-production",
+      "BD03",
+      "gmk-productization",
+      "BD04",
+      "development-faq"
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "cards": [
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "분말스틱",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "액상차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "캡슐",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "진액",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "분말",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "젤리",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "기타 고형제품",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      },
+      {
+        "caption": "침출차",
+        "captionOverflow": false,
+        "fit": "contain",
+        "frameHeight": 109.875,
+        "frameWidth": 146.5,
+        "height": 156.96875,
+        "width": 146.5
+      }
+    ],
+    "columns": "146.5px 146.5px",
+    "order": [
+      "BD02",
+      "quality-production",
+      "BD03",
+      "gmk-productization",
+      "BD04",
+      "development-faq"
+    ],
+    "overflow": false,
+    "width": 360
+  }
+]
