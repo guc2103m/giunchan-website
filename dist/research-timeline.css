@@ -40,3 +40,5 @@
 #research-timeline .rt-summary p{margin:12px 0 0}
 @media(max-width:900px){#research-timeline .rt-timeline::before{left:5px}#research-timeline .rt-entry,#research-timeline .rt-entry:nth-child(even){width:100%;margin-left:0;padding:0 0 28px 34px}#research-timeline .rt-entry::before,#research-timeline .rt-entry:nth-child(even)::before{left:1px;right:auto}#research-timeline .rt-entry::after,#research-timeline .rt-entry:nth-child(even)::after{left:5px;right:auto;width:29px}}
 @media(max-width:600px){#research-timeline .rt-achievement{align-items:flex-start;gap:20px;padding:24px;flex-direction:column}#research-timeline .rt-achievement>strong{font-size:52px}#research-timeline .rt-card{padding:24px 20px}#research-timeline .rt-year{font-size:30px}#research-timeline h3{font-size:20px}#research-timeline .rt-parallel{padding:18px 16px}#research-timeline .rt-summary{padding:24px}#research-timeline .rt-flow{gap:12px 24px}}
+
+#research-timeline .rt-infographic{margin:24px 0 32px}#research-timeline .rt-infographic img{display:block;width:100%;height:auto}#research-timeline .rt-infographic a{display:block}
