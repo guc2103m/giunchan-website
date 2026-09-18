@@ -24,7 +24,7 @@ const p=s=>`<p>${esc(s)}</p>`;
 const btn=(label,url,kind='')=>`<a class="button ${kind}" href="${esc(url)}"><span class="button-label">${esc(label)}</span><span aria-hidden="true">↗</span></a>`;
 const link=(label,url)=>`<a class="text-link" href="${url}">${esc(label)} <span aria-hidden="true">→</span></a>`;
 const picture=(name,alt,cl='')=>replacementImage(name,cl)||`<img class="${cl}" src="/assets/${/\.[a-z0-9]+$/i.test(name)?name:name+'.webp'}" alt="${esc(alt)}" loading="lazy" width="960" height="640">`;
-const groups={company:[['기업소개','/company/'],['연혁·오시는 길','/company/history/'],['지속가능한 실천','/company/sustainability/']],rnd:[['연구개발 현황','/rnd/'],['GMK® 소재와 기술','/rnd/gmk/'],['연구 근거','/rnd/evidence/'],['특허','/rnd/patents/']],business:[['사업 개요','/business/'],['원료 공급','/business/ingredients/'],['제품화 지원','/business/development/'],['도두On','/business/brands/']]};
+const groups={company:[['기업소개','/company/'],['연혁·오시는 길','/company/history/'],['지속가능한 실천','/company/sustainability/']],rnd:[['연구개발 현황','/rnd/'],['보유 기술','/rnd/gmk/'],['연구 발자취','/rnd/evidence/'],['보유 특허','/rnd/patents/']],business:[['사업 개요','/business/'],['원료 공급','/business/ingredients/'],['제품화 지원','/business/development/'],['도두On','/business/brands/']]};
 const brandSubmenus=[['브랜드 이야기','/business/brands/'],['제품 비교','/business/brands/#products']];
 const pressPosts=JSON.parse(fs.readFileSync(path.join(root,'content/press-releases.json'),'utf8'));
 const nav=[['회사소개','/company/'],['R&D','/rnd/'],['사업분야','/business/'],['도두On','/business/brands/'],['IR','/ir/'],['인사이트','/insights/']];
