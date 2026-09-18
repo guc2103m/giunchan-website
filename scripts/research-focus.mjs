@@ -10,8 +10,8 @@ const arrow = '<svg class="focus-arrow" viewBox="0 0 24 24" fill="none" stroke="
 export function researchFocus() {
   return `<section class="article-section visual-section" id="R03" data-content-id="R03" aria-labelledby="research-focus-title">
     <div class="section-kicker">CURRENT R&amp;D FOCUS</div>
-    <h2 id="research-focus-title">현재 기운찬 중점 연구현황</h2>
-    <p class="focus-intro">기운찬은 세포시험과 동물시험에서 확인한 연구 결과를 인체적용시험으로 확장했으며, 현재 식약처 개별인정형 원료 인정을 위한 절차를 수행하고 있습니다.</p>
+    <h2 id="research-focus-title">기운찬 중점 연구현황</h2>
+    <p class="focus-intro">기운찬은 GMK의 '인지기능개선'에 대한 세포 시험과 동물시험에서 확인한 연구 결과를 인체적용시험으로 확장, 현재는 식약처 개별인정형 원료 인정을 위한 절차를 수행하고 있습니다.</p>
     <ol class="focus-stages" aria-label="4단계 연구 흐름">${stages.map((s,i)=>`<li class="focus-stage${i===3?' is-current':''}"${i===3?' aria-current="step"':''}>
       <div class="focus-stage-top"><span>STAGE 0${i+1}</span><span class="focus-status">${i<3?icon('check'):icon('clock')}${i<3?'COMPLETED':'IN PROGRESS'}</span></div>
       <div class="focus-symbol"><img src="/assets/${s.image}" width="88" height="88" alt="" aria-hidden="true" loading="lazy" decoding="async"></div>
