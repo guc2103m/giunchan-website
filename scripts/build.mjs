@@ -31,7 +31,7 @@ const nav=[['회사소개','/company/'],['R&D','/rnd/'],['사업분야','/busine
 function header(url){
  const owner=url.startsWith('/products/')?'/business/brands/':nav.map(([,u])=>u).filter(u=>url.startsWith(u)).sort((a,b)=>b.length-a.length)[0];
  return `<a class="skip" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="기운찬 홈"><img src="/assets/logo.png" width="180" height="60" alt="Giunchan"></a><nav id="main-nav" aria-label="주 메뉴">${nav.map(([n,u],i)=>{
-  const list=u==='/business/brands/'?brandSubmenus:groups[u.split('/')[1]];
+  const list=u==='/insights/'?[['연구자료','/insights/#research'],['보도자료','/insights/#press']]:u==='/business/brands/'?brandSubmenus:groups[u.split('/')[1]];
   const current=owner===u;
   if(!list)return `<a href="${u}" class="${current?'active':''}" ${url===u?'aria-current="page"':''}>${n}</a>`;
   const activeSub=list.filter(([,link])=>!link.includes('#')&&(url===link||(link!==u&&url.startsWith(link)))).sort((a,b)=>b[1].length-a[1].length)[0]?.[1];
