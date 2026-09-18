@@ -1,0 +1,28 @@
+/* Scoped to the research overview focus section; shared styles remain unchanged. */
+#R03 .section-kicker{font-size:14px;color:var(--green)}
+#R03 .focus-intro{max-width:960px;font-size:18px;line-height:1.8;margin:0 0 36px}
+#R03 .focus-stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;grid-auto-rows:1fr;list-style:none;margin:0;padding:0}
+#R03 .focus-stage{position:relative;display:grid;grid-template-rows:28px 44px 140px 1fr;gap:18px;padding:24px 20px;margin:0;border:1px solid var(--line);border-top:3px solid var(--green);border-radius:4px;background:#fff;min-width:0}
+#R03 .focus-stage-top{display:flex;align-items:center;justify-content:space-between;gap:6px;color:var(--green);font-size:14px;font-weight:600;letter-spacing:.04em;white-space:nowrap}
+#R03 .focus-status{display:flex;align-items:center;gap:4px;letter-spacing:0}
+#R03 .focus-status .line-icon{width:16px;height:16px;color:currentColor}
+#R03 .focus-symbol .line-icon{width:40px;height:40px;color:var(--green)}
+#R03 .focus-title h3{font-size:20px;font-weight:600;line-height:1.4;letter-spacing:-.015em;margin:0}
+#R03 .focus-title h3 span{display:block}
+#R03 .focus-title h3 span+span{margin-top:6px;font-size:18px}
+#R03 .focus-subtitle{font-size:14px;line-height:1.5;letter-spacing:.03em;color:var(--muted);margin-top:12px}
+#R03 .focus-details{font-size:16px;line-height:1.75}
+#R03 .focus-details ul{list-style:disc;margin:0;padding-left:18px}
+#R03 .focus-details li{margin:0 0 8px;padding:0}
+#R03 .focus-details li::marker{color:var(--green)}
+#R03 .focus-current{font-size:18px;font-weight:600;margin:0 0 10px}
+#R03 .focus-description{font-size:16px;line-height:1.75;margin:0 0 18px}
+#R03 .is-current{background:var(--deep);border-color:var(--deep);color:#fff;box-shadow:0 6px 18px #063e2a18}
+#R03 .is-current p,#R03 .is-current .focus-stage-top,#R03 .is-current .line-icon,#R03 .is-current .focus-subtitle,#R03 .is-current .focus-details li::marker{color:#fff}
+#R03 .focus-arrow{position:absolute;right:-26px;top:50%;width:24px;height:24px;color:var(--green)}
+#R03 .focus-continuity{display:flex;align-items:center;gap:18px;margin-top:32px;padding:22px 24px;border:1px solid var(--green);border-radius:4px;background:var(--soft);color:var(--ink)}
+#R03 .focus-continuity .line-icon{width:28px;height:28px}
+#R03 .focus-continuity strong{font-size:14px;line-height:1.5;color:var(--green);letter-spacing:.04em;flex-shrink:0}
+#R03 .focus-continuity p{font-size:16px;line-height:1.75;margin:0}
+@media(max-width:1100px){#R03 .focus-stages{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 32px}#R03 .focus-stage{grid-template-rows:28px 44px 116px 1fr}#R03 .focus-arrow{right:-29px}#R03 .focus-stage:nth-child(2) .focus-arrow{top:auto;bottom:-33px;left:-29px;right:auto;transform:rotate(135deg)}#R03 .focus-continuity{flex-wrap:wrap}#R03 .focus-continuity p{flex-basis:100%}}
+@media(max-width:600px){#R03 .focus-stages{grid-template-columns:minmax(0,1fr);grid-auto-rows:1fr;gap:38px}#R03 .focus-stage{padding:24px;grid-template-rows:28px 44px 116px 1fr;gap:16px}#R03 .focus-stage .focus-arrow,#R03 .focus-stage:nth-child(2) .focus-arrow{left:calc(50% - 12px);right:auto;top:auto;bottom:-33px;transform:rotate(90deg)}#R03 .focus-continuity{padding:20px;gap:12px}#R03 .focus-intro{font-size:16px}#R03 .focus-stage-top{font-size:14px;letter-spacing:0}}
