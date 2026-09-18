@@ -1,0 +1,1568 @@
+[
+  {
+    "route": "/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 56
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/company/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 27
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/company/history/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 21
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/company/sustainability/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 27
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/rnd/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 12
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/rnd/gmk/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 25
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/rnd/evidence/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 14
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/rnd/patents/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 11
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/business/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 26
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/business/ingredients/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 10
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/business/development/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 80
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/business/brands/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 46
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/ir/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 99
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/insights/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 27
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/insights/what-is-gmk/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 19
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/insights/human-study-and-approval/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 11
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/contact/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 19
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  },
+  {
+    "route": "/privacy/",
+    "font": [
+      {
+        "family": "Pretendard Variable",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ],
+    "weights": [
+      {
+        "weight": 400,
+        "count": 1
+      },
+      {
+        "weight": 500,
+        "count": 1
+      },
+      {
+        "weight": 600,
+        "count": 1
+      },
+      {
+        "weight": 700,
+        "count": 1
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4173/assets/fonts/PretendardVariable.woff2",
+        "status": 200,
+        "size": 2057988,
+        "duration": 12
+      }
+    ],
+    "checks": [
+      {
+        "width": 1920,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1440,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1280,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 1024,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 768,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 390,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      },
+      {
+        "width": 360,
+        "pageOverflow": false,
+        "overflow": [],
+        "wrappedButtons": [],
+        "allPretendard": true
+      }
+    ]
+  }
+]
