@@ -1,0 +1,32 @@
+<!doctype html><meta charset="utf-8"><title>Local typography QA</title>
+<h1>Local typography verification</h1><p id="status">Running</p><pre id="results"></pre><div id="frames"></div>
+<script>
+const routes=['/','/company/','/company/history/','/company/sustainability/','/rnd/','/rnd/gmk/','/rnd/evidence/','/rnd/patents/','/business/','/business/ingredients/','/business/development/','/business/brands/','/ir/','/insights/','/insights/what-is-gmk/','/insights/human-study-and-approval/','/contact/','/privacy/'];
+const widths=[1920,1440,1280,1024,768,390,360], results=[];
+async function run(){
+ for(const route of routes){
+ const frame=document.createElement('iframe'); frame.style.cssText='display:block;border:0;height:1000px;width:1440px';
+ document.querySelector('#frames').append(frame);
+ await new Promise(resolve=>{frame.onload=resolve;frame.src=route;});
+ const win=frame.contentWindow,doc=frame.contentDocument;
+ await doc.fonts.ready;
+ const font=Array.from(doc.fonts).map(f=>({family:f.family,status:f.status,weight:f.weight}));
+ const weights=await Promise.all([400,500,600,700].map(async weight=>({weight,count:(await doc.fonts.load(`${weight} 24px "Pretendard Variable"`,'출발 역할을 활용 환경을 산물을')).length})));
+ const resources=win.performance.getEntriesByType('resource').filter(r=>/woff2|\.ttf|\.woff/.test(r.name)).map(r=>({url:r.name,status:r.responseStatus,size:r.transferSize,duration:Math.round(r.duration)}));
+ const checks=[];
+ for(const width of widths){
+ frame.style.width=width+'px';await new Promise(r=>win.requestAnimationFrame(()=>win.requestAnimationFrame(r)));
+ const visible=e=>e.getClientRects().length&&getComputedStyle(e).visibility!=='hidden';
+ const overflow=[...doc.querySelectorAll('main h1,main h2,main h3,main p,main td,main th,.button,.no-break')].filter(visible).filter(e=>e.scrollWidth>e.clientWidth+2&&getComputedStyle(e).display!=='inline').map(e=>({tag:e.tagName,class:e.className,text:e.textContent.slice(0,90),width:e.clientWidth,scroll:e.scrollWidth}));
+ const wrappedButtons=[...doc.querySelectorAll('.button-label')].filter(visible).filter(e=>e.getBoundingClientRect().height>parseFloat(getComputedStyle(e).lineHeight)*1.5).map(e=>e.textContent);
+ const fonts=[...doc.querySelectorAll('h1,h2,h3,p,nav,.button,button,input,select,textarea,td,th,figcaption')].filter(visible).map(e=>getComputedStyle(e).fontFamily);
+ checks.push({width,pageOverflow:doc.documentElement.scrollWidth>width,overflow,wrappedButtons,allPretendard:fonts.every(f=>f.startsWith('"Pretendard Variable"'))});
+ }
+ results.push({route,font,weights,resources,checks});frame.remove();
+ document.querySelector('#status').textContent=`${results.length}/${routes.length}`;
+ document.querySelector('#results').textContent=JSON.stringify(results);
+ }
+ document.querySelector('#status').textContent='Complete';
+}
+run().catch(e=>document.querySelector('#status').textContent='Error: '+e.stack);
+</script>
