@@ -8,3 +8,5 @@ review/*.png
 *.log
 
 .tools/
+.vercel
+.env*

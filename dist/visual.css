@@ -180,3 +180,39 @@ body{line-height:1.75}
 @media(max-width:700px){#BD02 .product-timeline{display:block}#BD02 .product-timeline li{text-align:left;display:grid;grid-template-columns:100px minmax(0,1fr);gap:20px;padding:0 0 32px}#BD02 .product-step-art{width:100px;height:112px;margin:0}#BD02 .product-step-art img{max-width:100px}#BD02 .product-step-copy{padding-top:14px}#BD02 .product-step-copy h3{min-height:0;font-size:19px}#BD02 .product-timeline li:not(:last-child)::before{left:49px;right:auto;top:112px;bottom:0;width:1px;height:auto}#BD02 .product-timeline li:not(:last-child)::after{left:46px;top:auto;bottom:10px;transform:rotate(135deg)}#BD02 .product-timeline li:last-child{padding-bottom:0}#quality-production .quality-card-copy{padding:24px}}
 
 @media(min-width:701px) and (max-width:1100px){#BD02 .product-timeline li:nth-child(3)::before{left:calc(-200% + 50%);width:200%;height:20px;bottom:-26px;background:none;border-right:1px solid #9db8a7;border-bottom:1px solid #9db8a7}#BD02 .product-timeline li:nth-child(3)::after{left:calc(-200% + 50% - 3px);bottom:-29px}}
+
+/* CEO message: preserve layout and adjust only the requested typography. */
+#C04 .ceo-message-copy{grid-column:2}
+#C04 .ceo-message-copy>p:first-child{font-size:28px}
+#C04 .ceo-message-copy>h3:last-child{font-size:16px;color:#d8e6dd;background:none;text-shadow:none;box-shadow:none}
+@media(max-width:700px){#C04 .ceo-message-copy{grid-column:1}#C04 .ceo-message-copy>p:first-child{font-size:25px}}
+/* Keep the CEO portrait inset within the green panel. */
+#C04 .ceo-layout>.ceo-photo{width:calc(100% - 36px);height:auto;margin:28px 0 28px 36px}
+#C04 .ceo-message-copy>p:first-child{font-weight:600;color:#fff;line-height:1.45;letter-spacing:-.015em}
+@media(max-width:700px){#C04 .ceo-layout>.ceo-photo{width:calc(100% - 56px);margin:28px 28px 0}}
+
+/* Research publication icons supplied by the user. */
+#RE02 .publication-top .publication-paper-icon{display:block;width:48px;height:48px;object-fit:contain;flex-shrink:0}
+
+/* Approved safety-test artwork, keeping its original transparent PNG. */
+#RE03 .research-safety-icon{display:block;width:96px;height:96px;object-fit:contain;flex-shrink:0}
+@media(max-width:700px){#RE03 .research-safety-icon{width:80px;height:80px;margin-bottom:24px}}
+
+/* Country-specific patent count icons. */
+#RP01 .patent-count-icon{display:block;grid-row:1/3;width:64px;height:64px;object-fit:contain;flex-shrink:0}
+@media(max-width:700px){#RP01 .patent-count-icon{width:56px;height:56px}}
+
+/* Development collaboration: supplied company logos only. */
+#BD03 .partnership-logos{display:grid;grid-template-columns:minmax(90px,1fr) 18px minmax(0,2fr);gap:16px;padding:28px 20px}
+#BD03 .partner-owner,#BD03 .partner-manufacturers{min-width:0;gap:20px;text-align:center}
+#BD03 .partner-owner-logo{width:100%;max-width:140px;background:#fff;padding:10px;box-sizing:border-box}
+#BD03 .partner-owner-logo img{display:block;width:100%;height:auto;object-fit:contain}
+#BD03 .partner-logo-grid{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+#BD03 .partner-logo-cell{height:72px;padding:10px;background:#fff;display:flex;align-items:center;justify-content:center;min-width:0;box-sizing:border-box}
+#BD03 .partner-logo-cell img{display:block;width:100%;height:100%;object-fit:contain}
+#BD03 .partnership-logos .partnership-symbol{font-size:26px;text-align:center}
+@media(max-width:700px){#BD03 .partnership-logos{grid-template-columns:minmax(70px,1fr) 14px minmax(0,2fr);gap:10px;padding:24px 14px}#BD03 .partner-logo-grid{gap:8px}#BD03 .partner-logo-cell{height:60px;padding:6px}#BD03 .partner-owner-logo{padding:6px}#BD03 .partnership-logos span:not(.no-break){font-size:12px}#BD03 .partnership-logos .partnership-symbol{font-size:22px}}
+#I05 .ir-bottom-icon,#I06 .ir-bottom-icon{width:96px;height:96px;flex:0 0 96px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#I05 .ir-bottom-icon img,#I06 .ir-bottom-icon img{width:100%;height:100%;object-fit:contain;max-width:none}
+#I06 .ir-partner-icon img{width:125%;height:125%;flex-shrink:0}
+@media(max-width:700px){#I05 .ir-bottom-icon,#I06 .ir-bottom-icon{width:72px;height:72px;flex-basis:72px}}

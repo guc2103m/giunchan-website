@@ -16,3 +16,27 @@
 
 @media(min-width:701px) and (max-width:900px){.dodoonPage .ddHero h1{font-size:40px}.ddHeroCopy{width:90%}.dodoonPage h2{font-size:30px}.ddSplitGrid{gap:30px}.ddResearchHeading{grid-template-columns:1fr;gap:24px}.ddResearch h2{font-size:38px}.ddFinale h2{font-size:28px}.ddFinaleCopy{padding:28px 24px}.ddFinale a{padding:14px 18px;gap:14px}.ddMeaning h2{font-size:32px}}
 .dodoonPage .ddHeroAside{flex-shrink:0;white-space:nowrap}
+/* Research image annotations: scoped to the GMK brand section. */
+#BB04 .ddResearchHeading{display:block}
+#BB04 .ddResearchImage{position:relative}
+#BB04 .ddResearchImage img{display:block}
+#BB04 .ddResearchNotes{position:absolute;inset:0;margin:0}
+#BB04 .ddResearchNote{position:absolute;display:block;padding:8px 12px;background:rgba(22,48,39,.82);border:1px solid rgba(255,255,255,.55);color:#fff;font-size:clamp(15px,1.35vw,20px);line-height:1.5;font-weight:500;white-space:nowrap}
+#BB04 .ddResearchNote::before{content:'';position:absolute;right:100%;top:50%;width:clamp(30px,5vw,76px);height:1px;background:#466357;transform:rotate(-32deg);transform-origin:right center}
+#BB04 .ddNoteStrength{left:18%;top:39%}
+#BB04 .ddNoteWisdom{left:60%;top:4%}
+#BB04 .ddNoteDiversity{right:1%;top:43%}
+#BB04 .ddNoteFuture{right:3%;bottom:2%;font-size:clamp(19px,1.75vw,27px);font-weight:600}
+#BB04 .ddNoteFuture::before{transform:rotate(35deg)}
+@media(max-width:900px){
+ #BB04 .ddResearchNotes{position:static;display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin-top:20px}
+ #BB04 .ddResearchNote{position:static;white-space:normal;overflow-wrap:anywhere;font-size:16px;padding:14px 18px;background:#f1f5ef;border:1px solid #d5e1d6;border-left:2px solid #527760;color:#164734}
+ #BB04 .ddResearchNote::before{display:none}
+ #BB04 .ddNoteFuture{font-size:18px;font-weight:600;background:#164734;color:#fff}
+}
+#BB04 .ddResearchNote:not(.ddNoteFuture){background:rgba(223,242,231,.93);color:#164734;border-color:#abc9b8}
+#BB04 .ddResearchCenterLine{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#BB04 .ddNoteFuture::before{display:none}
+@media(max-width:900px){#BB04 .ddResearchCenterLine{display:none}}
+
+@media(min-width:901px){#BB04 .ddNoteFuture{left:50%;right:auto;transform:translateX(-50%);text-align:center}}
