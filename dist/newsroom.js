@@ -1,4 +1,9 @@
 (() => {
+ document.querySelectorAll('[data-newsroom-image]').forEach(img=>{
+  const fallback=()=>{img.closest('.newsroom-thumbnail')?.classList.remove('has-photo');img.src='/assets/logo.png';};
+  img.addEventListener('error',fallback,{once:true});
+  if(img.complete&&!img.naturalWidth)fallback();
+ });
  const rows=[...document.querySelectorAll('.newsroom-row')],years=[...document.querySelectorAll('.newsroom-year')];
  const button=document.getElementById('newsroom-more'),status=document.getElementById('newsroom-status');
  if(!button)return;
