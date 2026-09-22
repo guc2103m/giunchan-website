@@ -33,11 +33,11 @@
     "migrationStatus": "핵심 콘텐츠 이전 완료",
     "legacyPostId": "gmk-human-study-complete-2026",
     "originalTitle": "기운찬, GMK® 추출물 인체적용시험 완료",
-    "title": "기운찬, GMK® 추출물 인체적용시험 완료 및 인정 절차 진행",
+    "title": "기운찬, GMK® 추출물 인체적용시험 완료",
     "slug": "gmk-human-study-complete-2026",
     "category": "연구성과",
-    "publishedAt": "2026-09-06",
-    "publisher": "주식회사 기운찬",
+    "publishedAt": "2026-08-26",
+    "publisher": "중앙일보 · 뉴스파고",
     "researchStage": "인체적용시험 완료·인정 절차 진행 중",
     "relatedMaterial": "GMK® 추출물",
     "answer": "기운찬은 GMK® 추출물 인체적용시험을 완료했으며, 2026년 8월 보도된 결과를 바탕으로 식품의약품안전처 개별인정형 원료 인정 절차를 진행하고 있습니다.",
@@ -64,7 +64,8 @@
         "body": "인체적용시험은 의약품 임상시험과 구분됩니다. 공개된 연구결과는 해당 연구시료와 조건의 범위에서 해석해야 하며 개별 판매제품의 효능을 의미하지 않습니다."
       }
     ],
-    "image": "/assets/press/clinical-study-24-desktop.jpg"
+    "image": "/assets/press/clinical-study-24-desktop.jpg",
+    "newsroomSummary": "기운찬의 GMK® 추출물 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다."
   },
   {
     "contentType": "newsroom",
@@ -131,7 +132,8 @@
         "body": "해당 연구는 세포 또는 동물모델을 이용한 전임상 연구로, 사람의 질병 예방·치료 효과나 판매제품의 효능을 의미하지 않습니다."
       }
     ],
-    "image": "/assets/press/researcher-microscope.webp"
+    "image": "/assets/press/researcher-microscope.webp",
+    "newsroomSummary": "2025년 6월 30일 한국경제는 기운찬과 건양대학교 연구팀의 GMK® 추출물 관련 세포연구가 Cells에 게재됐다고 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -192,7 +194,8 @@
         "body": "인체적용시험은 의약품 임상시험과 구분됩니다. 시험의 세부 설계와 결과는 공개 승인 범위 밖이므로 이 페이지에서 제공하지 않습니다."
       }
     ],
-    "image": "/assets/press/clinical-study-24-desktop.jpg"
+    "image": "/assets/press/clinical-study-24-desktop.jpg",
+    "newsroomSummary": "2024년 8월 6일 보도는 GMK® 추출물 인체적용시험 추진 계획을 다뤘습니다."
   },
   {
     "contentType": "newsroom",
@@ -259,7 +262,8 @@
         "body": "해당 연구는 세포 또는 동물모델을 이용한 전임상 연구로, 사람의 질병 예방·치료 효과나 판매제품의 효능을 의미하지 않습니다."
       }
     ],
-    "image": "/assets/press/mushroom-study.webp"
+    "image": "/assets/press/mushroom-study.webp",
+    "newsroomSummary": "2023년 9월 19일 아시아투데이는 기운찬과 건양대학교 의과대학 연구팀의 세포·동물 전임상 연구 발표를 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -317,7 +321,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/giunchan-rnd-team.jpg"
+    "image": "/assets/press/giunchan-rnd-team.jpg",
+    "newsroomSummary": "2022년 9월 22일 기운찬은 충청남도 장애인체육대회에 출전한 천안시장애인체육회 선수단에 제품을 후원했습니다."
   },
   {
     "contentType": "newsroom",
@@ -380,7 +385,8 @@
         "body": "해당 연구는 세포 또는 동물모델을 이용한 전임상 연구로, 사람의 질병 예방·치료 효과나 판매제품의 효능을 의미하지 않습니다."
       }
     ],
-    "image": "/assets/press/bio-cell.webp"
+    "image": "/assets/press/bio-cell.webp",
+    "newsroomSummary": "2022년 1월 28일 충남일보는 기운찬과 건양대학교 연구팀이 동물모델에서 복합버섯균사체 연구시료의 면역조절 관련 반응을 살펴본 연구를 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -441,7 +447,8 @@
         "body": "특허등록은 기술적 권리의 확보를 의미하며 제품의 기능성 승인이나 효능 보증을 의미하지 않습니다."
       }
     ],
-    "image": "/assets/press/patents-desktop.jpg"
+    "image": "/assets/press/patents-desktop.jpg",
+    "newsroomSummary": "2022년 8월 18일 메디컬투데이는 GMK® 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -504,7 +511,8 @@
         "body": "해당 연구는 세포 또는 동물모델을 이용한 전임상 연구로, 사람의 질병 예방·치료 효과나 판매제품의 효능을 의미하지 않습니다."
       }
     ],
-    "image": "/assets/press/bio-cell.webp"
+    "image": "/assets/press/bio-cell.webp",
+    "newsroomSummary": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -563,7 +571,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/gmk-landscape-dark.webp"
+    "image": "/assets/press/gmk-landscape-dark.webp",
+    "newsroomSummary": "2021년 7월 15일 충남일보는 기운찬이 GMK® 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -621,7 +630,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/giunchan-rnd-team.jpg"
+    "image": "/assets/press/giunchan-rnd-team.jpg",
+    "newsroomSummary": "2021년 3월 9일 기운찬은 대한장애인체육회를 통해 장애인국가대표 선수단에 아연·비타민D 제품을 후원했습니다."
   },
   {
     "contentType": "newsroom",
@@ -679,7 +689,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/product-pouches.webp"
+    "image": "/assets/press/product-pouches.webp",
+    "newsroomSummary": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -736,7 +747,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/product-gift.webp"
+    "image": "/assets/press/product-gift.webp",
+    "newsroomSummary": "2020년 4월 7일 매일경제는 기운찬의 초기 분말제품과 복합버섯균사체 사업화 과정을 소개했습니다."
   },
   {
     "contentType": "newsroom",
@@ -794,7 +806,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/giunchan-rnd-team.jpg"
+    "image": "/assets/press/giunchan-rnd-team.jpg",
+    "newsroomSummary": "2020년 3월 5일 중부매일은 기운찬이 천안시에 아연·비타민D 제품을 기탁했다고 보도했습니다."
   },
   {
     "contentType": "newsroom",
@@ -852,7 +865,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/product-mushroom-spoon.jpg"
+    "image": "/assets/press/product-mushroom-spoon.jpg",
+    "newsroomSummary": "2020년 2월 24일 충청신문은 충남 지역 학교급식에 공급되던 기운찬의 곡물 분말제품을 소개했습니다."
   },
   {
     "contentType": "newsroom",
@@ -910,7 +924,8 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/ceo-park-jongrye-lab-portrait.jpg"
+    "image": "/assets/press/ceo-park-jongrye-lab-portrait.jpg",
+    "newsroomSummary": "2019년 12월 11일 박종례 기운찬 대표가 충남 농어촌발전상 농촌융복합 분야에서 수상했습니다."
   },
   {
     "contentType": "newsroom",
@@ -942,7 +957,7 @@
     "title": "기운찬, 2016 농수산식품 창업콘테스트 본선 진출",
     "slug": "food-startup-contest-2016",
     "category": "기업소식",
-    "publishedAt": "2016-09-19",
+    "publishedAt": "2016-10-19",
     "publisher": "뉴시스",
     "reporter": "이종익",
     "answer": "2016년 뉴시스는 기운찬이 ‘꿈꾸는 버섯’ 팀으로 농수산식품 창업콘테스트 본선에 진출했다고 보도했습니다.",
@@ -968,6 +983,7 @@
         "body": "원 보도의 표현과 현재 홈페이지의 공식 설명은 구분됩니다. 제품 정보는 최신 표시사항을 확인해 주세요."
       }
     ],
-    "image": "/assets/press/field-research.webp"
+    "image": "/assets/press/field-research.webp",
+    "newsroomSummary": "2016년 뉴시스는 기운찬이 ‘꿈꾸는 버섯’ 팀으로 농수산식품 창업콘테스트 본선에 진출했다고 보도했습니다."
   }
 ]
