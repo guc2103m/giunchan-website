@@ -54,3 +54,12 @@
 
 ## 후속 수정
 사용자 요청에 따라 2026 → 2016 최신순으로 변경. 같은 날짜 등록 순서는 유지. 목록 16개 항목 앞에 기존 /assets/logo.png를 활용한 회사 공통 썸네일 추가. 상세에는 기사 이미지 미사용 유지.
+
+## 2026-09-22: Larger thumbnails and load more
+- Desktop thumbnail: 320 x 200px (4x previous area); mobile: 200 x 125px.
+- Compact year heading above thumbnails; latest-first order retained.
+- Initially 5 records; Load more reveals 5 at a time (5/10/15/16).
+- Desktop/mobile verified; no mobile horizontal overflow. Build/check and 3 newsroom tests passed.
+- Preview: https://giunchan-website-8pj2zizq2-guc2103m-7777.vercel.app/newsroom/
+- Production unchanged.
+
