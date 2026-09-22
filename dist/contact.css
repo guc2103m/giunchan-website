@@ -1,0 +1,13 @@
+.contact-form .field-error{display:block;color:#9c2626;font-size:14px;font-weight:400;margin-top:6px;line-height:1.5}
+.contact-form [aria-invalid=true]{border-color:#9c2626}
+.contact-form .consent-box{border:1px solid var(--line);padding:20px;margin:24px 0;min-width:0}
+.contact-form .consent-box h3{font-size:18px;margin-bottom:12px}
+.contact-form .consent-box ul{padding-left:20px;font-size:15px}
+.contact-form .consent-label{display:flex;align-items:flex-start;gap:10px;margin-top:18px}
+.contact-form .consent-label input{width:20px;height:20px;flex:0 0 20px;margin:3px 0 0}
+.contact-form .bot-field{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.contact-form button:disabled{opacity:.65;cursor:wait}
+.contact-form input,.contact-form textarea,.contact-form select{width:100%;min-width:0;box-sizing:border-box;font:inherit}
+.contact-form .form-grid>*{min-width:0}
+.contact-form .result{overflow-wrap:anywhere}
+@media(max-width:700px){.contact-form button[type=submit]{width:100%;justify-content:center}.contact-form .consent-box{padding:16px}}
