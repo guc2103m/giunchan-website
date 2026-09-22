@@ -6,7 +6,7 @@
 
 기사 제목은 기존 데이터의 originalTitle을 그대로 표시하며, 2026년 통합 항목은 사용자 지정 제목을 사용합니다. 언론사 제목을 회사의 새 효능 주장으로 재작성하지 않았습니다. 소개는 기존 자체 요약의 핵심 1문장만 사용합니다. 기사 본문/이미지/캡처/로고는 뉴스룸에 삽입하지 않습니다.
 
-- /newsroom/: 연도 구분, 날짜 오름차순. 동률은 원래 배열 순서 유지.
+- /newsroom/: 연도 구분, 날짜 내림차순. 동률은 원래 배열 순서 유지.
 - 상단 PC/모바일 주메뉴 및 푸터에 독립 뉴스룸 추가.
 - 인사이트의 언론보도 탭/목록 제거, 연구자료 4건 및 9개 단위 페이지 기능 보존.
 - 기존 /insights/#press 및 ?category=press 진입은 JS로 /newsroom/ 이동.
@@ -51,3 +51,6 @@
 - dist/insights/press/*/index.html, dist/newsroom/*/index.html: 상세 재생성
 - dist/insights/index.html, dist/sitemap.xml, review/routes.json, review/static-check.json
 - 기타 생성 HTML은 공통 헤더/푸터 메뉴만 갱신. 본문 변경 없음.
+
+## 후속 수정
+사용자 요청에 따라 2026 → 2016 최신순으로 변경. 같은 날짜 등록 순서는 유지. 목록 16개 항목 앞에 기존 /assets/logo.png를 활용한 회사 공통 썸네일 추가. 상세에는 기사 이미지 미사용 유지.

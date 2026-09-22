@@ -7,7 +7,7 @@ test('all records, dates and original links preserved',()=>{
  assert.equal(posts.length,16);assert.deepEqual(posts.map(p=>p.slug),before.map(p=>p.slug));
  for(const p of posts){const old=before.find(x=>x.slug===p.slug);assert.deepEqual(p.sourceLinks,old.sourceLinks);if(p.slug!=='gmk-human-study-complete-2026'){assert.equal(p.publishedAt,p.slug==='food-startup-contest-2016'?'2016-10-19':old.publishedAt);assert.equal(p.originalTitle,old.originalTitle);assert.equal(p.publisher,old.publisher);}}
  const list=read('/newsroom/');assert.equal((list.match(/class="newsroom-row"/g)||[]).length,16);
- const dates=[...list.matchAll(/datetime="([^"]+)"/g)].map(m=>m[1]);assert.deepEqual(dates,[...dates].sort());assert.equal(dates[0].slice(0,4),'2016');assert.equal(dates.at(-1),'2026-08-26');
+ const dates=[...list.matchAll(/datetime="([^"]+)"/g)].map(m=>m[1]);assert.deepEqual(dates,[...dates].sort().reverse());assert.equal(dates[0],'2026-08-26');assert.equal(dates.at(-1),'2016-10-19');assert.equal((list.match(/class="newsroom-thumbnail"/g)||[]).length,16);
  assert.deepEqual(sortPress([{publishedAt:'2020-01-01',slug:'a'},{publishedAt:'2020-01-01',slug:'b'}]).map(p=>p.slug),['a','b']);
 });
 test('concise detail and both URL families work without copied media',()=>{
