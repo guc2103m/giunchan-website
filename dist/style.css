@@ -39,3 +39,7 @@ nav,button,.button,.text-link{letter-spacing:-.01em}
 /* Editorial layout for the mushroom mycelium insight. */
 .article-visual{margin:38px 0 48px}.article-visual img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;border-radius:4px}.article-visual figcaption{margin-top:10px;color:var(--muted);font-size:14px;line-height:1.65}.mycelium-article ul.article-checks{list-style:disc}.mycelium-article .table-wrap{margin:24px 0 30px}.mycelium-article details:not([open]){padding-bottom:18px}
 @media(max-width:700px){.article-visual{margin:28px 0 38px}.article-visual img{aspect-ratio:4/3}.article-visual figcaption{font-size:13px}.mycelium-article .article-toc ol{padding-left:20px}}
+
+/* Homepage Insights preview */
+#H08 .insight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:700px){#H08 .insight-grid{grid-template-columns:1fr}}
