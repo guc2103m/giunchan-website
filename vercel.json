@@ -173,17 +173,25 @@
   ],
   "functions": {
     "api/content.js": {
-      "includeFiles": "{dist/**/*.html,dist/sitemap.xml,dist/cms-reserved.json}"
+      "includeFiles": ".cms-runtime/**"
     }
   },
   "rewrites": [
     {
-      "source": "/insights/:path*",
-      "destination": "/api/content?route=/insights/:path*/"
+      "source": "/insights/",
+      "destination": "/api/content?route=/insights/"
     },
     {
-      "source": "/newsroom/:path*",
-      "destination": "/api/content?route=/newsroom/:path*/"
+      "source": "/insights/:path+/",
+      "destination": "/api/content?route=/insights/:path+/"
+    },
+    {
+      "source": "/newsroom/",
+      "destination": "/api/content?route=/newsroom/"
+    },
+    {
+      "source": "/newsroom/:path+/",
+      "destination": "/api/content?route=/newsroom/:path+/"
     },
     {
       "source": "/sitemap.xml",

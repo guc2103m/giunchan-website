@@ -7,4 +7,13 @@ export function buildCMS(root){
  const slugs=[];
  for(const dir of ['insights','insights/press','newsroom'])for(const entry of fs.readdirSync(path.join(dist,dir),{withFileTypes:true}))if(entry.isDirectory()&&fs.existsSync(path.join(dist,dir,entry.name,'index.html')))slugs.push(entry.name);
  fs.writeFileSync(path.join(dist,'cms-reserved.json'),JSON.stringify([...new Set(slugs)]));
+ // Keep server templates separate from public media so file tracing cannot bundle all assets.
+ const runtime=path.join(root,'.cms-runtime');
+ fs.mkdirSync(runtime,{recursive:true});
+ function copyHTML(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
+  const source=path.join(dir,entry.name);if(entry.isDirectory())copyHTML(source);
+  else if(entry.name.endsWith('.html')){const target=path.join(runtime,path.relative(dist,source));fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(source,target);}
+ }}
+ for(const dir of ['insights','newsroom'])copyHTML(path.join(dist,dir));
+ for(const name of ['404.html','sitemap.xml','cms-reserved.json'])fs.copyFileSync(path.join(dist,name),path.join(runtime,name));
 }
