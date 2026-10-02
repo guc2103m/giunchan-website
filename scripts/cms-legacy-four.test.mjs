@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import handler from '../api/content.js';
-import {renderBlocks,renderCard} from '../lib/content-render.mjs';
+import {optimizeImageHTML,renderBlocks,renderCard} from '../lib/content-render.mjs';
 import {undatedMigratedSlugs,publicDateFilter} from '../lib/content-migrations.mjs';
 const resp=()=>({code:200,body:'',setHeader(){},writeHead(n){this.code=n;},end(s){this.body=String(s);}});
 for(const slug of undatedMigratedSlugs){
@@ -24,7 +24,7 @@ for(const slug of undatedMigratedSlugs){
   try{
    global.fetch=async()=>new Response(JSON.stringify([post]));
    const r=resp();await handler({url:`/insights/${slug}/`,method:'GET'},r);assert.equal(r.code,200);
-   assert.ok(r.body.includes(renderBlocks(post.content.blocks)));
+   assert.ok(r.body.includes(optimizeImageHTML(renderBlocks(post.content.blocks))));
    const shell=await fs.readFile(`.cms-runtime/insights/${slug}/index.html`,'utf8');
    assert.equal(r.body.replace('<link rel="stylesheet" href="/cms-editorial.css">','').match(/<head>[\s\S]*?<\/head>/)[0],shell.match(/<head>[\s\S]*?<\/head>/)[0]);
    global.fetch=async()=>new Response('[]');const hidden=resp();await handler({url:`/insights/${slug}/`,method:'GET'},hidden);assert.equal(hidden.code,404);

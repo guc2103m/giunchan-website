@@ -3,6 +3,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 export function buildCMS(root){
  const dist=path.join(root,'dist');
+ fs.mkdirSync(path.join(dist,'vendor'),{recursive:true});
+ for(const file of ['jodit.min.js','jodit.min.css'])fs.copyFileSync(path.join(root,'node_modules/jodit/es2021',file),path.join(dist,'vendor',file));
+ fs.copyFileSync(path.join(root,'node_modules/jodit/LICENSE.txt'),path.join(dist,'vendor/JODIT-LICENSE.txt'));
+ fs.copyFileSync(path.join(root,'lib/static-image-variants.mjs'),path.join(dist,'static-image-variants.mjs'));
+ fs.copyFileSync(path.join(root,'lib/content-document.mjs'),path.join(dist,'content-document.mjs'));
  fs.copyFileSync(path.join(root,'lib/content-render.mjs'),path.join(dist,'cms-render.mjs'));
  fs.copyFileSync(path.join(root,'lib/content-config.mjs'),path.join(dist,'cms-config.mjs'));
  fs.copyFileSync(path.join(root,'lib/content-tree.mjs'),path.join(dist,'content-tree.mjs'));
