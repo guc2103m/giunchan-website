@@ -1,0 +1,6 @@
+error: patch failed: api/contact.js:19
+error: api/contact.js: patch does not apply
+error: patch failed: scripts/build.mjs:107
+error: scripts/build.mjs: patch does not apply
+error: patch failed: scripts/contact.test.mjs:22
+error: scripts/contact.test.mjs: patch does not apply

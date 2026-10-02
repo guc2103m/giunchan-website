@@ -22,6 +22,10 @@ test('contact validation, delivery outcomes and abuse protection',async()=>{
  process.env.RESEND_API_KEY='test-only';process.env.CONTACT_FROM_EMAIL='test@example.com';process.env.CONTACT_TO_EMAIL='guc2203@guc.co.kr';
  let captured;
  global.fetch=async(url,options)=>{captured=JSON.parse(options.body);return {ok:true,json:async()=>({id:'mock-id'})};};
+ process.env.VERCEL='1';process.env.VERCEL_ENV='production';
+ assert.equal((await send(valid(),{headers:{origin:'https://www.guc.co.kr'}})).status,200);
+ assert.equal((await send(valid(),{headers:{origin:'https://www.guc.co.kr.attacker.invalid'}})).status,403);
+ delete process.env.VERCEL;delete process.env.VERCEL_ENV;
  const success=await send(valid());assert.equal(success.status,200);assert.equal(success.body.ok,true);assert.equal(captured.reply_to,'test@example.com');assert.deepEqual(captured.to,['guc2203@guc.co.kr']);assert.ok(captured.subject.includes('GMK® 원료 문의'));assert.ok(captured.html.includes('&lt;script&gt;'));assert.ok(!captured.html.includes('<script>'));
  global.fetch=async()=>({ok:false,json:async()=>({message:'private provider detail'})});
  const failed=await send(valid());assert.equal(failed.status,502);assert.equal(failed.body.ok,false);assert.ok(!JSON.stringify(failed).includes('private provider'));

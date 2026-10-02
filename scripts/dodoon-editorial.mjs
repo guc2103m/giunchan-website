@@ -3,7 +3,7 @@ const picture=(name,alt,priority=false)=>`<img src="/assets/${name}" alt="${alt}
 export function brandStory(){return `<div class="dodoonPage">
 <section class="ddHero" id="BB01" aria-labelledby="dd-title">
   ${picture('dodoon-hero-20260916.png','이끼 낀 고목의 균사와 작은 버섯을 표현한 숲 이미지',true)}
-  <div class="ddWrap ddHeroInner"><div class="ddHeroCopy"><p class="ddLabel">BRAND STORY</p><h1 id="dd-title">보이지 않는 곳에서<br>시작되는 생명력, <span class="ddNoWrap">도두On</span></h1><p>숲속의 죽은 나무와 축축하게 쌓인 낙엽 사이.<br>버섯의 삶은 눈에 잘 보이지 않는 아주 가느다란 실에서 시작됩니다.</p></div><p class="ddHeroAside">작지만<br>위대한<br>연결의 시작</p></div>
+  <div class="ddWrap ddHeroInner"><div class="ddHeroCopy"><p class="ddLabel">BRAND STORY</p><h1 id="dd-title">보이지 않는 곳에서<br>시작되는 생명력, <span class="ddNoWrap">도두온</span></h1><p>숲속의 죽은 나무와 축축하게 쌓인 낙엽 사이.<br>버섯의 삶은 눈에 잘 보이지 않는 아주 가느다란 실에서 시작됩니다.</p></div><p class="ddHeroAside">작지만<br>위대한<br>연결의 시작</p></div>
 </section>
 <section class="ddSplit ddBeginning" id="BB02" aria-labelledby="dd-beginning-title"><div class="ddWrap ddSplitGrid">
   <figure>${picture('dodoon-macro-20260916.png','나무 조직과 흙 사이로 퍼지는 가느다란 흰 균사의 설명용 이미지')}<figcaption>FUNGAL HYPHAE<br>균사</figcaption></figure>
@@ -11,7 +11,7 @@ export function brandStory(){return `<div class="dodoonPage">
 </div></section>
 <section class="ddConnection" id="BB03" aria-labelledby="dd-connection-title">
   ${picture('mycelium.webp','고목 위로 연결된 균사와 버섯 자실체 이미지')}
-  <div class="ddWrap ddConnectionInner"><div><h2 id="dd-connection-title">연결되고, 확장되고,<br>마침내 모습을 드러내다</h2><p>균사체가 충분히 성장하고 온도와 습도 등 알맞은 환경을 만나면, 비로소 땅과 나무 밖으로 모습을 드러냅니다.</p><p>우리가 흔히 버섯이라고 부르는 ‘자실체’가 만들어지는 순간입니다.</p></div><ol class="ddSteps"><li>균사의 연결</li><li>균사체로 확장</li><li>자실체의 형성</li></ol></div>
+  <div class="ddWrap ddConnectionInner"><div><h2 id="dd-connection-title">연결되고, 확장되고,<br>마침내 모습을 드러내다</h2><p>균사체가 충분히 성장하고 온도와 습도 등 알맞은 환경을 만나면, 비로소 땅과 나무 위로 원기 모양을 한 채 돋아납니다.</p><p>우리가 흔히 버섯이라고 부르는 ‘자실체’가 만들어지는 순간입니다.</p></div><ol class="ddSteps"><li>균사의 연결</li><li>균사체로 확장</li><li>자실체의 형성</li></ol></div>
 </section>
 <section class="ddSplit ddValue" id="ddValue" aria-labelledby="dd-value-title"><div class="ddWrap ddSplitGrid">
   <figure>${picture('dodoon-mushroom-20260916.png','햇살이 드는 숲속 나무에서 돋아난 버섯의 설명용 이미지')}<figcaption>보이지 않는<br>연결이 만드는<br>더 큰 가치</figcaption></figure>
@@ -23,12 +23,12 @@ export function brandStory(){return `<div class="dodoonPage">
   <figure class="ddResearchImage"><img src="/assets/dodoon-gmk-official-20260916.png" alt="연구실 배양접시에 놓인 다양한 버섯 소재와 중앙의 흰색 버섯균사체" width="2171" height="724" loading="lazy" decoding="async"><svg class="ddResearchCenterLine" viewBox="0 0 1000 333.49" preserveAspectRatio="none" aria-hidden="true"><path d="M440 227 L382 286" fill="none" stroke="#466357" stroke-width="1" vector-effect="non-scaling-stroke"/></svg><figcaption class="ddResearchNotes"><span class="ddResearchNote ddNoteStrength">자연이 품은 강인함!</span><span class="ddResearchNote ddNoteWisdom">오랜 시간의 지혜,</span><span class="ddResearchNote ddNoteDiversity">자연이 전하는 다양성에서</span><span class="ddResearchNote ddNoteFuture">자연을 잇는 새로운 가능성으로!</span></figcaption></figure>
 </div></section>
 <section class="ddMeaning" id="BB06" aria-labelledby="dd-meaning-title"><div class="ddWrap">
-  <p class="ddLabel">BRAND NAME</p><h2 id="dd-meaning-title"><span class="ddNoWrap">도두On</span>, 이름에 담은 의미</h2>
+  <div class="ddBrandIdentity"><img class="ddBrandLogo" src="/assets/dodoon-logo-transparent-20261001.png" alt="도두온 DODOON 공식 로고" width="1254" height="1254" loading="lazy" decoding="async"><div><p class="ddLabel">BRAND NAME</p><h2 id="dd-meaning-title"><span class="ddNoWrap">도두온</span>, 이름에 담은 의미</h2></div></div>
   <dl><div><dt>도두</dt><dd>건강을 돋우고 기운을 돋우다</dd></div><div><dt>On</dt><dd>일상의 건강 스위치를 켜다</dd></div><div><dt>溫</dt><dd>따뜻함의 의미를 품다</dd></div></dl>
   <svg class="ddMushroomLine" viewBox="0 0 280 340" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="1.1"><path d="M35 150C30 52 211 6 261 133C189 153 110 157 35 150ZM39 150Q137 100 261 133M146 134Q132 232 161 310L194 307Q166 225 173 134M149 170L62 142M149 174L91 135M149 171L120 133M175 166L214 132M176 168L241 133M111 267C95 210 23 201 6 256Q58 274 111 267ZM53 264L42 324L61 325L69 267M208 249C191 199 257 185 280 231L208 249ZM244 239L254 299L270 299L258 236M84 315Q152 292 221 317"/></g></svg>
 </div></section>
 <section class="ddFinale" id="BB08" aria-labelledby="dd-finale-title"><div class="ddFinaleGrid">
-  <figure>${picture('gift.webp','도두On 버섯마시면 기운차 선물세트 원본 제품 사진')}</figure><div class="ddFinaleCopy"><h2 id="dd-finale-title">건강을 돋우다.<br>기운을 돋우다.<br>일상의 건강을 켜다.</h2><p class="ddFinaleBrand ddNoWrap">도두On</p><a id="products" href="/products/"><span><span class="ddNoWrap">도두On</span> 제품 만나보기</span> <span aria-hidden="true">→</span></a></div>
+  <figure>${picture('gift.webp','도두온 버섯마시면 기운차 선물세트 원본 제품 사진')}</figure><div class="ddFinaleCopy"><h2 id="dd-finale-title">건강을 돋우다.<br>기운을 돋우다.<br>일상의 건강을 켜다.</h2><p class="ddFinaleBrand ddNoWrap">도두온</p><a id="products" href="/products/"><span><span class="ddNoWrap">도두온</span> 제품 만나보기</span> <span aria-hidden="true">→</span></a></div>
 </div></section>
 </div>`;}
 

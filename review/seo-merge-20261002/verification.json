@@ -1,0 +1,67 @@
+{
+  "preservedFiles": 362,
+  "bodyCssMediaChanges": [],
+  "sitemapUrls": 50,
+  "redirects": 33,
+  "redirectCycles": 0,
+  "liveBeforeDeployment": [
+    {
+      "url": "https://www.guc.co.kr/",
+      "status": 200,
+      "location": null,
+      "noindex": true,
+      "canonical": [],
+      "robots": null
+    },
+    {
+      "url": "https://www.guc.co.kr/insights/are-mushrooms-plants/",
+      "status": 200,
+      "location": null,
+      "noindex": true,
+      "canonical": [
+        "https://giunchan-website.vercel.app/insights/are-mushrooms-plants/"
+      ],
+      "robots": null
+    },
+    {
+      "url": "https://www.guc.co.kr/robots.txt",
+      "status": 200,
+      "location": null,
+      "noindex": false,
+      "canonical": [],
+      "robots": "User-agent: *\nDisallow: /\n"
+    },
+    {
+      "url": "https://www.guc.co.kr/seo-audit-missing-20261002/",
+      "status": 404,
+      "location": null,
+      "noindex": true,
+      "canonical": [],
+      "robots": null
+    },
+    {
+      "url": "https://guc.co.kr/company/?audit=20261002",
+      "status": 308,
+      "location": "https://www.guc.co.kr/company/?audit=20261002",
+      "noindex": false,
+      "canonical": [],
+      "robots": null
+    },
+    {
+      "url": "http://guc.co.kr/company/?audit=20261002",
+      "status": 308,
+      "location": "https://guc.co.kr/company/?audit=20261002",
+      "noindex": false,
+      "canonical": [],
+      "robots": null
+    },
+    {
+      "url": "https://www.guc.co.kr/api/contact/",
+      "status": 405,
+      "location": null,
+      "noindex": false,
+      "canonical": [],
+      "robots": null
+    }
+  ]
+}

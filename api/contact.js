@@ -19,7 +19,7 @@ export default async function handler(req,res){
  const reply=(status,body)=>{res.statusCode=status;res.end(JSON.stringify(body));};
  if(req.method!=='POST'){res.setHeader('Allow','POST');return reply(405,{ok:false,message:FAILURE});}
  // Compare to trusted deployment names, never a caller-supplied Host header.
- const allowed=['https://giunchan-website.vercel.app',...['VERCEL_URL','VERCEL_PROJECT_PRODUCTION_URL'].map(k=>process.env[k]?`https://${process.env[k]}`:null)];
+ const allowed=['https://www.guc.co.kr','https://giunchan-website.vercel.app',...['VERCEL_URL','VERCEL_PROJECT_PRODUCTION_URL'].map(k=>process.env[k]?`https://${process.env[k]}`:null)];
  if(!process.env.VERCEL)allowed.push('http://127.0.0.1:4173','http://localhost:4173');
  if(!allowed.includes(req.headers.origin))return reply(403,{ok:false,message:FAILURE});
  if(!/^application\/json(?:;|$)/i.test(req.headers['content-type']||''))return reply(415,{ok:false,message:FAILURE});

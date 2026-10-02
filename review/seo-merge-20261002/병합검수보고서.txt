@@ -1,0 +1,119 @@
+기운찬 정식 도메인 기술 수정 병합 보고서 — 2026-10-02
+
+기준: G:\ChatGPT\홈페이지개편\site (외장하드 최신본)
+Git: main / https://github.com/guc2103m/giunchan-website.git
+상태: 로컬 병합 및 빌드 검증 완료. 배포, 커밋, GitHub push, DNS/계정 변경 없음.
+기존 미커밋 작업 보존. 이전 GitHub 사본 및 dist 전체 덮어쓰기 없음.
+첨부 패치 git apply --check 실패(최신 build 및 API/테스트 문맥 차이). 강제 적용하지 않고 수동 선별 병합.
+수정 전 소스는 이 폴더 before/에, 화면 파일 비교 기준은 before-hashes.json에 저장.
+
+A. 현재 정상인 항목
+- 최신 로컬 67개 route 빌드 성공, scripts/check.mjs issues=[]
+- node --test scripts/seo.test.mjs scripts/contact.test.mjs scripts/mushroom-insight.test.mjs: 7/7 PASS
+- build.mjs, seo.mjs, api/contact.js node --check 성공
+- 본문·CSS·JS·이미지·영상 등 기존 dist 362개 파일 비교: 변경 0개. HTML은 body부터 끝까지 비교.
+- 최신 버섯 인사이트, 기존 GMK of Korea 표현, 도두온 이름/투명 로고, 메인 최신 2개 글 유지.
+- 공개 대표 사이트맵 50개 URL, 최신 인사이트 포함, 중복/이동 안내/뉴스룸 별칭 제외.
+- 공개 HTML head의 이전 도메인 잔여 없음. 페이지마다 canonical 1개, OG/Twitter, JSON-LD JSON 파싱 통과.
+- 기존 Article/FAQ 6개 내용과 날짜 유지, 공통 Organization/WebSite/WebPage와 단일 JSON-LD graph로 병합.
+- 문의 mock: 공식 Origin 허용, 유사 악성 Origin 거부, 필수/형식/동의/길이/허니팟/중복/빈도 제한/실패 처리 PASS.
+- Reply-To 및 수신처 검사 PASS. 실제 메일 발송 0건.
+- 운영 읽기 점검: www 홈·최신 글 HTTP 200, 없는 경로 HTTP 404, API GET 405.
+- 운영 non-www→www 308에서 경로와 query 보존 확인.
+- HTML 리소스 및 CSS/JS의 HTTP 리소스 검색 결과 없음.
+
+B. 실제 수정한 파일 (프로젝트 상대경로)
+- scripts/seo.mjs 신규: 공식 origin, 공통 canonical/OG/Twitter/JSON-LD, preview 검색차단, production robots.
+- scripts/build.mjs: 공통 head 호출과 공식 sitemap 연결. 최신 페이지/카드/본문 생성 코드는 유지.
+- scripts/press.mjs: 별도 canonical 제거하여 중복 방지. 기존 /insights/press/ 대표 경로 유지.
+- content/are-mushrooms-plants-meta.html: 기존 Article/FAQ/소셜 주소만 공식 도메인으로 변경.
+- api/contact.js: https://www.guc.co.kr 정확한 Origin 허용 추가.
+- scripts/contact.test.mjs: 공식 Origin 모의 테스트 추가.
+- scripts/seo.test.mjs 신규: 전체 canonical/sitemap/robots/JSON-LD 및 preview 테스트.
+- scripts/mushroom-insight.test.mjs: 통합 graph/공식 origin에 맞춰 검사 갱신, 본문 FAQ 검사 유지.
+- vercel.json: 근거가 있는 33개 경로의 301 설정 추가. 호스트 www/HTTPS 정책은 변경하지 않음.
+- dist/**/*.html: head만 재생성. dist/robots.txt, dist/sitemap.xml 갱신.
+- review/ 생성 점검 기록 갱신.
+
+C. 수정하지 않고 유지한 항목
+- 모든 디자인/CSS, 본문 문구, 메뉴/CTA, 이미지/영상, 원고 및 날짜.
+- 404와 기존 meta-refresh 안내 페이지의 noindex, 로컬 서버 X-Robots-Tag 차단.
+- 뉴스룸 별칭은 기존 대표 상세 URL을 canonical로 사용하며 서버 301 설정만 추가. 원본 HTML 삭제 없음.
+- 과거 기사 원문 HTTP 링크, legacyUrl과 과거 작업 기록은 SEO 기준 URL이 아니므로 유지.
+- 문의 API의 Vercel 및 localhost 허용은 개발/기존 접근 보존 목적으로 유지.
+- 현재 title/description 유지, 신규 효능·회사 정보·저자·날짜 주장 없음.
+- GA4 ID, 소유확인 meta/TXT, favicon/manifest를 임의 생성하지 않음.
+- Vercel/DNS www 정책, 메일 서비스 비밀값, 메일 계정은 변경하지 않음.
+
+D. 추가 확인 필요
+- 이번 변경은 미배포. 현재 운영은 여전히 noindex + robots Disallow:/, 최신 글 canonical도 이전 Vercel 주소임.
+- 배포 후 서버 301, 슬래시 양쪽 주소, query 전달, www/HTTPS 체인 실제 검증 필요.
+- HTTP non-www는 HTTPS non-www를 거쳐 www로 이동하는 2단계 상태. 호스팅 정책은 유지.
+- GA4/소유확인 ID가 소스에서 발견되지 않음. 실제 GA4 Measurement ID 및 Search Console/네이버 계정 확인 필요.
+- RESEND_API_KEY, CONTACT_FROM_EMAIL, CONTACT_TO_EMAIL 운영 환경변수 및 실제 수신/Reply-To는 사용자 확인 필요.
+- 과거 비기사 URL 목록은 자료 부족. 추측한 URL은 리디렉션에 추가하지 않음.
+- 모바일 상호작용/실기 화면 검수와 Lighthouse/CWV 실측은 이번 작업에서 미실행. body/CSS/JS/미디어 해시 보존 확인으로 회귀 범위를 검증함.
+- 이미지/영상 용량 최적화 미실행. 최신 글 영상 원본 약81.7MB 보존.
+- lint/type-check 명령 및 TypeScript 설정 없음. 명시한 테스트 3개 파일을 실행했으며 전체 과거 테스트 일괄 통과를 의미하지 않음.
+
+E. 정식 URL (로컬 생성 기준)
+Homepage: https://www.guc.co.kr/
+Sitemap: https://www.guc.co.kr/sitemap.xml
+Robots: https://www.guc.co.kr/robots.txt
+Canonical 예: https://www.guc.co.kr/business/brands/
+Canonical 예: https://www.guc.co.kr/insights/are-mushrooms-plants/
+Canonical 예: https://www.guc.co.kr/insights/press/gmk-cell-study-2025/
+
+F. 301 목록 (코드에 병합, 서버 적용은 배포 후)
+/forum/view/355080 → /insights/press/gmk-cell-study-2025/
+/forum/view/355078 → /insights/press/gmk-human-application-plan/
+/forum/view/355077 → /insights/press/gmk-preclinical-neuro-study/
+/forum/view/355076 → /insights/press/cheonan-disabled-sports-support/
+/forum/view/355071 → /insights/press/gmk-immune-animal-study/
+/forum/view/355069 → /insights/press/gmk-us-patent/
+/forum/view/355067 → /insights/press/gmk-oncology-preclinical-study/
+/forum/view/355066 → /insights/press/gmk-production-scale-up/
+/forum/view/355065 → /insights/press/national-disabled-team-support/
+/forum/view/355062 → /insights/press/disabled-parents-association-donation/
+/forum/view/355061 → /insights/press/giunchan-powder-product-archive/
+/forum/view/355060 → /insights/press/cheonan-city-product-donation/
+/forum/view/355059 → /insights/press/school-meal-product-archive/
+/forum/view/355058 → /insights/press/chungnam-rural-development-award/
+/forum/view/355057 → /insights/press/food-startup-contest-2016/
+/newsroom/gmk-human-study-complete-2026/ → /insights/press/gmk-human-study-complete-2026/
+/newsroom/gmk-cell-study-2025/ → /insights/press/gmk-cell-study-2025/
+/newsroom/gmk-human-application-plan/ → /insights/press/gmk-human-application-plan/
+/newsroom/gmk-preclinical-neuro-study/ → /insights/press/gmk-preclinical-neuro-study/
+/newsroom/cheonan-disabled-sports-support/ → /insights/press/cheonan-disabled-sports-support/
+/newsroom/gmk-immune-animal-study/ → /insights/press/gmk-immune-animal-study/
+/newsroom/gmk-us-patent/ → /insights/press/gmk-us-patent/
+/newsroom/gmk-oncology-preclinical-study/ → /insights/press/gmk-oncology-preclinical-study/
+/newsroom/gmk-production-scale-up/ → /insights/press/gmk-production-scale-up/
+/newsroom/national-disabled-team-support/ → /insights/press/national-disabled-team-support/
+/newsroom/disabled-parents-association-donation/ → /insights/press/disabled-parents-association-donation/
+/newsroom/giunchan-powder-product-archive/ → /insights/press/giunchan-powder-product-archive/
+/newsroom/cheonan-city-product-donation/ → /insights/press/cheonan-city-product-donation/
+/newsroom/school-meal-product-archive/ → /insights/press/school-meal-product-archive/
+/newsroom/chungnam-rural-development-award/ → /insights/press/chungnam-rural-development-award/
+/newsroom/food-startup-contest-2016/ → /insights/press/food-startup-contest-2016/
+/company/location/ → /company/history/#CL01
+/rnd/quality/ → /business/development/
+
+근거: 숫자 legacy ID 15개는 현재 press-releases.json과 대조. 뉴스룸 별칭 16개는 기존 HTML과 대조. 이동 안내 2개는 meta-refresh 목적지와 대조. 목적지 파일 존재, 설정상 순환/체인 0개 확인.
+Vercel statusCode 설정 참고: https://vercel.com/docs/project-configuration/vercel-json#redirects
+
+G. SEO / AEO / GEO 최종 체크
+PASS(로컬): 공식 도메인, canonical, sitemap 50개, production robots/index, preview noindex, OG/Twitter, JSON-LD 단일성, 기존 FAQ/Article 일치, H1/내부 링크, 문의 mock, 빌드, 기존 화면 보존.
+PASS(운영 읽기): HTTPS www, non-www 경로/query 보존, 실제 404.
+NEEDS ACTION: 변경 배포와 서버 redirect 검증, 검색엔진 인증/사이트맵 제출/실제 색인, GA4, 실제 문의 수신, 모바일 실기/CWV.
+검색 색인 및 AI 답변 인용은 코드 검증만으로 보장하지 않음.
+
+H. 사용자 최종 테스트 (배포 후)
+1. 홈·도두온·최신 인사이트를 열어 로고/문구/목록을 확인.
+2. robots.txt의 Allow 및 sitemap URL, sitemap의 최신 글을 확인.
+3. 주요 페이지 소스에서 canonical 1개, 공식 도메인, noindex 없음 확인.
+4. /forum/view/355080 및 끝 슬래시 변형, /company/location/, /rnd/quality/의 이동을 query와 함께 확인.
+5. non-www/http URL의 최종 www/https 주소와 query, 임의 없는 경로의 404 확인.
+6. 모바일 메뉴·CTA·문의 필수/동의 오류를 확인.
+7. 사용자가 직접 문의 1건을 보내 수신함/스팸함 및 Reply-To 확인.
+8. Search Console/네이버 실제 인증 후 사이트맵 제출, GA4 설정 시 실시간 page_view 확인.

@@ -40,3 +40,5 @@
 @media(max-width:900px){#BB04 .ddResearchCenterLine{display:none}}
 
 @media(min-width:901px){#BB04 .ddNoteFuture{left:50%;right:auto;transform:translateX(-50%);text-align:center}}
+
+.dodoonPage .ddBrandIdentity{display:flex;align-items:center;gap:40px}.dodoonPage .ddBrandLogo{width:220px;max-width:100%;height:auto;aspect-ratio:1;object-fit:contain;flex-shrink:0}@media(max-width:767px){.dodoonPage .ddBrandIdentity{flex-direction:column;align-items:flex-start;gap:24px}.dodoonPage .ddBrandLogo{width:180px}}
