@@ -1,3 +1,4 @@
+import {optimizeMediaReferences} from './media-optimization.mjs';
 import {seoHead,robotsText,siteOrigin} from './seo.mjs';
 import {contactForm,consentDetails} from './contact-form.mjs';
 import {humanStudy} from './human-study.mjs';
@@ -110,3 +111,5 @@ fs.writeFileSync(path.join(root,'review/routes.json'),JSON.stringify(routeUrls,n
 console.log(`${routeUrls.length} local draft pages built; ${coverage.length} content IDs tracked. No deployment performed.`);
 
 fs.writeFileSync(path.join(dist,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+[...new Set(routeUrls)].filter(u=>u!=='/company/location/'&&u!=='/rnd/quality/'&&(u==='/newsroom/'||!u.startsWith('/newsroom/'))).map(u=>{const post=pressPosts.find(p=>pressPath(p)===u);return `<url><loc>${siteOrigin}${u}</loc>${post?.updatedAt?`<lastmod>${post.updatedAt}</lastmod>`:''}</url>`}).join('')+'</urlset>');
+
+optimizeMediaReferences(root);

@@ -1,0 +1,964 @@
+[
+  {
+    "source": "/assets/mixed-mushroom-mycelia-main.png",
+    "target": "/assets/optimized/mixed-mushroom-mycelia-main.png.webp",
+    "before": 5436337,
+    "after": 1907394,
+    "resolution": "1600x1600",
+    "pixelExact": true,
+    "pages": [
+      "/"
+    ]
+  },
+  {
+    "source": "/assets/insight-mycelium-cross-section.png",
+    "target": "/assets/optimized/insight-mycelium-cross-section.png.webp",
+    "before": 3415592,
+    "after": 2545448,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/what-is-gmk/"
+    ]
+  },
+  {
+    "source": "/assets/insights/are-mushrooms-plants/추천3.png",
+    "target": "/assets/optimized/insights/are-mushrooms-plants/추천3.png.webp",
+    "before": 3325188,
+    "after": 2453756,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/are-mushrooms-plants/"
+    ]
+  },
+  {
+    "source": "/assets/insights/are-mushrooms-plants/버섯은식물일까_썸네일.png",
+    "target": "/assets/optimized/insights/are-mushrooms-plants/버섯은식물일까_썸네일.png.webp",
+    "before": 2674031,
+    "after": 1938266,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/",
+      "/insights/",
+      "/insights/are-mushrooms-plants/"
+    ]
+  },
+  {
+    "source": "/assets/dodoon-macro-20260916.png",
+    "target": "/assets/optimized/dodoon-macro-20260916.png.webp",
+    "before": 2662411,
+    "after": 1848268,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/business/brands/"
+    ]
+  },
+  {
+    "source": "/assets/insights/are-mushrooms-plants/추천1 균사와 균사체.png",
+    "target": "/assets/optimized/insights/are-mushrooms-plants/추천1 균사와 균사체.png.webp",
+    "before": 2480044,
+    "after": 1726890,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/are-mushrooms-plants/"
+    ]
+  },
+  {
+    "source": "/assets/insights/are-mushrooms-plants/추천4 연구소균사체.png",
+    "target": "/assets/optimized/insights/are-mushrooms-plants/추천4 연구소균사체.png.webp",
+    "before": 2421833,
+    "after": 1046308,
+    "resolution": "1400x800",
+    "pixelExact": true,
+    "pages": [
+      "/insights/are-mushrooms-plants/"
+    ]
+  },
+  {
+    "source": "/assets/local-agriculture.png",
+    "target": "/assets/optimized/local-agriculture.png.webp",
+    "before": 2418670,
+    "after": 1649414,
+    "resolution": "1659x948",
+    "pixelExact": true,
+    "pages": [
+      "/company/sustainability/"
+    ]
+  },
+  {
+    "source": "/assets/dodoon-hero-20260916.png",
+    "target": "/assets/optimized/dodoon-hero-20260916.png.webp",
+    "before": 2354143,
+    "after": 1693912,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/business/brands/"
+    ]
+  },
+  {
+    "source": "/assets/insight-mycelium-hero.png",
+    "target": "/assets/optimized/insight-mycelium-hero.png.webp",
+    "before": 2342979,
+    "after": 1661626,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/what-is-gmk/"
+    ]
+  },
+  {
+    "source": "/assets/insight-gmk-barley.png",
+    "target": "/assets/optimized/insight-gmk-barley.png.webp",
+    "before": 2341579,
+    "after": 1599808,
+    "resolution": "1983x793",
+    "pixelExact": true,
+    "pages": [
+      "/insights/gmk-material/"
+    ]
+  },
+  {
+    "source": "/assets/food-label-cover.png",
+    "target": "/assets/optimized/food-label-cover.png.webp",
+    "before": 2279233,
+    "after": 1546266,
+    "resolution": "1659x948",
+    "pixelExact": true,
+    "pages": [
+      "/",
+      "/insights/",
+      "/insights/food-label-guide/"
+    ]
+  },
+  {
+    "source": "/assets/revenue-consumer-products.png",
+    "target": "/assets/optimized/revenue-consumer-products.png.webp",
+    "before": 2234904,
+    "after": 1565616,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/insights/are-mushrooms-plants/추천2 버섯의일생 주기4단계.png",
+    "target": "/assets/optimized/insights/are-mushrooms-plants/추천2 버섯의일생 주기4단계.png.webp",
+    "before": 2156037,
+    "after": 1671044,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/are-mushrooms-plants/"
+    ]
+  },
+  {
+    "source": "/assets/food-label-types.png",
+    "target": "/assets/optimized/food-label-types.png.webp",
+    "before": 2091600,
+    "after": 1613208,
+    "resolution": "1659x948",
+    "pixelExact": true,
+    "pages": [
+      "/insights/food-label-guide/"
+    ]
+  },
+  {
+    "source": "/assets/revenue-product-collaboration.png",
+    "target": "/assets/optimized/revenue-product-collaboration.png.webp",
+    "before": 2037464,
+    "after": 1425872,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/dodoon-mushroom-20260916.png",
+    "target": "/assets/optimized/dodoon-mushroom-20260916.png.webp",
+    "before": 2017574,
+    "after": 1443448,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/business/brands/"
+    ]
+  },
+  {
+    "source": "/assets/dodoon-gmk-official-20260916.png",
+    "target": "/assets/optimized/dodoon-gmk-official-20260916.png.webp",
+    "before": 2012556,
+    "after": 1449498,
+    "resolution": "2171x724",
+    "pixelExact": true,
+    "pages": [
+      "/business/brands/"
+    ]
+  },
+  {
+    "source": "/assets/growth-global-partnership.png",
+    "target": "/assets/optimized/growth-global-partnership.png.webp",
+    "before": 2000334,
+    "after": 1422524,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/food-label-choice.png",
+    "target": "/assets/optimized/food-label-choice.png.webp",
+    "before": 1977115,
+    "after": 1482636,
+    "resolution": "1659x948",
+    "pixelExact": true,
+    "pages": [
+      "/insights/food-label-guide/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-raw-material-pouch.png",
+    "target": "/assets/optimized/gmk-raw-material-pouch.png.webp",
+    "before": 1947629,
+    "after": 1313624,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/ingredients/"
+    ]
+  },
+  {
+    "source": "/assets/quality-document-review.png",
+    "target": "/assets/optimized/quality-document-review.png.webp",
+    "before": 1943345,
+    "after": 1359646,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/insight-mycelium-lab.png",
+    "target": "/assets/optimized/insight-mycelium-lab.png.webp",
+    "before": 1927134,
+    "after": 1406700,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/what-is-gmk/"
+    ]
+  },
+  {
+    "source": "/assets/growth-supply-infrastructure.png",
+    "target": "/assets/optimized/growth-supply-infrastructure.png.webp",
+    "before": 1922768,
+    "after": 1367926,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/company-story-nature.png",
+    "target": "/assets/optimized/company-story-nature.png.webp",
+    "before": 1913275,
+    "after": 1374966,
+    "resolution": "1660x948",
+    "pixelExact": true,
+    "pages": [
+      "/company/"
+    ]
+  },
+  {
+    "source": "/assets/patents-hero.png",
+    "target": "/assets/optimized/patents-hero.png.webp",
+    "before": 1909789,
+    "after": 1341118,
+    "resolution": "2206x713",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/product-development-support.png",
+    "target": "/assets/optimized/product-development-support.png.webp",
+    "before": 1905488,
+    "after": 1413006,
+    "resolution": "1660x948",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/insight-gmk-material.png",
+    "target": "/assets/optimized/insight-gmk-material.png.webp",
+    "before": 1901854,
+    "after": 1353674,
+    "resolution": "1660x948",
+    "pixelExact": true,
+    "pages": [
+      "/insights/",
+      "/insights/gmk-material/"
+    ]
+  },
+  {
+    "source": "/assets/food-label-details.png",
+    "target": "/assets/optimized/food-label-details.png.webp",
+    "before": 1898227,
+    "after": 1426412,
+    "resolution": "1659x948",
+    "pixelExact": true,
+    "pages": [
+      "/insights/food-label-guide/"
+    ]
+  },
+  {
+    "source": "/assets/quality-manufacturing-review.png",
+    "target": "/assets/optimized/quality-manufacturing-review.png.webp",
+    "before": 1890235,
+    "after": 1338072,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/patent-kr-10-1652035-private.png",
+    "target": "/assets/optimized/patent-kr-10-1652035-private.png.webp",
+    "before": 1875906,
+    "after": 1307182,
+    "resolution": "1055x1491",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-extract-material-pouch.png",
+    "target": "/assets/optimized/gmk-extract-material-pouch.png.webp",
+    "before": 1870441,
+    "after": 1265684,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/ingredients/"
+    ]
+  },
+  {
+    "source": "/assets/growth-cognitive-material.png",
+    "target": "/assets/optimized/growth-cognitive-material.png.webp",
+    "before": 1853634,
+    "after": 1309438,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/insight-gmk-cultures.png",
+    "target": "/assets/optimized/insight-gmk-cultures.png.webp",
+    "before": 1834333,
+    "after": 1291694,
+    "resolution": "1755x896",
+    "pixelExact": true,
+    "pages": [
+      "/insights/gmk-material/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-material-technology-hero.png",
+    "target": "/assets/optimized/gmk-material-technology-hero.png.webp",
+    "before": 1828802,
+    "after": 1257974,
+    "resolution": "2172x724",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/revenue-material-supply.png",
+    "target": "/assets/optimized/revenue-material-supply.png.webp",
+    "before": 1827539,
+    "after": 1317678,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/quality-material-review.png",
+    "target": "/assets/optimized/quality-material-review.png.webp",
+    "before": 1819613,
+    "after": 1310230,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/patent-kr-10-1923408-private.png",
+    "target": "/assets/optimized/patent-kr-10-1923408-private.png.webp",
+    "before": 1732835,
+    "after": 1273802,
+    "resolution": "1070x1470",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/ingredient-supply-hero.png",
+    "target": "/assets/optimized/ingredient-supply-hero.png.webp",
+    "before": 1675010,
+    "after": 1246802,
+    "resolution": "2172x724",
+    "pixelExact": true,
+    "pages": [
+      "/business/ingredients/"
+    ]
+  },
+  {
+    "source": "/assets/insight-hyphae-network.png",
+    "target": "/assets/optimized/insight-hyphae-network.png.webp",
+    "before": 1671845,
+    "after": 1221832,
+    "resolution": "1672x941",
+    "pixelExact": true,
+    "pages": [
+      "/insights/what-is-gmk/"
+    ]
+  },
+  {
+    "source": "/assets/research-evidence-hero.png",
+    "target": "/assets/optimized/research-evidence-hero.png.webp",
+    "before": 1643403,
+    "after": 1209926,
+    "resolution": "2206x713",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/evidence/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-liquid-material-pouch.png",
+    "target": "/assets/optimized/gmk-liquid-material-pouch.png.webp",
+    "before": 1641333,
+    "after": 1084442,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/ingredients/"
+    ]
+  },
+  {
+    "source": "/assets/insights/are-mushrooms-plants/패트리디시에 배양된 버섯균사체.png",
+    "target": "/assets/optimized/insights/are-mushrooms-plants/패트리디시에 배양된 버섯균사체.png.webp",
+    "before": 1277162,
+    "after": 882564,
+    "resolution": "1024x1024",
+    "pixelExact": true,
+    "pages": [
+      "/insights/are-mushrooms-plants/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-liquid-material-container.png",
+    "target": "/assets/optimized/gmk-liquid-material-container.png.webp",
+    "before": 1276411,
+    "after": 891112,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/business/ingredients/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-grain-preparation-display.png",
+    "target": "/assets/optimized/gmk-grain-preparation-display.png.webp",
+    "before": 1038177,
+    "after": 616158,
+    "resolution": "1138x1138",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/foundation-technology-display.png",
+    "target": "/assets/optimized/foundation-technology-display.png.webp",
+    "before": 976694,
+    "after": 579916,
+    "resolution": "892x1073",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/patent-cultivation-technology-display.png",
+    "target": "/assets/optimized/patent-cultivation-technology-display.png.webp",
+    "before": 949286,
+    "after": 536240,
+    "resolution": "977x1022",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-applications.png",
+    "target": "/assets/optimized/gmk-applications.png.webp",
+    "before": 949043,
+    "after": 690404,
+    "resolution": "2169x725",
+    "pixelExact": true,
+    "pages": [
+      "/"
+    ]
+  },
+  {
+    "source": "/assets/research-focus-cell.png",
+    "target": "/assets/optimized/research-focus-cell.png.webp",
+    "before": 917081,
+    "after": 580618,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/research-focus-animal.png",
+    "target": "/assets/optimized/research-focus-animal.png.webp",
+    "before": 904838,
+    "after": 560358,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/process-06-delivery-display.png",
+    "target": "/assets/optimized/process-06-delivery-display.png.webp",
+    "before": 888022,
+    "after": 505970,
+    "resolution": "1170x1114",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/patent-cognitive-research-display.png",
+    "target": "/assets/optimized/patent-cognitive-research-display.png.webp",
+    "before": 850200,
+    "after": 496100,
+    "resolution": "986x1040",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/patent-count-korea.png",
+    "target": "/assets/optimized/patent-count-korea.png.webp",
+    "before": 846702,
+    "after": 563986,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/research-focus-process.png",
+    "target": "/assets/optimized/research-focus-process.png.webp",
+    "before": 842628,
+    "after": 534254,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/foundation-research-evidence-display.png",
+    "target": "/assets/optimized/foundation-research-evidence-display.png.webp",
+    "before": 834780,
+    "after": 466048,
+    "resolution": "1042x997",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/process-05-manufacturing-display.png",
+    "target": "/assets/optimized/process-05-manufacturing-display.png.webp",
+    "before": 800899,
+    "after": 465106,
+    "resolution": "1035x1052",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/process-01-planning-display.png",
+    "target": "/assets/optimized/process-01-planning-display.png.webp",
+    "before": 800334,
+    "after": 452266,
+    "resolution": "1248x1217",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/research-focus-human.png",
+    "target": "/assets/optimized/research-focus-human.png.webp",
+    "before": 798034,
+    "after": 516850,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/patent-count-us.png",
+    "target": "/assets/optimized/patent-count-us.png.webp",
+    "before": 790551,
+    "after": 506150,
+    "resolution": "1272x1237",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/foundation-commercialization-display.png",
+    "target": "/assets/optimized/foundation-commercialization-display.png.webp",
+    "before": 781367,
+    "after": 438824,
+    "resolution": "1248x880",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/hiroyuki-maruyama.png",
+    "target": "/assets/optimized/hiroyuki-maruyama.png.webp",
+    "before": 766201,
+    "after": 414646,
+    "resolution": "794x891",
+    "pixelExact": true,
+    "pages": [
+      "/company/"
+    ]
+  },
+  {
+    "source": "/assets/process-04-quality-review-display.png",
+    "target": "/assets/optimized/process-04-quality-review-display.png.webp",
+    "before": 744462,
+    "after": 410842,
+    "resolution": "974x996",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/technology-grain-medium-design.png",
+    "target": "/assets/optimized/technology-grain-medium-design.png.webp",
+    "before": 743545,
+    "after": 490806,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/sustainability-grain-culture-display.png",
+    "target": "/assets/optimized/sustainability-grain-culture-display.png.webp",
+    "before": 742473,
+    "after": 454096,
+    "resolution": "1111x1111",
+    "pixelExact": true,
+    "pages": [
+      "/company/sustainability/"
+    ]
+  },
+  {
+    "source": "/assets/technology-simultaneous-inoculation.png",
+    "target": "/assets/optimized/technology-simultaneous-inoculation.png.webp",
+    "before": 714169,
+    "after": 462416,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/patent-material-application-display.png",
+    "target": "/assets/optimized/patent-material-application-display.png.webp",
+    "before": 702214,
+    "after": 388416,
+    "resolution": "1028x928",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/patents/"
+    ]
+  },
+  {
+    "source": "/assets/material-display.png",
+    "target": "/assets/optimized/material-display.png.webp",
+    "before": 701730,
+    "after": 414796,
+    "resolution": "1082x1073",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/manufacturing-partnership-display.png",
+    "target": "/assets/optimized/manufacturing-partnership-display.png.webp",
+    "before": 694514,
+    "after": 406104,
+    "resolution": "1016x998",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/foundation-intellectual-property-display.png",
+    "target": "/assets/optimized/foundation-intellectual-property-display.png.webp",
+    "before": 687639,
+    "after": 393656,
+    "resolution": "912x1022",
+    "pixelExact": true,
+    "pages": [
+      "/ir/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-material-display.png",
+    "target": "/assets/optimized/gmk-material-display.png.webp",
+    "before": 673486,
+    "after": 406814,
+    "resolution": "974x974",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/process-02-formulation-display.png",
+    "target": "/assets/optimized/process-02-formulation-display.png.webp",
+    "before": 667073,
+    "after": 371332,
+    "resolution": "964x1017",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/technology-mycelium-utilization.png",
+    "target": "/assets/optimized/technology-mycelium-utilization.png.webp",
+    "before": 646010,
+    "after": 416574,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/delivery-display.png",
+    "target": "/assets/optimized/delivery-display.png.webp",
+    "before": 642649,
+    "after": 382786,
+    "resolution": "1260x847",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/technology-cultivation-environment-control.png",
+    "target": "/assets/optimized/technology-cultivation-environment-control.png.webp",
+    "before": 635983,
+    "after": 409914,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/process-03-sensory-test-display.png",
+    "target": "/assets/optimized/process-03-sensory-test-display.png.webp",
+    "before": 634645,
+    "after": 377538,
+    "resolution": "914x950",
+    "pixelExact": true,
+    "pages": [
+      "/business/development/"
+    ]
+  },
+  {
+    "source": "/assets/technology-efficient-cultivation.png",
+    "target": "/assets/optimized/technology-efficient-cultivation.png.webp",
+    "before": 590669,
+    "after": 387764,
+    "resolution": "1254x1254",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/rnd-gmk-technology-display.png",
+    "target": "/assets/optimized/rnd-gmk-technology-display.png.webp",
+    "before": 586915,
+    "after": 358492,
+    "resolution": "871x871",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/rnd-research-evidence-display.png",
+    "target": "/assets/optimized/rnd-research-evidence-display.png.webp",
+    "before": 583690,
+    "after": 347782,
+    "resolution": "1004x1004",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/rnd-quality-production-display.png",
+    "target": "/assets/optimized/rnd-quality-production-display.png.webp",
+    "before": 570636,
+    "after": 334556,
+    "resolution": "1036x1036",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/"
+    ]
+  },
+  {
+    "source": "/assets/product-planning-display.png",
+    "target": "/assets/optimized/product-planning-display.png.webp",
+    "before": 555789,
+    "after": 323670,
+    "resolution": "780x1017",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/gmk-mixed-culture-display.png",
+    "target": "/assets/optimized/gmk-mixed-culture-display.png.webp",
+    "before": 555208,
+    "after": 329086,
+    "resolution": "1000x1000",
+    "pixelExact": true,
+    "pages": [
+      "/rnd/gmk/"
+    ]
+  },
+  {
+    "source": "/assets/research-functional-evaluation-display.png",
+    "target": "/assets/optimized/research-functional-evaluation-display.png.webp",
+    "before": 539071,
+    "after": 321120,
+    "resolution": "956x956",
+    "pixelExact": true,
+    "pages": [
+      "/"
+    ]
+  },
+  {
+    "source": "/assets/research-human-trial-display.png",
+    "target": "/assets/optimized/research-human-trial-display.png.webp",
+    "before": 538191,
+    "after": 319380,
+    "resolution": "932x932",
+    "pixelExact": true,
+    "pages": [
+      "/"
+    ]
+  },
+  {
+    "source": "/assets/sustainability-controlled-culture-display.png",
+    "target": "/assets/optimized/sustainability-controlled-culture-display.png.webp",
+    "before": 529969,
+    "after": 303114,
+    "resolution": "895x895",
+    "pixelExact": true,
+    "pages": [
+      "/company/sustainability/"
+    ]
+  },
+  {
+    "source": "/assets/prototype-display.png",
+    "target": "/assets/optimized/prototype-display.png.webp",
+    "before": 529799,
+    "after": 312738,
+    "resolution": "863x990",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/productization-process-display.png",
+    "target": "/assets/optimized/productization-process-display.png.webp",
+    "before": 524490,
+    "after": 285746,
+    "resolution": "1265x658",
+    "pixelExact": true,
+    "pages": [
+      "/business/"
+    ]
+  },
+  {
+    "source": "/assets/execution-global-display.png",
+    "target": "/assets/optimized/execution-global-display.png.webp",
+    "before": 509594,
+    "after": 326046,
+    "resolution": "1024x1024",
+    "pixelExact": true,
+    "pages": [
+      "/company/"
+    ]
+  }
+]

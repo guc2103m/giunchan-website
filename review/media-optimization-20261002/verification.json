@@ -1,0 +1,13 @@
+{
+  "nonMediaDiffs": [],
+  "originalHashesUnchanged": 572,
+  "imagesPixelExact": 87,
+  "videoFullDecode": "PASS",
+  "faststart": "PASS",
+  "tests": 7,
+  "routes": 67,
+  "browserManualCheck": {
+    "viewport976": "PASS: no horizontal overflow or broken loaded images; video playback confirmed",
+    "mobile": "PENDING: viewport tool repeatedly timed out"
+  }
+}
