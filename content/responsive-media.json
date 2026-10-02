@@ -1,0 +1,92 @@
+[
+  {
+    "name": "dodoon",
+    "source": "/assets/optimized/dodoon-hero-20260916.png.webp",
+    "sourceBytes": 1693912,
+    "sizes": "(max-width:700px) 1173px, (max-width:1262px) 1262px, 100vw",
+    "variants": [
+      {
+        "url": "/assets/responsive/dodoon-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 105610
+      },
+      {
+        "url": "/assets/responsive/dodoon-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 228384
+      },
+      {
+        "url": "/assets/responsive/dodoon-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 322776
+      }
+    ]
+  },
+  {
+    "name": "mushroom",
+    "source": "/assets/optimized/insights/are-mushrooms-plants/버섯은식물일까_썸네일.png.webp",
+    "sourceBytes": 1938266,
+    "sizes": "(max-width:700px) calc(100vw - 40px), (max-width:924px) calc(100vw - 64px), 860px",
+    "variants": [
+      {
+        "url": "/assets/responsive/mushroom-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 56774
+      },
+      {
+        "url": "/assets/responsive/mushroom-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 127548
+      },
+      {
+        "url": "/assets/responsive/mushroom-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 294046
+      },
+      {
+        "url": "/assets/responsive/mushroom-1672.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 442692
+      }
+    ]
+  },
+  {
+    "name": "rnd",
+    "source": "/assets/optimized/gmk-material-technology-hero.png.webp",
+    "sourceBytes": 1257974,
+    "sizes": "(max-width:700px) 1140px, (max-width:1200px) 1200px, 100vw",
+    "variants": [
+      {
+        "url": "/assets/responsive/rnd-768.webp",
+        "width": 768,
+        "height": 256,
+        "bytes": 41034
+      },
+      {
+        "url": "/assets/responsive/rnd-1280.webp",
+        "width": 1280,
+        "height": 427,
+        "bytes": 81544
+      },
+      {
+        "url": "/assets/responsive/rnd-1600.webp",
+        "width": 1600,
+        "height": 533,
+        "bytes": 107410
+      },
+      {
+        "url": "/assets/responsive/rnd-2172.webp",
+        "width": 2172,
+        "height": 724,
+        "bytes": 157718
+      }
+    ]
+  }
+]

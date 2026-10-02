@@ -1,3 +1,4 @@
+import {optimizePerformance} from './performance-optimization.mjs';
 import {optimizeMediaReferences} from './media-optimization.mjs';
 import {seoHead,robotsText,siteOrigin} from './seo.mjs';
 import {contactForm,consentDetails} from './contact-form.mjs';
@@ -113,3 +114,4 @@ console.log(`${routeUrls.length} local draft pages built; ${coverage.length} con
 fs.writeFileSync(path.join(dist,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+[...new Set(routeUrls)].filter(u=>u!=='/company/location/'&&u!=='/rnd/quality/'&&(u==='/newsroom/'||!u.startsWith('/newsroom/'))).map(u=>{const post=pressPosts.find(p=>pressPath(p)===u);return `<url><loc>${siteOrigin}${u}</loc>${post?.updatedAt?`<lastmod>${post.updatedAt}</lastmod>`:''}</url>`}).join('')+'</urlset>');
 
 optimizeMediaReferences(root);
+optimizePerformance(root);
