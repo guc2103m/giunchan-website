@@ -1,9 +1,11 @@
+import {migratedSlugs} from '../lib/content-migrations.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 export function buildCMS(root){
  const dist=path.join(root,'dist');
  fs.copyFileSync(path.join(root,'lib/content-render.mjs'),path.join(dist,'cms-render.mjs'));
  fs.copyFileSync(path.join(root,'lib/content-config.mjs'),path.join(dist,'cms-config.mjs'));
+ fs.copyFileSync(path.join(root,'lib/content-tree.mjs'),path.join(dist,'content-tree.mjs'));
  const slugs=[];
  for(const dir of ['insights','insights/press','newsroom'])for(const entry of fs.readdirSync(path.join(dist,dir),{withFileTypes:true}))if(entry.isDirectory()&&fs.existsSync(path.join(dist,dir,entry.name,'index.html')))slugs.push(entry.name);
  fs.writeFileSync(path.join(dist,'cms-reserved.json'),JSON.stringify([...new Set(slugs)]));
@@ -18,5 +20,5 @@ export function buildCMS(root){
  for(const name of ['404.html','sitemap.xml','cms-reserved.json'])fs.copyFileSync(path.join(dist,name),path.join(runtime,name));
  // Vercel serves matching static files before rewrites. Keep list templates in the
  // runtime bundle, but omit public list index files on Vercel so requests reach SSR.
- if(process.env.VERCEL){for(const file of ['insights/index.html','newsroom/index.html','sitemap.xml'])fs.unlinkSync(path.join(dist,file));}
+ if(process.env.VERCEL){for(const file of ['insights/index.html','newsroom/index.html','sitemap.xml',...migratedSlugs.map(slug=>`insights/${slug}/index.html`)])fs.unlinkSync(path.join(dist,file));}
 }

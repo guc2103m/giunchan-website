@@ -1,0 +1,2227 @@
+{
+  "id": "7dfa5eba-612e-4b46-bef1-18b0f9d8e9ca",
+  "title": "버섯은 식물일까요? 균사체부터 자실체까지 알아보는 버섯의 세계",
+  "slug": "are-mushrooms-plants",
+  "category": "research-data",
+  "summary": "버섯이 식물이 아닌 이유와 균사·균사체·자실체의 차이, 포자에서 자실체까지 이어지는 버섯의 생애를 알아봅니다.",
+  "content": {
+    "blocks": [
+      {
+        "tag": "header",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "div",
+            "type": "element",
+            "attrs": {
+              "class": "section-kicker"
+            },
+            "children": [
+              {
+                "text": "인사이트 / 연구자료",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "h1",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "버섯은 식물일까요? 균사체부터 자실체까지 알아보는 버섯의 세계",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "type": "element",
+            "attrs": {
+              "class": "mushroom-answer"
+            },
+            "children": [
+              {
+                "text": "숲이나 식탁에서 만나는 버섯은 식물처럼 보이지만, 생물학적으로는 식물이 아닙니다. 버섯은 ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균계(Fungi)",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": "에 속하는 생물입니다. 식물처럼 광합성으로 양분을 만들지 않고, 주변의 유기물을 효소로 분해한 뒤 필요한 영양분을 흡수합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "작성: 주식회사 기운찬 · 발행일: ",
+                "type": "text"
+              },
+              {
+                "tag": "time",
+                "type": "element",
+                "attrs": {
+                  "datetime": "2026-09-28"
+                },
+                "children": [
+                  {
+                    "text": "2026.09.28",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " · 수정일: ",
+                "type": "text"
+              },
+              {
+                "tag": "time",
+                "type": "element",
+                "attrs": {
+                  "datetime": "2026-09-28"
+                },
+                "children": [
+                  {
+                    "text": "2026.09.28",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "figure",
+        "type": "element",
+        "attrs": {
+          "class": "article-visual"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "type": "element",
+            "attrs": {
+              "alt": "숲속에서 자라는 버섯과 식물을 보여주는 버섯은 식물일까요 인사이트 대표 이미지",
+              "src": "/assets/optimized/insights/are-mushrooms-plants/버섯은식물일까_썸네일.png.webp",
+              "sizes": "(max-width:700px) calc(100vw - 40px), (max-width:924px) calc(100vw - 64px), 860px",
+              "style": "aspect-ratio:1672 / 941",
+              "width": "1672",
+              "height": "941",
+              "srcset": "/assets/responsive/mushroom-480.webp 480w, /assets/responsive/mushroom-768.webp 768w, /assets/responsive/mushroom-1280.webp 1280w, /assets/responsive/mushroom-1672.webp 1672w",
+              "decoding": "async",
+              "fetchpriority": "high"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "세포벽의 구성도 식물과 다릅니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "그리고 우리가 흔히 ‘버섯’이라고 부르는 갓과 대는 균류의 전부가 아닙니다. 이것은 포자를 만들고 퍼뜨리는 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "자실체",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "이며, 많은 균류는 나무나 토양, 배지 안에서 가느다란 균사가 그물처럼 연결된 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "의 형태로 더 넓게 살아갑니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "nav",
+        "type": "element",
+        "attrs": {
+          "class": "article-toc",
+          "aria-label": "글 목차"
+        },
+        "children": [
+          {
+            "tag": "h2",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "목차",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "ol",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-1"
+                    },
+                    "children": [
+                      {
+                        "text": "1. 버섯은 왜 식물이 아닐까요?",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-2"
+                    },
+                    "children": [
+                      {
+                        "text": "2. 눈에 보이는 버섯은 균류의 전부일까요?",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-3"
+                    },
+                    "children": [
+                      {
+                        "text": "3. 균사와 균사체는 어떻게 다를까요?",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-4"
+                    },
+                    "children": [
+                      {
+                        "text": "4. 포자에서 자실체까지, 버섯은 어떻게 자랄까요?",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-5"
+                    },
+                    "children": [
+                      {
+                        "text": "5. 자연에서 균사체는 어떤 일을 할까요?",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-6"
+                    },
+                    "children": [
+                      {
+                        "text": "6. 왜 균사체와 배양 환경을 연구할까요?",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-7"
+                    },
+                    "children": [
+                      {
+                        "text": "7. 자주 묻는 질문",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-8"
+                    },
+                    "children": [
+                      {
+                        "text": "한눈에 정리",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "a",
+                    "type": "element",
+                    "attrs": {
+                      "href": "#mushroom-section-9"
+                    },
+                    "children": [
+                      {
+                        "text": "참고 자료",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-1"
+        },
+        "children": [
+          {
+            "text": "1. 버섯은 왜 식물이 아닐까요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "버섯은 움직이지 않고 땅이나 나무에서 자라기 때문에 식물로 오해하기 쉽습니다. 하지만 영양분을 얻는 방식과 세포 구조를 살펴보면 식물과 뚜렷하게 다릅니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "type": "element",
+        "attrs": {
+          "role": "region",
+          "class": "table-wrap",
+          "tabindex": "0",
+          "aria-label": "식물과 균류 비교표"
+        },
+        "children": [
+          {
+            "tag": "table",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "thead",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "tr",
+                    "type": "element",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "th",
+                        "type": "element",
+                        "attrs": {
+                          "scope": "col"
+                        },
+                        "children": [
+                          {
+                            "text": "구분",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "th",
+                        "type": "element",
+                        "attrs": {
+                          "scope": "col"
+                        },
+                        "children": [
+                          {
+                            "text": "식물",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "th",
+                        "type": "element",
+                        "attrs": {
+                          "scope": "col"
+                        },
+                        "children": [
+                          {
+                            "text": "버섯을 포함한 균류",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tbody",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "tr",
+                    "type": "element",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "생물 분류",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "식물계",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "균계",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "tr",
+                    "type": "element",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "에너지를 얻는 방식",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "주로 광합성으로 유기물 생성",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "외부 유기물을 분해한 뒤 영양분 흡수",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "tr",
+                    "type": "element",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "엽록소",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "일반적으로 있음",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "없음",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "tr",
+                    "type": "element",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "세포벽의 주요 성분",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "셀룰로오스",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "키틴과 글루칸 등",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "tr",
+                    "type": "element",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "몸의 주요 구조",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "뿌리·줄기·잎 등",
+                            "type": "text"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "td",
+                        "type": "element",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "text": "균사·균사체, 일부는 자실체 형성",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "균류는 소화효소를 몸 밖으로 분비해 주변 물질을 작은 성분으로 분해하고, 이를 흡수해 살아갑니다. 이러한 방식은 햇빛을 이용해 양분을 만드는 식물의 광합성과 근본적으로 다릅니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "따라서 ‘버섯은 채소인가요?’라는 질문에는 관점에 따라 답이 달라집니다. 식재료나 유통 분류에서는 채소처럼 다루기도 하지만, ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "생물학적으로 버섯은 식물이 아니라 균류",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "입니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "blockquote",
+        "type": "element",
+        "attrs": {
+          "class": "article-notice"
+        },
+        "children": [
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "핵심 답변",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "br",
+            "type": "element",
+            "attrs": {},
+            "children": []
+          },
+          {
+            "text": "버섯은 식물이 아닙니다. 광합성을 하지 않고 외부의 유기물을 분해·흡수하며, 균계에 속합니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-2"
+        },
+        "children": [
+          {
+            "text": "2. 눈에 보이는 버섯은 균류의 전부일까요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "우리가 눈으로 보는 버섯의 갓과 대는 보통 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "자실체(fruiting body)",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "입니다. 자실체는 포자를 만들고 퍼뜨리는 번식 구조입니다. 사과나무에 비유한다면 땅 위로 드러난 버섯만 보고 균류 전체를 이해하기는 어렵습니다. 다만 자실체를 단순히 ‘열매’와 동일하다고 볼 수는 없으며, 기능을 쉽게 설명하기 위한 비유로 이해하는 것이 좋습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "자실체 아래의 토양, 나무, 곡물 배지 등에는 실처럼 가느다란 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "가 자랍니다. 이 균사들이 서로 뻗고 얽혀 형성한 조직이 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체(mycelium)",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "입니다. 자실체가 사라진 뒤에도 환경이 알맞다면 기질 속 균사체가 살아 있으며 다시 생장하거나 새로운 자실체를 만들 수 있습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "즉, 눈에 보이는 버섯은 균류의 중요한 한 부분이지만 전부는 아닙니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-3"
+        },
+        "children": [
+          {
+            "text": "3. 균사와 균사체는 어떻게 다를까요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사(hypha)",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "는 균류를 이루는 가느다란 실 모양의 기본 구조입니다. 하나하나의 균사가 가지를 뻗으며 자라고, 수많은 균사가 연결된 그물망을 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체(mycelium)",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "라고 합니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균사:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 실 한 가닥과 같은 기본 단위",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균사체:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 여러 균사가 연결되어 형성한 생장 네트워크",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "자실체:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 특정 조건에서 형성되어 포자를 만드는 구조",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "균사체를 식물의 뿌리라고 부르는 경우가 있지만 둘은 같은 기관이 아닙니다. 땅속이나 기질 속으로 넓게 퍼져 물질을 흡수한다는 점에서 이해를 돕는 비유일 뿐, 생물학적 구조와 작동 방식에는 차이가 있습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "figure",
+        "type": "element",
+        "attrs": {
+          "class": "article-visual"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "type": "element",
+            "attrs": {
+              "alt": "현미경으로 확대한 가느다란 균사와 균사체 네트워크",
+              "src": "/assets/optimized/insights/are-mushrooms-plants/추천1 균사와 균사체.png.webp",
+              "width": "1672",
+              "height": "941",
+              "loading": "lazy",
+              "decoding": "async"
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "하나의 가느다란 균사가 분지하고 연결되면서 균사체 네트워크를 형성합니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-4"
+        },
+        "children": [
+          {
+            "text": "4. 포자에서 자실체까지, 버섯은 어떻게 자랄까요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "버섯의 생애는 종과 환경에 따라 차이가 있지만, 대표적인 흐름은 다음과 같이 이해할 수 있습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "figure",
+        "type": "element",
+        "attrs": {
+          "class": "article-visual"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "type": "element",
+            "attrs": {
+              "alt": "포자 발아부터 균사체와 자실체 형성까지 보여주는 버섯의 생애",
+              "src": "/assets/optimized/insights/are-mushrooms-plants/추천2 버섯의일생 주기4단계.png.webp",
+              "width": "1672",
+              "height": "941",
+              "loading": "lazy",
+              "decoding": "async"
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균류는 포자에서 시작해 균사와 균사체로 생장하고, 조건이 맞으면 자실체를 형성합니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "ol",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "포자 발아",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 알맞은 온도와 수분 등 환경을 만나면 포자가 발아해 균사가 자라기 시작합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균사 생장과 결합",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 균사는 주변으로 뻗으며 기질에서 영양분을 흡수합니다. 종에 따라 서로 양립 가능한 균사가 결합해 자실체를 만들 수 있는 상태가 됩니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균사체 형성",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 수많은 균사가 연결되면서 기질 속에 균사체 네트워크가 발달합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "자실체 형성",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 온도, 습도, 빛, 산소 등 조건이 맞으면 일부 균류는 자실체를 형성합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "포자 생성과 확산",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " 성숙한 자실체는 포자를 만들고 퍼뜨리며 다음 생애로 이어집니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "type": "element",
+        "attrs": {
+          "class": "mushroom-video",
+          "aria-labelledby": "mushroom-video-title"
+        },
+        "children": [
+          {
+            "tag": "h3",
+            "type": "element",
+            "attrs": {
+              "id": "mushroom-video-title"
+            },
+            "children": [
+              {
+                "text": "70초로 보는 버섯균사체의 생애",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "포자에서 균사가 자라고, 균사체가 유기물을 분해하며, 다시 자실체가 형성되는 과정을 영상으로 확인해 보세요.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "video",
+            "type": "element",
+            "attrs": {
+              "width": "720",
+              "height": "1280",
+              "preload": "metadata",
+              "controls": "",
+              "aria-label": "70초로 보는 버섯균사체의 생애",
+              "playsinline": "",
+              "aria-describedby": "video-help"
+            },
+            "children": [
+              {
+                "tag": "source",
+                "type": "element",
+                "attrs": {
+                  "src": "/assets/optimized/insights/are-mushrooms-plants/mycelium-web.mp4",
+                  "type": "video/mp4"
+                },
+                "children": []
+              },
+              {
+                "text": "이 브라우저에서는 영상을 재생할 수 없습니다. 아래 원본 영상 링크를 이용해 주세요.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "type": "element",
+            "attrs": {
+              "id": "video-help"
+            },
+            "children": [
+              {
+                "text": "영상이 재생되지 않으면 ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "/assets/insights/are-mushrooms-plants/버섯균사체.mp4",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "원본 영상 열기",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": "를 이용해 주세요.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "type": "element",
+            "attrs": {
+              "class": "article-notice"
+            },
+            "children": [
+              {
+                "tag": "p",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "알맞은 환경에서 포자가 발아하면 균사가 자라기 시작합니다. 여러 균사가 연결되면서 균사체 네트워크가 발달하고, 주변 유기물을 분해해 영양분을 흡수합니다. 조건이 맞으면 자실체가 형성되고, 성숙한 자실체가 포자를 퍼뜨리며 다음 생애로 이어집니다.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-5"
+        },
+        "children": [
+          {
+            "text": "5. 자연에서 균사체는 어떤 일을 할까요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "균사체는 단순히 버섯을 만들어 내는 바탕에 머물지 않습니다. 숲과 토양에서 낙엽이나 죽은 나무 같은 유기물을 분해하고, 그 안에 있던 성분이 생태계에서 다시 순환하도록 돕습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "또한 일부 균류는 식물의 뿌리와 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균근",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "text": "이라는 공생 관계를 형성합니다. 균류는 식물이 물과 무기질을 얻는 데 도움을 주고, 식물로부터 광합성 산물의 일부를 공급받습니다. 반대로 병원성 균류나 기생성 균류도 있으므로 모든 균류가 같은 방식으로 살아가는 것은 아닙니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "균류는 눈에 잘 띄지 않지만 분해, 순환, 공생을 통해 생태계의 흐름에 깊이 관여합니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "figure",
+        "type": "element",
+        "attrs": {
+          "class": "article-visual"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "type": "element",
+            "attrs": {
+              "alt": "쓰러진 나무와 낙엽 아래에서 유기물을 분해하는 균사체 네트워크",
+              "src": "/assets/optimized/insights/are-mushrooms-plants/추천3.png.webp",
+              "width": "1672",
+              "height": "941",
+              "loading": "lazy",
+              "decoding": "async"
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체는 낙엽과 죽은 나무 같은 유기물을 분해하며 숲의 물질 순환에 참여합니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-6"
+        },
+        "children": [
+          {
+            "text": "6. 왜 균사체와 배양 환경을 연구할까요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "균사체의 생장은 종균의 상태, 배지의 조성, 수분, 온도, 산소, 배양 시간 등 여러 조건의 영향을 받습니다. 같은 균주를 사용하더라도 배양 환경과 관리 방식에 따라 생장 상태와 배양물의 특성이 달라질 수 있습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "figure",
+        "type": "element",
+        "attrs": {
+          "class": "article-visual"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "type": "element",
+            "attrs": {
+              "alt": "패트리디시의 배지 위에서 자란 버섯균사체",
+              "src": "/assets/optimized/insights/are-mushrooms-plants/패트리디시에 배양된 버섯균사체.png.webp",
+              "width": "1024",
+              "height": "1024",
+              "loading": "lazy",
+              "decoding": "async"
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "버섯균사체의 생장 상태를 관찰하기 위해 배양한 연구용 시료입니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "따라서 균사체 소재를 연구할 때는 단순히 ‘어떤 버섯인가’만 보는 것이 아니라 다음 요소를 함께 살펴야 합니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "어떤 특성의 종균을 사용하는가",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체가 어떤 배지에서 자라는가",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "온도와 수분 등 배양 조건을 어떻게 관리하는가",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "배양이 균일하게 이루어졌는가",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "배양 후 원료를 어떤 기준으로 관리하는가",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "figure",
+        "type": "element",
+        "attrs": {
+          "class": "article-visual"
+        },
+        "children": [
+          {
+            "tag": "img",
+            "type": "element",
+            "attrs": {
+              "alt": "연구 환경에서 배양 상태를 확인하는 버섯균사체",
+              "src": "/assets/optimized/insights/are-mushrooms-plants/추천4 연구소균사체.png.webp",
+              "width": "1400",
+              "height": "800",
+              "loading": "lazy",
+              "decoding": "async"
+            },
+            "children": []
+          },
+          {
+            "tag": "figcaption",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체 연구에서는 종균과 배지뿐 아니라 배양 환경을 일정하게 관리하는 과정이 중요합니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "주식회사 기운찬은 눈에 보이는 자실체뿐 아니라 균사체의 생장 과정과 배양 환경에 주목합니다. 버섯균사체를 곡물 등 농산물 배지에서 배양하고, 종균·배지·배양 조건을 관리하는 기술을 바탕으로 복합버섯균사체 소재 ",
+            "type": "text"
+          },
+          {
+            "tag": "strong",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "span",
+                "type": "element",
+                "attrs": {
+                  "class": "no-break"
+                },
+                "children": [
+                  {
+                    "text": "GMK",
+                    "type": "text"
+                  },
+                  {
+                    "tag": "sup",
+                    "type": "element",
+                    "attrs": {
+                      "class": "registered-mark"
+                    },
+                    "children": [
+                      {
+                        "text": "®",
+                        "type": "text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "를 연구·개발하고 있습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-7"
+        },
+        "children": [
+          {
+            "text": "7. 자주 묻는 질문",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-faq-1"
+        },
+        "children": [
+          {
+            "text": "버섯은 채소인가요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "식재료나 유통상 채소와 함께 분류되기도 하지만, 생물학적으로는 식물이 아니라 균계에 속합니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-faq-2"
+        },
+        "children": [
+          {
+            "text": "균사체는 버섯의 뿌리인가요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "아닙니다. 기질 속으로 퍼져 영양분을 흡수한다는 점은 비슷해 보이지만, 균사체와 식물의 뿌리는 서로 다른 생물학적 구조입니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-faq-3"
+        },
+        "children": [
+          {
+            "text": "균사와 균사체는 같은 말인가요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "균사는 가느다란 실 모양의 기본 구조이고, 균사체는 여러 균사가 뻗고 연결되어 형성한 네트워크입니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-faq-4"
+        },
+        "children": [
+          {
+            "text": "자실체가 사라지면 균류도 죽은 건가요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "반드시 그렇지는 않습니다. 눈에 보이는 자실체가 사라져도 기질 속 균사체가 남아 생장을 이어갈 수 있습니다. 다만 생존 여부와 기간은 종과 환경에 따라 달라집니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-faq-5"
+        },
+        "children": [
+          {
+            "text": "모든 균류가 우리가 아는 버섯을 만드나요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "아닙니다. 곰팡이와 효모도 균계에 포함되며, 모든 균류가 갓과 대가 있는 자실체를 만드는 것은 아닙니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-faq-6"
+        },
+        "children": [
+          {
+            "text": "버섯의 ‘진짜 몸’은 균사체인가요?",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "이 표현은 균사체의 중요성을 쉽게 전달하지만 다소 단순화된 설명입니다. 많은 균류에서 균사체가 영양 생장과 물질 흡수를 담당하고 자실체가 번식을 담당하지만, 균류의 형태와 생활사는 종마다 다양합니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-8"
+        },
+        "children": [
+          {
+            "text": "한눈에 정리",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "버섯은 식물이 아니라 ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균계",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": "에 속합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "광합성을 하지 않고, 외부 유기물을 분해한 뒤 영양분을 흡수합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균사",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": "는 실 모양의 기본 구조이고, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "균사체",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": "는 균사가 연결된 네트워크입니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "우리가 흔히 보는 갓과 대는 포자를 만드는 ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "자실체",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": "입니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체는 분해와 물질 순환, 일부 식물과의 공생 등 생태계의 여러 과정에 참여합니다.",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "균사체 소재를 이해하려면 균주뿐 아니라 배지와 배양 환경까지 함께 살펴야 합니다.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "text": "버섯의 세계는 눈에 보이는 갓과 대보다 훨씬 넓습니다. 자실체 아래에서 이어지는 균사의 생장과 균사체의 역할을 이해하면, 버섯이라는 생물을 더 정확하게 바라볼 수 있습니다.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "h2",
+        "type": "element",
+        "attrs": {
+          "id": "mushroom-section-9"
+        },
+        "children": [
+          {
+            "text": "참고 자료",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "tag": "ol",
+        "type": "element",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "Royal Botanic Gardens, Kew, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What in earth? Understanding what fungi really are",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "https://www.kew.org/read-and-watch/what-is-fungi",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "https://www.kew.org/read-and-watch/what-is-fungi",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "Royal Botanic Gardens, Kew, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The wonderful world of fungi",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "https://www.kew.org/read-and-watch/the-wonderful-world-of-fungi",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "https://www.kew.org/read-and-watch/the-wonderful-world-of-fungi",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "USDA Forest Service, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Biology, Ecology, and Social Aspects of Wild Edible Mushrooms in the Forests of the Pacific Northwest",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "https://research.fs.usda.gov/download/treesearch/5632.pdf",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "https://research.fs.usda.gov/download/treesearch/5632.pdf",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "USDA Forest Service, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "Basic Mushroom Guide",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "https://research.fs.usda.gov/download/treesearch/68444.pdf",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "https://research.fs.usda.gov/download/treesearch/68444.pdf",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "Microbiology Society, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "What are Fungi?",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology/what-are-fungi.html",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology/what-are-fungi.html",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "type": "element",
+            "attrs": {},
+            "children": [
+              {
+                "text": "National Library of Medicine, ",
+                "type": "text"
+              },
+              {
+                "tag": "strong",
+                "type": "element",
+                "attrs": {},
+                "children": [
+                  {
+                    "text": "The Fungal Cell Wall: Structure, Biosynthesis, and Function",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "text": " ",
+                "type": "text"
+              },
+              {
+                "tag": "a",
+                "type": "element",
+                "attrs": {
+                  "rel": "noopener noreferrer",
+                  "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687499/",
+                  "target": "_blank"
+                },
+                "children": [
+                  {
+                    "text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687499/",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "a",
+        "type": "element",
+        "attrs": {
+          "href": "/insights/#research",
+          "class": "text-link"
+        },
+        "children": [
+          {
+            "text": "연구자료 목록으로 돌아가기 →",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "thumbnail_path": "/assets/optimized/insights/are-mushrooms-plants/버섯은식물일까_썸네일.png.webp",
+  "thumbnail_alt": "숲속에서 자라는 버섯과 식물을 보여주는 버섯은 식물일까요 인사이트 대표 이미지",
+  "author": "주식회사 기운찬",
+  "status": "published",
+  "published_at": "2026-09-27T15:00:00+00:00",
+  "seo_title": "버섯은 식물일까요? 균사체·자실체·포자로 이해하는 버섯의 세계 | 기운찬",
+  "seo_description": "버섯은 식물일까요? 버섯이 균계에 속하는 이유와 균사, 균사체, 자실체, 포자의 차이 및 버섯의 생애를 알기 쉽게 설명합니다.",
+  "tags": [],
+  "details": {
+    "migration": {
+      "slug": "are-mushrooms-plants",
+      "source": "static",
+      "version": 1
+    },
+    "card_title": "버섯은 식물일까요?",
+    "article_class": "individual-article mushroom-insight",
+    "ever_published": true
+  },
+  "created_at": "2026-10-02T16:11:14.735986+00:00",
+  "updated_at": "2026-10-02T16:11:14.735986+00:00"
+}
