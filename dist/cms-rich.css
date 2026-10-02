@@ -14,3 +14,6 @@
 #image-tools::backdrop{background:#0006}.jodit-wysiwyg{max-width:900px;margin:auto}.jodit-wysiwyg .hero{min-height:0}.jodit-wysiwyg .hero img{display:block;max-height:420px;object-fit:contain;margin:auto}
 
 @media(max-width:600px){.cms-admin .cms-save{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:12px 0}.cms-admin .cms-save button{min-height:44px;white-space:normal;word-break:keep-all}.cms-admin #back-bottom{grid-column:1/-1}#preview-body table{min-width:0;table-layout:fixed;overflow-wrap:anywhere}}
+
+.cms-backup-tools{display:grid;grid-template-columns:auto minmax(220px,1fr) auto;align-items:end;gap:20px;padding:20px;background:#edf3ef;border:1px solid #dce4de;border-radius:8px;margin:0 0 24px}.cms-backup-tools>button{min-height:44px}.cms-load-error{padding:20px;border:1px solid #bd8b76;background:#fff7f2;border-radius:8px;margin-bottom:24px}.cms-load-error p{margin-top:0}
+@media(max-width:760px){.cms-backup-tools{grid-template-columns:1fr;align-items:stretch;gap:20px;padding:16px}.cms-backup-tools input{min-width:0}}
