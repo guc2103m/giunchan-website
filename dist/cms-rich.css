@@ -12,3 +12,5 @@
 @media(max-width:600px){.jodit-wysiwyg{font-size:16px;padding:16px!important}.jodit-wysiwyg .cms-gallery{grid-template-columns:1fr}#image-tools label{width:100%}.cms-admin main{padding:12px}.jodit-toolbar__box{overflow-x:auto}.cms-admin .cms-actions{flex-wrap:wrap}}
 
 #image-tools::backdrop{background:#0006}.jodit-wysiwyg{max-width:900px;margin:auto}.jodit-wysiwyg .hero{min-height:0}.jodit-wysiwyg .hero img{display:block;max-height:420px;object-fit:contain;margin:auto}
+
+@media(max-width:600px){.cms-admin .cms-save{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:12px 0}.cms-admin .cms-save button{min-height:44px;white-space:normal;word-break:keep-all}.cms-admin #back-bottom{grid-column:1/-1}#preview-body table{min-width:0;table-layout:fixed;overflow-wrap:anywhere}}
