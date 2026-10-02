@@ -183,7 +183,7 @@
     },
     {
       "source": "/insights/:path+/",
-      "destination": "/api/content?route=/insights/:path+/"
+      "destination": "/api/content?route=/insights/:path*/"
     },
     {
       "source": "/newsroom/",
@@ -191,7 +191,7 @@
     },
     {
       "source": "/newsroom/:path+/",
-      "destination": "/api/content?route=/newsroom/:path+/"
+      "destination": "/api/content?route=/newsroom/:path*/"
     },
     {
       "source": "/sitemap.xml",
