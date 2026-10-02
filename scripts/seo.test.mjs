@@ -40,3 +40,17 @@ test('preview keeps search exclusion while production metadata remains on offici
  const result=execFileSync(process.execPath,['--input-type=module','-e',`import {robotsText,seoHead} from './scripts/seo.mjs'; console.log(JSON.stringify({robots:robotsText(),head:seoHead('/','Title','Description','')}));`],{cwd:root,env:{...process.env,VERCEL_ENV:'preview'},encoding:'utf8'});
  const {robots,head}=JSON.parse(result);assert.match(robots,/Disallow: \/\n/);assert.match(head,/noindex,nofollow/);assert.ok(head.includes('href="'+origin+'/"'));
 });
+
+
+test('legacy redirects match Vercel trailing-slash normalization',()=>{
+ const config=JSON.parse(read('vercel.json'));
+ assert.equal(config.trailingSlash,true);
+ assert.equal(config.redirects.length,33);
+ const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/'));
+ assert.equal(legacy.length,15);
+ for(const rule of legacy){
+  assert.ok(rule.source.endsWith('/'),rule.source);
+  assert.equal(rule.statusCode,301);
+  assert.ok(fs.existsSync(path.join(root,'dist',rule.destination,'index.html')));
+ }
+});

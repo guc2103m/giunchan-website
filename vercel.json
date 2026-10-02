@@ -6,77 +6,77 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/forum/view/355080",
+      "source": "/forum/view/355080/",
       "destination": "/insights/press/gmk-cell-study-2025/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355078",
+      "source": "/forum/view/355078/",
       "destination": "/insights/press/gmk-human-application-plan/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355077",
+      "source": "/forum/view/355077/",
       "destination": "/insights/press/gmk-preclinical-neuro-study/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355076",
+      "source": "/forum/view/355076/",
       "destination": "/insights/press/cheonan-disabled-sports-support/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355071",
+      "source": "/forum/view/355071/",
       "destination": "/insights/press/gmk-immune-animal-study/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355069",
+      "source": "/forum/view/355069/",
       "destination": "/insights/press/gmk-us-patent/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355067",
+      "source": "/forum/view/355067/",
       "destination": "/insights/press/gmk-oncology-preclinical-study/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355066",
+      "source": "/forum/view/355066/",
       "destination": "/insights/press/gmk-production-scale-up/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355065",
+      "source": "/forum/view/355065/",
       "destination": "/insights/press/national-disabled-team-support/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355062",
+      "source": "/forum/view/355062/",
       "destination": "/insights/press/disabled-parents-association-donation/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355061",
+      "source": "/forum/view/355061/",
       "destination": "/insights/press/giunchan-powder-product-archive/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355060",
+      "source": "/forum/view/355060/",
       "destination": "/insights/press/cheonan-city-product-donation/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355059",
+      "source": "/forum/view/355059/",
       "destination": "/insights/press/school-meal-product-archive/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355058",
+      "source": "/forum/view/355058/",
       "destination": "/insights/press/chungnam-rural-development-award/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/355057",
+      "source": "/forum/view/355057/",
       "destination": "/insights/press/food-startup-contest-2016/",
       "statusCode": 301
     },
