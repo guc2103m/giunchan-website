@@ -10,3 +10,11 @@ review/*.png
 .tools/
 .vercel
 .env*
+
+# Archived alternate build tooling
+.next/
+.vinext/
+.wrangler/
+coverage/
+.DS_Store
+*.pem
