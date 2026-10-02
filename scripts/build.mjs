@@ -1,3 +1,4 @@
+import {buildCMS} from './cms-build.mjs';
 import {optimizePerformance} from './performance-optimization.mjs';
 import {optimizeMediaReferences} from './media-optimization.mjs';
 import {seoHead,robotsText,siteOrigin} from './seo.mjs';
@@ -123,3 +124,6 @@ fs.writeFileSync(path.join(dist,'sitemap.xml'),'<?xml version="1.0" encoding="UT
 
 optimizeMediaReferences(root);
 optimizePerformance(root);
+
+
+buildCMS(root);
