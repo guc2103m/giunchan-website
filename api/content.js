@@ -1,9 +1,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {escape,renderCard,renderArticle,postUrl} from '../lib/content-render.mjs';
+import {publicCMSConfig} from '../lib/content-config.mjs';
 
 const root=path.resolve(process.cwd(),'dist');
-function config(){const url=process.env.SUPABASE_URL;const key=process.env.SUPABASE_PUBLISHABLE_KEY;if(!url||!key)throw new Error('CMS configuration missing');if(!/^https:\/\/[a-z0-9]+\.supabase\.co$/.test(url))throw new Error('Invalid CMS URL');return {url,key};}
+function config(){const url=process.env.SUPABASE_URL||publicCMSConfig.url;const key=process.env.SUPABASE_PUBLISHABLE_KEY||publicCMSConfig.key;if(!/^https:\/\/[a-z0-9]+\.supabase\.co$/.test(url))throw new Error('Invalid CMS URL');return {url,key};}
 async function supabase(resource,options={}){const {url,key}=config();const r=await fetch(url+resource,{...options,headers:{apikey:key,...options.headers},signal:AbortSignal.timeout(10000)});if(!r.ok)throw new Error('CMS request failed: '+r.status);return r;}
 async function readHTML(route){const filename=path.resolve(root,'.'+route,'index.html');if(!filename.startsWith(root+path.sep))return null;try{return await fs.readFile(filename,'utf8');}catch{return null;}}
 const xmlEscape=escape;

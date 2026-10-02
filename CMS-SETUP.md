@@ -28,7 +28,7 @@ service_role 또는 secret 키를 사용하지 않음.
 - SUPABASE_PUBLISHABLE_KEY: Supabase Connect/API Keys의 publishable 키
 - SITE_ORIGIN: https://www.guc.co.kr (실제 운영 도메인 확인 후 설정)
 
-Preview와 Production 각각 설정. 로컬은 .env.local 사용.
+프로젝트의 공개용 publishable 연결 정보를 기본값으로 포함했습니다. Vercel 환경변수로 덮어쓸 수 있으며, 환경변수가 없더라도 이 프로젝트 연결이 작동합니다. 비밀 service_role 키는 포함하지 않습니다. 로컬은 .env.local로 덮어쓸 수 있습니다.
 Vercel의 원래 buildCommand와 정적 HTML 출력 구조 유지.
 새 public 렌더링 함수에 dist HTML·sitemap·예약 URL 목록 포함.
 비밀 키와 사용자 비밀번호는 코드에 저장하지 않음.
