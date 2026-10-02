@@ -1,6 +1,6 @@
 import {escape,renderBlocks,categories} from '/cms-render.mjs';
 import {createRichEditor,htmlToTree} from '/rich-editor.mjs';
-import {seoulDate} from '/content-document.mjs';
+import {seoulDate,validateTree} from '/content-document.mjs';
 import {publicCMSConfig} from '/cms-config.mjs';
 const $=s=>document.querySelector(s),form=$('#post-form');
 let config=publicCMSConfig,session,current,blocks=[],assets=[],posts=[],dirty=false,busy=false,refreshing;
@@ -26,6 +26,7 @@ async function save(status,quiet=false){if(!form.reportValidity())throw new Erro
 async function edit(post){initialPost=structuredClone(post);if(rich){rich.destruct();rich=null;}form.reset();urls.forEach(u=>URL.revokeObjectURL(u));urls.clear();current=post?structuredClone(post):{status:'draft',thumbnail_path:null};blocks=structuredClone(post?.content?.blocks||[{type:'paragraph',text:''}]);assets=post?await rows('post_assets?post_id=eq.'+post.id):[];for(const key of ['title','slug','category','summary','author','thumbnail_alt','seo_title','seo_description'])if(post?.[key]!=null)form.elements[key].value=post[key];form.elements.published_at.required=!post?.details?.migration?.date_unknown;form.elements.published_at.value=post?.published_at?new Date(new Date(post.published_at).getTime()+9*3600000).toISOString().slice(0,10):post?.details?.migration?.date_unknown?'':new Date(Date.now()+9*3600000).toISOString().slice(0,10);form.elements.tags.value=(post?.tags||[]).join(', ');for(const [key,value] of Object.entries(post?.details||{}))if(form.elements[key])form.elements[key].value=value;form.elements.slug.readOnly=!!post?.details?.ever_published;$('#archive').hidden=!post;$('#dashboard').hidden=true;$('#editor').hidden=false;await cover();await renderEditor();renderAttachments();dirty=false;msg(post?.details?.migration?.date_unknown&&!post.published_at?'원래 게시일을 확인할 수 없습니다. 확인한 날짜만 입력해 주세요.':'');$('#date-note').textContent=post?.published_at?'최초 게시일 (한국 시간). 일반 저장 시 원래 시각을 유지합니다.':'원래 게시일 미확인 — 확인한 경우에만 입력하세요.';$('#modified-note').textContent=post?.updated_at?'최근 수정: '+new Date(post.updated_at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'';}
 async function cover(){const img=$('#cover-preview');img.hidden=!current.thumbnail_path;if(current.thumbnail_path)img.src=await getImage(current.thumbnail_path);else img.removeAttribute('src');}
 async function renderEditor(){
+ validateTree(blocks.filter(b=>['element','text'].includes(b.type)));if(blocks.some(b=>!['element','text','paragraph','heading','image','gallery','table','link','faq'].includes(b.type)))throw new Error('지원하지 않는 본문 요소가 있어 편집을 중단했습니다. 원문은 보존됩니다.');
  loadingRich=true;$('#blocks').innerHTML='<textarea id="rich-body" aria-label="본문 편집"></textarea>';
  rich=createRichEditor('#rich-body',{onChange:()=>{if(!loadingRich)dirty=true;},onImage:()=>chooseImages(false),onGallery:()=>chooseImages(true),onSelectImage:img=>{selectedImage=img;$('#image-tools').showModal();$('#image-alt').value=img.alt;$('#image-caption').value=img.closest('figure')?.querySelector('figcaption')?.textContent||'';}});
  rich.value=renderBlocks(blocks);
