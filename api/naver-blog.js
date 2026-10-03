@@ -32,7 +32,7 @@ export function parseFeed(xml){
  const identified=posts.some(p=>p.categories.includes('GMK연구노트'));
  // TODO: GMK연구노트 카테고리 필터링 필요 — RSS가 식별 가능한 category를 제공하지 않는 경우 전체 글을 유지한다.
  const selected=identified?posts.filter(p=>p.categories.includes('GMK연구노트')):posts;
- return {posts:selected.map(p=>{const id=new URL(p.url).pathname.split('/').pop(),saved=notePosts.find(n=>n.id===id);return {...p,title:saved?.status==='ready'?saved.title:p.title,id,detailUrl:saved?.status==='ready'?'/gmk-note/'+saved.slug+'/':null,importStatus:saved?.status==='ready'?'ready':'pending'};}),sourceCount:rows.length,fields,categoryIdentified:identified,filterMode:identified?'category':'all',fetchedAt:new Date().toISOString()};
+ return {posts:selected.map(p=>{const id=new URL(p.url).pathname.split('/').pop(),saved=notePosts.find(n=>n.id===id),editorial=saved?.slug==='hyphae-mycelium-mushrooms';const ready=saved?.status==='ready'||editorial;return {...p,title:saved?.title||p.title,id,slug:saved?.slug,detailUrl:ready?'/gmk-note/'+saved.slug+'/':null,importStatus:ready?'ready':'pending'};}),sourceCount:rows.length,fields,categoryIdentified:identified,filterMode:identified?'category':'all',fetchedAt:new Date().toISOString()};
 }
 export function fetchRss(){
  // node:https uses HTTPS with HTTP/1.1; fixed URL prevents arbitrary proxy requests.

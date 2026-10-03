@@ -109,7 +109,7 @@ write('/insights/food-label-guide/','건강식품·일반식품·기능성표시
 write('/insights/gmk-material/','GMK®란 무엇인가요? 세 버섯균사체를 함께 키운 복합배양 원료','<div class="container article-wrap reading">'+fs.readFileSync(path.join(root,'content/gmk-insight.html'),'utf8')+'</div>','',{description:'GMK®는 차가·영지·상황버섯 균사체를 쌀보리에서 함께 배양한 기운찬의 원료입니다. 단순 혼합과의 차이, 쌀보리의 역할, GMK® 추출물과 연구 과정을 쉽게 설명합니다.',head:'<style>.gmk-insight img{max-width:100%;height:auto}.gmk-table{overflow-x:auto}.gmk-table table{width:100%;border-collapse:collapse}.gmk-table td{padding:12px;border:1px solid var(--line)}.gmk-table tr:first-child{font-weight:700;background:var(--soft)}.gmk-caption{color:var(--muted);font-size:14px}.gmk-insight h2{scroll-margin-top:100px}</style>'});
 write('/insights/are-mushrooms-plants/',"버섯은 식물일까요? 균사체·자실체·포자로 이해하는 버섯의 세계",'<div class="container article-wrap reading">'+fs.readFileSync(path.join(root,'content/are-mushrooms-plants.html'),'utf8')+'</div>','',{description:"버섯은 식물일까요? 버섯이 균계에 속하는 이유와 균사, 균사체, 자실체, 포자의 차이 및 버섯의 생애를 알기 쉽게 설명합니다.",head:fs.readFileSync(path.join(root,'content/are-mushrooms-plants-meta.html'),'utf8')});
 track('N01','/insights/');write('/insights/','인사이트',subhero('소재를 이해하는 이야기, 기운찬이 만들어 가는 소식','INSIGHTS',paras('N01')[2],heroImages['/insights/'])+insightsContent(articleCards()));
-write('/newsroom/','뉴스룸',newsroomContent(pressPosts),'',{description:newsroomDescription});
+write('/newsroom/','뉴스룸',subhero('기운찬의 연구와 활동을 전하는 소식','NEWSROOM','언론에 소개된 기운찬의 연구 성과와 기업 활동을 모았습니다.',heroImages['/insights/'])+newsroomContent(pressPosts),'',{description:newsroomDescription});
 for(const post of pressPosts){write(pressPath(post),articleTitle(post)+' | 뉴스룸',pressDetail(post),'',{description:post.newsroomSummary||post.summary,head:pressMetadata(post)});write(`/newsroom/${post.slug}/`,articleTitle(post)+' | 뉴스룸',pressDetail(post),'',{description:post.newsroomSummary||post.summary,head:pressMetadata(post)});}
 for(const id of range('CT',4))track(id,'/contact/');
 write('/contact/','문의하기',subhero(paras('CT01')[0],'CONTACT GIUNCHAN',paras('CT01')[1])+`<div class="container contact-layout"><aside>${picture('brand','자연과 함께하는 소재 연구','contact-photo')}<h2>기운찬과 연결하세요</h2><p>원료 도입부터 제품개발,<br>투자·사업협력까지.</p><h3>${icon('phone')}전화 문의</h3><a class="text-link" href="tel:0415792203">041-579-2203</a><h3>${icon('mail')}이메일 문의</h3><a class="text-link" href="mailto:guc2203@guc.co.kr">guc2203@guc.co.kr</a><p class="availability">충남 천안시 동남구 충절로 252, 2층</p></aside>${contactForm()}</div>`);
@@ -118,13 +118,14 @@ write('/gmk-note/','GMK 연구노트',noteBody,'',{description:noteDescription,h
 const noteFile=path.join(dist,'gmk-note/index.html');
 fs.writeFileSync(noteFile,fs.readFileSync(noteFile,'utf8').replaceAll('GMK 연구노트 | 기운찬','GMK 연구노트 | 주식회사 기운찬'));
 const notePosts=JSON.parse(fs.readFileSync(path.join(root,'content/gmk-notes.json'),'utf8'));
-for(const post of notePosts.filter(p=>p.status==='ready')){
+for(const post of notePosts){
  const route='/gmk-note/'+post.slug+'/';
  // Editorial overrides are separate from RSS/import snapshots and never written by the importer.
  const editPath=path.join(root,'content/note-edits',post.slug+'.json');
  const edit=fs.existsSync(editPath)?JSON.parse(fs.readFileSync(editPath,'utf8')):null;
+ if(post.status!=='ready'&&!edit)continue;
  if(edit&&edit.sourceId!==post.id)throw new Error('Editorial source ID mismatch');
- write(route,post.title+' | GMK 연구노트',edit?noteEditorial(post,edit):noteDetail(post),'',{description:noteSummary(post),head:'<link rel="stylesheet" href="/note-detail.css"><script src="/note-detail.js" defer></script>'+(edit?'<link rel="stylesheet" href="/note-editorial.css"><script src="/note-editorial.js" defer></script>':'')});
+ write(route,post.title+' | GMK 연구노트',edit?noteEditorial(post,edit):noteDetail(post),'',{description:edit?edit.intro.join(' '):noteSummary(post),head:'<link rel="stylesheet" href="/note-detail.css"><script src="/note-detail.js" defer></script>'+(edit?'<link rel="stylesheet" href="/note-editorial.css"><script src="/note-editorial.js" defer></script>':'')});
  const file=path.join(dist,route.slice(1),'index.html');
  fs.writeFileSync(file,fs.readFileSync(file,'utf8').replaceAll('GMK 연구노트 | 기운찬','GMK 연구노트 | 주식회사 기운찬'));
 }
