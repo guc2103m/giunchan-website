@@ -40,6 +40,6 @@
  .standard-hero>img[src$="rnd-overview-hero.jpg"]{object-position:56% center}
  .standard-hero>img[src$="product-development-hero.jpg"]{object-position:60% center}
  .standard-hero>img[src$="insight-hero.jpg"]{object-position:55% center}
- .standard-hero>img[src$="media-forum-hero.png"]{object-position:24% center}
+ .standard-hero>img[src$="media-forum-hero.png"]{object-position:100% center}
  #CH02 .editorial-photo>img{height:260px;padding:24px}
 }
