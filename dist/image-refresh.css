@@ -24,6 +24,7 @@
 .standard-hero>img[src$="rnd-overview-hero.jpg"]{object-position:55% center}
 .standard-hero>img[src$="product-development-hero.jpg"]{object-position:60% center}
 .standard-hero>img[src$="insight-hero.jpg"]{object-position:center center}
+.standard-hero>img[src$="media-forum-hero.png"]{object-position:center center}
 #H03 .visual img.gmk-material-image{height:auto;aspect-ratio:1;object-fit:cover;object-position:center}
 #CS03 .editorial-photo>img,#CS04 .editorial-photo>img,#RG04 .editorial-photo>img,#B03 .editorial-photo>img,#B05 .editorial-photo>img{height:auto;object-fit:contain;object-position:center}
 #CH02 .editorial-photo>img{object-fit:contain;object-position:center;height:320px;padding:28px;box-sizing:border-box;background:#fff}
@@ -39,5 +40,6 @@
  .standard-hero>img[src$="rnd-overview-hero.jpg"]{object-position:56% center}
  .standard-hero>img[src$="product-development-hero.jpg"]{object-position:60% center}
  .standard-hero>img[src$="insight-hero.jpg"]{object-position:55% center}
+ .standard-hero>img[src$="media-forum-hero.png"]{object-position:24% center}
  #CH02 .editorial-photo>img{height:260px;padding:24px}
 }
