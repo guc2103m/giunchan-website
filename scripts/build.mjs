@@ -19,6 +19,7 @@ import {patentGallery} from './patent-gallery.mjs';
 import {replacementImage, standardHeroRoute, heroImages} from './image-refresh.mjs';
 import {brandStory} from './dodoon-editorial.mjs';
 import {qualitySupport} from './quality-support.mjs';
+import {buildNoteAssets} from './note-assets.mjs';
 import {individualArticle} from './individual-article.mjs';
 import {myceliumArticle} from './mycelium-article.mjs';
 import {formatHome} from './home-format.mjs';
@@ -28,6 +29,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dist=path.join(root,'dist');
+const noteImageAssets=await buildNoteAssets(root);
 const raw=JSON.parse(fs.readFileSync(path.join(root,'content/scenario.json'),'utf8'));
 const productizationProducts=JSON.parse(fs.readFileSync(path.join(root,'content/gmk-productization.json'),'utf8'));
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -114,7 +116,7 @@ for(const post of pressPosts){write(pressPath(post),articleTitle(post)+' | 미�
 for(const id of range('CT',4))track(id,'/contact/');
 write('/contact/','문의하기',subhero(paras('CT01')[0],'CONTACT GIUNCHAN',paras('CT01')[1])+`<div class="container contact-layout"><aside>${picture('brand','자연과 함께하는 소재 연구','contact-photo')}<h2>기운찬과 연결하세요</h2><p>원료 도입부터 제품개발,<br>투자·사업협력까지.</p><h3>${icon('phone')}전화 문의</h3><a class="text-link" href="tel:0415792203">041-579-2203</a><h3>${icon('mail')}이메일 문의</h3><a class="text-link" href="mailto:guc2203@guc.co.kr">guc2203@guc.co.kr</a><p class="availability">충남 천안시 동남구 충절로 252, 2층</p></aside>${contactForm()}</div>`);
 write('/privacy/','개인정보처리방침',section('privacy','<h1>개인정보처리방침</h1>'+consentDetails+'<p>문의 제목은 문의 내용에 포함됩니다. 문의 정보는 담당 회사 이메일로 전달되며 별도 문의 데이터베이스에는 저장하지 않습니다.</p><p>이메일 발송에는 Resend, 웹사이트와 접수 API 운영에는 Vercel을 이용합니다. 문의 처리 완료 후 1년이 지난 접수 이메일은 회사 담당자가 삭제합니다.</p><p>개인정보 관련 문의: guc2203@guc.co.kr</p>'+btn('문의 안내','/contact/')));
-write('/gmk-note/','GMK 연구노트',noteBody,'',{description:noteDescription,head:'<link rel="stylesheet" href="/note-detail.css"><link rel="stylesheet" href="/gmk-note.css"><script src="/gmk-note.js" defer></script>'});
+write('/gmk-note/','GMK 연구노트',noteBody,'',{description:noteDescription,head:'<link rel="stylesheet" href="/note-detail.css"><link rel="stylesheet" href="/gmk-note.css"><style>.note-card:has(>a[href="/gmk-note/chaga-mushroom/"]) .note-media{background:#f1f4f1;padding:12px;box-sizing:border-box}.note-card:has(>a[href="/gmk-note/chaga-mushroom/"]) .note-media img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}</style><script src="/gmk-note.js" defer></script>'});
 const noteFile=path.join(dist,'gmk-note/index.html');
 fs.writeFileSync(noteFile,fs.readFileSync(noteFile,'utf8').replaceAll('GMK 연구노트 | 기운찬','GMK 연구노트 | 주식회사 기운찬'));
 const notePosts=JSON.parse(fs.readFileSync(path.join(root,'content/gmk-notes.json'),'utf8'));
@@ -125,7 +127,7 @@ for(const post of notePosts){
  const edit=fs.existsSync(editPath)?JSON.parse(fs.readFileSync(editPath,'utf8')):null;
  if(post.status!=='ready'&&!edit)continue;
  if(edit&&edit.sourceId!==post.id)throw new Error('Editorial source ID mismatch');
- write(route,post.title+' | GMK 연구노트',edit?noteEditorial(post,edit):noteDetail(post),'',{description:edit?edit.intro.join(' '):noteSummary(post),head:'<link rel="stylesheet" href="/note-detail.css"><script src="/note-detail.js" defer></script>'+(edit?'<link rel="stylesheet" href="/note-editorial.css"><script src="/note-editorial.js" defer></script>':'')});
+ write(route,post.title+' | GMK 연구노트',edit?noteEditorial(post,edit):noteDetail(post,post.slug===noteImageAssets.slug?noteImageAssets:null),'',{description:edit?edit.intro.join(' '):noteSummary(post),head:'<link rel="stylesheet" href="/note-detail.css"><script src="/note-detail.js" defer></script>'+(edit?'<link rel="stylesheet" href="/note-editorial.css"><script src="/note-editorial.js" defer></script>':'')});
  const file=path.join(dist,route.slice(1),'index.html');
  fs.writeFileSync(file,fs.readFileSync(file,'utf8').replaceAll('GMK 연구노트 | 기운찬','GMK 연구노트 | 주식회사 기운찬'));
 }
