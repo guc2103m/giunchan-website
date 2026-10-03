@@ -40,6 +40,9 @@
  .standard-hero>img[src$="rnd-overview-hero.jpg"]{object-position:56% center}
  .standard-hero>img[src$="product-development-hero.jpg"]{object-position:60% center}
  .standard-hero>img[src$="insight-hero.jpg"]{object-position:55% center}
- .standard-hero>img[src$="media-forum-hero.png"]{object-position:100% center}
+ .standard-hero.media-forum-hero{height:auto;min-height:380px;display:flex;flex-direction:column;align-items:stretch}
+ .standard-hero.media-forum-hero>img{position:relative;inset:auto;z-index:0;width:100%;height:auto;aspect-ratio:1920/620;object-fit:contain;object-position:center;flex:none}
+ .standard-hero.media-forum-hero:after{display:none}
+ .standard-hero.media-forum-hero>.container{width:100%;flex:1;display:flex;flex-direction:column;justify-content:center;box-sizing:border-box;padding:20px;background:#173c2c}
  #CH02 .editorial-photo>img{height:260px;padding:24px}
 }
