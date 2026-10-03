@@ -26,11 +26,11 @@ Blog inventory: 12 RSS cards. Eleven already had locally retained full-body sour
 - `node scripts/build.mjs`: passed; generated 67 local draft pages and tracked 94 content IDs.
 - `node --test scripts/blog-newsroom-improvements.test.mjs scripts/newsroom.test.mjs scripts/newsroom-cms.test.mjs`: 28/28 passed.
 - Local static browser check: newsroom desktop shows the requested hero and 16 image/title cards in a 3-column grid; blog static listing shell shows the five topic tabs and no search UI. Screenshot inspection confirms the visible newsroom hero and first row of images. CSS defines 2-column tablet, 1-column mobile for blog cards; newsroom uses the site's responsive card breakpoints.
-- The local dynamic server could not reach Supabase because this workspace has no local CMS runtime credentials; as designed, it showed the safe load-failure state. A fresh Preview is needed to verify the new code against the live public CMS route. Existing Preview admin edit/save/reopen testing is recorded in `review/newsroom-migration-report.txt`; its test-only record is now confirmed `archived` in Supabase and remains unpublished.
+- The local dynamic server could not reach Supabase because this workspace has no local CMS runtime credentials; as designed, it showed the safe load-failure state. Preview alias was checked after push: `/gmk-note/` showed 12 cards and `/gmk-note/hyphae-mycelium-mushrooms/` showed the separate editorial detail. `/insights/`, the 16-card `/newsroom/` grid, and a newsroom detail were also checked live. `review/newsroom-migration-report.txt` records the prior Preview admin create/edit/save/reopen test; its test-only record is confirmed `archived` in Supabase and remains unpublished. In this final pass, `/admin/` showed the login form, so a fresh authenticated editor check was not possible.
 
 ## Remaining limits
 
-- Preview deployment and live public-route checks have not yet completed.
-- A live mobile viewport screenshot and current Preview checks remain pending.
+- A later thumbnail sizing fix was pushed as `7c386f8`; the production build and 28 relevant tests passed again. The alias rendered the updated blog listing after reload.
+- Responsive CSS breakpoints define one-column mobile cards; an explicit mobile viewport screenshot was not captured in this pass.
 - The ten newsroom items above could not be expanded without verified full article text; their stored summaries remain intact.
 - For the one RSS-only blog entry, the saved feed itself did not contain a full source body. The separate editorial file records the page-based reconstruction; no video narration was used.
