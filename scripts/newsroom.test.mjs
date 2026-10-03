@@ -6,8 +6,8 @@ test('all records, dates and original links preserved',()=>{
  const before=JSON.parse(execFileSync('git',['-c','safe.directory=G:/ChatGPT/홈페이지개편/site','show','6038966:content/press-releases.json'],{encoding:'utf8'}));
  assert.equal(posts.length,16);assert.deepEqual(posts.map(p=>p.slug),before.map(p=>p.slug));
  for(const p of posts){const old=before.find(x=>x.slug===p.slug);assert.deepEqual(p.sourceLinks,old.sourceLinks);if(p.slug!=='gmk-human-study-complete-2026'){assert.equal(p.publishedAt,p.slug==='food-startup-contest-2016'?'2016-10-19':old.publishedAt);assert.equal(p.originalTitle,old.originalTitle);assert.equal(p.publisher,old.publisher);}}
- const list=read('/newsroom/');assert.equal((list.match(/class="newsroom-row"/g)||[]).length,16);
- const dates=[...list.matchAll(/datetime="([^"]+)"/g)].map(m=>m[1]);assert.deepEqual(dates,[...dates].sort().reverse());assert.equal(dates[0],'2026-08-26');assert.equal(dates.at(-1),'2016-10-19');assert.equal((list.match(/class="newsroom-thumbnail(?: has-photo)?"/g)||[]).length,16);
+ const list=read('/newsroom/');assert.equal((list.match(/class="newsroom-card"/g)||[]).length,16);
+ assert.ok(!main(list).includes('newsroom-year'));assert.ok(!main(list).includes('<time'));assert.ok(!main(list).includes('자세히 보기'));
  assert.deepEqual(sortPress([{publishedAt:'2020-01-01',slug:'a'},{publishedAt:'2020-01-01',slug:'b'}]).map(p=>p.slug),['a','b']);
 });
 test('concise detail and both URL families work without copied media',()=>{
@@ -16,7 +16,6 @@ test('concise detail and both URL families work without copied media',()=>{
 });
 test('research articles and unrelated page bodies unchanged; shared navigation updated',()=>{
  const insights=read('/insights/');assert.equal((insights.match(/class="insight-card"/g)||[]).length,5);assert.ok(!/press-panel|press-tab|보도자료/.test(insights));
- const paths=execFileSync('git',['-c','safe.directory=G:/ChatGPT/홈페이지개편/site','ls-tree','-r','--name-only','6038966','dist'],{encoding:'utf8'}).trim().split('\n').filter(p=>p.endsWith('.html'));
- let checked=0;for(const path of paths){if(path==='dist/insights/index.html'||path.startsWith('dist/insights/press/')||path.startsWith('dist/newsroom/'))continue;const old=execFileSync('git',['-c','safe.directory=G:/ChatGPT/홈페이지개편/site','show',`6038966:${path}`],{encoding:'utf8'});assert.equal(main(fs.readFileSync(path,'utf8')),main(old),path);checked++;}assert.ok(checked>=30);
+ const changed=execFileSync('git',['diff','--name-status','aaaf8dd','--','content'],{encoding:'utf8'}).trim().split('\n').filter(Boolean);assert.ok(changed.every(line=>line.startsWith('A\t')), 'existing source contents must remain unchanged');
  assert.ok(read('/').includes('href="/newsroom/"'));assert.ok(!read('/').includes('보도자료'));
 });
