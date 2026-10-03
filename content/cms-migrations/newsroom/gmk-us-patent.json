@@ -1,0 +1,125 @@
+{
+  "title": "[메디컬투데이]기운찬, 천연 바이오 신물질 'GMK' 제조법 美 특허등록 결정",
+  "slug": "gmk-us-patent",
+  "category": "newsroom",
+  "status": "published",
+  "published_at": "2022-08-17T15:00:00.000Z",
+  "summary": "2022년 8월 18일 메디컬투데이는 GMK® 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다.",
+  "author": "주식회사 기운찬",
+  "thumbnail_path": "https://cdn.mdtoday.co.kr/news/photo/202208/440963_1_1720.jpg",
+  "thumbnail_alt": "",
+  "seo_title": "[메디컬투데이]기운찬, 천연 바이오 신물질 'GMK' 제조법 美 특허등록 결정 | 뉴스룸 | 기운찬",
+  "seo_description": "2022년 8월 18일 메디컬투데이는 GMK® 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다.",
+  "tags": [],
+  "content": {
+    "version": 2,
+    "blocks": [
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-intro"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "2022년 8월 18일 메디컬투데이는 "
+          },
+          {
+            "type": "element",
+            "tag": "span",
+            "attrs": {
+              "class": "no-break"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "GMK"
+              },
+              {
+                "type": "element",
+                "tag": "sup",
+                "attrs": {
+                  "class": "registered-mark"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "®"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "div",
+        "attrs": {
+          "class": "newsroom-links"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "https://mdtoday.co.kr/news/view/1065582404405227",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "메디컬투데이 원문 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-copyright"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요."
+          }
+        ]
+      }
+    ],
+    "asset_paths": []
+  },
+  "details": {
+    "ever_published": true,
+    "publisher": "메디컬투데이",
+    "source_url": "https://mdtoday.co.kr/news/view/1065582404405227",
+    "reporter": "남연희",
+    "subtype": "언론보도",
+    "migration": {
+      "source": "static",
+      "version": 1,
+      "slug": "gmk-us-patent",
+      "layout": "newsroom",
+      "source_url": "https://mdtoday.co.kr/news/view/1065582404405227",
+      "date_unknown": false,
+      "original_sha256": "35fd04e52c2afe1d98a313d797b9a247140b3fc4ab4942369ba0bc3fe403ee90"
+    }
+  }
+}

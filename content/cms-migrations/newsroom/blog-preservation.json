@@ -1,0 +1,50 @@
+[
+  {
+    "file": "scripts/gmk-note.mjs",
+    "sha256": "18956983cc515820c78b577a8d2552231c2ae56fe5b83742d088d070967cb6b5"
+  },
+  {
+    "file": "scripts/note-detail.mjs",
+    "sha256": "92b6bbf56e98d20c8d8e99e9e919176ea1607572e30879ac7903adb6ac15dc0d"
+  },
+  {
+    "file": "scripts/note-editorial.mjs",
+    "sha256": "1814993c0ff66a26188d2f62cfd021ea17959a330b532e1336268776368fa345"
+  },
+  {
+    "file": "api/naver-blog.js",
+    "sha256": "e2d212f26312e3846ad91d48ea90273758582f4d8dfd491765cdc6b7f40f6c53"
+  },
+  {
+    "file": "content/gmk-notes.json",
+    "sha256": "7b96b237c5a9d144be4367026f94749f04e45e7ecce753a376ef5ab25be5836a"
+  },
+  {
+    "file": "dist/gmk-note.css",
+    "sha256": "ad92db6af019cdd1728c815ef7b8f86446cf7e0c33a813a97e1b5823e4163930"
+  },
+  {
+    "file": "dist/gmk-note.js",
+    "sha256": "3fb82135b1725edabcca15faa6616f8142f28d1828d9324a07006040dd22bdaa"
+  },
+  {
+    "file": "dist/note-detail.css",
+    "sha256": "720b480a0c4853c0d45028fd5998d4f308af4003148097203b7fea0ded80776d"
+  },
+  {
+    "file": "dist/note-detail.js",
+    "sha256": "c3ab879239a4d68f3405c626444f86a80a84a1bdc8c7f2a1e32e15cd8adc2f10"
+  },
+  {
+    "file": "dist/note-editorial.css",
+    "sha256": "9f2188e86e68dd1a4c86ee9fe0960491710147d6be0b4ce97a3d2580faba4b72"
+  },
+  {
+    "file": "dist/note-editorial.js",
+    "sha256": "d2c1f93c13168a65acf0f2b7e8a1532074cc7527684e29aec992ad664d6ff7ea"
+  },
+  {
+    "file": "content/note-edits/gmk-three-mushrooms.json",
+    "sha256": "cd467cde9d281f47f5abdfba33b10644f6e4cdf012ed6e90485d9a6515b8be5b"
+  }
+]

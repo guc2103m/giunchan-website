@@ -1,0 +1,129 @@
+{
+  "title": "[굿모닝충청]㈜기운찬, 인지기능 개선 물질 GMK 인체적용시험 눈앞에",
+  "slug": "gmk-human-application-plan",
+  "category": "newsroom",
+  "status": "published",
+  "published_at": "2024-08-05T15:00:00.000Z",
+  "summary": "2024년 8월 6일 보도는 GMK® 추출물 인체적용시험 추진 계획을 다뤘습니다.",
+  "author": "주식회사 기운찬",
+  "thumbnail_path": "https://cdn.goodmorningcc.com/news/photo/202408/402317_402588_1859.jpg",
+  "thumbnail_alt": "",
+  "seo_title": "[굿모닝충청]㈜기운찬, 인지기능 개선 물질 GMK 인체적용시험 눈앞에 | 뉴스룸 | 기운찬",
+  "seo_description": "2024년 8월 6일 보도는 GMK® 추출물 인체적용시험 추진 계획을 다뤘습니다.",
+  "tags": [],
+  "content": {
+    "version": 2,
+    "blocks": [
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-intro"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "2024년 8월 6일 보도는 "
+          },
+          {
+            "type": "element",
+            "tag": "span",
+            "attrs": {
+              "class": "no-break"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "GMK"
+              },
+              {
+                "type": "element",
+                "tag": "sup",
+                "attrs": {
+                  "class": "registered-mark"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "®"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " 추출물"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " 인체적용시험 추진 계획을 다뤘습니다."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "div",
+        "attrs": {
+          "class": "newsroom-links"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "https://www.goodmorningcc.com/news/articleView.html?idxno=402317",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "굿모닝충청 원문 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-copyright"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요."
+          }
+        ]
+      }
+    ],
+    "asset_paths": []
+  },
+  "details": {
+    "ever_published": true,
+    "publisher": "굿모닝충청",
+    "source_url": "https://www.goodmorningcc.com/news/articleView.html?idxno=402317",
+    "reporter": "노준희",
+    "subtype": "언론보도",
+    "migration": {
+      "source": "static",
+      "version": 1,
+      "slug": "gmk-human-application-plan",
+      "layout": "newsroom",
+      "source_url": "https://www.goodmorningcc.com/news/articleView.html?idxno=402317",
+      "date_unknown": false,
+      "original_sha256": "94202e49779249fefca5de8bdca0855e2d7fcb8a17294686fc4af1b190ba16a3"
+    }
+  }
+}

@@ -1,8 +1,9 @@
 const image=(name,alt)=>`<img src="/assets/study-${name}.png" width="72" height="72" alt="${alt}" loading="lazy" decoding="async">`;
+const institutionImage='<img class="study-institution-icon" src="/assets/study-institution.webp" width="72" height="72" alt="의료 십자와 현미경이 있는 시험기관 아이콘" loading="lazy" decoding="async">';
 export function humanStudy(actions){
  const cards=[
   [image('participants','시험 참여 대상자를 나타내는 사람 아이콘'),'시험 대상','성인 175명(시험군 88명, 대조군 87명). K-MMSE 20~23점, 만 55세 이상 85세 미만'],
-  ['', '시험 기관','김천의료원, 고려대학교 구로병원'],
+  [institutionImage, '시험 기관','김천의료원, 고려대학교 구로병원'],
   [image('randomization','시험군과 대조군으로 무작위배정하는 아이콘'),'시험 방식','다기관, 무작위배정, 이중눈가림, 위약대조, 평행설계'],
   [image('intake','시험 소재 섭취를 나타내는 캡슐 아이콘'),'시험 소재와 섭취','GMK® 추출물, 1일 1,200 mg, 16주']
  ];

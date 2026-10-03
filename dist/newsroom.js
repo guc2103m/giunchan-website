@@ -1,13 +1,5 @@
-(() => {
- document.querySelectorAll('[data-newsroom-image]').forEach(img=>{
-  const fallback=()=>{img.closest('.newsroom-thumbnail')?.classList.remove('has-photo');img.src='/assets/logo.png';};
-  img.addEventListener('error',fallback,{once:true});
-  if(img.complete&&!img.naturalWidth)fallback();
- });
- const rows=[...document.querySelectorAll('.newsroom-row')],years=[...document.querySelectorAll('.newsroom-year')];
- const button=document.getElementById('newsroom-more'),status=document.getElementById('newsroom-status');
- if(!button)return;
- let visible=5;
- function render(){rows.forEach((row,index)=>row.hidden=index>=visible);years.forEach(year=>year.hidden=![...year.querySelectorAll('.newsroom-row')].some(row=>!row.hidden));button.hidden=visible>=rows.length;status.textContent=`전체 ${rows.length}건 중 ${Math.min(visible,rows.length)}건 표시`;}
- button.addEventListener('click',()=>{const next=rows[visible];visible+=5;render();next?.querySelector('.newsroom-copy h3 a')?.focus({preventScroll:true});});render();
-})();
+document.querySelectorAll('[data-newsroom-image]').forEach(img=>{
+ const fallback=()=>{img.hidden=true;const placeholder=img.parentElement.querySelector('.newsroom-placeholder');if(placeholder)placeholder.hidden=false;};
+ img.addEventListener('error',fallback,{once:true});
+ if(img.complete&&!img.naturalWidth)fallback();
+});

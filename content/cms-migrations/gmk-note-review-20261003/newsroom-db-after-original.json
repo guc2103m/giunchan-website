@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "42c897f9-ef22-41fb-be29-5140d6ba1b32",
+    "title": "[중부매일](주)기운찬, 천안시에 면역력 강화에 필요한 물품 기탁",
+    "slug": "cheonan-city-product-donation",
+    "category": "newsroom",
+    "summary": "2020년 3월 5일 중부매일은 기운찬이 천안시에 아연·비타민D 제품을 기탁했다고 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2020년 3월 5일 중부매일은 기운찬이 천안시에 아연·비타민D 제품을 기탁했다고 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "http://www.jbnews.com/news/articleView.html?idxno=1281360",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "중부매일 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.jbnews.com/news/photo/202003/1281360_1076427_3423.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2020-03-04 15:00:00+00",
+    "seo_title": "[중부매일](주)기운찬, 천안시에 면역력 강화에 필요한 물품 기탁 | 뉴스룸 | 기운찬",
+    "seo_description": "2020년 3월 5일 중부매일은 기운찬이 천안시에 아연·비타민D 제품을 기탁했다고 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "송문용",
+      "migration": {
+        "slug": "cheonan-city-product-donation",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "http://www.jbnews.com/news/articleView.html?idxno=1281360",
+        "date_unknown": false,
+        "original_sha256": "a98ec80ad59b041b19ad1b01aa93382dde8cb01558d0a3e4916e286a6753e720"
+      },
+      "publisher": "중부매일",
+      "source_url": "http://www.jbnews.com/news/articleView.html?idxno=1281360",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:23.506434+00",
+    "updated_at": "2026-10-03 00:41:23.506434+00"
+  },
+  {
+    "id": "5399f4f1-3ef3-4c11-b61e-c2ae809c83a6",
+    "title": "[충남일보] 기운찬, 천안시장애인체육회에 건강식품 지원 '눈길'",
+    "slug": "cheonan-disabled-sports-support",
+    "category": "newsroom",
+    "summary": "2022년 9월 22일 기운찬은 충청남도 장애인체육대회에 출전한 천안시장애인체육회 선수단에 제품을 후원했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2022년 9월 22일 기운찬은 충청남도 장애인체육대회에 출전한 천안시장애인체육회 선수단에 제품을 후원했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=680342",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "충남일보 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.chungnamilbo.co.kr/news/photo/202209/680342_263985_4355.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2022-09-21 15:00:00+00",
+    "seo_title": "[충남일보] 기운찬, 천안시장애인체육회에 건강식품 지원 '눈길' | 뉴스룸 | 기운찬",
+    "seo_description": "2022년 9월 22일 기운찬은 충청남도 장애인체육대회에 출전한 천안시장애인체육회 선수단에 제품을 후원했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "선희홍",
+      "migration": {
+        "slug": "cheonan-disabled-sports-support",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=680342",
+        "date_unknown": false,
+        "original_sha256": "dbeeb7c5071e9f505dff3850aabf678c99414b514c5a14975945492ed9b2bec8"
+      },
+      "publisher": "충남일보",
+      "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=680342",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:46.495522+00",
+    "updated_at": "2026-10-03 00:40:46.495522+00"
+  },
+  {
+    "id": "c17aa6f3-8236-4db3-93bf-b8c0115d357c",
+    "title": "[중부매일]박종례 천안 기운찬대표, 제27회 충남 농어촌발전상 수상",
+    "slug": "chungnam-rural-development-award",
+    "category": "newsroom",
+    "summary": "2019년 12월 11일 박종례 기운찬 대표가 충남 농어촌발전상 농촌융복합 분야에서 수상했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2019년 12월 11일 박종례 기운찬 대표가 충남 농어촌발전상 농촌융복합 분야에서 수상했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "http://www.jbnews.com/news/articleView.html?idxno=1271252",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "중부매일 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.jbnews.com/news/photo/201912/1271252_1066538_484.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2019-12-10 15:00:00+00",
+    "seo_title": "[중부매일]박종례 천안 기운찬대표, 제27회 충남 농어촌발전상 수상 | 뉴스룸 | 기운찬",
+    "seo_description": "2019년 12월 11일 박종례 기운찬 대표가 충남 농어촌발전상 농촌융복합 분야에서 수상했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "송문용",
+      "migration": {
+        "slug": "chungnam-rural-development-award",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "http://www.jbnews.com/news/articleView.html?idxno=1271252",
+        "date_unknown": false,
+        "original_sha256": "9c13549c7cd9ff2a45c46da5f69c65fd663992394c5fa1ceb5a3c349201e12d7"
+      },
+      "publisher": "중부매일",
+      "source_url": "http://www.jbnews.com/news/articleView.html?idxno=1271252",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:34.418987+00",
+    "updated_at": "2026-10-03 00:41:34.418987+00"
+  },
+  {
+    "id": "691c7c6e-4077-4740-b0b3-1b6336519d1d",
+    "title": "[금강일보] 기운찬 박종례 대표, 충남장애인부모회에 제품 기부",
+    "slug": "disabled-parents-association-donation",
+    "category": "newsroom",
+    "summary": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.ggilbo.com/news/articleView.html?idxno=783687",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "금강일보 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.ggilbo.com/news/photo/202007/783687_617065_216.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2020-07-15 15:00:00+00",
+    "seo_title": "[금강일보] 기운찬 박종례 대표, 충남장애인부모회에 제품 기부 | 뉴스룸 | 기운찬",
+    "seo_description": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "김인수",
+      "migration": {
+        "slug": "disabled-parents-association-donation",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.ggilbo.com/news/articleView.html?idxno=783687",
+        "date_unknown": false,
+        "original_sha256": "bd40234cd5411e565dae3b3f58c39ed50023063952623c4fa5251635c5579721"
+      },
+      "publisher": "금강일보",
+      "source_url": "https://www.ggilbo.com/news/articleView.html?idxno=783687",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:14.482503+00",
+    "updated_at": "2026-10-03 00:41:14.482503+00"
+  },
+  {
+    "id": "160c2d94-21a2-4b13-9f5b-c7139cb1ef57",
+    "title": "[뉴시스]기운찬 '꿈꾸는 버섯' 복합균사체 건강식품 호응",
+    "slug": "food-startup-contest-2016",
+    "category": "newsroom",
+    "summary": "2016년 뉴시스는 기운찬이 ‘꿈꾸는 버섯’ 팀으로 농수산식품 창업콘테스트 본선에 진출했다고 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2016년 뉴시스는 기운찬이 ‘꿈꾸는 버섯’ 팀으로 농수산식품 창업콘테스트 본선에 진출했다고 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://newsis.com/common/?id=NISX20161018_0014457977&method=print&type=article",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "뉴시스 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://image.newsis.com/2016/10/19/NISI20161019_0012299290_web.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2016-10-18 15:00:00+00",
+    "seo_title": "[뉴시스]기운찬 '꿈꾸는 버섯' 복합균사체 건강식품 호응 | 뉴스룸 | 기운찬",
+    "seo_description": "2016년 뉴시스는 기운찬이 ‘꿈꾸는 버섯’ 팀으로 농수산식품 창업콘테스트 본선에 진출했다고 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "이종익",
+      "migration": {
+        "slug": "food-startup-contest-2016",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://newsis.com/common/?id=NISX20161018_0014457977&method=print&type=article",
+        "date_unknown": false,
+        "original_sha256": "075e9b2e02bac613c45ed370d030d07c2550b8c48a2235900daf1717e96bdcde"
+      },
+      "publisher": "뉴시스",
+      "source_url": "https://newsis.com/common/?id=NISX20161018_0014457977&method=print&type=article",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:48.118756+00",
+    "updated_at": "2026-10-03 00:41:48.118756+00"
+  },
+  {
+    "id": "b6704d88-1b89-49b1-a32c-141c58494d8a",
+    "title": "[매일경제][톡톡 이상품] 기운찬 / 항당뇨 특화제품 `기운찬`",
+    "slug": "giunchan-powder-product-archive",
+    "category": "newsroom",
+    "summary": "2020년 4월 7일 매일경제는 기운찬의 초기 분말제품과 복합버섯균사체 사업화 과정을 소개했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2020년 4월 7일 매일경제는 기운찬의 초기 분말제품과 복합버섯균사체 사업화 과정을 소개했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.mk.co.kr/news/special-edition/view/2020/04/359976/",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "매일경제 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://wimg.mk.co.kr/meet/neds/2020/04/image_readtop_2020_359976_15861996634151501.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2020-04-06 15:00:00+00",
+    "seo_title": "[매일경제][톡톡 이상품] 기운찬 / 항당뇨 특화제품 `기운찬` | 뉴스룸 | 기운찬",
+    "seo_description": "2020년 4월 7일 매일경제는 기운찬의 초기 분말제품과 복합버섯균사체 사업화 과정을 소개했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "",
+      "migration": {
+        "slug": "giunchan-powder-product-archive",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.mk.co.kr/news/special-edition/view/2020/04/359976/",
+        "date_unknown": false,
+        "original_sha256": "18f214f95b0134380c67d57106c2ca674f12a6dd07655b5b2246210f5195eef6"
+      },
+      "publisher": "매일경제",
+      "source_url": "https://www.mk.co.kr/news/special-edition/view/2020/04/359976/",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:18.964576+00",
+    "updated_at": "2026-10-03 00:41:18.964576+00"
+  },
+  {
+    "id": "65f73c66-cfae-450a-a28a-ea04e19fac46",
+    "title": "[한국경제]건양대·기운찬, 복합 버섯 균사체로 치매 예방 가능성 제시",
+    "slug": "gmk-cell-study-2025",
+    "category": "newsroom",
+    "summary": "2025년 6월 30일 한국경제는 기운찬과 건양대학교 연구팀의 GMK® 추출물 관련 세포연구가 Cells에 게재됐다고 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2025년 6월 30일 한국경제는 기운찬과 건양대학교 연구팀의 ",
+              "type": "text"
+            },
+            {
+              "tag": "span",
+              "type": "element",
+              "attrs": {
+                "class": "no-break"
+              },
+              "children": [
+                {
+                  "text": "GMK",
+                  "type": "text"
+                },
+                {
+                  "tag": "sup",
+                  "type": "element",
+                  "attrs": {
+                    "class": "registered-mark"
+                  },
+                  "children": [
+                    {
+                      "text": "®",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "text": " 추출물",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "text": " 관련 세포연구가 Cells에 게재됐다고 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.hankyung.com/article/202506308890h",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "한국경제 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "a",
+              "type": "element",
+              "attrs": {
+                "rel": "noopener noreferrer",
+                "href": "https://doi.org/10.3390/cells14130977",
+                "class": "button outline",
+                "target": "_blank"
+              },
+              "children": [
+                {
+                  "text": "관련 논문 보기 ↗",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://img.hankyung.com/photo/202506/01.40977224.1.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2025-06-29 15:00:00+00",
+    "seo_title": "[한국경제]건양대·기운찬, 복합 버섯 균사체로 치매 예방 가능성 제시 | 뉴스룸 | 기운찬",
+    "seo_description": "2025년 6월 30일 한국경제는 기운찬과 건양대학교 연구팀의 GMK® 추출물 관련 세포연구가 Cells에 게재됐다고 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "임호범",
+      "migration": {
+        "slug": "gmk-cell-study-2025",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.hankyung.com/article/202506308890h",
+        "date_unknown": false,
+        "original_sha256": "30743e7adc226281be100184015aed9f4d0581844e54cdf45ad29fc43e647115"
+      },
+      "publisher": "한국경제",
+      "source_url": "https://www.hankyung.com/article/202506308890h",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:28.54096+00",
+    "updated_at": "2026-10-03 00:40:28.54096+00"
+  },
+  {
+    "id": "0bb41ef7-cc9f-4e2d-8da1-f73ef64ef770",
+    "title": "[굿모닝충청]㈜기운찬, 인지기능 개선 물질 GMK 인체적용시험 눈앞에",
+    "slug": "gmk-human-application-plan",
+    "category": "newsroom",
+    "summary": "2024년 8월 6일 보도는 GMK® 추출물 인체적용시험 추진 계획을 다뤘습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2024년 8월 6일 보도는 ",
+              "type": "text"
+            },
+            {
+              "tag": "span",
+              "type": "element",
+              "attrs": {
+                "class": "no-break"
+              },
+              "children": [
+                {
+                  "text": "GMK",
+                  "type": "text"
+                },
+                {
+                  "tag": "sup",
+                  "type": "element",
+                  "attrs": {
+                    "class": "registered-mark"
+                  },
+                  "children": [
+                    {
+                      "text": "®",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "text": " 추출물",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "text": " 인체적용시험 추진 계획을 다뤘습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.goodmorningcc.com/news/articleView.html?idxno=402317",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "굿모닝충청 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.goodmorningcc.com/news/photo/202408/402317_402588_1859.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2024-08-05 15:00:00+00",
+    "seo_title": "[굿모닝충청]㈜기운찬, 인지기능 개선 물질 GMK 인체적용시험 눈앞에 | 뉴스룸 | 기운찬",
+    "seo_description": "2024년 8월 6일 보도는 GMK® 추출물 인체적용시험 추진 계획을 다뤘습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "노준희",
+      "migration": {
+        "slug": "gmk-human-application-plan",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.goodmorningcc.com/news/articleView.html?idxno=402317",
+        "date_unknown": false,
+        "original_sha256": "94202e49779249fefca5de8bdca0855e2d7fcb8a17294686fc4af1b190ba16a3"
+      },
+      "publisher": "굿모닝충청",
+      "source_url": "https://www.goodmorningcc.com/news/articleView.html?idxno=402317",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:35.198965+00",
+    "updated_at": "2026-10-03 00:40:35.198965+00"
+  },
+  {
+    "id": "328e1eea-cb60-4eff-a9e5-233c49cf06b4",
+    "title": "기운찬, GMK® 추출물 인체적용시험 완료",
+    "slug": "gmk-human-study-complete-2026",
+    "category": "newsroom",
+    "summary": "기운찬의 GMK® 추출물 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "기운찬의 ",
+              "type": "text"
+            },
+            {
+              "tag": "span",
+              "type": "element",
+              "attrs": {
+                "class": "no-break"
+              },
+              "children": [
+                {
+                  "text": "GMK",
+                  "type": "text"
+                },
+                {
+                  "tag": "sup",
+                  "type": "element",
+                  "attrs": {
+                    "class": "registered-mark"
+                  },
+                  "children": [
+                    {
+                      "text": "®",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "text": " 추출물",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "text": " 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "p",
+                  "type": "element",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "중앙일보 · 2026.08.26",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.joongang.co.kr/article/25456430",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "중앙일보 · 2026.08.26 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "p",
+                  "type": "element",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "text": "뉴스파고 · 2026.08.27",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.newspago.com/newnews/print.php?uid=121969",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "뉴스파고 · 2026.08.27 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202608/26/f2eab6a6-2a41-468c-ba3a-3f572cad21b0.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2026-08-25 15:00:00+00",
+    "seo_title": "기운찬, GMK® 추출물 인체적용시험 완료 | 뉴스룸 | 기운찬",
+    "seo_description": "기운찬의 GMK® 추출물 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "",
+      "migration": {
+        "slug": "gmk-human-study-complete-2026",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.joongang.co.kr/article/25456430",
+        "date_unknown": false,
+        "original_sha256": "6cb8a0c4aa22ad484b567f627b5c818921f1be5890834691c71cae8566c756b1"
+      },
+      "publisher": "중앙일보 · 뉴스파고",
+      "source_url": "https://www.joongang.co.kr/article/25456430",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:24.599151+00",
+    "updated_at": "2026-10-03 00:40:24.599151+00"
+  },
+  {
+    "id": "212a9752-79e6-4391-8a55-8df57dcbae1a",
+    "title": "[충남일보]기운찬-건양대학교 유영춘 교수팀, GMK-Immune 경구투여... 급성폐렴 억제효과",
+    "slug": "gmk-immune-animal-study",
+    "category": "newsroom",
+    "summary": "2022년 1월 28일 충남일보는 기운찬과 건양대학교 연구팀이 동물모델에서 복합버섯균사체 연구시료의 면역조절 관련 반응을 살펴본 연구를 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2022년 1월 28일 충남일보는 기운찬과 건양대학교 연구팀이 동물모델에서 복합버섯균사체 연구시료의 면역조절 관련 반응을 살펴본 연구를 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=645338",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "충남일보 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.chungnamilbo.co.kr/news/photo/202201/645338_231209_1836.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2022-01-27 15:00:00+00",
+    "seo_title": "[충남일보]기운찬-건양대학교 유영춘 교수팀, GMK-Immune 경구투여... 급성폐렴 억제효과 | 뉴스룸 | 기운찬",
+    "seo_description": "2022년 1월 28일 충남일보는 기운찬과 건양대학교 연구팀이 동물모델에서 복합버섯균사체 연구시료의 면역조절 관련 반응을 살펴본 연구를 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "선희홍",
+      "migration": {
+        "slug": "gmk-immune-animal-study",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=645338",
+        "date_unknown": false,
+        "original_sha256": "214cc4538f81d59f6f65136c5d1cc86686cdceeb502d51f163cd0513a3905175"
+      },
+      "publisher": "충남일보",
+      "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=645338",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:50.619392+00",
+    "updated_at": "2026-10-03 00:40:50.619392+00"
+  },
+  {
+    "id": "d3c21f72-4ca2-452f-8bbd-82f2180b7e6a",
+    "title": "[시사뉴스24]㈜기운찬, 면역항암제 후보 물질 ‘GMK’ B16-BL6에 뛰어난 효과 검증",
+    "slug": "gmk-oncology-preclinical-study",
+    "category": "newsroom",
+    "summary": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "http://www.sisanews24.co.kr/6618",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "시사뉴스24 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://www.sisanews24.co.kr/data/sisanews24_co_kr/mainimages/202109/135653_202109275643241.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2021-09-26 15:00:00+00",
+    "seo_title": "[시사뉴스24]㈜기운찬, 면역항암제 후보 물질 ‘GMK’ B16-BL6에 뛰어난 효과 검증 | 뉴스룸 | 기운찬",
+    "seo_description": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "엄병길",
+      "migration": {
+        "slug": "gmk-oncology-preclinical-study",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "http://www.sisanews24.co.kr/6618",
+        "date_unknown": false,
+        "original_sha256": "dd14dc49070861ed62de405040a2773d3ca59c95dfd217d3b194cc3a7b17c504"
+      },
+      "publisher": "시사뉴스24",
+      "source_url": "http://www.sisanews24.co.kr/6618",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:01.262166+00",
+    "updated_at": "2026-10-03 00:41:01.262166+00"
+  },
+  {
+    "id": "cbfa5f72-bddb-475b-be24-ecfeed223c2d",
+    "title": "[아시아투데이]기운찬, 세계 최초 ‘버섯균사체’ 알츠하이머성 치매 개선 입증",
+    "slug": "gmk-preclinical-neuro-study",
+    "category": "newsroom",
+    "summary": "2023년 9월 19일 아시아투데이는 기운찬과 건양대학교 의과대학 연구팀의 세포·동물 전임상 연구 발표를 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2023년 9월 19일 아시아투데이는 기운찬과 건양대학교 의과대학 연구팀의 세포·동물 전임상 연구 발표를 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.asiatoday.co.kr/kn/view.php?key=20230919010011255",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "아시아투데이 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "a",
+              "type": "element",
+              "attrs": {
+                "rel": "noopener noreferrer",
+                "href": "https://doi.org/10.3390/cimb45080428",
+                "class": "button outline",
+                "target": "_blank"
+              },
+              "children": [
+                {
+                  "text": "관련 논문 보기 ↗",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://img.asiatoday.co.kr/file/2023y/09m/19d/2023091901001983600112551.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2023-09-18 15:00:00+00",
+    "seo_title": "[아시아투데이]기운찬, 세계 최초 ‘버섯균사체’ 알츠하이머성 치매 개선 입증 | 뉴스룸 | 기운찬",
+    "seo_description": "2023년 9월 19일 아시아투데이는 기운찬과 건양대학교 의과대학 연구팀의 세포·동물 전임상 연구 발표를 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "배승빈",
+      "migration": {
+        "slug": "gmk-preclinical-neuro-study",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.asiatoday.co.kr/kn/view.php?key=20230919010011255",
+        "date_unknown": false,
+        "original_sha256": "feece36086992dcf3567696a7a17b78395ea7db77a3661b1fe25a73077ffe2ed"
+      },
+      "publisher": "아시아투데이",
+      "source_url": "https://www.asiatoday.co.kr/kn/view.php?key=20230919010011255",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:39.433075+00",
+    "updated_at": "2026-10-03 00:40:39.433075+00"
+  },
+  {
+    "id": "77d2c426-e212-49f7-a442-d16bde2c7c89",
+    "title": "[충남일보]기운찬, 복합 배양 바이오 신소재'GMK' 대량 생산 ‘초읽기’",
+    "slug": "gmk-production-scale-up",
+    "category": "newsroom",
+    "summary": "2021년 7월 15일 충남일보는 기운찬이 GMK® 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2021년 7월 15일 충남일보는 기운찬이 ",
+              "type": "text"
+            },
+            {
+              "tag": "span",
+              "type": "element",
+              "attrs": {
+                "class": "no-break"
+              },
+              "children": [
+                {
+                  "text": "GMK",
+                  "type": "text"
+                },
+                {
+                  "tag": "sup",
+                  "type": "element",
+                  "attrs": {
+                    "class": "registered-mark"
+                  },
+                  "children": [
+                    {
+                      "text": "®",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": " 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=613264",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "충남일보 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.chungnamilbo.co.kr/news/photo/202107/613264_202102_4930.png",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2021-07-14 15:00:00+00",
+    "seo_title": "[충남일보]기운찬, 복합 배양 바이오 신소재'GMK' 대량 생산 ‘초읽기’ | 뉴스룸 | 기운찬",
+    "seo_description": "2021년 7월 15일 충남일보는 기운찬이 GMK® 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "선희홍",
+      "migration": {
+        "slug": "gmk-production-scale-up",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=613264",
+        "date_unknown": false,
+        "original_sha256": "83ca957fc488a7a2e2ddb90ac339b7157f90ca03e866d0f22d3fc8e73fe4a681"
+      },
+      "publisher": "충남일보",
+      "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=613264",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:05.376401+00",
+    "updated_at": "2026-10-03 00:41:05.376401+00"
+  },
+  {
+    "id": "353bb766-af73-4727-8d55-bbd5018f3cbc",
+    "title": "[메디컬투데이]기운찬, 천연 바이오 신물질 'GMK' 제조법 美 특허등록 결정",
+    "slug": "gmk-us-patent",
+    "category": "newsroom",
+    "summary": "2022년 8월 18일 메디컬투데이는 GMK® 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2022년 8월 18일 메디컬투데이는 ",
+              "type": "text"
+            },
+            {
+              "tag": "span",
+              "type": "element",
+              "attrs": {
+                "class": "no-break"
+              },
+              "children": [
+                {
+                  "text": "GMK",
+                  "type": "text"
+                },
+                {
+                  "tag": "sup",
+                  "type": "element",
+                  "attrs": {
+                    "class": "registered-mark"
+                  },
+                  "children": [
+                    {
+                      "text": "®",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": " 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://mdtoday.co.kr/news/view/1065582404405227",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "메디컬투데이 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.mdtoday.co.kr/news/photo/202208/440963_1_1720.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2022-08-17 15:00:00+00",
+    "seo_title": "[메디컬투데이]기운찬, 천연 바이오 신물질 'GMK' 제조법 美 특허등록 결정 | 뉴스룸 | 기운찬",
+    "seo_description": "2022년 8월 18일 메디컬투데이는 GMK® 복합배양 기술과 관련한 미국 특허등록 결정을 보도했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "남연희",
+      "migration": {
+        "slug": "gmk-us-patent",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://mdtoday.co.kr/news/view/1065582404405227",
+        "date_unknown": false,
+        "original_sha256": "35fd04e52c2afe1d98a313d797b9a247140b3fc4ab4942369ba0bc3fe403ee90"
+      },
+      "publisher": "메디컬투데이",
+      "source_url": "https://mdtoday.co.kr/news/view/1065582404405227",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:40:56.223597+00",
+    "updated_at": "2026-10-03 00:40:56.223597+00"
+  },
+  {
+    "id": "d989e6fc-3934-48e6-930b-852d2fb9d8e0",
+    "title": "[에이블뉴스]㈜기운찬, 장애인국가대표 건강기능식품 후원",
+    "slug": "national-disabled-team-support",
+    "category": "newsroom",
+    "summary": "2021년 3월 9일 기운찬은 대한장애인체육회를 통해 장애인국가대표 선수단에 아연·비타민D 제품을 후원했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2021년 3월 9일 기운찬은 대한장애인체육회를 통해 장애인국가대표 선수단에 아연·비타민D 제품을 후원했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "https://www.ablenews.co.kr/news/articleView.html?idxno=92645",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "에이블뉴스 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://cdn.ablenews.co.kr/news/photo/202103/20210309_1_92645.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2021-03-08 15:00:00+00",
+    "seo_title": "[에이블뉴스]㈜기운찬, 장애인국가대표 건강기능식품 후원 | 뉴스룸 | 기운찬",
+    "seo_description": "2021년 3월 9일 기운찬은 대한장애인체육회를 통해 장애인국가대표 선수단에 아연·비타민D 제품을 후원했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "백민",
+      "migration": {
+        "slug": "national-disabled-team-support",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "https://www.ablenews.co.kr/news/articleView.html?idxno=92645",
+        "date_unknown": false,
+        "original_sha256": "315a9fb3c8b03fe778e90f7d183a149486c0a8dfd946c728797c6b5aed5700be"
+      },
+      "publisher": "에이블뉴스",
+      "source_url": "https://www.ablenews.co.kr/news/articleView.html?idxno=92645",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:09.274973+00",
+    "updated_at": "2026-10-03 00:41:09.274973+00"
+  },
+  {
+    "id": "7cb2d135-c1b9-498b-b189-5797fe1c5379",
+    "title": "[충청신문]'코로나19’ 등 학생면역력 우리가 책임진다",
+    "slug": "school-meal-product-archive",
+    "category": "newsroom",
+    "summary": "2020년 2월 24일 충청신문은 충남 지역 학교급식에 공급되던 기운찬의 곡물 분말제품을 소개했습니다.",
+    "content": {
+      "blocks": [
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-intro"
+          },
+          "children": [
+            {
+              "text": "2020년 2월 24일 충청신문은 충남 지역 학교급식에 공급되던 기운찬의 곡물 분말제품을 소개했습니다.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "type": "element",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "a",
+                  "type": "element",
+                  "attrs": {
+                    "rel": "noopener noreferrer",
+                    "href": "http://www.dailycc.net/news/articlePrint.html?idxno=581082",
+                    "class": "button",
+                    "target": "_blank",
+                    "aria-label": "충청신문 원문 언론사 원문 기사 보기"
+                  },
+                  "children": [
+                    {
+                      "text": "언론사 원문 기사 보기 ↗",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "type": "element",
+          "attrs": {
+            "class": "newsroom-copyright"
+          },
+          "children": [
+            {
+              "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "version": 2,
+      "asset_paths": []
+    },
+    "thumbnail_path": "https://www.dailycc.net/news/photo/202002/581082_468202_1137.jpg",
+    "thumbnail_alt": "",
+    "author": "주식회사 기운찬",
+    "status": "published",
+    "published_at": "2020-02-23 15:00:00+00",
+    "seo_title": "[충청신문]'코로나19’ 등 학생면역력 우리가 책임진다 | 뉴스룸 | 기운찬",
+    "seo_description": "2020년 2월 24일 충청신문은 충남 지역 학교급식에 공급되던 기운찬의 곡물 분말제품을 소개했습니다.",
+    "tags": [],
+    "details": {
+      "subtype": "언론보도",
+      "reporter": "장선화",
+      "migration": {
+        "slug": "school-meal-product-archive",
+        "layout": "newsroom",
+        "source": "static",
+        "version": 1,
+        "source_url": "http://www.dailycc.net/news/articlePrint.html?idxno=581082",
+        "date_unknown": false,
+        "original_sha256": "12f246106a152f1d2e5596f3a39b5086fcf660ebe372e96752014cda549fb7ab"
+      },
+      "publisher": "충청신문",
+      "source_url": "http://www.dailycc.net/news/articlePrint.html?idxno=581082",
+      "ever_published": true
+    },
+    "created_at": "2026-10-03 00:41:27.15149+00",
+    "updated_at": "2026-10-03 00:41:27.15149+00"
+  }
+]

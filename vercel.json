@@ -2,7 +2,7 @@
   "framework": null,
   "buildCommand": "node scripts/build.mjs",
   "outputDirectory": "dist",
-  "installCommand": "",
+  "installCommand": "npm ci",
   "trailingSlash": true,
   "redirects": [
     {
@@ -169,6 +169,33 @@
       "source": "/rnd/quality/",
       "destination": "/business/development/",
       "statusCode": 301
+    }
+  ],
+  "functions": {
+    "api/content.js": {
+      "includeFiles": ".cms-runtime/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/insights/",
+      "destination": "/api/content?route=/insights/"
+    },
+    {
+      "source": "/insights/:path+/",
+      "destination": "/api/content?route=/insights/:path*/"
+    },
+    {
+      "source": "/newsroom/",
+      "destination": "/api/content?route=/newsroom/"
+    },
+    {
+      "source": "/newsroom/:path+/",
+      "destination": "/api/content?route=/newsroom/:path*/"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/content?route=/sitemap.xml"
     }
   ]
 }

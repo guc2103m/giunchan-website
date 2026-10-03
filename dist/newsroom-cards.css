@@ -1,0 +1,13 @@
+.newsroom-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:32px}
+.newsroom-card{border:1px solid var(--line);min-width:0;background:#fff}
+.newsroom-card>a{display:flex;flex-direction:column;height:100%;color:inherit;text-decoration:none}
+.newsroom-card>a:focus-visible{outline:3px solid var(--green);outline-offset:4px}
+.newsroom-card-image{position:relative;aspect-ratio:16/9;background:var(--soft);overflow:hidden}
+.newsroom-card-image img{display:block;width:100%;height:100%;object-fit:cover}
+.newsroom-card-image img[hidden],.newsroom-placeholder[hidden]{display:none}
+.newsroom-placeholder{display:flex;align-items:center;justify-content:center;height:100%;letter-spacing:.16em;font-size:15px;color:var(--green);background:linear-gradient(135deg,#edf4ef,#e3eee7)}
+.newsroom-card h2{font-size:20px;line-height:1.6;padding:24px;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.newsroom-card>a:hover h2{color:var(--green)}
+.newsroom-publication{margin:0;color:var(--muted);font-size:14px}
+@media(max-width:1000px){.newsroom-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.newsroom-grid{grid-template-columns:minmax(0,1fr);gap:24px}.newsroom-card h2{font-size:19px;padding:20px}}

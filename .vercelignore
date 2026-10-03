@@ -3,3 +3,4 @@
 .tools
 review
 node_modules
+dist/editor-check.html

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "gmk-notes-original.json",
+    "sha256": "7b96b237c5a9d144be4367026f94749f04e45e7ecce753a376ef5ab25be5836a"
+  },
+  {
+    "file": "gmk-three-mushrooms-original.json",
+    "sha256": "cd467cde9d281f47f5abdfba33b10644f6e4cdf012ed6e90485d9a6515b8be5b"
+  },
+  {
+    "file": "newsroom-db-after-original.json",
+    "sha256": "59dc87bf1f05ed47a1165473c317907bba6fc96f7c22e15029ea0c145d898152"
+  },
+  {
+    "file": "press-releases-original.json",
+    "sha256": "efaa47dbf2860cf8221fad97840db188e95d7aeb25cfa1c903767460ece62d0b"
+  }
+]

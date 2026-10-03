@@ -1,0 +1,1 @@
+document.querySelectorAll('.note-figure img').forEach(img=>{const fallback=()=>{img.hidden=true;img.nextElementSibling.hidden=false;};img.addEventListener('error',fallback);if(img.complete&&!img.naturalWidth)fallback();});

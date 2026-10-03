@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import handler from '../api/content.js';
+import {optimizeImageHTML,renderBlocks,renderCard} from '../lib/content-render.mjs';
+import {renderTree} from '../lib/content-tree.mjs';
+import {withoutMigratedCards} from '../lib/content-migrations.mjs';
+const post=JSON.parse(await fs.readFile('content/cms-migrations/are-mushrooms-plants/post.json','utf8'));
+const url='/insights/are-mushrooms-plants/';
+function response(){return {code:200,body:'',setHeader(){},writeHead(n){this.code=n;},end(s){this.body=String(s);}};}
+async function request(route,rows,fail=false){const old=global.fetch;global.fetch=async()=>{if(fail)throw new Error('offline');return new Response(JSON.stringify(rows));};try{const r=response();await handler({method:'GET',url:route},r);return r;}finally{global.fetch=old;}}
+test('migration retains structured text, six images, video, table, FAQ and source links',()=>{const html=renderBlocks(post.content.blocks);assert.equal((html.match(/<img /g)||[]).length,6);assert.equal((html.match(/<video /g)||[]).length,1);assert.equal((html.match(/<table/g)||[]).length,1);assert.equal((html.match(/id="mushroom-faq-/g)||[]).length,6);assert.equal((html.match(/<a /g)||[]).length,17);assert.ok(html.includes('GMK'));assert.ok(html.includes('<sup'));});
+test('structured blocks reject scripts, event handlers and unsafe URL schemes',()=>{const html=renderTree({type:'element',tag:'p',attrs:{onclick:'alert(1)',style:'display:none'},children:[{type:'text',text:'<script>'},{type:'element',tag:'script',children:[]},{type:'element',tag:'a',attrs:{href:'javascript:alert(1)'},children:[]}]});assert.ok(!html.includes('onclick'));assert.ok(!html.includes('javascript:'));assert.ok(!html.includes('<script>'));assert.ok(html.includes('&lt;script&gt;'));});
+test('migrated post uses CMS blocks with original head metadata unchanged',async()=>{const shell=await fs.readFile('.cms-runtime/insights/are-mushrooms-plants/index.html','utf8');const result=await request(url,[post]);assert.equal(result.code,200);assert.equal(result.body.replace('<link rel="stylesheet" href="/cms-editorial.css">','').match(/<head>[\s\S]*?<\/head>/)[0],shell.match(/<head>[\s\S]*?<\/head>/)[0]);assert.ok(result.body.includes(optimizeImageHTML(renderBlocks(post.content.blocks))));});
+test('unpublished/deleted migrated row never falls back to static article',async()=>{const r=await request(url,[]);assert.equal(r.code,404);assert.ok(!r.body.includes('mushroom-section-1'));const failed=await request(url,[],true);assert.equal(failed.code,503);assert.ok(!failed.body.includes('mushroom-section-1'));});
+test('list deduplicates migrated cards and hides them when CMS is unavailable',async()=>{const result=await request('/insights/',[post]);assert.equal((result.body.match(/href="\/insights\/are-mushrooms-plants\/"/g)||[]).length,1);const empty=await request('/insights/',[]);assert.ok(!empty.body.includes('href="'+url+'"'));const failure=await request('/insights/',[],true);assert.ok(!failure.body.includes('href="'+url+'"'));assert.ok(failure.body.includes('article-list'));assert.ok(!failure.body.includes('href="/insights/gmk-material/"'));});
+test('shared card footer includes detail link and only known dates',()=>{const card=renderCard(post);assert.ok(card.includes('자세히 보기 →'));assert.ok(card.includes('<time'));assert.ok(!renderCard({...post,published_at:null}).includes('<time'));assert.equal(withoutMigratedCards(card),'');});

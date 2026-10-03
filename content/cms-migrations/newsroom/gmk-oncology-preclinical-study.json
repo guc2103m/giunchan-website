@@ -1,0 +1,95 @@
+{
+  "title": "[시사뉴스24]㈜기운찬, 면역항암제 후보 물질 ‘GMK’ B16-BL6에 뛰어난 효과 검증",
+  "slug": "gmk-oncology-preclinical-study",
+  "category": "newsroom",
+  "status": "published",
+  "published_at": "2021-09-26T15:00:00.000Z",
+  "summary": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다.",
+  "author": "주식회사 기운찬",
+  "thumbnail_path": "https://www.sisanews24.co.kr/data/sisanews24_co_kr/mainimages/202109/135653_202109275643241.jpg",
+  "thumbnail_alt": "",
+  "seo_title": "[시사뉴스24]㈜기운찬, 면역항암제 후보 물질 ‘GMK’ B16-BL6에 뛰어난 효과 검증 | 뉴스룸 | 기운찬",
+  "seo_description": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다.",
+  "tags": [],
+  "content": {
+    "version": 2,
+    "blocks": [
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-intro"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "2021년 9월 27일 시사뉴스24는 기운찬과 건양대학교 연구팀의 암 관련 세포·동물 전임상 연구 결과를 보도했습니다."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "div",
+        "attrs": {
+          "class": "newsroom-links"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "http://www.sisanews24.co.kr/6618",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "시사뉴스24 원문 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-copyright"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요."
+          }
+        ]
+      }
+    ],
+    "asset_paths": []
+  },
+  "details": {
+    "ever_published": true,
+    "publisher": "시사뉴스24",
+    "source_url": "http://www.sisanews24.co.kr/6618",
+    "reporter": "엄병길",
+    "subtype": "언론보도",
+    "migration": {
+      "source": "static",
+      "version": 1,
+      "slug": "gmk-oncology-preclinical-study",
+      "layout": "newsroom",
+      "source_url": "http://www.sisanews24.co.kr/6618",
+      "date_unknown": false,
+      "original_sha256": "dd14dc49070861ed62de405040a2773d3ca59c95dfd217d3b194cc3a7b17c504"
+    }
+  }
+}

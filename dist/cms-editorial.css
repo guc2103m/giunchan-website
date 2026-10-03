@@ -1,0 +1,6 @@
+/* Applied only to reviewed CMS migrations; preserve original article layouts. */
+main figcaption,main .gmk-caption{text-align:center;margin-top:8px;line-height:1.5}
+
+main figcaption,main .gmk-caption,.cms-article figcaption,.cms-gallery figcaption{text-align:center!important;margin-top:8px!important;line-height:1.5}
+
+main .cms-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}main .cms-gallery figure{margin:0;min-width:0}main .cms-gallery img{width:100%;height:auto}main .table-wrap{overflow-x:auto}@media(max-width:640px){main .cms-gallery{grid-template-columns:1fr}}
