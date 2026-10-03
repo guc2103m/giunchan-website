@@ -1,0 +1,125 @@
+{
+  "title": "[충남일보]기운찬, 복합 배양 바이오 신소재'GMK' 대량 생산 ‘초읽기’",
+  "slug": "gmk-production-scale-up",
+  "category": "newsroom",
+  "status": "published",
+  "published_at": "2021-07-14T15:00:00.000Z",
+  "summary": "2021년 7월 15일 충남일보는 기운찬이 GMK® 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다.",
+  "author": "주식회사 기운찬",
+  "thumbnail_path": "https://cdn.chungnamilbo.co.kr/news/photo/202107/613264_202102_4930.png",
+  "thumbnail_alt": "",
+  "seo_title": "[충남일보]기운찬, 복합 배양 바이오 신소재'GMK' 대량 생산 ‘초읽기’ | 뉴스룸 | 기운찬",
+  "seo_description": "2021년 7월 15일 충남일보는 기운찬이 GMK® 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다.",
+  "tags": [],
+  "content": {
+    "version": 2,
+    "blocks": [
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-intro"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "2021년 7월 15일 충남일보는 기운찬이 "
+          },
+          {
+            "type": "element",
+            "tag": "span",
+            "attrs": {
+              "class": "no-break"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "GMK"
+              },
+              {
+                "type": "element",
+                "tag": "sup",
+                "attrs": {
+                  "class": "registered-mark"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "®"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " 생산기반을 확대하고 원료 사업화를 추진한다고 보도했습니다."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "div",
+        "attrs": {
+          "class": "newsroom-links"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=613264",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "충남일보 원문 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-copyright"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요."
+          }
+        ]
+      }
+    ],
+    "asset_paths": []
+  },
+  "details": {
+    "ever_published": true,
+    "publisher": "충남일보",
+    "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=613264",
+    "reporter": "선희홍",
+    "subtype": "언론보도",
+    "migration": {
+      "source": "static",
+      "version": 1,
+      "slug": "gmk-production-scale-up",
+      "layout": "newsroom",
+      "source_url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=613264",
+      "date_unknown": false,
+      "original_sha256": "83ca957fc488a7a2e2ddb90ac339b7157f90ca03e866d0f22d3fc8e73fe4a681"
+    }
+  }
+}

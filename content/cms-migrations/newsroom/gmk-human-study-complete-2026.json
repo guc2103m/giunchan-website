@@ -1,0 +1,175 @@
+{
+  "title": "기운찬, GMK® 추출물 인체적용시험 완료",
+  "slug": "gmk-human-study-complete-2026",
+  "category": "newsroom",
+  "status": "published",
+  "published_at": "2026-08-25T15:00:00.000Z",
+  "summary": "기운찬의 GMK® 추출물 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다.",
+  "author": "주식회사 기운찬",
+  "thumbnail_path": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202608/26/f2eab6a6-2a41-468c-ba3a-3f572cad21b0.jpg",
+  "thumbnail_alt": "",
+  "seo_title": "기운찬, GMK® 추출물 인체적용시험 완료 | 뉴스룸 | 기운찬",
+  "seo_description": "기운찬의 GMK® 추출물 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다.",
+  "tags": [],
+  "content": {
+    "version": 2,
+    "blocks": [
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-intro"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "기운찬의 "
+          },
+          {
+            "type": "element",
+            "tag": "span",
+            "attrs": {
+              "class": "no-break"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "GMK"
+              },
+              {
+                "type": "element",
+                "tag": "sup",
+                "attrs": {
+                  "class": "registered-mark"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "®"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " 추출물"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " 인체적용시험 완료와 건강기능식품 개별인정형 원료 인정 절차 추진 소식이 소개되었습니다."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "div",
+        "attrs": {
+          "class": "newsroom-links"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "중앙일보 · 2026.08.26"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "https://www.joongang.co.kr/article/25456430",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "중앙일보 · 2026.08.26 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "뉴스파고 · 2026.08.27"
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "https://www.newspago.com/newnews/print.php?uid=121969",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "뉴스파고 · 2026.08.27 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-copyright"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요."
+          }
+        ]
+      }
+    ],
+    "asset_paths": []
+  },
+  "details": {
+    "ever_published": true,
+    "publisher": "중앙일보 · 뉴스파고",
+    "source_url": "https://www.joongang.co.kr/article/25456430",
+    "reporter": "",
+    "subtype": "언론보도",
+    "migration": {
+      "source": "static",
+      "version": 1,
+      "slug": "gmk-human-study-complete-2026",
+      "layout": "newsroom",
+      "source_url": "https://www.joongang.co.kr/article/25456430",
+      "date_unknown": false,
+      "original_sha256": "6cb8a0c4aa22ad484b567f627b5c818921f1be5890834691c71cae8566c756b1"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+import blogHandler from '../api/naver-blog.js';
 import editorHandler from '../api/editor.js';
 import contentHandler from '../api/content.js';
 import contactHandler from '../api/contact.js';
@@ -9,6 +10,7 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../dist');
 const types={'.woff2':'font/woff2','.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.mp4':'video/mp4','.gif':'image/gif','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.webp':'image/webp','.txt':'text/plain; charset=utf-8','.xml':'application/xml'};
 http.createServer((req,res)=>{
  let url;try{url=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);return res.end();}
+ if(url==='/api/naver-blog'||url==='/api/naver-blog/'){blogHandler(req,res);return;}
  if(url==='/api/editor'){editorHandler(req,res);return;}
  if(url==='/api/content'||url.startsWith('/insights/')||url.startsWith('/newsroom/')||url==='/sitemap.xml'){contentHandler(req,res).catch(()=>{if(!res.writableEnded){res.writeHead(500);res.end('CMS error');}});return;}
  if(url==='/api/contact'||url==='/api/contact/'){contactHandler(req,res).catch(()=>{if(!res.writableEnded){res.writeHead(500);res.end('{"ok":false}');}});return;}

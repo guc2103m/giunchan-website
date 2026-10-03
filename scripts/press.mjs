@@ -1,3 +1,4 @@
+import {newsroomCards,staticNewsroomPost} from '../lib/newsroom.mjs';
 const e=value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export const newsroomDescription='기운찬의 연구개발, GMK® 소재, 기업 활동과 사회공헌 관련 주요 언론보도를 확인하세요.';
 export const pressPath=p=>`/insights/press/${p.slug}/`;
@@ -6,10 +7,7 @@ export const articleTitle=p=>p.originalTitle||p.title;
 const intro=p=>p.newsroomSummary||p.summary;
 const notice='이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요.';
 export function insightsContent(researchCards){return `<section class="section" data-content-id="N01"><div class="container"><section id="research-panel" aria-labelledby="research"><h2 id="research" class="research-heading">연구자료</h2><div class="insight-grid" id="article-list">${researchCards}</div><nav class="research-pagination" aria-label="연구자료 페이지" hidden></nav><p class="research-page-status" aria-live="polite"></p><div class="insights-admin-access"><a href="/admin/">관리자 로그인</a></div></section></div></section>`;}
-export function newsroomContent(posts){
- const sorted=sortPress(posts),years=[...new Set(sorted.map(p=>p.publishedAt.slice(0,4)))];
- return `<div class="newsroom container"><header class="newsroom-heading"><div class="eyebrow">NEWSROOM</div><h1>뉴스룸</h1><p>${newsroomDescription}</p><span class="newsroom-count">전체 ${posts.length}건 · 최신순</span></header>${years.map(year=>`<section class="newsroom-year" aria-labelledby="year-${year}" ${sorted.findIndex(p=>p.publishedAt.startsWith(year))>=5?'hidden':''}><h2 id="year-${year}">${year}</h2><div>${sorted.filter(p=>p.publishedAt.startsWith(year)).map(p=>`<article class="newsroom-row" ${p._order===undefined?'':sorted.findIndex(item=>item.slug===p.slug)>=5?'hidden':''}><a class="newsroom-thumbnail${p.newsroomImage?' has-photo':''}" href="${pressPath(p)}" aria-label="${e(articleTitle(p))} 자세히 보기"><img src="${e(p.newsroomImage||'/assets/logo.png')}" alt="" width="320" height="200" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-newsroom-image></a><div class="newsroom-meta"><time datetime="${e(p.publishedAt)}">${e(p.publishedAt.replaceAll('-','.'))}</time><span>${e(p.publisher)}</span></div><div class="newsroom-copy"><h3><a href="${pressPath(p)}">${e(articleTitle(p))}</a></h3><p>${e(intro(p))}</p><a class="text-link" href="${pressPath(p)}" aria-label="${e(articleTitle(p))} 자세히 보기">자세히 보기 →</a></div></article>`).join('')}</div></section>`).join('')}<div class="newsroom-more"><button class="button outline" type="button" id="newsroom-more" hidden>더 보기</button><p id="newsroom-status" role="status" aria-live="polite"></p></div><noscript><style>.newsroom-year[hidden]{display:block}.newsroom-row[hidden]{display:grid}</style></noscript></div>`;
-}
+export function newsroomContent(posts){return `<div class="newsroom container"><header class="newsroom-heading"><div class="eyebrow">NEWSROOM</div><h1>뉴스룸</h1><p>${newsroomDescription}</p></header><div class="newsroom-grid" id="newsroom-list">${newsroomCards(posts.map(staticNewsroomPost))}</div></div>`;}
 export function pressDetail(p){
  const links=[...(p.sourceLinks||[])];if(p.originalArticleUrl&&!links.some(l=>l.url===p.originalArticleUrl))links.push({label:p.publisher,url:p.originalArticleUrl});
  const papers=links.filter(l=>new URL(l.url).hostname==='doi.org');

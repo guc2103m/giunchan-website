@@ -1,4 +1,4 @@
-import {migratedSlugs} from '../lib/content-migrations.mjs';
+import {migratedRoutes} from '../lib/content-migrations.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 export function buildCMS(root){
@@ -25,5 +25,5 @@ export function buildCMS(root){
  for(const name of ['404.html','sitemap.xml','cms-reserved.json'])fs.copyFileSync(path.join(dist,name),path.join(runtime,name));
  // Vercel serves matching static files before rewrites. Keep list templates in the
  // runtime bundle, but omit public list index files on Vercel so requests reach SSR.
- if(process.env.VERCEL){for(const file of ['insights/index.html','newsroom/index.html','sitemap.xml',...migratedSlugs.map(slug=>`insights/${slug}/index.html`)])fs.unlinkSync(path.join(dist,file));}
+ if(process.env.VERCEL){for(const file of ['insights/index.html','newsroom/index.html','sitemap.xml',...migratedRoutes.map(route=>route.slice(1)+'index.html')])fs.unlinkSync(path.join(dist,file));}
 }

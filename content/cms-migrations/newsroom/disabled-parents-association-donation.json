@@ -1,0 +1,95 @@
+{
+  "title": "[금강일보] 기운찬 박종례 대표, 충남장애인부모회에 제품 기부",
+  "slug": "disabled-parents-association-donation",
+  "category": "newsroom",
+  "status": "published",
+  "published_at": "2020-07-15T15:00:00.000Z",
+  "summary": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다.",
+  "author": "주식회사 기운찬",
+  "thumbnail_path": "https://cdn.ggilbo.com/news/photo/202007/783687_617065_216.jpg",
+  "thumbnail_alt": "",
+  "seo_title": "[금강일보] 기운찬 박종례 대표, 충남장애인부모회에 제품 기부 | 뉴스룸 | 기운찬",
+  "seo_description": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다.",
+  "tags": [],
+  "content": {
+    "version": 2,
+    "blocks": [
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-intro"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "2020년 7월 16일 금강일보는 기운찬이 충남장애인부모회 천안지회에 식품을 기부했다고 보도했습니다."
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "div",
+        "attrs": {
+          "class": "newsroom-links"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tag": "div",
+            "attrs": {},
+            "children": [
+              {
+                "type": "element",
+                "tag": "a",
+                "attrs": {
+                  "class": "button",
+                  "href": "https://www.ggilbo.com/news/articleView.html?idxno=783687",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer",
+                  "aria-label": "금강일보 원문 언론사 원문 기사 보기"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "언론사 원문 기사 보기 ↗"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tag": "p",
+        "attrs": {
+          "class": "newsroom-copyright"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "이 기사의 저작권은 해당 언론사에 있습니다. 전체 내용은 원문 기사에서 확인해 주세요."
+          }
+        ]
+      }
+    ],
+    "asset_paths": []
+  },
+  "details": {
+    "ever_published": true,
+    "publisher": "금강일보",
+    "source_url": "https://www.ggilbo.com/news/articleView.html?idxno=783687",
+    "reporter": "김인수",
+    "subtype": "언론보도",
+    "migration": {
+      "source": "static",
+      "version": 1,
+      "slug": "disabled-parents-association-donation",
+      "layout": "newsroom",
+      "source_url": "https://www.ggilbo.com/news/articleView.html?idxno=783687",
+      "date_unknown": false,
+      "original_sha256": "bd40234cd5411e565dae3b3f58c39ed50023063952623c4fa5251635c5579721"
+    }
+  }
+}
