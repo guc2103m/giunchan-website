@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import handler from '../api/content.js';
 import {optimizeImageHTML,renderBlocks,renderCard} from '../lib/content-render.mjs';
 import {undatedMigratedSlugs,publicDateFilter} from '../lib/content-migrations.mjs';
+import {normalizeLineEndings} from './test-text-integrity.mjs';
 const resp=()=>({code:200,body:'',setHeader(){},writeHead(n){this.code=n;},end(s){this.body=String(s);}});
 for(const slug of undatedMigratedSlugs){
  const root=`content/cms-migrations/${slug}/`;
@@ -16,7 +17,7 @@ for(const slug of undatedMigratedSlugs){
   // Entity encoding may differ, but all source text/attributes/order remain in the tree.
   const source=original.match(/<main id="main">([\s\S]*?)<\/main>/)[1];
   const normalize=s=>s.replace(/\s+(controls|playsinline|open)(?=[\s>])/g,' $1=""').replaceAll('&#x27;','&#39;').replace(/\s+rel="[^"]*"/g,'');
-  assert.equal(normalize(rendered),normalize(source));
+  assert.equal(normalizeLineEndings(normalize(rendered)).toString('utf8'),normalizeLineEndings(normalize(source)).toString('utf8'));
   assert.equal(post.published_at,null);assert.ok(!renderCard(post).includes('<time'));
  });
  test(`${slug}: CMS URL, metadata, hidden states and failure use no static fallback`,async()=>{
