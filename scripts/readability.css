@@ -1,0 +1,130 @@
+/* Shared readability scale. Keep the existing Pretendard family and visual hierarchy. */
+body {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+main p,
+main li {
+  font-size: 18px !important;
+  line-height: 1.8 !important;
+}
+
+main h1 {
+  font-size: clamp(32px, 3.6vw, 52px) !important;
+  line-height: 1.25;
+}
+
+main h2 {
+  font-size: clamp(28px, 2.8vw, 38px) !important;
+  line-height: 1.38;
+}
+
+main h3 {
+  font-size: clamp(20px, 1.8vw, 24px) !important;
+  line-height: 1.45;
+}
+
+main :is(small, .eyebrow, .section-kicker, .visual-label, figcaption, time,
+  .index, [class*="meta"], .story-label, .story-split figcaption,
+  .story-placeholder span, .story-placeholder small, .field-error,
+  .ddLabel, .ddBeginning figcaption, .ddHeroAside, .ingredient-disclaimer,
+  .newsroom-publication, .newsroom-count, .newsroom-detail-figure figcaption,
+  .newsroom-copyright, .certificate-country, .research-page-status,
+  .insights-admin-access a, .insight-card-date, .gmk-case-note, .rt-label,
+  .rt-flow, .rt-tags span, .rt-tags small, .rt-patent small, .focus-stage-top,
+  .focus-subtitle, .focus-continuity strong, .mini-signature span,
+  .quote-credit, .info-num, .company-facts dt, .status-comparison span,
+  .paper-category, .topic-chips span, .metric-cards span,
+  .patent-numbers span, .partnership-graphic span, .partnership-logos span,
+  .product-spec-strip span, .product-companion span, .flow span, .gmk-node,
+  .ir-card-number, .quality-number, .gmk-number,
+  .tech-number, .product-step-number, .availability, .form-note,
+  .home-insight-status, .gmk-caption, .hero-foot, .image-label,
+  .info-node p, .diagram-notes p, .evidence-links p, .publication p,
+  .quality-support-note, .product-no-image span, .newsroom-count,
+  .newsroom-copyright, .certificate-toolbar p, .contact-form label) {
+  font-size: 15px !important;
+  line-height: 1.6;
+}
+
+#main-nav,
+#main-nav :is(a, button),
+.nav-dropdown a,
+.nav-cta,
+.language-selector,
+.subnav a,
+.button,
+.text-link,
+footer :is(p, a) {
+  font-size: 16px !important;
+}
+
+.button,
+.nav-cta {
+  min-height: 48px;
+}
+
+table,
+th,
+td,
+input,
+textarea,
+select,
+button {
+  font-size: 16px;
+}
+
+main th,
+main td,
+.certificate-dialog button,
+.certificate-tools a {
+  font-size: 16px !important;
+}
+
+html[lang="en"] #main-nav,
+html:not([lang="ko"]) .language-selector {
+  font-size: 16px !important;
+}
+
+.nav-dropdown a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 10px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 17px;
+  }
+
+  main p,
+  main li {
+    font-size: 17px !important;
+    line-height: 1.8 !important;
+  }
+
+  main h1 {
+    font-size: clamp(32px, 8vw, 38px) !important;
+    line-height: 1.28;
+  }
+
+  main h2 {
+    font-size: clamp(27px, 7.2vw, 32px) !important;
+  }
+
+  main h3 {
+    font-size: clamp(20px, 5.8vw, 23px) !important;
+  }
+
+  #main-nav :is(a, button),
+  .nav-dropdown a,
+  .nav-cta {
+    min-height: 44px;
+  }
+
+  .footer-links {
+    gap: 12px 24px;
+  }
+}
