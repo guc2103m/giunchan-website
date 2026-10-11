@@ -54,8 +54,8 @@ test('legacy redirects match Vercel trailing-slash normalization',()=>{
   assert.ok(fs.existsSync(path.join(root,'dist',rule.destination,'index.html')));
  }
  const approved=[
-  ['/연구개발/','/rnd/'],
-  ['/기업소개/','/company/'],
+  ['/%EC%97%B0%EA%B5%AC%EA%B0%9C%EB%B0%9C/','/rnd/'],
+  ['/%EA%B8%B0%EC%97%85%EC%86%8C%EA%B0%9C/','/company/'],
   ['/forum/view/40419/','/insights/press/school-meal-product-archive/'],
  ];
  for(const [source,destination] of approved){
