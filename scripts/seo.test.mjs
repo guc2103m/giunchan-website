@@ -46,7 +46,7 @@ test('legacy redirects match Vercel trailing-slash normalization',()=>{
  const config=JSON.parse(read('vercel.json'));
  assert.equal(config.trailingSlash,true);
  assert.equal(config.redirects.length,36);
- const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/')&&r.source!=='/forum/view/40419');
+ const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/')&&r.source!=='/forum/view/40419/');
  assert.equal(legacy.length,15);
  for(const rule of legacy){
   assert.ok(rule.source.endsWith('/'),rule.source);
@@ -54,9 +54,9 @@ test('legacy redirects match Vercel trailing-slash normalization',()=>{
   assert.ok(fs.existsSync(path.join(root,'dist',rule.destination,'index.html')));
  }
  const approved=[
-  ['/연구개발','/rnd/'],
-  ['/기업소개','/company/'],
-  ['/forum/view/40419','/insights/press/school-meal-product-archive/'],
+  ['/연구개발/','/rnd/'],
+  ['/기업소개/','/company/'],
+  ['/forum/view/40419/','/insights/press/school-meal-product-archive/'],
  ];
  for(const [source,destination] of approved){
   const rule=config.redirects.find(item=>item.source===source);

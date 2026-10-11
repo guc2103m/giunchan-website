@@ -171,17 +171,17 @@
       "statusCode": 301
     },
     {
-      "source": "/연구개발",
+      "source": "/연구개발/",
       "destination": "/rnd/",
       "statusCode": 301
     },
     {
-      "source": "/기업소개",
+      "source": "/기업소개/",
       "destination": "/company/",
       "statusCode": 301
     },
     {
-      "source": "/forum/view/40419",
+      "source": "/forum/view/40419/",
       "destination": "/insights/press/school-meal-product-archive/",
       "statusCode": 301
     }
