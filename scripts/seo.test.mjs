@@ -45,12 +45,27 @@ test('preview keeps search exclusion while production metadata remains on offici
 test('legacy redirects match Vercel trailing-slash normalization',()=>{
  const config=JSON.parse(read('vercel.json'));
  assert.equal(config.trailingSlash,true);
- assert.equal(config.redirects.length,33);
- const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/'));
+ assert.equal(config.redirects.length,36);
+ const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/')&&r.source!=='/forum/view/40419');
  assert.equal(legacy.length,15);
  for(const rule of legacy){
   assert.ok(rule.source.endsWith('/'),rule.source);
   assert.equal(rule.statusCode,301);
   assert.ok(fs.existsSync(path.join(root,'dist',rule.destination,'index.html')));
  }
+ const approved=[
+  ['/연구개발','/rnd/'],
+  ['/기업소개','/company/'],
+  ['/forum/view/40419','/insights/press/school-meal-product-archive/'],
+ ];
+ for(const [source,destination] of approved){
+  const rule=config.redirects.find(item=>item.source===source);
+  assert.ok(rule,`missing ${source}`);
+  assert.equal(rule.destination,destination);
+  assert.equal(rule.statusCode,301);
+  assert.equal(rule.preserveQueryParams,true);
+  assert.ok(!config.redirects.some(item=>item.source===destination),'destination must be canonical and avoid chains');
+ }
+ const excluded=['/forum/view/261509','/forum/view/185067','/forum/view/261510','/index/view/107083','/index/view/107089','/forum/view/224006','/forum/view/234155','/forum/view/40417','/index/view/116649','/index/view/107084','/forum/view/200287','/index/view/107086','/index/view/107085','/forum/view/224000','/forum/view/190823','/forum/view/200289','/index/view/370824','/goods/goods_view.php'];
+ for(const source of excluded)assert.ok(!config.redirects.some(item=>item.source===source),`unexpected redirect ${source}`);
 });
