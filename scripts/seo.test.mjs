@@ -63,7 +63,7 @@ test('legacy redirects match Vercel trailing-slash normalization',()=>{
   assert.ok(rule,`missing ${source}`);
   assert.equal(rule.destination,destination);
   assert.equal(rule.statusCode,301);
-  assert.equal(rule.preserveQueryParams,true);
+  assert.ok(!Object.hasOwn(rule,'preserveQueryParams'),'vercel.json redirects preserve query strings by default');
   assert.ok(!config.redirects.some(item=>item.source===destination),'destination must be canonical and avoid chains');
  }
  const excluded=['/forum/view/261509','/forum/view/185067','/forum/view/261510','/index/view/107083','/index/view/107089','/forum/view/224006','/forum/view/234155','/forum/view/40417','/index/view/116649','/index/view/107084','/forum/view/200287','/index/view/107086','/index/view/107085','/forum/view/224000','/forum/view/190823','/forum/view/200289','/index/view/370824','/goods/goods_view.php'];
