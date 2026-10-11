@@ -6,6 +6,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/products/cognican/",
+      "destination": "/products/cognikhan/",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/cognican",
+      "destination": "/products/cognikhan/",
+      "statusCode": 301
+    },
+    {
       "source": "/forum/view/355080/",
       "destination": "/insights/press/gmk-cell-study-2025/",
       "statusCode": 301

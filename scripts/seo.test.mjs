@@ -45,7 +45,7 @@ test('preview keeps search exclusion while production metadata remains on offici
 test('legacy redirects match Vercel trailing-slash normalization',()=>{
  const config=JSON.parse(read('vercel.json'));
  assert.equal(config.trailingSlash,true);
- assert.equal(config.redirects.length,36);
+ assert.equal(config.redirects.length,38);
  const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/')&&r.source!=='/forum/view/40419/');
  assert.equal(legacy.length,15);
  for(const rule of legacy){
@@ -66,6 +66,14 @@ test('legacy redirects match Vercel trailing-slash normalization',()=>{
   assert.ok(!Object.hasOwn(rule,'preserveQueryParams'),'vercel.json redirects preserve query strings by default');
   assert.ok(!config.redirects.some(item=>item.source===destination),'destination must be canonical and avoid chains');
  }
+ const cognikhanRules=config.redirects.filter(item=>item.source==='/products/cognican/'||item.source==='/products/cognican');
+ assert.equal(cognikhanRules.length,2);
+ for(const rule of cognikhanRules){assert.equal(rule.destination,'/products/cognikhan/');assert.equal(rule.statusCode,301);}
+ const routes=JSON.parse(read('review/routes.json'));
+ assert.ok(routes.includes('/products/cognikhan/'));
+ assert.ok(!routes.includes('/products/cognican/'));
+ assert.ok(read('dist/sitemap.xml').includes(origin+'/products/cognikhan/'));
+ assert.ok(!read('dist/sitemap.xml').includes(origin+'/products/cognican/'));
  const excluded=['/forum/view/261509','/forum/view/185067','/forum/view/261510','/index/view/107083','/index/view/107089','/forum/view/224006','/forum/view/234155','/forum/view/40417','/index/view/116649','/index/view/107084','/forum/view/200287','/index/view/107086','/index/view/107085','/forum/view/224000','/forum/view/190823','/forum/view/200289','/index/view/370824','/goods/goods_view.php'];
  for(const source of excluded)assert.ok(!config.redirects.some(item=>item.source===source),`unexpected redirect ${source}`);
 });
