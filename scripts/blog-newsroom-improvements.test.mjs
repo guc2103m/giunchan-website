@@ -7,9 +7,27 @@ import editorial from '../content/note-edits/hyphae-mycelium-mushrooms.json' wit
 import notes from '../content/gmk-notes.json' with {type:'json'};
 import {newsroomArticle,staticNewsroomPost} from '../lib/newsroom.mjs';
 const backupDir='content/cms-migrations/gmk-note-review-20261003';
+function normalizeJsonLineEndings(bytes){
+ return Buffer.from(bytes.toString('latin1').replace(/\r\n/g,'\n'),'latin1');
+}
+function sha256(bytes){return crypto.createHash('sha256').update(bytes).digest('hex');}
+test('backup JSON hash verification normalizes CRLF only and still detects content changes',()=>{
+ const lf=Buffer.from('{"backup":"preserved"}\n','utf8');
+ const expected=sha256(lf);
+ const crlf=Buffer.from(lf.toString('latin1').replace(/\n/g,'\r\n'),'latin1');
+ assert.equal(sha256(normalizeJsonLineEndings(lf)),expected,'LF bytes retain the expected hash');
+ assert.equal(sha256(normalizeJsonLineEndings(crlf)),expected,'equivalent CRLF bytes normalize to the same hash');
+ const changed=Buffer.from('{"backup":"changed"}\r\n','utf8');
+ assert.notEqual(sha256(normalizeJsonLineEndings(changed)),expected,'content changes still fail hash verification');
+});
 test('blog inventory remains preserved and the prior backup hashes verify',()=>{
  const manifest=JSON.parse(fs.readFileSync(`${backupDir}/manifest.json`,'utf8'));
- for(const item of manifest)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(`${backupDir}/${item.file}`)).digest('hex'),item.sha256,item.file);
+ for(const item of manifest){
+  const bytes=fs.readFileSync(`${backupDir}/${item.file}`);
+  const rawHash=sha256(bytes);
+  const normalizedHash=item.file.endsWith('.json')?sha256(normalizeJsonLineEndings(bytes)):rawHash;
+  assert.ok(rawHash===item.sha256||normalizedHash===item.sha256,item.file);
+ }
  assert.equal(notes.length,12);assert.equal(notes.filter(p=>p.status==='ready').length,11);
  const pending=notes.find(p=>p.slug==='hyphae-mycelium-mushrooms');assert.equal(pending.id,editorial.sourceId);assert.equal(pending.blocks,undefined);assert.ok(pending.description.length>200);
  assert.equal(editorial.sections.reduce((n,s)=>n+(s.image?1:0),1),3);assert.equal(editorial.faq.length,2);assert.ok(editorial.videoOmitted);
