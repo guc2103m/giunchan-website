@@ -6,6 +6,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/business/ingredients/gmk/",
+      "destination": "/business/ingredients/",
+      "statusCode": 301
+    },
+    {
+      "source": "/business/ingredients/liquid/",
+      "destination": "/business/ingredients/",
+      "statusCode": 301
+    },
+    {
       "source": "/products/cognican/",
       "destination": "/products/cognikhan/",
       "statusCode": 301
