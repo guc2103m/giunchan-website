@@ -13,9 +13,9 @@ const types={'.woff2':'font/woff2','.html':'text/html; charset=utf-8','.css':'te
 http.createServer((req,res)=>{
  let requestUrl,url;try{requestUrl=new URL(req.url,'http://localhost');url=decodeURIComponent(requestUrl.pathname);}catch{res.writeHead(400);return res.end();}
  const host=req.headers.host?.split(':')[0]||'';
- const redirect=previewRedirects.find(rule=>(rule.source===url||rule.source==='/:path*')&&(!rule.has||rule.has.every(match=>match.type==='host'&&new RegExp('^(?:'+match.value+')$','i').test(host))));
+ const redirect=previewRedirects.find(rule=>(rule.source===url||rule.source==='/:path*'||(rule.source==='/:path+/'&&url!=='/'&&url.endsWith('/')))&&(!rule.has||rule.has.every(match=>match.type==='host'&&new RegExp('^(?:'+match.value+')$','i').test(host))));
  if(redirect){
-  const destination=redirect.destination.replace('/:path*',requestUrl.pathname);
+  const destination=redirect.destination.replace(/\/:path\*\/?$/,requestUrl.pathname);
   const target=new URL(destination,'http://localhost');
   target.search=requestUrl.search;
   res.writeHead(redirect.statusCode||308,{Location:destination.startsWith('/')?target.pathname+target.search+target.hash:target.href});

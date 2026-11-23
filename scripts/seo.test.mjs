@@ -77,3 +77,12 @@ test('legacy redirects match Vercel trailing-slash normalization',()=>{
  const excluded=['/forum/view/261509','/forum/view/185067','/forum/view/261510','/index/view/107083','/index/view/107089','/forum/view/224006','/forum/view/234155','/forum/view/40417','/index/view/116649','/index/view/107084','/forum/view/200287','/index/view/107086','/index/view/107085','/forum/view/224000','/forum/view/190823','/forum/view/200289','/index/view/370824','/goods/goods_view.php'];
  for(const source of excluded)assert.ok(!config.redirects.some(item=>item.source===source),`unexpected redirect ${source}`);
 });
+
+test('production hostname redirects cover root, directory, and file forms only on the project alias',()=>{
+ const rules=JSON.parse(read('vercel.json')).redirects.filter(r=>['/','/:path+/','/:path*'].includes(r.source));
+ assert.deepEqual(rules.map(r=>[r.source,r.destination]),[['/',origin+'/'],['/:path+/',origin+'/:path*/'],['/:path*',origin+'/:path*']]);
+ for(const r of rules){
+  assert.equal(r.statusCode,308);
+  assert.deepEqual(r.has,[{type:'host',value:'giunchan-website\\.vercel\\.app'}]);
+ }
+});
