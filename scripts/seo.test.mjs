@@ -45,9 +45,9 @@ test('preview keeps search exclusion while production metadata remains on offici
 test('legacy redirects match Vercel trailing-slash normalization',()=>{
  const config=JSON.parse(read('vercel.json'));
  assert.equal(config.trailingSlash,true);
- assert.equal(config.redirects.length,40);
+ assert.equal(config.redirects.filter(rule=>rule.source.endsWith('index.html')).length,38);
  const legacy=config.redirects.filter(r=>r.source.startsWith('/forum/view/')&&r.source!=='/forum/view/40419/');
- assert.equal(legacy.length,15);
+ assert.equal(legacy.length,16);
  for(const rule of legacy){
   assert.ok(rule.source.endsWith('/'),rule.source);
   assert.equal(rule.statusCode,301);

@@ -21,3 +21,12 @@
 .certificate-viewer.is-zoomed .certificate-full{width:var(--certificate-width);max-width:none;max-height:none}
 @media(max-width:1023px){.certificate-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.certificate-grid{grid-template-columns:1fr}.certificate-thumbnail{height:320px}.certificate-dialog{width:calc(100% - 24px);max-height:94dvh}.certificate-dialog-inner{max-height:94dvh}.certificate-toolbar{padding:16px;gap:12px}.certificate-toolbar h2{font-size:16px}.certificate-tools{padding:0 16px 12px}.certificate-viewer{padding:10px}}
+.patent-fields .concept-card{position:relative}
+.patent-field-toggle{position:absolute;inset:0;width:100%;height:100%;border:0;background:transparent;cursor:pointer;border-radius:inherit}
+.patent-field-toggle[aria-pressed=true]{box-shadow:inset 0 0 0 2px var(--green)}
+.patent-field-toggle:focus-visible,.certificate-filter button:focus-visible{outline:3px solid #a47c36;outline-offset:3px}
+.certificate-filter:not([hidden]){display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:18px}
+.certificate-filter button{min-height:44px;padding:8px 16px;border:1px solid var(--green);background:white;color:var(--green);font:inherit;cursor:pointer}
+.certificate-filter button[aria-pressed=true]{background:var(--green);color:white}
+.patent-gallery .certificate-card[hidden]{display:none}
+#certificate-heading{scroll-margin-top:110px}

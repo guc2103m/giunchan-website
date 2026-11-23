@@ -7,7 +7,8 @@
     "width": 1055,
     "height": 1491,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-1652035)차가버섯,상황버섯 및 꽃송이버섯의 복합버섯 균사체의 생산방법_1.jpg"
+    "original": "기운찬_특허증(특허제10-1652035)차가버섯,상황버섯 및 꽃송이버섯의 복합버섯 균사체의 생산방법_1.jpg",
+    "field": "cultivation"
   },
   {
     "number": "10-1923408",
@@ -17,7 +18,8 @@
     "width": 1070,
     "height": 1470,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-1923408)차가버섯,영지버섯및상황버섯균사체의복합배양방법_1.jpg"
+    "original": "기운찬_특허증(특허제10-1923408)차가버섯,영지버섯및상황버섯균사체의복합배양방법_1.jpg",
+    "field": "cultivation"
   },
   {
     "number": "10-2251825",
@@ -27,7 +29,9 @@
     "width": 794,
     "height": 1122,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-2251825)간기능 개선활성을 갖는 버섯 복합균사체 조성물 및 이의 제조방법_1.jpg"
+    "original": "기운찬_특허증(특허제10-2251825)간기능 개선활성을 갖는 버섯 복합균사체 조성물 및 이의 제조방법_1.jpg",
+    "field": "application",
+    "subfield": "간기능 관련"
   },
   {
     "number": "10-2271933",
@@ -37,7 +41,9 @@
     "width": 794,
     "height": 1122,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-2271933)버섯복합배양균사체를_함유하는_혈당조절용조성물의제조방법_1.jpg"
+    "original": "기운찬_특허증(특허제10-2271933)버섯복합배양균사체를_함유하는_혈당조절용조성물의제조방법_1.jpg",
+    "field": "application",
+    "subfield": "항당뇨 관련"
   },
   {
     "number": "10-2496029",
@@ -47,7 +53,9 @@
     "width": 793,
     "height": 1121,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-2496029)신규 영지버섯 GUC211 및 이를 함유하는 항당뇨용 조성물 _1.jpg"
+    "original": "기운찬_특허증(특허제10-2496029)신규 영지버섯 GUC211 및 이를 함유하는 항당뇨용 조성물 _1.jpg",
+    "field": "application",
+    "subfield": "항당뇨 관련"
   },
   {
     "number": "10-2496034",
@@ -57,7 +65,27 @@
     "width": 793,
     "height": 1121,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-2496034)신규 차가버섯 GUC111 및 이를 함유하는 항당뇨용 조성물 _1.jpg"
+    "original": "기운찬_특허증(특허제10-2496034)신규 차가버섯 GUC111 및 이를 함유하는 항당뇨용 조성물 _1.jpg",
+    "field": "application",
+    "subfield": "항당뇨 관련"
+  },
+  {
+    "number": "10-3027754",
+    "title": "복합버섯균사체를 함유하는 폐렴의 예방 또는 치료용 조성물",
+    "country": "대한민국",
+    "image": "patent-kr-10-3027754.webp",
+    "thumbnail": "patent-kr-10-3027754-thumb.webp",
+    "width": 1200,
+    "height": 1600,
+    "thumbnailWidth": 480,
+    "thumbnailHeight": 640,
+    "source": "certificate-body",
+    "applicationNumber": "10-2022-0113855",
+    "filingDate": "2022-09-08",
+    "registrationDate": "2026-09-29",
+    "patentee": "주식회사 기운찬",
+    "field": "application",
+    "subfield": "폐 염증 관련"
   },
   {
     "number": "10-2557645",
@@ -67,7 +95,8 @@
     "width": 793,
     "height": 1121,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-2557645)복합버섯균사체를 함유하는 인지기능 또는 기억력 개선용 조성물_1.jpg"
+    "original": "기운찬_특허증(특허제10-2557645)복합버섯균사체를 함유하는 인지기능 또는 기억력 개선용 조성물_1.jpg",
+    "field": "cognitive"
   },
   {
     "number": "10-2575704",
@@ -77,7 +106,8 @@
     "width": 793,
     "height": 1121,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-2575704)복합버섯균사체를 함유하는 알츠하이머 개선용 조성물_1.jpg"
+    "original": "기운찬_특허증(특허제10-2575704)복합버섯균사체를 함유하는 알츠하이머 개선용 조성물_1.jpg",
+    "field": "cognitive"
   },
   {
     "number": "10-2844900",
@@ -87,7 +117,8 @@
     "width": 816,
     "height": 1123,
     "source": "certificate-body",
-    "original": "기운찬_특허증(특허제10-28844900호)복합버섯균사체 효소처리물을 함유하는 인지기능 개선용 음료 및 이의 제조방법_1.jpg"
+    "original": "기운찬_특허증(특허제10-28844900호)복합버섯균사체 효소처리물을 함유하는 인지기능 개선용 음료 및 이의 제조방법_1.jpg",
+    "field": "cognitive"
   },
   {
     "number": "US 11,503,847 B2",

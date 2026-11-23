@@ -1,6 +1,27 @@
 (() => {
  const dialog=document.querySelector('#certificate-dialog');
  if(!dialog)return;
+ const filters=[...document.querySelectorAll('[data-patent-filter]')];
+ const cards=[...document.querySelectorAll('.certificate-card')];
+ const status=document.querySelector('.certificate-status');
+ const heading=document.querySelector('#certificate-heading');
+ if(filters.length&&status&&heading){
+  heading.tabIndex=-1;
+  status.parentElement.hidden=false;
+  for(const filter of filters){
+   filter.hidden=false;
+   filter.addEventListener('click',()=>{
+    const field=filter.dataset.patentFilter;
+    for(const item of filters)item.setAttribute('aria-pressed',String(item===filter));
+    for(const card of cards)card.hidden=field!=='all'&&card.dataset.field!==field;
+    status.textContent=(field==='all'?'전체 특허증':filter.getAttribute('aria-label'))+' '+cards.filter(card=>!card.hidden).length+'건';
+    if(field!=='all'){
+     heading.focus({preventScroll:true});
+     heading.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+    }
+   });
+  }
+ }
  const viewer=dialog.querySelector('.certificate-viewer');
  const image=dialog.querySelector('.certificate-full');
  const zoom=dialog.querySelector('.certificate-zoom');
@@ -11,8 +32,8 @@
   opener=button;const thumb=button.querySelector('img');
   dialog.querySelector('#certificate-dialog-title').textContent=button.dataset.title;
   dialog.querySelector('#certificate-dialog-number').textContent=button.dataset.number;
-  image.src=thumb.getAttribute('src');image.alt=thumb.alt;image.width=Number(thumb.getAttribute('width'));image.height=Number(thumb.getAttribute('height'));
-  image.style.setProperty('--certificate-width',thumb.getAttribute('width')+'px');
+  image.src=button.dataset.fullImage||thumb.getAttribute('src');image.alt=thumb.alt;image.width=Number(button.dataset.fullWidth||thumb.getAttribute('width'));image.height=Number(button.dataset.fullHeight||thumb.getAttribute('height'));
+  image.style.setProperty('--certificate-width',image.width+'px');
   dialog.querySelector('.certificate-original').href=image.src;
   resetZoom();scrollY=window.scrollY;previousStyle=document.body.getAttribute('style')||'';
   document.body.style.position='fixed';document.body.style.top=`-${scrollY}px`;document.body.style.width='100%';document.body.style.overflow='hidden';

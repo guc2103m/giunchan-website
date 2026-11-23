@@ -6,6 +6,429 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/index.html",
+      "destination": "https://www.guc.co.kr/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/business/index.html",
+      "destination": "https://www.guc.co.kr/business/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/business/brands/index.html",
+      "destination": "https://www.guc.co.kr/business/brands/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/business/development/index.html",
+      "destination": "https://www.guc.co.kr/business/development/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/business/ingredients/index.html",
+      "destination": "https://www.guc.co.kr/business/ingredients/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/business/ingredients/extract/index.html",
+      "destination": "https://www.guc.co.kr/business/ingredients/extract/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/company/index.html",
+      "destination": "https://www.guc.co.kr/company/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/company/history/index.html",
+      "destination": "https://www.guc.co.kr/company/history/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/company/sustainability/index.html",
+      "destination": "https://www.guc.co.kr/company/sustainability/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/contact/index.html",
+      "destination": "https://www.guc.co.kr/contact/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/chaga-mushroom/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/chaga-mushroom/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/family-history-and-nature/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/family-history-and-nature/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/gmk-brain-research/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/gmk-brain-research/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/gmk-learning-journey/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/gmk-learning-journey/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/gmk-natural-material/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/gmk-natural-material/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/gmk-three-mushrooms/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/gmk-three-mushrooms/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/hyphae-mycelium-mushrooms/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/hyphae-mycelium-mushrooms/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/mushrooms-as-food/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/mushrooms-as-food/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/mushrooms-natures-gift/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/mushrooms-natures-gift/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/reading-mushrooms/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/reading-mushrooms/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/three-mushroom-history/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/three-mushroom-history/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/gmk-note/why-mushrooms/index.html",
+      "destination": "https://www.guc.co.kr/gmk-note/why-mushrooms/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/ir/index.html",
+      "destination": "https://www.guc.co.kr/ir/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/privacy/index.html",
+      "destination": "https://www.guc.co.kr/privacy/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/index.html",
+      "destination": "https://www.guc.co.kr/products/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/cognikhan/index.html",
+      "destination": "https://www.guc.co.kr/products/cognikhan/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/giuncha-concentrate/index.html",
+      "destination": "https://www.guc.co.kr/products/giuncha-concentrate/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/giunchan-bon/index.html",
+      "destination": "https://www.guc.co.kr/products/giunchan-bon/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/immun-mk/index.html",
+      "destination": "https://www.guc.co.kr/products/immun-mk/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/masimyeon-giuncha/index.html",
+      "destination": "https://www.guc.co.kr/products/masimyeon-giuncha/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/mushroom-giuncha/index.html",
+      "destination": "https://www.guc.co.kr/products/mushroom-giuncha/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/mushroom-spoon/index.html",
+      "destination": "https://www.guc.co.kr/products/mushroom-spoon/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/products/ttokttok-jelly/index.html",
+      "destination": "https://www.guc.co.kr/products/ttokttok-jelly/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/rnd/index.html",
+      "destination": "https://www.guc.co.kr/rnd/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/rnd/evidence/index.html",
+      "destination": "https://www.guc.co.kr/rnd/evidence/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/rnd/gmk/index.html",
+      "destination": "https://www.guc.co.kr/rnd/gmk/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/rnd/patents/index.html",
+      "destination": "https://www.guc.co.kr/rnd/patents/",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "(?:www\\.guc\\.co\\.kr|giunchan-website\\.vercel\\.app)"
+        }
+      ]
+    },
+    {
+      "source": "/forum/view/gmk-human-study-complete-2026/",
+      "destination": "/insights/press/gmk-human-study-complete-2026/",
+      "statusCode": 301
+    },
+    {
       "source": "/business/ingredients/gmk/",
       "destination": "/business/ingredients/",
       "statusCode": 301
@@ -204,6 +627,17 @@
       "source": "/forum/view/40419/",
       "destination": "/insights/press/school-meal-product-archive/",
       "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.guc.co.kr/:path*",
+      "statusCode": 308,
+      "has": [
+        {
+          "type": "host",
+          "value": "giunchan-website\\.vercel\\.app"
+        }
+      ]
     }
   ],
   "functions": {
